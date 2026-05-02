@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSVని ఎగుమతి చేయండి",
+    "pdfExportUnavailable":  "ఈ ప్లాట్‌ఫారమ్‌లో PDF ఎగుమతి అందుబాటులో లేదు.",
+    "delete":  "తొలగించు",
+    "thanksFeedback":  "మీ అభిప్రాయానికి ధన్యవాదాలు!",
+    "languageEnglish":  "ఇంగ్లీష్",
+    "allDataDeleted":  "మొత్తం డేటా తొలగించబడింది",
+    "language":  "భాష",
+    "appTitle":  "MyTip ట్రాకర్",
+    "csvExported":  "CSV విజయవంతంగా ఎగుమతి చేయబడింది",
+    "onboardingJobsTitle":  "బహుళ ఉద్యోగాలు \u0026 వృత్తిపరమైన నివేదికలు",
+    "totalEarnings":  "మొత్తం ఆదాయాలు",
+    "roundUpSubtitle":  "చిట్కాలను సేవ్ చేసేటప్పుడు మొత్తం సంఖ్యలకు రౌండ్ మొత్తాలు",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ఇది సేవ్ చేయబడిన అన్ని చిట్కాలను శాశ్వతంగా తీసివేస్తుంది.",
+    "filters":  "ఫిల్టర్లు",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "భాష",
+    "darkMode":  "డార్క్ మోడ్",
+    "customQuickSubtitle":  "$10 · $20 · $50ని సవరించండి",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "చరిత్ర",
+    "exportRangeMonth":  "ఈ నెల",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "గణాంకాలు",
+    "shareExperience":  "మీ అనుభవాన్ని పంచుకోండి",
+    "filterToday":  "ఈరోజు",
+    "customQuickLabel":  "కస్టమ్",
+    "exportRangeWeek":  "ఈ వారం",
+    "tipSaved":  "చిట్కా సేవ్ చేయబడింది",
+    "onboardingContinue":  "కొనసాగించు",
+    "onboardingMockCafeSub":  "సోమ - శుక్ర",
+    "entries":  "ఎంట్రీలు",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "సగటు గంట రేటు:",
+    "onboardingJobsBody":  "క్లీన్ కార్డ్‌లతో ప్రతి ఉద్యోగాన్ని నిర్వహించండి మరియు PDF సిద్ధంగా ఉన్న సారాంశాలను ఎగుమతి చేయండి.",
+    "onboardingPreviewPdf":  "ప్రివ్యూ PDF",
+    "noDataFound":  "డేటా ఏదీ కనుగొనబడలేదు",
+    "deleteAllData":  "మొత్తం డేటాను తొలగించండి",
+    "filterYear":  "సంవత్సరం",
+    "navHistory":  "చరిత్ర",
+    "greetingMorning":  "శుభోదయం!",
+    "onboardingProfessionalReports":  "వృత్తిపరమైన నివేదికలు",
+    "averageDayLabel":  "సగటు/రోజు:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "మమ్మల్ని సంప్రదించండి",
+    "exportCsv":  "CSVని ఎగుమతి చేయండి",
+    "navProfile":  "ప్రొఫైల్",
+    "navHome":  "హోమ్",
+    "quickButtons":  "త్వరిత బటన్లు",
+    "onboardingMockRestaurantTitle":  "రెస్టారెంట్ నైట్",
+    "currency":  "కరెన్సీ",
+    "onboardingMockRestaurantSub":  "శుక్ర - సూర్యుడు",
+    "labelToday":  "ఈరోజు",
+    "exportRangeToday":  "ఈరోజు",
+    "recentEntries":  "ఇటీవలి ఎంట్రీలు",
+    "pdfReportReady":  "భాగస్వామ్యం చేయడానికి PDF నివేదిక సిద్ధంగా ఉంది",
+    "undo":  "అన్డు",
+    "onboardingSkip":  "దాటవేయి",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "నెల",
+    "deleteAll":  "అన్నింటినీ తొలగించండి",
+    "rateApp":  "యాప్‌ను రేట్ చేయండి",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ఉద్యోగం సేవ్ చేయబడింది",
+    "cancel":  "రద్దు చేయి",
+    "@@locale":  "te",
+    "exportRangeCustom":  "అనుకూల పరిధి",
+    "exportFrom":  "From: {date}",
+    "export":  "ఎగుమతి చేయండి",
+    "contactUsLabel":  "మమ్మల్ని సంప్రదించండి",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ఉత్తమ రోజు:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "చిట్కా తొలగించబడింది (రద్దు)",
+    "greetingAfternoon":  "శుభ మధ్యాహ్నం!",
+    "roundUp":  "రౌండ్ అప్",
+    "onboardingWelcomeTitle":  "స్వాగతం",
+    "reportPdfTooltip":  "PDFని నివేదించండి",
+    "settingsSection":  "సెట్టింగులు",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ఈ ప్లాట్‌ఫారమ్‌లో ఎగుమతి అందుబాటులో లేదు.",
+    "quickButtonsUpdated":  "త్వరిత బటన్‌లు నవీకరించబడ్డాయి",
+    "pdfReports":  "PDF నివేదికలు",
+    "supportSection":  "మద్దతు",
+    "filterWeek":  "వారం",
+    "onboardingMockCafeTitle":  "కేఫ్ షిఫ్ట్",
+    "onboardingWelcomeBody":  "ప్రతి చిట్కాను ట్రాక్ చేయండి మరియు మీ ఆదాయాలపై నియంత్రణలో ఉండండి.",
+    "dailySummary":  "రోజువారీ సారాంశం",
+    "rateTheApp":  "యాప్‌ను రేట్ చేయండి",
+    "noIncomeRecorded":  "ఈ రోజు ఆదాయం నమోదు కాలేదు. ఒకదాన్ని జోడించడానికి + బటన్‌ను నొక్కండి!",
+    "noTipsYet":  "ఇంకా చిట్కాలు లేవు. పైన ఉన్న బటన్‌లతో ఒకదాన్ని జోడించండి.",
+    "languageFrench":  "ఫ్రాంకైస్",
+    "totalTipsLabel":  "మొత్తం చిట్కాలు:",
+    "addTip":  "+ చిట్కాను జోడించండి",
+    "totalEarningsLabel":  "మొత్తం ఆదాయాలు:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 నేడు",
+    "noTipsToExport":  "ఎగుమతి చేయడానికి ఇంకా చిట్కాలు లేవు.",
+    "noTipsForPeriod":  "ఎంచుకున్న వ్యవధికి చిట్కాలు ఏవీ కనుగొనబడలేదు.",
+    "backupTips":  "మీ డేటాను సేవ్ చేయండి / మీ చిట్కాలను బ్యాకప్ చేయండి",
+    "jobs":  "ఉద్యోగాలు",
+    "greetingEvening":  "శుభ సాయంత్రం!",
+    "languageSystemDefault":  "సిస్టమ్ డిఫాల్ట్",
+    "deleteThisTip":  "ఈ చిట్కాను తొలగించాలా?",
+    "deleteAllDataTitle":  "మొత్తం డేటాను తొలగించాలా?"
+}

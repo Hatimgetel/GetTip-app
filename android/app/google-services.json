@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "420023069793",
+    "project_id": "moneytip--tip-tracker",
+    "storage_bucket": "moneytip--tip-tracker.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420023069793:android:2717c283077c9fd5ff0e20",
+        "android_client_info": {
+          "package_name": "com.example.mytip_tracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhtrHn7lw-eKddBPi51Jrwz1Ot9JekwWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

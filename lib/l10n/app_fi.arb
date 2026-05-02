@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Vie CSV",
+    "pdfExportUnavailable":  "PDF-vienti ei ole käytettävissä tällä alustalla.",
+    "delete":  "Poistaa",
+    "thanksFeedback":  "Kiitos palautteestasi!",
+    "languageEnglish":  "englanti",
+    "allDataDeleted":  "Kaikki tiedot poistettu",
+    "language":  "Kieli",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV-vienti onnistui",
+    "onboardingJobsTitle":  "Useita töitä ja ammattiraportteja",
+    "totalEarnings":  "Kokonaistulot",
+    "roundUpSubtitle":  "Vihjeitä tallennettaessa pyöristetään kokonaislukuja",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Tämä poistaa pysyvästi kaikki tallennetut vinkit.",
+    "filters":  "Suodattimet",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Kieli",
+    "darkMode":  "Tumma tila",
+    "customQuickSubtitle":  "Muokkaa $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Tässä kuussa",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "TILASTOT",
+    "shareExperience":  "Jaa kokemuksesi",
+    "filterToday":  "Tänään",
+    "customQuickLabel":  "Mukautettu",
+    "exportRangeWeek":  "Tällä viikolla",
+    "tipSaved":  "Vihje tallennettu",
+    "onboardingContinue":  "Jatkaa",
+    "onboardingMockCafeSub":  "ma-pe",
+    "entries":  "merkinnät",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Keskimääräinen tuntihinta:",
+    "onboardingJobsBody":  "Hallitse jokaista työtä puhtailla korteilla ja vie PDF-valmiit yhteenvedot.",
+    "onboardingPreviewPdf":  "Esikatsele PDF",
+    "noDataFound":  "Tietoja ei löytynyt",
+    "deleteAllData":  "Poista kaikki tiedot",
+    "filterYear":  "vuosi",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Hyvää huomenta!",
+    "onboardingProfessionalReports":  "Ammattimaiset raportit",
+    "averageDayLabel":  "Keskiarvo/päivä:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Ota yhteyttä",
+    "exportCsv":  "Vie CSV",
+    "navProfile":  "Profiili",
+    "navHome":  "Kotiin",
+    "quickButtons":  "Pikapainikkeet",
+    "onboardingMockRestaurantTitle":  "Ravintola-ilta",
+    "currency":  "Valuutta",
+    "onboardingMockRestaurantSub":  "pe - su",
+    "labelToday":  "Tänään",
+    "exportRangeToday":  "Tänään",
+    "recentEntries":  "Viimeaikaiset merkinnät",
+    "pdfReportReady":  "PDF-raportti valmis jaettavaksi",
+    "undo":  "Kumoa",
+    "onboardingSkip":  "Ohita",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Kuukausi",
+    "deleteAll":  "Poista kaikki",
+    "rateApp":  "Arvioi sovellus",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Työ tallennettu",
+    "cancel":  "Peruuttaa",
+    "@@locale":  "fi",
+    "exportRangeCustom":  "Mukautettu valikoima",
+    "exportFrom":  "From: {date}",
+    "export":  "Viedä",
+    "contactUsLabel":  "Ota yhteyttä",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Paras päivä:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Vihje poistettu (Kumoa)",
+    "greetingAfternoon":  "Hyvää iltapäivää!",
+    "roundUp":  "Pyöristää ylöspäin",
+    "onboardingWelcomeTitle":  "Tervetuloa",
+    "reportPdfTooltip":  "Raportti PDF",
+    "settingsSection":  "ASETUKSET",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Vienti ei ole käytettävissä tällä alustalla.",
+    "quickButtonsUpdated":  "Pikapainikkeet päivitetty",
+    "pdfReports":  "PDF-raportit",
+    "supportSection":  "TUKEA",
+    "filterWeek":  "Viikko",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Seuraa jokaista vinkkiä ja pysy tulojesi hallinnassa.",
+    "dailySummary":  "Päivittäinen yhteenveto",
+    "rateTheApp":  "Arvioi sovellus",
+    "noIncomeRecorded":  "Tälle päivälle ei ole kirjattu tuloja. Lisää yksi napauttamalla +-painiketta!",
+    "noTipsYet":  "Ei vielä vinkkejä. Lisää yksi yllä olevilla painikkeilla.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Vinkkejä yhteensä:",
+    "addTip":  "+ Lisää vinkki",
+    "totalEarningsLabel":  "Kokonaistulot:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ tänään",
+    "noTipsToExport":  "Ei vielä vinkkejä vientiin.",
+    "noTipsForPeriod":  "Valitulle ajanjaksolle ei löytynyt vinkkejä.",
+    "backupTips":  "Tallenna tietosi / Varmuuskopioi vinkit",
+    "jobs":  "Työpaikat",
+    "greetingEvening":  "Hyvää iltaa!",
+    "languageSystemDefault":  "Järjestelmän oletus",
+    "deleteThisTip":  "Poistetaanko tämä vinkki?",
+    "deleteAllDataTitle":  "Poistetaanko kaikki tiedot?"
+}

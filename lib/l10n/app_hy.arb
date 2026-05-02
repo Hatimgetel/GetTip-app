@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Արտահանել CSV",
+    "pdfExportUnavailable":  "PDF արտահանումը հասանելի չէ այս հարթակում:",
+    "delete":  "Ջնջել",
+    "thanksFeedback":  "Շնորհակալություն արձագանքի համար:",
+    "languageEnglish":  "Անգլերեն",
+    "allDataDeleted":  "Բոլոր տվյալները ջնջված են",
+    "language":  "Լեզու",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV-ն հաջողությամբ արտահանվեց",
+    "onboardingJobsTitle":  "Բազմաթիվ աշխատատեղեր և մասնագիտական ​​հաշվետվություններ",
+    "totalEarnings":  "Ընդհանուր եկամուտներ",
+    "roundUpSubtitle":  "Հուշումները պահելու ժամանակ կլորացվում են ամբողջ թվեր",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Սա ընդմիշտ կհեռացնի բոլոր պահված խորհուրդները:",
+    "filters":  "Զտիչներ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Լեզու",
+    "darkMode":  "Մութ ռեժիմ",
+    "customQuickSubtitle":  "Խմբագրել $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Պատմություն",
+    "exportRangeMonth":  "Այս ամիս",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ՎԻՃԱԿԱԳՐՈՒԹՅՈՒՆ",
+    "shareExperience":  "Կիսվեք ձեր փորձով",
+    "filterToday":  "Այսօր",
+    "customQuickLabel":  "Պատվերով",
+    "exportRangeWeek":  "Այս շաբաթ",
+    "tipSaved":  "Հուշումը պահվեց",
+    "onboardingContinue":  "Շարունակեք",
+    "onboardingMockCafeSub":  "Երկ - Ուրբ",
+    "entries":  "Գրառումներ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Միջին ժամային դրույքաչափը՝",
+    "onboardingJobsBody":  "Կառավարեք յուրաքանչյուր աշխատանք մաքուր քարտերով և արտահանեք PDF պատրաստի ամփոփագրեր:",
+    "onboardingPreviewPdf":  "Նախադիտեք PDF-ը",
+    "noDataFound":  "Տվյալներ չեն գտնվել",
+    "deleteAllData":  "Ջնջել բոլոր տվյալները",
+    "filterYear":  "Տարի",
+    "navHistory":  "Պատմություն",
+    "greetingMorning":  "Բարի լույս",
+    "onboardingProfessionalReports":  "Մասնագիտական ​​հաշվետվություններ",
+    "averageDayLabel":  "Միջին/օր.",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Կապվեք մեզ հետ",
+    "exportCsv":  "Արտահանել CSV",
+    "navProfile":  "Անձնագիր",
+    "navHome":  "Տուն",
+    "quickButtons":  "Արագ կոճակներ",
+    "onboardingMockRestaurantTitle":  "Ռեստորանային գիշեր",
+    "currency":  "Արժույթ",
+    "onboardingMockRestaurantSub":  "Ուրբ - Կիր",
+    "labelToday":  "Այսօր",
+    "exportRangeToday":  "Այսօր",
+    "recentEntries":  "Վերջին գրառումները",
+    "pdfReportReady":  "PDF զեկույցը պատրաստ է համօգտագործման",
+    "undo":  "Հետարկել",
+    "onboardingSkip":  "Բաց թողնել",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ամիս",
+    "deleteAll":  "Ջնջել բոլորը",
+    "rateApp":  "Գնահատեք հավելվածը",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Աշխատանքը փրկված է",
+    "cancel":  "Չեղարկել",
+    "@@locale":  "hy",
+    "exportRangeCustom":  "Պատվերով շրջանակ",
+    "exportFrom":  "From: {date}",
+    "export":  "Արտահանում",
+    "contactUsLabel":  "Կապվեք մեզ հետ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Լավագույն օր.",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Հուշումը ջնջված է (հետարկել)",
+    "greetingAfternoon":  "Բարի կեսօր:",
+    "roundUp":  "Կլոր վերև",
+    "onboardingWelcomeTitle":  "Բարի գալուստ",
+    "reportPdfTooltip":  "Զեկուցել PDF",
+    "settingsSection":  "ԿԱՐԳԱՎՈՐՈՒՄՆԵՐ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Արտահանումը հասանելի չէ այս հարթակում:",
+    "quickButtonsUpdated":  "Արագ կոճակները թարմացվել են",
+    "pdfReports":  "PDF հաշվետվություններ",
+    "supportSection":  "ԱՋԱԿՑՈՒԹՅՈՒՆ",
+    "filterWeek":  "Շաբաթ",
+    "onboardingMockCafeTitle":  "Սրճարան Shift",
+    "onboardingWelcomeBody":  "Հետևեք յուրաքանչյուր հուշումին և վերահսկեք ձեր եկամուտը:",
+    "dailySummary":  "Օրվա ամփոփում",
+    "rateTheApp":  "Գնահատեք հավելվածը",
+    "noIncomeRecorded":  "Այս օրվա համար եկամուտ չի գրանցվել։ Հպեք + կոճակին՝ մեկը ավելացնելու համար:",
+    "noTipsYet":  "Դեռ խորհուրդներ չկան: Ավելացնել մեկը վերևի կոճակներով:",
+    "languageFrench":  "ֆրանս",
+    "totalTipsLabel":  "Ընդհանուր խորհուրդներ.",
+    "addTip":  "+ Ավելացնել հուշում",
+    "totalEarningsLabel":  "Ընդհանուր եկամուտը.",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 Այսօր",
+    "noTipsToExport":  "Արտահանման վերաբերյալ խորհուրդներ դեռ չկան:",
+    "noTipsForPeriod":  "Ընտրված ժամանակահատվածի համար խորհուրդներ չեն գտնվել:",
+    "backupTips":  "Պահպանեք ձեր տվյալները / Կրկնօրինակեք ձեր խորհուրդները",
+    "jobs":  "Աշխատանքներ",
+    "greetingEvening":  "Բարի երեկո:",
+    "languageSystemDefault":  "Համակարգի լռելյայն",
+    "deleteThisTip":  "Ջնջե՞լ այս հուշումը",
+    "deleteAllDataTitle":  "Ջնջե՞լ բոլոր տվյալները:"
+}

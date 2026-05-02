@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV નિકાસ કરો",
+    "pdfExportUnavailable":  "આ પ્લેટફોર્મ પર PDF નિકાસ ઉપલબ્ધ નથી.",
+    "delete":  "કાઢી નાખો",
+    "thanksFeedback":  "તમારા પ્રતિસાદ બદલ આભાર!",
+    "languageEnglish":  "અંગ્રેજી",
+    "allDataDeleted":  "બધો ડેટા કાઢી નાખ્યો",
+    "language":  "ભાષા",
+    "appTitle":  "MyTip ટ્રેકર",
+    "csvExported":  "CSV સફળતાપૂર્વક નિકાસ કરી",
+    "onboardingJobsTitle":  "બહુવિધ નોકરીઓ અને વ્યવસાયિક અહેવાલો",
+    "totalEarnings":  "કુલ કમાણી",
+    "roundUpSubtitle":  "ટિપ્સ સાચવતી વખતે પૂર્ણ સંખ્યાઓ પર રાઉન્ડ રકમ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "આનાથી સાચવેલી બધી ટીપ્સ કાયમ માટે દૂર થઈ જશે.",
+    "filters":  "ફિલ્ટર્સ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ભાષા",
+    "darkMode":  "ડાર્ક મોડ",
+    "customQuickSubtitle":  "$10 · $20 · $50 સંપાદિત કરો",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ઈતિહાસ",
+    "exportRangeMonth":  "આ મહિને",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "આંકડા",
+    "shareExperience":  "તમારો અનુભવ શેર કરો",
+    "filterToday":  "આજે",
+    "customQuickLabel":  "કસ્ટમ",
+    "exportRangeWeek":  "આ અઠવાડિયે",
+    "tipSaved":  "ટીપ સાચવી",
+    "onboardingContinue":  "ચાલુ રાખો",
+    "onboardingMockCafeSub":  "સોમ - શુક્ર",
+    "entries":  "પ્રવેશો",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "સરેરાશ કલાકદીઠ દર:",
+    "onboardingJobsBody":  "દરેક જોબને ક્લીન કાર્ડ વડે મેનેજ કરો અને PDF-તૈયાર સારાંશની નિકાસ કરો.",
+    "onboardingPreviewPdf":  "પીડીએફનું પૂર્વાવલોકન કરો",
+    "noDataFound":  "કોઈ ડેટા મળ્યો નથી",
+    "deleteAllData":  "બધો ડેટા કાઢી નાખો",
+    "filterYear":  "વર્ષ",
+    "navHistory":  "ઈતિહાસ",
+    "greetingMorning":  "શુભ સવાર!",
+    "onboardingProfessionalReports":  "વ્યવસાયિક અહેવાલો",
+    "averageDayLabel":  "સરેરાશ/દિવસ:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "અમારો સંપર્ક કરો",
+    "exportCsv":  "CSV નિકાસ કરો",
+    "navProfile":  "પ્રોફાઇલ",
+    "navHome":  "ઘર",
+    "quickButtons":  "ઝડપી બટનો",
+    "onboardingMockRestaurantTitle":  "રેસ્ટોરન્ટ નાઇટ",
+    "currency":  "ચલણ",
+    "onboardingMockRestaurantSub":  "શુક્ર - રવિ",
+    "labelToday":  "આજે",
+    "exportRangeToday":  "આજે",
+    "recentEntries":  "તાજેતરની એન્ટ્રીઓ",
+    "pdfReportReady":  "પીડીએફ રિપોર્ટ શેર કરવા માટે તૈયાર છે",
+    "undo":  "પૂર્વવત્ કરો",
+    "onboardingSkip":  "છોડો",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "મહિનો",
+    "deleteAll":  "બધા કાઢી નાખો",
+    "rateApp":  "એપ્લિકેશનને રેટ કરો",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "નોકરી બચાવી",
+    "cancel":  "રદ કરો",
+    "@@locale":  "gu",
+    "exportRangeCustom":  "કસ્ટમ શ્રેણી",
+    "exportFrom":  "From: {date}",
+    "export":  "નિકાસ કરો",
+    "contactUsLabel":  "અમારો સંપર્ક કરો",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "શ્રેષ્ઠ દિવસ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ટીપ કાઢી નાખી (પૂર્વવત્ કરો)",
+    "greetingAfternoon":  "શુભ બપોર!",
+    "roundUp":  "રાઉન્ડ અપ",
+    "onboardingWelcomeTitle":  "સ્વાગત છે",
+    "reportPdfTooltip":  "પીડીએફની જાણ કરો",
+    "settingsSection":  "સેટિંગ્સ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "આ પ્લેટફોર્મ પર નિકાસ ઉપલબ્ધ નથી.",
+    "quickButtonsUpdated":  "ઝડપી બટનો અપડેટ",
+    "pdfReports":  "પીડીએફ રિપોર્ટ્સ",
+    "supportSection":  "આધાર",
+    "filterWeek":  "સપ્તાહ",
+    "onboardingMockCafeTitle":  "કાફે શિફ્ટ",
+    "onboardingWelcomeBody":  "દરેક ટિપને ટ્રૅક કરો અને તમારી કમાણી પર નિયંત્રણ રાખો.",
+    "dailySummary":  "દૈનિક સારાંશ",
+    "rateTheApp":  "એપ્લિકેશનને રેટ કરો",
+    "noIncomeRecorded":  "આ દિવસ માટે કોઈ આવક રેકોર્ડ નથી. એક ઉમેરવા માટે + બટનને ટેપ કરો!",
+    "noTipsYet":  "હજુ સુધી કોઈ ટીપ્સ નથી. ઉપરના બટનો સાથે એક ઉમેરો.",
+    "languageFrench":  "ફ્રાન્સ",
+    "totalTipsLabel":  "કુલ ટીપ્સ:",
+    "addTip":  "+ ટીપ ઉમેરો",
+    "totalEarningsLabel":  "કુલ કમાણી:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 આજે",
+    "noTipsToExport":  "નિકાસ કરવા માટે હજુ સુધી કોઈ ટીપ્સ નથી.",
+    "noTipsForPeriod":  "પસંદ કરેલા સમયગાળા માટે કોઈ ટીપ્સ મળી નથી.",
+    "backupTips":  "તમારો ડેટા સાચવો / તમારી ટીપ્સનો બેકઅપ લો",
+    "jobs":  "નોકરીઓ",
+    "greetingEvening":  "શુભ સાંજ!",
+    "languageSystemDefault":  "સિસ્ટમ ડિફોલ્ટ",
+    "deleteThisTip":  "આ ટિપ કાઢી નાખીએ?",
+    "deleteAllDataTitle":  "બધો ડેટા કાઢી નાખીએ?"
+}

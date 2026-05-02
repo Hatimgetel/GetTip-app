@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ወደ ውጪ ላክ",
+    "pdfExportUnavailable":  "ፒዲኤፍ ወደ ውጭ መላክ በዚህ መድረክ ላይ አይገኝም።",
+    "delete":  "ሰርዝ",
+    "thanksFeedback":  "ለአስተያየትዎ እናመሰግናለን!",
+    "languageEnglish":  "እንግሊዝኛ",
+    "allDataDeleted":  "ሁሉም ውሂብ ተሰርዟል።",
+    "language":  "ቋንቋ",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV በተሳካ ሁኔታ ወደ ውጭ ተልኳል።",
+    "onboardingJobsTitle":  "በርካታ ስራዎች እና ሙያዊ ሪፖርቶች",
+    "totalEarnings":  "ጠቅላላ ገቢዎች",
+    "roundUpSubtitle":  "ጠቃሚ ምክሮችን በሚያስቀምጡበት ጊዜ ክብ መጠን ወደ ሙሉ ቁጥሮች",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ይህ ሁሉንም የተቀመጡ ምክሮችን በቋሚነት ያስወግዳል።",
+    "filters":  "ማጣሪያዎች",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ቋንቋ",
+    "darkMode":  "ጨለማ ሁነታ",
+    "customQuickSubtitle":  "$10 · $20 · $50 ያርትዑ",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ታሪክ",
+    "exportRangeMonth":  "በዚህ ወር",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "ልምዳችሁን አካፍሉን",
+    "filterToday":  "ዛሬ",
+    "customQuickLabel":  "ብጁ",
+    "exportRangeWeek":  "በዚህ ሳምንት",
+    "tipSaved":  "ጠቃሚ ምክር ተቀምጧል",
+    "onboardingContinue":  "ቀጥል",
+    "onboardingMockCafeSub":  "ሰኞ - አርብ",
+    "entries":  "ግቤቶች",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "አማካይ የሰዓት ተመን፡-",
+    "onboardingJobsBody":  "እያንዳንዱን ስራ በንጹህ ካርዶች ያስተዳድሩ እና ፒዲኤፍ ዝግጁ የሆኑ ማጠቃለያዎችን ወደ ውጭ ይላኩ።",
+    "onboardingPreviewPdf":  "ፒዲኤፍ ቅድመ ዕይታ",
+    "noDataFound":  "ምንም ውሂብ አልተገኘም።",
+    "deleteAllData":  "ሁሉንም ውሂብ ሰርዝ",
+    "filterYear":  "አመት",
+    "navHistory":  "ታሪክ",
+    "greetingMorning":  "ምልካም እድል!",
+    "onboardingProfessionalReports":  "ሙያዊ ሪፖርቶች",
+    "averageDayLabel":  "አማካይ/ቀን፡",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ያግኙን",
+    "exportCsv":  "CSV ወደ ውጪ ላክ",
+    "navProfile":  "መገለጫ",
+    "navHome":  "ቤት",
+    "quickButtons":  "ፈጣን አዝራሮች",
+    "onboardingMockRestaurantTitle":  "የምግብ ቤት ምሽት",
+    "currency":  "ምንዛሪ",
+    "onboardingMockRestaurantSub":  "አርብ - ፀሐይ",
+    "labelToday":  "ዛሬ",
+    "exportRangeToday":  "ዛሬ",
+    "recentEntries":  "የቅርብ ጊዜ ግቤቶች",
+    "pdfReportReady":  "የፒዲኤፍ ሪፖርት ለመጋራት ዝግጁ ነው።",
+    "undo":  "ቀልብስ",
+    "onboardingSkip":  "ዝለል",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ወር",
+    "deleteAll":  "ሁሉንም ሰርዝ",
+    "rateApp":  "መተግበሪያ ደረጃ ይስጡ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ሥራ አድኗል",
+    "cancel":  "ሰርዝ",
+    "@@locale":  "am",
+    "exportRangeCustom":  "ብጁ ክልል",
+    "exportFrom":  "From: {date}",
+    "export":  "ወደ ውጪ ላክ",
+    "contactUsLabel":  "ያግኙን",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ምርጥ ቀን፡",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ጠቃሚ ምክር ተሰርዟል (ቀልብስ)",
+    "greetingAfternoon":  "እንደምን አረፈድክ!",
+    "roundUp":  "ዙር ወደላይ",
+    "onboardingWelcomeTitle":  "እንኳን ደህና መጣህ",
+    "reportPdfTooltip":  "PDF ሪፖርት አድርግ",
+    "settingsSection":  "ቅንብሮች",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ወደ ውጭ መላክ በዚህ መድረክ ላይ አይገኝም።",
+    "quickButtonsUpdated":  "ፈጣን አዝራሮች ተዘምነዋል",
+    "pdfReports":  "ፒዲኤፍ ሪፖርቶች",
+    "supportSection":  "ድጋፍ",
+    "filterWeek":  "ሳምንት",
+    "onboardingMockCafeTitle":  "ካፌ Shift",
+    "onboardingWelcomeBody":  "እያንዳንዱን ጠቃሚ ምክር ይከታተሉ እና ገቢዎን ይቆጣጠሩ።",
+    "dailySummary":  "ዕለታዊ ማጠቃለያ",
+    "rateTheApp":  "ለመተግበሪያው ደረጃ ይስጡት።",
+    "noIncomeRecorded":  "ለዚህ ቀን ምንም ገቢ አልተመዘገበም። አንድ ለማከል የ+ አዝራሩን መታ ያድርጉ!",
+    "noTipsYet":  "እስካሁን ምንም ጠቃሚ ምክሮች የሉም። ከላይ ባሉት አዝራሮች አንድ ያክሉ።",
+    "languageFrench":  "ፍራንሷ",
+    "totalTipsLabel":  "ጠቅላላ ምክሮች፡-",
+    "addTip":  "+ ጠቃሚ ምክር ያክሉ",
+    "totalEarningsLabel":  "ጠቅላላ ገቢ፡",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 ዛሬ",
+    "noTipsToExport":  "እስካሁን ወደ ውጭ ለመላክ ምንም ጠቃሚ ምክሮች የሉም።",
+    "noTipsForPeriod":  "ለተመረጠው ጊዜ ምንም ጠቃሚ ምክሮች አልተገኙም።",
+    "backupTips":  "ውሂብዎን ያስቀምጡ / ጠቃሚ ምክሮችዎን ምትኬ ያስቀምጡ",
+    "jobs":  "ስራዎች",
+    "greetingEvening":  "አንደምን አመሸህ!",
+    "languageSystemDefault":  "የስርዓት ነባሪ",
+    "deleteThisTip":  "ይህ ጠቃሚ ምክር ይሰረዝ?",
+    "deleteAllDataTitle":  "ሁሉም ውሂብ ይሰረዝ?"
+}

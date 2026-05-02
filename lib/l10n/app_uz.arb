@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSVni eksport qiling",
+    "pdfExportUnavailable":  "Ushbu platformada PDF eksporti mavjud emas.",
+    "delete":  "Oʻchirish",
+    "thanksFeedback":  "Fikr-mulohazangiz uchun tashakkur!",
+    "languageEnglish":  "Ingliz",
+    "allDataDeleted":  "Barcha maʼlumotlar oʻchirildi",
+    "language":  "Til",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV muvaffaqiyatli eksport qilindi",
+    "onboardingJobsTitle":  "Bir nechta ish va professional hisobotlar",
+    "totalEarnings":  "Jami daromad",
+    "roundUpSubtitle":  "Maslahatlarni saqlashda dumaloq butun sonlarga teng",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bu barcha saqlangan maslahatlarni butunlay olib tashlaydi.",
+    "filters":  "Filtrlar",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Til",
+    "darkMode":  "Qorong\u0027i rejim",
+    "customQuickSubtitle":  "$10 · $20 · $50 tahrirlang",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tarix",
+    "exportRangeMonth":  "Shu oy",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Tajribangizni baham ko\u0027ring",
+    "filterToday":  "Bugun",
+    "customQuickLabel":  "Maxsus",
+    "exportRangeWeek":  "Ushbu hafta",
+    "tipSaved":  "Maslahat saqlandi",
+    "onboardingContinue":  "Davom eting",
+    "onboardingMockCafeSub":  "Dushanba - Juma",
+    "entries":  "Yozuvlar",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Oʻrtacha soatlik tarif:",
+    "onboardingJobsBody":  "Har bir ishni toza kartalar bilan boshqaring va PDF-tayyor xulosalarni eksport qiling.",
+    "onboardingPreviewPdf":  "PDF oldindan ko\u0027rish",
+    "noDataFound":  "Hech qanday maʼlumot topilmadi",
+    "deleteAllData":  "Barcha ma\u0027lumotlarni o\u0027chirish",
+    "filterYear":  "Yil",
+    "navHistory":  "Tarix",
+    "greetingMorning":  "Xayrli tong!",
+    "onboardingProfessionalReports":  "Professional hisobotlar",
+    "averageDayLabel":  "O\u0027rtacha/kun:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Biz bilan bog\u0027lanish",
+    "exportCsv":  "CSVni eksport qiling",
+    "navProfile":  "Profil",
+    "navHome":  "Uy",
+    "quickButtons":  "Tez tugmalar",
+    "onboardingMockRestaurantTitle":  "Restoran kechasi",
+    "currency":  "Valyuta",
+    "onboardingMockRestaurantSub":  "Juma - yakshanba",
+    "labelToday":  "Bugun",
+    "exportRangeToday":  "Bugun",
+    "recentEntries":  "Oxirgi yozuvlar",
+    "pdfReportReady":  "PDF hisobot almashishga tayyor",
+    "undo":  "Bekor qilish",
+    "onboardingSkip":  "Oʻtkazib yuborish",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Oy",
+    "deleteAll":  "Hammasini oʻchirish",
+    "rateApp":  "Baholash ilovasi",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Ish saqlandi",
+    "cancel":  "Bekor qilish",
+    "@@locale":  "uz",
+    "exportRangeCustom":  "Maxsus diapazon",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksport",
+    "contactUsLabel":  "Biz bilan bog\u0027lanish",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Eng yaxshi kun:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Maslahat oʻchirildi (Bekor qilish)",
+    "greetingAfternoon":  "Hayrli kun!",
+    "roundUp":  "Yaxlitlamoq",
+    "onboardingWelcomeTitle":  "Xush kelibsiz",
+    "reportPdfTooltip":  "Hisobot PDF",
+    "settingsSection":  "SOZLAMALAR",
+    "languageArabic":  "ạlʿrbyẗ",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Bu platformada eksport qilish imkonsiz.",
+    "quickButtonsUpdated":  "Tez tugmalar yangilandi",
+    "pdfReports":  "PDF hisobotlar",
+    "supportSection":  "YORDAM",
+    "filterWeek":  "Hafta",
+    "onboardingMockCafeTitle":  "Kafe Shift",
+    "onboardingWelcomeBody":  "Har bir maslahatni kuzatib boring va daromadingizni nazorat qiling.",
+    "dailySummary":  "Kundalik xulosa",
+    "rateTheApp":  "Ilovaga baho bering",
+    "noIncomeRecorded":  "Bu kun uchun daromad qayd etilmagan. Qo\u0027shish uchun + tugmasini bosing!",
+    "noTipsYet":  "Hali hech qanday maslahat yo\u0027q. Yuqoridagi tugmalar yordamida bittasini qo\u0027shing.",
+    "languageFrench":  "Fransiya",
+    "totalTipsLabel":  "Umumiy maslahatlar:",
+    "addTip":  "+ Maslahat qo\u0027shish",
+    "totalEarningsLabel":  "Umumiy daromad:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Bugun 245.00 dollar",
+    "noTipsToExport":  "Hozircha eksport qilish bo‘yicha maslahatlar yo‘q.",
+    "noTipsForPeriod":  "Tanlangan davr uchun hech qanday maslahat topilmadi.",
+    "backupTips":  "Ma\u0027lumotlaringizni saqlang / Maslahatlaringizni zaxiralang",
+    "jobs":  "Ishlar",
+    "greetingEvening":  "Hayrli kech!",
+    "languageSystemDefault":  "Tizim standarti",
+    "deleteThisTip":  "Bu maslahat oʻchirilsinmi?",
+    "deleteAllDataTitle":  "Barcha maʼlumotlar oʻchirilsinmi?"
+}

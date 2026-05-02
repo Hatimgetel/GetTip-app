@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Export CSV",
+    "pdfExportUnavailable":  "PDF Export ass net op dëser Plattform verfügbar.",
+    "delete":  "Läschen",
+    "thanksFeedback":  "Merci fir Äre Feedback!",
+    "languageEnglish":  "Englesch",
+    "allDataDeleted":  "All Daten geläscht",
+    "language":  "Sprooch",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV erfollegräich exportéiert",
+    "onboardingJobsTitle":  "Multiple Jobs \u0026 Professionelle Berichter",
+    "totalEarnings":  "Total Akommes",
+    "roundUpSubtitle":  "Ronn Quantitéiten un Ganzen Zuelen wann Tipps spueren",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Dëst wäert all gespäichert Tipps permanent ewechhuelen.",
+    "filters":  "Filteren",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Sprooch",
+    "darkMode":  "Däischter Modus",
+    "customQuickSubtitle":  "Änneren $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Geschicht",
+    "exportRangeMonth":  "Dëse Mount",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Deelt Är Erfahrung",
+    "filterToday":  "Haut",
+    "customQuickLabel":  "Benotzerdefinéiert",
+    "exportRangeWeek":  "Des woch",
+    "tipSaved":  "Tipp gespäichert",
+    "onboardingContinue":  "Fuert weider",
+    "onboardingMockCafeSub":  "Mo - Fr",
+    "entries":  "Entréen",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Duerchschnëtt Stonn Tarif:",
+    "onboardingJobsBody":  "Verwalte all Aarbecht mat proppere Kaarten an exportéiert PDF-fäerdeg Zesummefaassungen.",
+    "onboardingPreviewPdf":  "Virschau PDF",
+    "noDataFound":  "Keng Daten fonnt",
+    "deleteAllData":  "Läschen all Daten",
+    "filterYear":  "Joer",
+    "navHistory":  "Geschicht",
+    "greetingMorning":  "Gudde Moien!",
+    "onboardingProfessionalReports":  "Berufflech Berichter",
+    "averageDayLabel":  "Moyenne / Dag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontaktéiert eis",
+    "exportCsv":  "Export CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Doheem",
+    "quickButtons":  "Quick Knäppercher",
+    "onboardingMockRestaurantTitle":  "Restaurant Nuecht",
+    "currency":  "Währung",
+    "onboardingMockRestaurantSub":  "Fr - Sonn",
+    "labelToday":  "Haut",
+    "exportRangeToday":  "Haut",
+    "recentEntries":  "Rezent Entréen",
+    "pdfReportReady":  "PDF Bericht prett fir ze deelen",
+    "undo":  "Undoen",
+    "onboardingSkip":  "Sprangen",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mount",
+    "deleteAll":  "Alles läschen",
+    "rateApp":  "Bewäertung App",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Aarbecht gerett",
+    "cancel":  "Ofbriechen",
+    "@@locale":  "lb",
+    "exportRangeCustom":  "Benotzerdefinéiert Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Kontaktéiert eis",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Beschten Dag:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tipp geläscht (Undoen)",
+    "greetingAfternoon":  "Gudde Mëtteg!",
+    "roundUp":  "Ronn Up",
+    "onboardingWelcomeTitle":  "Wëllkomm",
+    "reportPdfTooltip":  "Rapport PDF",
+    "settingsSection":  "Astellungen",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export ass net op dëser Plattform verfügbar.",
+    "quickButtonsUpdated":  "Quick Knäppercher aktualiséiert",
+    "pdfReports":  "PDF Berichter",
+    "supportSection":  "SUPPORT",
+    "filterWeek":  "Woch",
+    "onboardingMockCafeTitle":  "Café Verréckelung",
+    "onboardingWelcomeBody":  "Verfollegt all Tipp a bleift a Kontroll iwwer Äert Akommes.",
+    "dailySummary":  "Deeglech Resumé",
+    "rateTheApp":  "Bewäert d\u0027App",
+    "noIncomeRecorded":  "Keen Akommes fir dësen Dag opgeholl. Tippen op de + Knäppchen fir een ze addéieren!",
+    "noTipsYet":  "Nach keng Tipps. Füügt een mat de Knäppercher uewen.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Total Tipps:",
+    "addTip":  "+ Tipp dobäi",
+    "totalEarningsLabel":  "Gesamtakommes:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "ass haut um 245.00 $",
+    "noTipsToExport":  "Keng Tipps fir ze exportéieren nach.",
+    "noTipsForPeriod":  "Keng Tipps fir ausgewielt Period fonnt.",
+    "backupTips":  "Späichert Är Donnéeën / Backupéiert Är Tipps",
+    "jobs":  "Aarbechtsplazen",
+    "greetingEvening":  "Gudden Owend!",
+    "languageSystemDefault":  "System Standard",
+    "deleteThisTip":  "Dësen Tipp läschen?",
+    "deleteAllDataTitle":  "All Daten läschen?"
+}

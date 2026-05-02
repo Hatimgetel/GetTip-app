@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV صادر کړئ",
+    "pdfExportUnavailable":  "د PDF صادرات پدې پلیټ فارم کې شتون نلري.",
+    "delete":  "ړنګول",
+    "thanksFeedback":  "ستاسو د نظر څخه مننه!",
+    "languageEnglish":  "انګلیسي",
+    "allDataDeleted":  "ټول معلومات حذف شوي",
+    "language":  "ژبه",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV په بریالیتوب سره صادر شو",
+    "onboardingJobsTitle":  "ډیری دندې او مسلکي راپورونه",
+    "totalEarnings":  "ټول عایدات",
+    "roundUpSubtitle":  "د لارښوونو د خوندي کولو په وخت کې د ټولو شمیرو سره اندازه کول",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "دا به د تل لپاره ټول خوندي شوي لارښوونې لرې کړي.",
+    "filters":  "فلټرونه",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ژبه",
+    "darkMode":  "تیاره حالت",
+    "customQuickSubtitle":  "$10 · $20 · $50 ترمیم کړئ",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تاریخ",
+    "exportRangeMonth":  "دا میاشت",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "احصایې",
+    "shareExperience":  "خپله تجربه شریکه کړئ",
+    "filterToday":  "نن",
+    "customQuickLabel":  "ګمرک",
+    "exportRangeWeek":  "دا اونۍ",
+    "tipSaved":  "ټیک خوندي شو",
+    "onboardingContinue":  "ادامه ورکړئ",
+    "onboardingMockCafeSub":  "پیر - جمعه",
+    "entries":  "ننوتل",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "د اوسط ساعت نرخ:",
+    "onboardingJobsBody":  "هره دنده د پاکو کارتونو سره اداره کړئ او د PDF لپاره چمتو لنډیز صادر کړئ.",
+    "onboardingPreviewPdf":  "د PDF مخکتنه",
+    "noDataFound":  "هیڅ ډاټا ونه موندل شوه",
+    "deleteAllData":  "ټول معلومات ړنګ کړئ",
+    "filterYear":  "کال",
+    "navHistory":  "تاریخ",
+    "greetingMorning":  "سهار مو پخیر!",
+    "onboardingProfessionalReports":  "مسلکي راپورونه",
+    "averageDayLabel":  "اوسط/ورځ:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "موږ سره اړیکه ونیسئ",
+    "exportCsv":  "CSV صادر کړئ",
+    "navProfile":  "پروفایل",
+    "navHome":  "کور",
+    "quickButtons":  "چټک بټونه",
+    "onboardingMockRestaurantTitle":  "د رستورانت شپه",
+    "currency":  "اسعارو",
+    "onboardingMockRestaurantSub":  "جمعه - لمر",
+    "labelToday":  "نن",
+    "exportRangeToday":  "نن",
+    "recentEntries":  "وروستي ننوتل",
+    "pdfReportReady":  "د PDF راپور د شریکولو لپاره چمتو دی",
+    "undo":  "بیرته راګرځول",
+    "onboardingSkip":  "پریږده",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "میاشت",
+    "deleteAll":  "ټول ړنګ کړئ",
+    "rateApp":  "اپلیکیشن نرخ کړئ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "دنده خوندي شوه",
+    "cancel":  "لغوه کړئ",
+    "@@locale":  "ps",
+    "exportRangeCustom":  "د ګمرک رینج",
+    "exportFrom":  "From: {date}",
+    "export":  "صادرول",
+    "contactUsLabel":  "موږ سره اړیکه ونیسئ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "غوره ورځ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "لارښوونه ړنګه شوې (بېرته کول)",
+    "greetingAfternoon":  "بعد له غرمه مو پخیر!",
+    "roundUp":  "رانډ اپ",
+    "onboardingWelcomeTitle":  "ښه راغلاست",
+    "reportPdfTooltip":  "راپور PDF",
+    "settingsSection":  "ترتیبات",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "صادرات پدې پلیټ فارم کې شتون نلري.",
+    "quickButtonsUpdated":  "چټک تڼۍ تازه شوي",
+    "pdfReports":  "د PDF راپورونه",
+    "supportSection":  "ملاتړ",
+    "filterWeek":  "اونۍ",
+    "onboardingMockCafeTitle":  "کیف شفټ",
+    "onboardingWelcomeBody":  "هره لارښوونه تعقیب کړئ او د خپلو عایداتو کنټرول کې پاتې شئ.",
+    "dailySummary":  "ورځنۍ لنډیز",
+    "rateTheApp":  "اپلیکیشن درجه بندي کړئ",
+    "noIncomeRecorded":  "د دې ورځې لپاره هیڅ عاید ندی ثبت شوی. د یو اضافه کولو لپاره + تڼۍ کلیک وکړئ!",
+    "noTipsYet":  "تراوسه هیڅ لارښوونې نشته. د پورته تڼیو سره یو اضافه کړئ.",
+    "languageFrench":  "فرانسیس",
+    "totalTipsLabel":  "ټول لارښوونې:",
+    "addTip":  "+ لارښوونه اضافه کړئ",
+    "totalEarningsLabel":  "ټول عاید:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 نن ورځ",
+    "noTipsToExport":  "تراوسه د صادرولو لپاره هیڅ لارښوونې نشته.",
+    "noTipsForPeriod":  "د ټاکل شوې مودې لپاره هیڅ لارښوونې ونه موندل شوې.",
+    "backupTips":  "خپل معلومات خوندي کړئ / خپلې لارښوونې بیک اپ کړئ",
+    "jobs":  "دندې",
+    "greetingEvening":  "ماښام مو پخیر!",
+    "languageSystemDefault":  "د سیسټم ډیفالټ",
+    "deleteThisTip":  "دا لارښوونه حذف کړئ؟",
+    "deleteAllDataTitle":  "ټول معلومات حذف کړئ؟"
+}

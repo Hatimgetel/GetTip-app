@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "صادرات CSV",
+    "pdfExportUnavailable":  "صادرات PDF در این پلت فرم در دسترس نیست.",
+    "delete":  "حذف کنید",
+    "thanksFeedback":  "با تشکر از بازخورد شما!",
+    "languageEnglish":  "انگلیسی",
+    "allDataDeleted":  "همه داده ها حذف شد",
+    "language":  "زبان",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV با موفقیت صادر شد",
+    "onboardingJobsTitle":  "چندین شغل و گزارش های حرفه ای",
+    "totalEarnings":  "کل درآمد",
+    "roundUpSubtitle":  "هنگام ذخیره نکات، گرد به اعداد کامل می رسد",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "با این کار تمام نکات ذخیره شده برای همیشه حذف می شود.",
+    "filters":  "فیلترها",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "زبان",
+    "darkMode":  "حالت تاریک",
+    "customQuickSubtitle":  "ویرایش 10 دلار · 20 دلار · 50 دلار",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تاریخچه",
+    "exportRangeMonth":  "این ماه",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "آمار",
+    "shareExperience":  "تجربه خود را به اشتراک بگذارید",
+    "filterToday":  "امروز",
+    "customQuickLabel":  "سفارشی",
+    "exportRangeWeek":  "این هفته",
+    "tipSaved":  "نکته ذخیره شد",
+    "onboardingContinue":  "ادامه دهید",
+    "onboardingMockCafeSub":  "دوشنبه - جمعه",
+    "entries":  "ورودی ها",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "میانگین نرخ ساعتی:",
+    "onboardingJobsBody":  "هر کار را با کارت های تمیز مدیریت کنید و خلاصه های آماده PDF را صادر کنید.",
+    "onboardingPreviewPdf":  "پیش نمایش PDF",
+    "noDataFound":  "داده ای یافت نشد",
+    "deleteAllData":  "تمام داده ها را حذف کنید",
+    "filterYear":  "سال",
+    "navHistory":  "تاریخچه",
+    "greetingMorning":  "صبح بخیر",
+    "onboardingProfessionalReports":  "گزارش های حرفه ای",
+    "averageDayLabel":  "میانگین/روز:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "با ما تماس بگیرید",
+    "exportCsv":  "صادرات CSV",
+    "navProfile":  "نمایه",
+    "navHome":  "صفحه اصلی",
+    "quickButtons":  "دکمه های سریع",
+    "onboardingMockRestaurantTitle":  "شب رستوران",
+    "currency":  "ارز",
+    "onboardingMockRestaurantSub":  "جمعه - یکشنبه",
+    "labelToday":  "امروز",
+    "exportRangeToday":  "امروز",
+    "recentEntries":  "ورودی های اخیر",
+    "pdfReportReady":  "گزارش PDF آماده اشتراک گذاری است",
+    "undo":  "واگرد",
+    "onboardingSkip":  "پرش کنید",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ماه",
+    "deleteAll":  "همه را حذف کنید",
+    "rateApp":  "به برنامه امتیاز دهید",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "شغل ذخیره شد",
+    "cancel":  "لغو کنید",
+    "@@locale":  "fa",
+    "exportRangeCustom":  "محدوده سفارشی",
+    "exportFrom":  "From: {date}",
+    "export":  "صادرات",
+    "contactUsLabel":  "با ما تماس بگیرید",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "بهترین روز:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "نکته حذف شد (واگرد)",
+    "greetingAfternoon":  "بعد از ظهر بخیر!",
+    "roundUp":  "گرد کردن",
+    "onboardingWelcomeTitle":  "خوش آمدید",
+    "reportPdfTooltip":  "گزارش PDF",
+    "settingsSection":  "تنظیمات",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "صادرات در این پلتفرم در دسترس نیست.",
+    "quickButtonsUpdated":  "دکمه های سریع به روز شد",
+    "pdfReports":  "گزارش های PDF",
+    "supportSection":  "پشتیبانی",
+    "filterWeek":  "هفته",
+    "onboardingMockCafeTitle":  "کافه شیفت",
+    "onboardingWelcomeBody":  "هر نکته را دنبال کنید و کنترل درآمد خود را حفظ کنید.",
+    "dailySummary":  "خلاصه روزانه",
+    "rateTheApp":  "به برنامه امتیاز دهید",
+    "noIncomeRecorded":  "هیچ درآمدی برای این روز ثبت نشده است. برای افزودن یکی، روی دکمه + ضربه بزنید!",
+    "noTipsYet":  "هنوز نکته ای وجود ندارد. یکی را با دکمه های بالا اضافه کنید.",
+    "languageFrench":  "فرانسه",
+    "totalTipsLabel":  "کل نکات:",
+    "addTip":  "+ نکته را اضافه کنید",
+    "totalEarningsLabel":  "کل درآمد:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245.00 دلار امروز",
+    "noTipsToExport":  "هنوز راهنمایی برای صادرات وجود ندارد.",
+    "noTipsForPeriod":  "نکته ای برای دوره انتخابی یافت نشد.",
+    "backupTips":  "داده های خود را ذخیره کنید / از نکات خود نسخه پشتیبان تهیه کنید",
+    "jobs":  "مشاغل",
+    "greetingEvening":  "عصر بخیر",
+    "languageSystemDefault":  "پیش فرض سیستم",
+    "deleteThisTip":  "این نکته حذف شود؟",
+    "deleteAllDataTitle":  "همه داده ها حذف شود؟"
+}

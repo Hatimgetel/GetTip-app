@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV экспорт",
+    "pdfExportUnavailable":  "Бу платформада PDF экспорты мөмкин түгел.",
+    "delete":  "Бетерү",
+    "thanksFeedback":  "Фикерләрегез өчен рәхмәт!",
+    "languageEnglish":  "Инглиз",
+    "allDataDeleted":  "Барлык мәгълүматлар бетерелде",
+    "language":  "Тел",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV уңышлы экспортланды",
+    "onboardingJobsTitle":  "Берничә эш һәм профессиональ отчетлар",
+    "totalEarnings":  "Гомуми табыш",
+    "roundUpSubtitle":  "Киңәшләрне саклаганда түгәрәк саннар тулы саннарга",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Бу сакланган барлык киңәшләрне мәңгегә бетерәчәк.",
+    "filters":  "Фильтрлар",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Тел",
+    "darkMode":  "Караңгы режим",
+    "customQuickSubtitle":  "$ 10 · $ 20 · $ 50 үзгәртү",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Тарих",
+    "exportRangeMonth":  "Бу ай",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "Статистика",
+    "shareExperience":  "Тәҗрибәгез белән уртаклашыгыз",
+    "filterToday":  "Бүген",
+    "customQuickLabel":  "Гадәт",
+    "exportRangeWeek":  "Бу атнада",
+    "tipSaved":  "Киңәш сакланган",
+    "onboardingContinue":  "Дәвам итегез",
+    "onboardingMockCafeSub":  "Дүшәмбе - җомга",
+    "entries":  "Язмалар",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Уртача сәгать ставкасы:",
+    "onboardingJobsBody":  "Workәрбер эшне чиста карточкалар белән идарә итегез һәм PDF әзер йомгакларны экспортлагыз.",
+    "onboardingPreviewPdf":  "PDF карау",
+    "noDataFound":  "Мәгълүмат табылмады",
+    "deleteAllData":  "Барлык мәгълүматны бетерегез",
+    "filterYear":  "Ел",
+    "navHistory":  "Тарих",
+    "greetingMorning":  "Хәерле иртә!",
+    "onboardingProfessionalReports":  "Профессиональ отчетлар",
+    "averageDayLabel":  "Уртача / көн:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Безнең белән элемтәгә керегез",
+    "exportCsv":  "CSV экспорт",
+    "navProfile":  "Профиль",
+    "navHome":  "Өй",
+    "quickButtons":  "Тиз төймәләр",
+    "onboardingMockRestaurantTitle":  "Ресторан төне",
+    "currency":  "Валюта",
+    "onboardingMockRestaurantSub":  "Friомга - Кояш",
+    "labelToday":  "Бүген",
+    "exportRangeToday":  "Бүген",
+    "recentEntries":  "Соңгы язмалар",
+    "pdfReportReady":  "PDF отчеты бүлешергә әзер",
+    "undo":  "Кире кайтару",
+    "onboardingSkip":  "Сикереп тор",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ай",
+    "deleteAll":  "Барысын да бетерегез",
+    "rateApp":  "Кушымта бәяләү",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Эш сакланган",
+    "cancel":  "Баш тарту",
+    "@@locale":  "tt",
+    "exportRangeCustom":  "Махсус диапазон",
+    "exportFrom":  "From: {date}",
+    "export":  "Экспорт",
+    "contactUsLabel":  "Безнең белән элемтәгә керегез",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Иң яхшы көн:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Киңәш бетерелде (кире кайтару)",
+    "greetingAfternoon":  "Хәерле көн!",
+    "roundUp":  "Түгәрәк",
+    "onboardingWelcomeTitle":  "Рәхим итегез",
+    "reportPdfTooltip":  "Доклад PDF",
+    "settingsSection":  "СЕТТИНГ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Бу платформада экспорт мөмкин түгел.",
+    "quickButtonsUpdated":  "Тиз төймәләр яңартылды",
+    "pdfReports":  "PDF докладлары",
+    "supportSection":  "Ярдәм",
+    "filterWeek":  "Атна",
+    "onboardingMockCafeTitle":  "Кафе сменасы",
+    "onboardingWelcomeBody":  "Tipәрбер киңәшне күзәтегез һәм керемнәрегезне контрольдә тотыгыз.",
+    "dailySummary":  "Көндәлек йомгак",
+    "rateTheApp":  "Кушымтаны бәяләгез",
+    "noIncomeRecorded":  "Бу көн өчен керем юк. Берсен өстәр өчен + төймәсенә басыгыз!",
+    "noTipsYet":  "Әле киңәшләр юк. Oneгарыдагы төймәләр белән берсен өстәгез.",
+    "languageFrench":  "Француз",
+    "totalTipsLabel":  "Гомуми киңәшләр:",
+    "addTip":  "Киңәш",
+    "totalEarningsLabel":  "Гомуми табыш:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Бүген $ 245.00",
+    "noTipsToExport":  "Экспортлау өчен киңәшләр юк.",
+    "noTipsForPeriod":  "Сайланган чор өчен киңәшләр табылмады.",
+    "backupTips":  "Мәгълүматны саклагыз / киңәшләрегезне резервлагыз",
+    "jobs":  "Эшләр",
+    "greetingEvening":  "Хәерле кич!",
+    "languageSystemDefault":  "Система килешү",
+    "deleteThisTip":  "Бу киңәшне бетерегез?",
+    "deleteAllDataTitle":  "Барлык мәгълүматны бетерәсезме?"
+}

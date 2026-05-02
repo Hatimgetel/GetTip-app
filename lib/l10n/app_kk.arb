@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV экспорттау",
+    "pdfExportUnavailable":  "PDF экспорты бұл платформада қолжетімді емес.",
+    "delete":  "Жою",
+    "thanksFeedback":  "Пікіріңізге рахмет!",
+    "languageEnglish":  "Ағылшын",
+    "allDataDeleted":  "Барлық деректер жойылды",
+    "language":  "Тіл",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV сәтті экспортталды",
+    "onboardingJobsTitle":  "Бірнеше жұмыс және кәсіби есептер",
+    "totalEarnings":  "Жалпы табыс",
+    "roundUpSubtitle":  "Кеңестерді сақтау кезінде дөңгелек бүтін сандар",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Бұл барлық сақталған кеңестерді біржола жояды.",
+    "filters":  "Сүзгілер",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Тіл",
+    "darkMode":  "Қараңғы режим",
+    "customQuickSubtitle":  "$10 · $20 · $50 өңдеу",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Тарих",
+    "exportRangeMonth":  "Осы айда",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТАТ",
+    "shareExperience":  "Тәжірибеңізбен бөлісіңіз",
+    "filterToday":  "Бүгін",
+    "customQuickLabel":  "Арнаулы",
+    "exportRangeWeek":  "Осы аптада",
+    "tipSaved":  "Кеңес сақталды",
+    "onboardingContinue":  "Жалғастыру",
+    "onboardingMockCafeSub":  "Дүйсенбі - жұма",
+    "entries":  "Жазбалар",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Орташа сағаттық тариф:",
+    "onboardingJobsBody":  "Әрбір тапсырманы таза карталармен басқарыңыз және PDF форматына дайын қорытындыларды экспорттаңыз.",
+    "onboardingPreviewPdf":  "PDF алдын ала қарау",
+    "noDataFound":  "Деректер табылмады",
+    "deleteAllData":  "Барлық деректерді жойыңыз",
+    "filterYear":  "Жыл",
+    "navHistory":  "Тарих",
+    "greetingMorning":  "Қайырлы таң!",
+    "onboardingProfessionalReports":  "Кәсіби есептер",
+    "averageDayLabel":  "Орташа/күн:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Бізбен хабарласыңы",
+    "exportCsv":  "CSV экспорттау",
+    "navProfile":  "Профиль",
+    "navHome":  "Үй",
+    "quickButtons":  "Жылдам түймелер",
+    "onboardingMockRestaurantTitle":  "Мейрамхана түні",
+    "currency":  "Валюта",
+    "onboardingMockRestaurantSub":  "Жұма - жексенбі",
+    "labelToday":  "Бүгін",
+    "exportRangeToday":  "Бүгін",
+    "recentEntries":  "Соңғы жазбалар",
+    "pdfReportReady":  "PDF есебі ортақ пайдалануға дайын",
+    "undo":  "Болдырмау",
+    "onboardingSkip":  "Өткізіп жіберу",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ай",
+    "deleteAll":  "Барлығын жою",
+    "rateApp":  "Қолданбаны бағалаңыз",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Жұмыс сақталды",
+    "cancel":  "Болдырмау",
+    "@@locale":  "kk",
+    "exportRangeCustom":  "Теңшелетін ауқым",
+    "exportFrom":  "From: {date}",
+    "export":  "Экспорттау",
+    "contactUsLabel":  "Бізбен хабарласыңы",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ең жақсы күн:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Кеңес жойылды (Болдырмау)",
+    "greetingAfternoon":  "Қайырлы күн!",
+    "roundUp":  "Дөңгелектеу",
+    "onboardingWelcomeTitle":  "Қош келдіңіз",
+    "reportPdfTooltip":  "PDF туралы есеп беру",
+    "settingsSection":  "ПАРАМЕТРЛЕР",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Бұл платформада экспорттау мүмкін емес.",
+    "quickButtonsUpdated":  "Жылдам түймелер жаңартылды",
+    "pdfReports":  "PDF есептер",
+    "supportSection":  "ҚОЛДАУ",
+    "filterWeek":  "Апта",
+    "onboardingMockCafeTitle":  "Кафе ауысымы",
+    "onboardingWelcomeBody":  "Әрбір кеңесті қадағалаңыз және табысыңызды бақылаңыз.",
+    "dailySummary":  "Күнделікті қорытынды",
+    "rateTheApp":  "Қолданбаны бағалаңыз",
+    "noIncomeRecorded":  "Бұл күні табыс тіркелмеген. Біреуін қосу үшін + түймесін түртіңіз!",
+    "noTipsYet":  "Әлі кеңестер жоқ. Жоғарыдағы түймелер арқылы біреуін қосыңыз.",
+    "languageFrench":  "Француз",
+    "totalTipsLabel":  "Жалпы кеңестер:",
+    "addTip":  "+ Кеңес қосу",
+    "totalEarningsLabel":  "Жалпы табыс:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Бүгін $ 245.00",
+    "noTipsToExport":  "Экспорттауға кеңестер әлі жоқ.",
+    "noTipsForPeriod":  "Таңдалған кезең бойынша кеңестер табылмады.",
+    "backupTips":  "Деректеріңізді сақтаңыз / Кеңестердің сақтық көшірмесін жасаңыз",
+    "jobs":  "Жұмыс орындары",
+    "greetingEvening":  "Қайырлы кеш!",
+    "languageSystemDefault":  "Жүйе әдепкі",
+    "deleteThisTip":  "Бұл кеңесті жою керек пе?",
+    "deleteAllDataTitle":  "Барлық деректерді жою керек пе?"
+}

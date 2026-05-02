@@ -1,0 +1,221 @@
+{
+  "@@locale": "en",
+  "appTitle": "Get Tip",
+  "onboardingSkip": "Skip",
+  "onboardingContinue": "Continue",
+  "onboardingWelcomeTitle": "Welcome",
+  "onboardingWelcomeBody": "Track every tip and stay in control of your earnings.",
+  "onboardingDemoToday": "$ 245.00 Today",
+  "onboardingJobsTitle": "Multiple Jobs & Professional Reports",
+  "onboardingJobsBody": "Manage each job with clean cards and export PDF-ready summaries.",
+  "onboardingMockCafeTitle": "Cafe Shift",
+  "onboardingMockCafeSub": "Mon - Fri",
+  "onboardingMockRestaurantTitle": "Restaurant Night",
+  "onboardingMockRestaurantSub": "Fri - Sun",
+  "onboardingProfessionalReports": "Professional Reports",
+  "onboardingPreviewPdf": "Preview PDF",
+  "languageTitle": "Language",
+  "languageEnglish": "English",
+  "languageFrench": "Français",
+  "languageArabic": "العربية",
+  "languageSystemDefault": "System default",
+  "navHome": "Home",
+  "navHistory": "History",
+  "navProfile": "Profile",
+  "greetingMorning": "Good Morning!",
+  "greetingAfternoon": "Good Afternoon!",
+  "greetingEvening": "Good Evening!",
+  "labelToday": "Today",
+  "dailySummary": "Daily Summary",
+  "totalEarnings": "Total Earnings",
+  "recentEntries": "Recent entries",
+  "noTipsYet": "No tips yet. Add one with the buttons above.",
+  "customQuickLabel": "Custom",
+  "customQuickSubtitle": "Edit $10 · $20 · $50",
+  "addTip": "+ Add Tip",
+  "tipSaved": "Tip saved",
+  "quickButtonsUpdated": "Quick buttons updated",
+  "jobSaved": "Job saved",
+  "tipDeletedUndo": "Tip deleted (Undo)",
+  "undo": "Undo",
+  "deleteAllDataTitle": "Delete all data?",
+  "deleteAllDataBody": "This will permanently remove all saved tips.",
+  "cancel": "Cancel",
+  "deleteAll": "Delete all",
+  "allDataDeleted": "All data deleted",
+  "noTipsToExport": "No tips to export yet.",
+  "noTipsForPeriod": "No tips found for selected period.",
+  "csvExported": "CSV exported successfully",
+  "exportUnavailable": "Export is not available on this platform.",
+  "pdfReportReady": "PDF report ready to share",
+  "pdfExportUnavailable": "PDF export is not available on this platform.",
+  "thanksFeedback": "Thanks for your feedback!",
+  "exportCsvTitle": "Export CSV",
+  "exportRangeToday": "Today",
+  "exportRangeWeek": "This Week",
+  "exportRangeMonth": "This Month",
+  "exportRangeCustom": "Custom Range",
+  "export": "Export",
+  "rateApp": "Rate app",
+  "contactUs": "Contact us",
+  "deleteThisTip": "Delete this tip?",
+  "delete": "Delete",
+  "historyTitle": "History",
+  "reportPdfTooltip": "Report PDF",
+  "filters": "Filters",
+  "entries": "Entries",
+  "filterToday": "Today",
+  "filterWeek": "Week",
+  "filterMonth": "Month",
+  "filterYear": "Year",
+  "noDataFound": "No Data Found",
+  "noIncomeRecorded": "No income recorded for this day. Tap the + button to add one!",
+  "statsSection": "STATS",
+  "totalTipsLabel": "Total tips:",
+  "totalEarningsLabel": "Total earnings:",
+  "averageDayLabel": "Average/day:",
+  "bestDayLabel": "Best day:",
+  "avgHourlyRateLabel": "Avg hourly rate:",
+  "settingsSection": "SETTINGS",
+  "jobs": "Jobs",
+  "quickButtons": "Quick buttons",
+  "exportCsv": "Export CSV",
+  "backupTips": "Save your data / Backup your tips",
+  "pdfReports": "PDF Reports",
+  "shareExperience": "Share Your Experience",
+  "deleteAllData": "Delete all data",
+  "darkMode": "Dark mode",
+  "supportSection": "SUPPORT",
+  "rateTheApp": "Rate the app",
+  "contactUsLabel": "Contact us",
+  "currency": "Currency",
+  "roundUp": "Round Up",
+  "roundUpSubtitle": "Round amounts to whole numbers when saving tips",
+  "language": "Language",
+  "comingSoon": "{feature} coming soon",
+  "@comingSoon": {
+    "placeholders": {
+      "feature": {
+        "type": "String"
+      }
+    }
+  },
+  "currencySet": "Currency set to {code}",
+  "@currencySet": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "exportFrom": "From: {date}",
+  "@exportFrom": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "exportTo": "To: {date}",
+  "@exportTo": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "weekOf": "Week of {date}",
+  "@weekOf": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "versionLabel": "Version {version}",
+  "@versionLabel": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "tipsCount": "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+  "@tipsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "hourlyRateFormat": "{rate}/hr",
+  "@hourlyRateFormat": {
+    "placeholders": {
+      "rate": {
+        "type": "String"
+      }
+    }
+  },
+  "dataLoadFailedTitle": "Couldn't load your data",
+  "dataLoadFailedBody": "Local storage may be corrupted. You can reset the app database (tips and jobs on this device) to recover.",
+  "resetApp": "Reset App",
+  "resetAppConfirmTitle": "Reset local storage?",
+  "resetAppConfirmBody": "This removes all tips and jobs stored on this device and rebuilds the database. Use this if the app stays blank or crashes.",
+  "resetAppSuccess": "Local storage was reset",
+  "resetAppFailed": "Reset failed",
+  "done": "Done",
+  "noJobsYet": "No jobs yet. Add your first job.",
+  "deleteJobTitle": "Delete job?",
+  "deleteJobBody": "Delete \"{jobTitle}\"? Existing tips will stay saved.",
+  "@deleteJobBody": {
+    "placeholders": {
+      "jobTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "customizeQuickButtonsTitle": "Customize Quick Buttons",
+  "tipNumberLabel": "Tip {index}",
+  "@tipNumberLabel": {
+    "placeholders": {
+      "index": {
+        "type": "int"
+      }
+    }
+  },
+  "amountLabel": "Amount",
+  "noteUnderTipLabel": "Note under this Tip",
+  "reset": "Reset",
+  "invalidAmounts": "Amounts must be valid numbers > 0",
+  "save": "Save",
+  "titleIsRequired": "Title is required",
+  "enterValidHourlyRate": "Enter a valid hourly rate or leave it empty.",
+  "editJob": "Edit Job",
+  "addJobTitle": "Add Job",
+  "colorRequired": "Color *",
+  "titleRequired": "Title *",
+  "employerOptional": "Employer (Optional)",
+  "hourlyRateOptional": "Hourly Rate (Optional)",
+  "workDaysOptional": "Work Days (Optional)",
+  "updateJob": "Update Job",
+  "saveJob": "Save Job"
+  ,
+  "saveToPhone": "Save to phone",
+  "share": "Share",
+  "saveFileInDownloads": "Save {fileType} in Downloads",
+  "@saveFileInDownloads": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  },
+  "openAppsToShareFile": "Open apps to share this {fileType}",
+  "@openAppsToShareFile": {
+    "placeholders": {
+      "fileType": {
+        "type": "String"
+      }
+    }
+  }
+}

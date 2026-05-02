@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "सीएसवी निर्यात करें",
+    "pdfExportUnavailable":  "इस प्लेटफ़ॉर्म पर पीडीएफ निर्यात उपलब्ध नहीं है।",
+    "delete":  "मिटाना",
+    "thanksFeedback":  "आपकी प्रतिक्रिया के लिए धन्यवाद!",
+    "languageEnglish":  "अंग्रेज़ी",
+    "allDataDeleted":  "सारा डेटा मिटा दिया गया",
+    "language":  "भाषा",
+    "appTitle":  "माईटिप ट्रैकर",
+    "csvExported":  "सीएसवी सफलतापूर्वक निर्यात किया गया",
+    "onboardingJobsTitle":  "अनेक नौकरियाँ एवं व्यावसायिक रिपोर्टें",
+    "totalEarnings":  "कुल कमाई",
+    "roundUpSubtitle":  "युक्तियाँ सहेजते समय पूर्णांक का योग पूर्ण संख्याओं में होता है",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "इससे सभी सहेजी गई युक्तियां स्थायी रूप से हटा दी जाएंगी.",
+    "filters":  "फिल्टर",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "भाषा",
+    "darkMode":  "डार्क मोड",
+    "customQuickSubtitle":  "$10 · $20 · $50 संपादित करें",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "इतिहास",
+    "exportRangeMonth":  "इस महीने",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "आँकड़े",
+    "shareExperience":  "अपना अनुभव साझा करें",
+    "filterToday":  "आज",
+    "customQuickLabel":  "रिवाज़",
+    "exportRangeWeek":  "इस सप्ताह",
+    "tipSaved":  "टिप सहेजी गई",
+    "onboardingContinue":  "जारी रखना",
+    "onboardingMockCafeSub":  "सोम-शुक्र",
+    "entries":  "प्रविष्टियां",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "औसत प्रति घंटा दर:",
+    "onboardingJobsBody":  "प्रत्येक कार्य को साफ़ कार्ड के साथ प्रबंधित करें और पीडीएफ-तैयार सारांश निर्यात करें।",
+    "onboardingPreviewPdf":  "पीडीएफ का पूर्वावलोकन करें",
+    "noDataFound":  "डाटा प्राप्त नहीं हुआ",
+    "deleteAllData":  "सारा डेटा हटा दें",
+    "filterYear":  "वर्ष",
+    "navHistory":  "इतिहास",
+    "greetingMorning":  "शुभ प्रभात!",
+    "onboardingProfessionalReports":  "व्यावसायिक रिपोर्ट",
+    "averageDayLabel":  "औसत/दिन:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "हमसे संपर्क करें",
+    "exportCsv":  "सीएसवी निर्यात करें",
+    "navProfile":  "प्रोफ़ाइल",
+    "navHome":  "घर",
+    "quickButtons":  "त्वरित बटन",
+    "onboardingMockRestaurantTitle":  "रेस्तरां की रात",
+    "currency":  "मुद्रा",
+    "onboardingMockRestaurantSub":  "शुक्र-रवि",
+    "labelToday":  "आज",
+    "exportRangeToday":  "आज",
+    "recentEntries":  "नूतन प्रविष्टि",
+    "pdfReportReady":  "पीडीएफ रिपोर्ट साझा करने के लिए तैयार है",
+    "undo":  "पूर्ववत",
+    "onboardingSkip":  "छोडना",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "महीना",
+    "deleteAll":  "सभी हटा दो",
+    "rateApp":  "एप्प का मूल्यांकन",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "नौकरी बच गयी",
+    "cancel":  "रद्द करना",
+    "@@locale":  "hi",
+    "exportRangeCustom":  "कस्टम रेंज",
+    "exportFrom":  "From: {date}",
+    "export":  "निर्यात",
+    "contactUsLabel":  "हमसे संपर्क करें",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "सर्वोत्तम दिन:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "टिप हटाई गई (पूर्ववत करें)",
+    "greetingAfternoon":  "शुभ दोपहर!",
+    "roundUp":  "बढ़ाना",
+    "onboardingWelcomeTitle":  "स्वागत",
+    "reportPdfTooltip":  "रिपोर्ट पीडीएफ",
+    "settingsSection":  "सेटिंग्स",
+    "languageArabic":  "धन्यवाद",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "इस प्लेटफ़ॉर्म पर निर्यात उपलब्ध नहीं है.",
+    "quickButtonsUpdated":  "त्वरित बटन अपडेट किए गए",
+    "pdfReports":  "पीडीएफ रिपोर्ट",
+    "supportSection":  "सहायता",
+    "filterWeek":  "सप्ताह",
+    "onboardingMockCafeTitle":  "कैफ़े शिफ्ट",
+    "onboardingWelcomeBody":  "हर टिप पर नज़र रखें और अपनी कमाई पर नियंत्रण रखें।",
+    "dailySummary":  "दैनिक सारांश",
+    "rateTheApp":  "एप्लिकेशन की श्रेणी बताओ",
+    "noIncomeRecorded":  "इस दिन कोई आय दर्ज नहीं की गई. एक जोड़ने के लिए + बटन टैप करें!",
+    "noTipsYet":  "अभी तक कोई सुझाव नहीं. उपरोक्त बटनों से एक जोड़ें.",
+    "languageFrench":  "फ़्रांसीसी",
+    "totalTipsLabel":  "कुल युक्तियाँ:",
+    "addTip":  "+ टिप जोड़ें",
+    "totalEarningsLabel":  "कुल कमाई:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 आज",
+    "noTipsToExport":  "निर्यात करने के लिए अभी तक कोई सुझाव नहीं.",
+    "noTipsForPeriod":  "चयनित अवधि के लिए कोई सुझाव नहीं मिला.",
+    "backupTips":  "अपना डेटा सहेजें/अपनी युक्तियों का बैकअप लें",
+    "jobs":  "नौकरियाँ",
+    "greetingEvening":  "शुभ संध्या!",
+    "languageSystemDefault":  "प्रणालीगत चूक",
+    "deleteThisTip":  "यह युक्ति हटाएँ?",
+    "deleteAllDataTitle":  "सारा डेटा मिटा दें?"
+}

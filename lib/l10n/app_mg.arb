@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Manondrana CSV",
+    "pdfExportUnavailable":  "Tsy misy ny fanondranana PDF amin\u0027ity sehatra ity.",
+    "delete":  "Mamafa",
+    "thanksFeedback":  "Misaotra amin\u0027ny hevitrao!",
+    "languageEnglish":  "anglisy",
+    "allDataDeleted":  "Voafafa ny angona rehetra",
+    "language":  "Fiteny",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "Voaondrana soa aman-tsara ny CSV",
+    "onboardingJobsTitle":  "Tatitra momba ny asa sy matihanina maro",
+    "totalEarnings":  "Total karama",
+    "roundUpSubtitle":  "Manodidina ny isa manontolo rehefa mitahiry toro-hevitra",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Hanala tanteraka ny toro-hevitra rehetra voatahiry izany.",
+    "filters":  "sivana",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Fiteny",
+    "darkMode":  "Fomba maizina",
+    "customQuickSubtitle":  "Ahitsio $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "FIAINANY TALOHA",
+    "exportRangeMonth":  "Amin\u0027ity volana ity",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "by MediaWiki",
+    "shareExperience":  "Zarao ny traikefanao",
+    "filterToday":  "ankehitriny",
+    "customQuickLabel":  "fanao",
+    "exportRangeWeek":  "Ity herinandro ity",
+    "tipSaved":  "Soso-kevitra voavonjy",
+    "onboardingContinue":  "FOANA",
+    "onboardingMockCafeSub":  "Mon - Zoma",
+    "entries":  "anglisy",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Salan\u0027ny isan\u0027ora:",
+    "onboardingJobsBody":  "Tantano amin\u0027ny karatra madio ny asa tsirairay ary manondrana famintinana efa vonona amin\u0027ny PDF.",
+    "onboardingPreviewPdf":  "Preview PDF",
+    "noDataFound":  "Tsy misy angona hita",
+    "deleteAllData":  "Fafao ny angona rehetra",
+    "filterYear":  "TAOM-",
+    "navHistory":  "FIAINANY TALOHA",
+    "greetingMorning":  "Salama!",
+    "onboardingProfessionalReports":  "Tatitra matihanina",
+    "averageDayLabel":  "Salan\u0027isa/andro:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Mifandraisa aminay",
+    "exportCsv":  "Manondrana CSV",
+    "navProfile":  "TANTARANY",
+    "navHome":  "an-trano",
+    "quickButtons":  "bokotra haingana",
+    "onboardingMockRestaurantTitle":  "Restaurant Night",
+    "currency":  "Sandam-bola",
+    "onboardingMockRestaurantSub":  "Zoma - Masoandro",
+    "labelToday":  "ankehitriny",
+    "exportRangeToday":  "ankehitriny",
+    "recentEntries":  "Lahatsoratra vao haingana",
+    "pdfReportReady":  "Tatitra PDF vonona hozaraina",
+    "undo":  "Ravao",
+    "onboardingSkip":  "Mifohaza",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "VOLANA",
+    "deleteAll":  "Fafao daholo",
+    "rateApp":  "Naoty app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Joba voavonjy",
+    "cancel":  "hanafoana",
+    "@@locale":  "mg",
+    "exportRangeCustom":  "Kilalao manokana",
+    "exportFrom":  "From: {date}",
+    "export":  "fanondranana",
+    "contactUsLabel":  "Mifandraisa aminay",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Andro tsara indrindra:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Soso-kevitra voafafa (Esory)",
+    "greetingAfternoon":  "Salama!",
+    "roundUp":  "Boriboriana",
+    "onboardingWelcomeTitle":  "TONGA SOA",
+    "reportPdfTooltip":  "Tatitra PDF",
+    "settingsSection":  "Fikirana",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Tsy misy ny fanondranana eto amin\u0027ity sehatra ity.",
+    "quickButtonsUpdated":  "Havaozina ny bokotra haingana",
+    "pdfReports":  "PDF Reports",
+    "supportSection":  "MANAMPY",
+    "filterWeek":  "Herinandro",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Araho ny toro-hevitra rehetra ary mahaiza mifehy ny vola miditra aminao.",
+    "dailySummary":  "Famintinana isan\u0027andro",
+    "rateTheApp":  "Omeo naoty ny app",
+    "noIncomeRecorded":  "Tsy misy fidiram-bola voarakitra amin\u0027ity andro ity. Tsindrio ny + bokotra raha te hanampy iray!",
+    "noTipsYet":  "Tsy mbola misy toro-hevitra. Ampio iray miaraka amin\u0027ireo bokotra etsy ambony.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Torohevitra total:",
+    "addTip":  "+ Ampio Soso-kevitra",
+    "totalEarningsLabel":  "Total vola azo:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 anio",
+    "noTipsToExport":  "Tsy mbola misy toro-hevitra hanondranana.",
+    "noTipsForPeriod":  "Tsy misy toro-hevitra hita ho an\u0027ny fe-potoana voafantina.",
+    "backupTips":  "Tehirizo ny angonao / Avereno ny toro-hevitrao",
+    "jobs":  "Asa",
+    "greetingEvening":  "Salama!",
+    "languageSystemDefault":  "System default",
+    "deleteThisTip":  "Fafao ity toro-hevitra ity?",
+    "deleteAllDataTitle":  "Fafao ny angona rehetra?"
+}

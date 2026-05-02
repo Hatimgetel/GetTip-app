@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Xuất CSV",
+    "pdfExportUnavailable":  "Xuất PDF không có sẵn trên nền tảng này.",
+    "delete":  "Xóa bỏ",
+    "thanksFeedback":  "Cảm ơn phản hồi của bạn!",
+    "languageEnglish":  "Tiếng Anh",
+    "allDataDeleted":  "Tất cả dữ liệu đã bị xóa",
+    "language":  "Ngôn ngữ",
+    "appTitle":  "Trình theo dõi mẹo của tôi",
+    "csvExported":  "Đã xuất CSV thành công",
+    "onboardingJobsTitle":  "Nhiều công việc và báo cáo chuyên nghiệp",
+    "totalEarnings":  "Tổng thu nhập",
+    "roundUpSubtitle":  "Làm tròn số thành số nguyên khi lưu mẹo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Thao tác này sẽ xóa vĩnh viễn tất cả các mẹo đã lưu.",
+    "filters":  "Bộ lọc",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ngôn ngữ",
+    "darkMode":  "Chế độ tối",
+    "customQuickSubtitle":  "Chỉnh sửa $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Lịch sử",
+    "exportRangeMonth":  "Tháng này",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "THỐNG KÊ",
+    "shareExperience":  "Chia sẻ kinh nghiệm của bạn",
+    "filterToday":  "Hôm nay",
+    "customQuickLabel":  "Phong tục",
+    "exportRangeWeek":  "Tuần này",
+    "tipSaved":  "Đã lưu mẹo",
+    "onboardingContinue":  "Tiếp tục",
+    "onboardingMockCafeSub":  "Thứ Hai - Thứ Sáu",
+    "entries":  "Bài dự thi",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tỷ lệ trung bình mỗi giờ:",
+    "onboardingJobsBody":  "Quản lý từng công việc bằng thẻ rõ ràng và xuất bản tóm tắt dưới dạng PDF.",
+    "onboardingPreviewPdf":  "Xem trước PDF",
+    "noDataFound":  "Không tìm thấy dữ liệu",
+    "deleteAllData":  "Xóa tất cả dữ liệu",
+    "filterYear":  "Năm",
+    "navHistory":  "Lịch sử",
+    "greetingMorning":  "Chào buổi sáng!",
+    "onboardingProfessionalReports":  "Báo cáo chuyên môn",
+    "averageDayLabel":  "Trung bình/ngày:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Liên hệ với chúng tôi",
+    "exportCsv":  "Xuất CSV",
+    "navProfile":  "Hồ sơ",
+    "navHome":  "Trang chủ",
+    "quickButtons":  "Các nút nhanh",
+    "onboardingMockRestaurantTitle":  "Đêm nhà hàng",
+    "currency":  "Tiền tệ",
+    "onboardingMockRestaurantSub":  "Thứ sáu - Chủ nhật",
+    "labelToday":  "Hôm nay",
+    "exportRangeToday":  "Hôm nay",
+    "recentEntries":  "Mục nhập gần đây",
+    "pdfReportReady":  "Báo cáo PDF sẵn sàng chia sẻ",
+    "undo":  "Hoàn tác",
+    "onboardingSkip":  "Nhảy",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Tháng",
+    "deleteAll":  "Xóa tất cả",
+    "rateApp":  "Đánh giá ứng dụng",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Đã lưu công việc",
+    "cancel":  "Hủy bỏ",
+    "@@locale":  "vi",
+    "exportRangeCustom":  "Phạm vi tùy chỉnh",
+    "exportFrom":  "From: {date}",
+    "export":  "Xuất khẩu",
+    "contactUsLabel":  "Liên hệ với chúng tôi",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ngày tốt nhất:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Mẹo đã xóa (Hoàn tác)",
+    "greetingAfternoon":  "Chào buổi chiều!",
+    "roundUp":  "làm tròn lên",
+    "onboardingWelcomeTitle":  "Chào mừng",
+    "reportPdfTooltip":  "Báo cáo PDF",
+    "settingsSection":  "CÀI ĐẶT",
+    "languageArabic":  "عربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Xuất không có sẵn trên nền tảng này.",
+    "quickButtonsUpdated":  "Đã cập nhật các nút nhanh",
+    "pdfReports":  "Báo cáo PDF",
+    "supportSection":  "ỦNG HỘ",
+    "filterWeek":  "Tuần",
+    "onboardingMockCafeTitle":  "ca cà phê",
+    "onboardingWelcomeBody":  "Theo dõi mọi mẹo và kiểm soát thu nhập của bạn.",
+    "dailySummary":  "Tóm tắt hàng ngày",
+    "rateTheApp":  "Đánh giá ứng dụng",
+    "noIncomeRecorded":  "Không có thu nhập được ghi nhận cho ngày này. Nhấn vào nút + để thêm một!",
+    "noTipsYet":  "Chưa có lời khuyên nào. Thêm một cái bằng các nút ở trên.",
+    "languageFrench":  "người Pháp",
+    "totalTipsLabel":  "Tổng số tiền tip:",
+    "addTip":  "+ Thêm mẹo",
+    "totalEarningsLabel":  "Tổng thu nhập:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 hôm nay",
+    "noTipsToExport":  "Chưa có mẹo nào để xuất.",
+    "noTipsForPeriod":  "Không tìm thấy lời khuyên nào trong khoảng thời gian đã chọn.",
+    "backupTips":  "Lưu dữ liệu của bạn / Sao lưu mẹo của bạn",
+    "jobs":  "Việc làm",
+    "greetingEvening":  "Buổi tối vui vẻ!",
+    "languageSystemDefault":  "Mặc định hệ thống",
+    "deleteThisTip":  "Xóa mẹo này?",
+    "deleteAllDataTitle":  "Xóa tất cả dữ liệu?"
+}

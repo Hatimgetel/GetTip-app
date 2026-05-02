@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV\u0027yi dışa aktar",
+    "pdfExportUnavailable":  "PDF dışa aktarma bu platformda mevcut değildir.",
+    "delete":  "Silmek",
+    "thanksFeedback":  "Geri bildiriminiz için teşekkürler!",
+    "languageEnglish":  "İngilizce",
+    "allDataDeleted":  "Tüm veriler silindi",
+    "language":  "Dil",
+    "appTitle":  "MyTip Takipçisi",
+    "csvExported":  "CSV başarıyla dışa aktarıldı",
+    "onboardingJobsTitle":  "Çoklu İşler ve Profesyonel Raporlar",
+    "totalEarnings":  "Toplam Kazanç",
+    "roundUpSubtitle":  "İpuçlarını kaydederken yuvarlak tam sayılara karşılık gelir",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bu, kaydedilen tüm ipuçlarını kalıcı olarak kaldıracaktır.",
+    "filters":  "Filtreler",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Dil",
+    "darkMode":  "Karanlık mod",
+    "customQuickSubtitle":  "10$ · 20$ · 50$ Düzenle",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tarih",
+    "exportRangeMonth":  "Bu Ay",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "İSTATİSTİKLER",
+    "shareExperience":  "Deneyiminizi Paylaşın",
+    "filterToday":  "Bugün",
+    "customQuickLabel":  "Gelenek",
+    "exportRangeWeek":  "Bu hafta",
+    "tipSaved":  "İpucu kaydedildi",
+    "onboardingContinue":  "Devam etmek",
+    "onboardingMockCafeSub":  "Pazartesi - Cuma",
+    "entries":  "Girişler",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Ortalama saatlik ücret:",
+    "onboardingJobsBody":  "Her işi temiz kartlarla yönetin ve PDF\u0027ye hazır özetleri dışa aktarın.",
+    "onboardingPreviewPdf":  "PDF\u0027yi önizle",
+    "noDataFound":  "Veri Bulunamadı",
+    "deleteAllData":  "Tüm verileri sil",
+    "filterYear":  "Yıl",
+    "navHistory":  "Tarih",
+    "greetingMorning":  "Günaydın!",
+    "onboardingProfessionalReports":  "Profesyonel Raporlar",
+    "averageDayLabel":  "Ortalama/gün:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Bize Ulaşın",
+    "exportCsv":  "CSV\u0027yi dışa aktar",
+    "navProfile":  "Profil",
+    "navHome":  "Ev",
+    "quickButtons":  "Hızlı düğmeler",
+    "onboardingMockRestaurantTitle":  "Restoran Gecesi",
+    "currency":  "Para birimi",
+    "onboardingMockRestaurantSub":  "Cum - Paz",
+    "labelToday":  "Bugün",
+    "exportRangeToday":  "Bugün",
+    "recentEntries":  "Son girişler",
+    "pdfReportReady":  "PDF raporu paylaşıma hazır",
+    "undo":  "Geri al",
+    "onboardingSkip":  "Atlamak",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ay",
+    "deleteAll":  "Tümünü sil",
+    "rateApp":  "Uygulamayı derecelendir",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "İş kaydedildi",
+    "cancel":  "İptal etmek",
+    "@@locale":  "tr",
+    "exportRangeCustom":  "Özel Aralık",
+    "exportFrom":  "From: {date}",
+    "export":  "İhracat",
+    "contactUsLabel":  "Bize Ulaşın",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "En iyi gün:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "İpucu silindi (Geri al)",
+    "greetingAfternoon":  "Tünaydın!",
+    "roundUp":  "Hesabı yuvarlamak",
+    "onboardingWelcomeTitle":  "Hoş geldin",
+    "reportPdfTooltip":  "PDF\u0027yi bildir",
+    "settingsSection":  "AYARLAR",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Dışa aktarma bu platformda mevcut değildir.",
+    "quickButtonsUpdated":  "Hızlı düğmeler güncellendi",
+    "pdfReports":  "PDF Raporları",
+    "supportSection":  "DESTEK",
+    "filterWeek":  "Hafta",
+    "onboardingMockCafeTitle":  "Kafe Vardiyası",
+    "onboardingWelcomeBody":  "Her ipucunu takip edin ve kazancınızın kontrolünü elinizde tutun.",
+    "dailySummary":  "Günlük Özet",
+    "rateTheApp":  "Uygulamayı derecelendirin",
+    "noIncomeRecorded":  "Bu gün için herhangi bir gelir kaydedilmedi. Bir tane eklemek için + düğmesine dokunun!",
+    "noTipsYet":  "Henüz ipucu yok. Yukarıdaki butonlarla bir tane ekleyin.",
+    "languageFrench":  "Fransızca",
+    "totalTipsLabel":  "Toplam ipuçları:",
+    "addTip":  "+ İpucu Ekle",
+    "totalEarningsLabel":  "Toplam kazanç:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ Bugün",
+    "noTipsToExport":  "Henüz dışa aktarılacak ipucu yok.",
+    "noTipsForPeriod":  "Seçilen dönem için ipucu bulunamadı.",
+    "backupTips":  "Verilerinizi kaydedin / İpuçlarınızı yedekleyin",
+    "jobs":  "İşler",
+    "greetingEvening":  "İyi akşamlar!",
+    "languageSystemDefault":  "Sistem varsayılanı",
+    "deleteThisTip":  "Bu ipucu silinsin mi?",
+    "deleteAllDataTitle":  "Tüm veriler silinsin mi?"
+}

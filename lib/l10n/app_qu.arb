@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV nisqa hawa llaqtakunaman apachiy",
+    "pdfExportUnavailable":  "PDF hawaman apachiyqa manam kay plataformapi kanchu.",
+    "delete":  "Chinkachiy",
+    "thanksFeedback":  "Gracias por tu retroalimentación!",
+    "languageEnglish":  "Ingles Simi",
+    "allDataDeleted":  "Tukuy willaykunata qullushka",
+    "language":  "Simi",
+    "appTitle":  "MyTip Rastreador nisqa",
+    "csvExported":  "CSV allinta hawaman apachisqa",
+    "onboardingJobsTitle":  "Achka Llamkanakuna \u0026 Profesional Willakuykuna",
+    "totalEarnings":  "Llapan Gananciakuna",
+    "roundUpSubtitle":  "Muyuqa hunt\u0027asqa yupaykunamanmi chayan, yuyaychaykunata waqaychaspa",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Kayqa wiñaypaqmi llapa waqaychasqa yuyaychaykunata hurqunqa.",
+    "filters":  "Filtrokuna",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Simi",
+    "darkMode":  "Modo tutayaq",
+    "customQuickSubtitle":  "Llamk\u0027apuy $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Willarina",
+    "exportRangeMonth":  "Kay Killa",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTADOS",
+    "shareExperience":  "Experienciaykita willay",
+    "filterToday":  "Kunan",
+    "customQuickLabel":  "Chullachasqa",
+    "exportRangeWeek":  "Kay Simanapi",
+    "tipSaved":  "Consejo waqaychasqa",
+    "onboardingContinue":  "Qatiq",
+    "onboardingMockCafeSub":  "Lunes - Viernes",
+    "entries":  "Yaykusqakuna",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Promedio sapa hora tarifa:",
+    "onboardingJobsBody":  "Sapa llamk\u0027ayta ch\u0027uya tarjetakunawan kamachiy chaymanta PDF-paq wakichisqa resumenkunata hawaman apachiy.",
+    "onboardingPreviewPdf":  "Ñawpaqta qhaway PDF",
+    "noDataFound":  "Mana Datos Tarisqachu",
+    "deleteAllData":  "Llapan willakuykunata chinkachiy",
+    "filterYear":  "Wata",
+    "navHistory":  "Willarina",
+    "greetingMorning":  "Rimaykullayki!",
+    "onboardingProfessionalReports":  "Profesionalmanta Willakuykuna",
+    "averageDayLabel":  "Chawpi/p\u0027unchaw:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Ñoqaykuwan rimanakuy",
+    "exportCsv":  "CSV nisqa hawa llaqtakunaman apachiy",
+    "navProfile":  "Runapa kaynin",
+    "navHome":  "Wasi",
+    "quickButtons":  "Utqaylla botones",
+    "onboardingMockRestaurantTitle":  "Restaurante Tuta",
+    "currency":  "Kunan",
+    "onboardingMockRestaurantSub":  "Viernes - Inti",
+    "labelToday":  "Kunan",
+    "exportRangeToday":  "Kunan",
+    "recentEntries":  "Kunan pacha qillqakuna",
+    "pdfReportReady":  "PDF willakuyqa listoñam kachkan rakinapaq",
+    "undo":  "Deshacer",
+    "onboardingSkip":  "Paway",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Killa",
+    "deleteAll":  "Llapanta chinkachiy",
+    "rateApp":  "Tarifa app nisqa",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job salvasqa",
+    "cancel":  "Sayachiy",
+    "@@locale":  "qu",
+    "exportRangeCustom":  "Rango Personalizado",
+    "exportFrom":  "From: {date}",
+    "export":  "Hawaman apachiy",
+    "contactUsLabel":  "Ñoqaykuwan rimanakuy",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Aswan allin p\u0027unchaw:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Yuyaychay qullusqa (Deshacer) .",
+    "greetingAfternoon":  "Rimaykullayki!",
+    "roundUp":  "Muyuchiy",
+    "onboardingWelcomeTitle":  "Allinlla chayaykamuy",
+    "reportPdfTooltip":  "Willakuy PDF nisqapi",
+    "settingsSection":  "CONFIGURACIÓN",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Kay plataformapiqa manam hawa llaqtakunaman apachiyqa kanchu.",
+    "quickButtonsUpdated":  "Utqaylla botones musuqyachisqa",
+    "pdfReports":  "PDF Willakuykuna",
+    "supportSection":  "YANAPAKUY",
+    "filterWeek":  "Semana",
+    "onboardingMockCafeTitle":  "Café Turno",
+    "onboardingWelcomeBody":  "Sapa consejota qatipay hinaspa ganasqaykita controlay.",
+    "dailySummary":  "Sapa punchaw Resumen",
+    "rateTheApp":  "Chay app nisqamanta chaninchay",
+    "noIncomeRecorded":  "Kay punchawpaqqa manam qullqi chaskiy qillqasqachu. ¡+ nisqa botonta ñit’iy hukninta yapanaykipaq!",
+    "noTipsYet":  "Manaraqmi consejokuna kanchu. Hukninta yapay hawapi kaq botoneswan.",
+    "languageFrench":  "Français sutiyuq runa",
+    "totalTipsLabel":  "Llapan yuyaychaykuna:",
+    "addTip":  "+ Yanapay Consejo",
+    "totalEarningsLabel":  "Llapan gananciakuna:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Kunan punchaw",
+    "noTipsToExport":  "Manaraqmi consejokuna hawa llaqtakunaman apachinapaq.",
+    "noTipsForPeriod":  "Mana consejokuna tarisqachu akllasqa pachapaq.",
+    "backupTips":  "Datosniyki waqaychay / Consejoykikunata copia de seguridad ruway",
+    "jobs":  "Llamkanakuna",
+    "greetingEvening":  "Rimaykullayki!",
+    "languageSystemDefault":  "Llamkana ñawpaqmanta churasqa",
+    "deleteThisTip":  "¿Kay yuyaychayta chinkachiy?",
+    "deleteAllDataTitle":  "¿Llapan willakuykunata chinkachiy?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Извезете CSV",
+    "pdfExportUnavailable":  "Извозот на PDF не е достапен на оваа платформа.",
+    "delete":  "Избриши",
+    "thanksFeedback":  "Ви благодариме за вашите повратни информации!",
+    "languageEnglish":  "Англиски јазик",
+    "allDataDeleted":  "Сите податоци се избришани",
+    "language":  "Јазик",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV е успешно извезен",
+    "onboardingJobsTitle":  "Повеќе работни места и професионални извештаи",
+    "totalEarnings":  "Вкупна заработка",
+    "roundUpSubtitle":  "Круг изнесува цели броеви кога се зачувуваат бакшишите",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ова трајно ќе ги отстрани сите зачувани совети.",
+    "filters":  "Филтри",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Јазик",
+    "darkMode":  "Темен режим",
+    "customQuickSubtitle":  "Уреди $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Историја",
+    "exportRangeMonth":  "Овој месец",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТИСТИ",
+    "shareExperience":  "Споделете го вашето искуство",
+    "filterToday":  "Денес",
+    "customQuickLabel":  "Прилагодено",
+    "exportRangeWeek":  "Оваа недела",
+    "tipSaved":  "Совет е зачуван",
+    "onboardingContinue":  "Продолжи",
+    "onboardingMockCafeSub":  "Пон - Пет",
+    "entries":  "Записи",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Просечна цена на час:",
+    "onboardingJobsBody":  "Управувајте со секоја работа со чисти картички и извезете резимеа подготвени за PDF.",
+    "onboardingPreviewPdf":  "Преглед на PDF",
+    "noDataFound":  "Не се пронајдени податоци",
+    "deleteAllData":  "Избришете ги сите податоци",
+    "filterYear":  "година",
+    "navHistory":  "Историја",
+    "greetingMorning":  "Добро утро!",
+    "onboardingProfessionalReports":  "Професионални извештаи",
+    "averageDayLabel":  "Просечно/ден:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Контактирајте не",
+    "exportCsv":  "Извезете CSV",
+    "navProfile":  "Профил",
+    "navHome":  "Дома",
+    "quickButtons":  "Брзи копчиња",
+    "onboardingMockRestaurantTitle":  "Ресторан вечер",
+    "currency":  "Валута",
+    "onboardingMockRestaurantSub":  "Пет - Нед",
+    "labelToday":  "Денес",
+    "exportRangeToday":  "Денес",
+    "recentEntries":  "Неодамнешни записи",
+    "pdfReportReady":  "PDF извештај подготвен за споделување",
+    "undo":  "Врати",
+    "onboardingSkip":  "Прескокни",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Месец",
+    "deleteAll":  "Избриши ги сите",
+    "rateApp":  "Оцени ја апликацијата",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Работата е зачувана",
+    "cancel":  "Откажи",
+    "@@locale":  "mk",
+    "exportRangeCustom":  "Прилагоден опсег",
+    "exportFrom":  "From: {date}",
+    "export":  "Извоз",
+    "contactUsLabel":  "Контактирајте не",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Најдобар ден:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Совет е избришан (Врати)",
+    "greetingAfternoon":  "Добро попладне!",
+    "roundUp":  "Заокружи нагоре",
+    "onboardingWelcomeTitle":  "Добредојдовте",
+    "reportPdfTooltip":  "Пријавете PDF",
+    "settingsSection":  "ПОСТАВКИ",
+    "languageArabic":  "Арапски",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Извозот не е достапен на оваа платформа.",
+    "quickButtonsUpdated":  "Брзите копчиња се ажурирани",
+    "pdfReports":  "PDF извештаи",
+    "supportSection":  "ПОДДРШКА",
+    "filterWeek":  "Недела",
+    "onboardingMockCafeTitle":  "Кафе Шифт",
+    "onboardingWelcomeBody":  "Следете го секој бакшиш и останете во контрола на вашата заработка.",
+    "dailySummary":  "Дневно резиме",
+    "rateTheApp":  "Оцени ја апликацијата",
+    "noIncomeRecorded":  "За овој ден не е евидентиран приход. Допрете го копчето + за да додадете едно!",
+    "noTipsYet":  "Сè уште нема совети. Додадете едно со копчињата погоре.",
+    "languageFrench":  "Француски",
+    "totalTipsLabel":  "Вкупно совети:",
+    "addTip":  "+ Додај совет",
+    "totalEarningsLabel":  "Вкупна заработка:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ денес",
+    "noTipsToExport":  "Сè уште нема совети за извоз.",
+    "noTipsForPeriod":  "Не се најдени совети за избраниот период.",
+    "backupTips":  "Зачувајте ги вашите податоци / Направете резервна копија од вашите совети",
+    "jobs":  "Работни места",
+    "greetingEvening":  "Добра вечер!",
+    "languageSystemDefault":  "Стандардно на системот",
+    "deleteThisTip":  "Да се ​​избрише советов?",
+    "deleteAllDataTitle":  "Да се ​​избришат сите податоци?"
+}

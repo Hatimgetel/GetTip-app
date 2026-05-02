@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "އެކްސްޕޯޓް ސީއެސްވީ",
+    "pdfExportUnavailable":  "މި ޕްލެޓްފޯމްގައި ޕީޑީއެފް އެކްސްޕޯޓް ނުކުރެވޭނެއެވެ.",
+    "delete":  "ޑިލީޓް",
+    "thanksFeedback":  "ތިޔަ ދެއްވި ފީޑްބެކަށް ޝުކުރިއްޔާ!",
+    "languageEnglish":  "އިނގިރޭސި",
+    "allDataDeleted":  "ހުރިހާ ޑޭޓާއެއް ޑިލީޓް ކޮށްފިއެވެ",
+    "language":  "ބަސް",
+    "appTitle":  "މައިޓިޕް ޓްރެކަރ އެވެ",
+    "csvExported":  "ސީއެސްވީ ކާމިޔާބުކަމާއެކު އެކްސްޕޯޓް ކުރެވުނެވެ",
+    "onboardingJobsTitle":  "މަލްޓިޕަލް ޖޮބްސް އެންޑް ޕްރޮފެޝަނަލް ރިޕޯޓްސް",
+    "totalEarnings":  "ޖުމްލަ އާމްދަނީ",
+    "roundUpSubtitle":  "ޓިޕްސް ސޭވް ކުރާއިރު ރައުންޑް ވާނީ މުޅި ނަންބަރުތަކަށެވެ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "މިކަމުގެ ސަބަބުން ސޭވްކޮށްފައިވާ ހުރިހާ ޓިޕްސްއެއް ދާއިމީ ގޮތެއްގައި ނައްތާލެވޭނެއެވެ.",
+    "filters":  "ފިލްޓަރސް",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ބަސް",
+    "darkMode":  "ޑާކް މޯޑެވެ",
+    "customQuickSubtitle":  "އެޑިޓް 10 ޑޮލަރު · 20 ޑޮލަރު · 50 ޑޮލަރު",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ތާރީޚް",
+    "exportRangeMonth":  "މިމަހު...",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ސްޓެޓްސް",
+    "shareExperience":  "ތިޔަބޭފުޅުންގެ ތަޖުރިބާ ހިއްސާކުރައްވާށެވެ",
+    "filterToday":  "މިއަދު",
+    "customQuickLabel":  "ސަޤާފަތް",
+    "exportRangeWeek":  "މި ހަފްތާގައި",
+    "tipSaved":  "ޓިޕް ސޭވް ވެއްޖެއެވެ",
+    "onboardingContinue":  "ކުރިއަށްގެންދިޔުން",
+    "onboardingMockCafeSub":  "ހޯމަ - ހުކުރު ދުވަހު",
+    "entries":  "އެންޓްރީތައް",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "އެވްރެޖް ގަޑިއަކު ރޭޓް:",
+    "onboardingJobsBody":  "ކޮންމެ ވަޒީފާއެއް ސާފު ކާޑުތަކުން މެނޭޖްކުރުމާއި ޕީޑީއެފް އަށް ތައްޔާރު ޚުލާސާތައް އެކްސްޕޯޓްކުރުން.",
+    "onboardingPreviewPdf":  "ޕްރިވިއު ޕީޑީއެފް",
+    "noDataFound":  "އެއްވެސް ޑޭޓާއެއް ނުފެނެއެވެ",
+    "deleteAllData":  "ހުރިހާ ޑޭޓާއެއް ޑިލީޓްކުރުން",
+    "filterYear":  "އަހަރު",
+    "navHistory":  "ތާރީޚް",
+    "greetingMorning":  "ބާއްޖެވެރި ހެނދުނެއް!",
+    "onboardingProfessionalReports":  "ޕްރޮފެޝަނަލް ރިޕޯޓްސް",
+    "averageDayLabel":  "އެވްރެޖް/ދުވަސް:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "އަޅުގަނޑުމެންނާ ގުޅާށެވެ",
+    "exportCsv":  "އެކްސްޕޯޓް ސީއެސްވީ",
+    "navProfile":  "ޕްރޮފައިލް",
+    "navHome":  "ގެ",
+    "quickButtons":  "އަވަސް ބަޓަންތަކެވެ",
+    "onboardingMockRestaurantTitle":  "ރެސްޓޯރެންޓް ނައިޓް",
+    "currency":  "ފައިސާ",
+    "onboardingMockRestaurantSub":  "ހުކުރު - އާދީއްތަ",
+    "labelToday":  "މިއަދު",
+    "exportRangeToday":  "މިއަދު",
+    "recentEntries":  "ފަހުގެ އެންޓްރީތަކެވެ",
+    "pdfReportReady":  "ޕީޑީއެފް ރިޕޯޓް ޝެއާ ކުރަން ތައްޔާރަށް",
+    "undo":  "އަންޑޯ",
+    "onboardingSkip":  "ދޫކޮށްލުން",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "މަސް",
+    "deleteAll":  "ހުރިހާ އެއްޗެއް ޑިލީޓް ކުރާށެވެ",
+    "rateApp":  "ރޭޓް އެޕް",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ވަޒީފާ ސަލާމަތް ވެއްޖެއެވެ",
+    "cancel":  "ކެންސަލް",
+    "@@locale":  "dv",
+    "exportRangeCustom":  "ކަސްޓަމް ރޭންޖް",
+    "exportFrom":  "From: {date}",
+    "export":  "އެކްސްޕޯޓް",
+    "contactUsLabel":  "އަޅުގަނޑުމެންނާ ގުޅާށެވެ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "އެންމެ ރަނގަޅު ދުވަސް:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ޓިޕް ޑިލީޓް (އަންޑޯ)",
+    "greetingAfternoon":  "ބާއްޖަވެރި މެންދުރުފަހެއް!",
+    "roundUp":  "ރައުންޑް އަޕް",
+    "onboardingWelcomeTitle":  "މަރުޙަބާ",
+    "reportPdfTooltip":  "ރިޕޯޓް ޕީޑީއެފް",
+    "settingsSection":  "ސެޓިންގސް",
+    "languageArabic":  "العربية އެވެ",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "މި ޕްލެޓްފޯމްގައި އެކްސްޕޯޓް ކުރެވޭނެ ގޮތެއް ނެތެވެ.",
+    "quickButtonsUpdated":  "އަވަސް ބަޓަންތައް އަޕްޑޭޓް ވެއްޖެއެވެ",
+    "pdfReports":  "ޕީޑީއެފް ރިޕޯޓްސް",
+    "supportSection":  "ހިތްވަރު",
+    "filterWeek":  "ހަފްތާ",
+    "onboardingMockCafeTitle":  "ކެފޭ ޝިފްޓް",
+    "onboardingWelcomeBody":  "ކޮންމެ ޓިޕެއް ޓްރެކްކޮށް އާމްދަނީ ކޮންޓްރޯލް ކޮށްގެން ތިބޭށެވެ.",
+    "dailySummary":  "ދުވަހުން ދުވަހަށް ޚުލާސާ",
+    "rateTheApp":  "އެޕް ރޭޓް ކުރާށެވެ",
+    "noIncomeRecorded":  "މިދުވަހުގެ އާމްދަނީއެއް ރެކޯޑްކުރެވިފައެއް ނުވެއެވެ. އެއްޗެއް އިތުރު ކުރުމަށް + ބަޓަން އަށް ފިތާލާށެވެ!",
+    "noTipsYet":  "އަދި ޓިޕްސްއެއް ނެތެވެ. މަތީގައިވާ ބަޓަންތަކާއެކު އެއްޗެއް އަޅާށެވެ.",
+    "languageFrench":  "ފްރާންސެއިސް އެވެ",
+    "totalTipsLabel":  "ޖުމްލަ އިރުޝާދުތައް:",
+    "addTip":  "+ ޓިޕް އެޑްކުރުން",
+    "totalEarningsLabel":  "ޖުމްލަ އާމްދަނީ:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 މިއަދު",
+    "noTipsToExport":  "އެކްސްޕޯޓް ކުރުމަށް އަދި ޓިޕްސްއެއް ނެތެވެ.",
+    "noTipsForPeriod":  "ހޮވާފައިވާ މުއްދަތަކަށް އެއްވެސް ޓިޕްސްއެއް ނުފެނެއެވެ.",
+    "backupTips":  "ޑޭޓާ ސޭވްކުރުން / ޓިޕްސް ބެކަޕްކުރުން",
+    "jobs":  "ވަޒީފާ",
+    "greetingEvening":  "ބާއްޖަވެރި ހަވީރެއް!",
+    "languageSystemDefault":  "ސިސްޓަމް ޑިފޯލްޓް",
+    "deleteThisTip":  "މި ޓިޕް ޑިލީޓް ކޮށްލަންތަ؟",
+    "deleteAllDataTitle":  "ހުރިހާ ޑޭޓާއެއް ޑިލީޓް ކުރަންވީތަ؟"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Kohereza CSV",
+    "pdfExportUnavailable":  "PDF yohereza hanze ntabwo iboneka kururu rubuga.",
+    "delete":  "Siba",
+    "thanksFeedback":  "Urakoze kubitekerezo byawe!",
+    "languageEnglish":  "Icyongereza",
+    "allDataDeleted":  "Amakuru yose yasibwe",
+    "language":  "Ururimi",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV yoherejwe neza",
+    "onboardingJobsTitle":  "Imirimo myinshi \u0026 Raporo Yumwuga",
+    "totalEarnings":  "Amafaranga yinjiza yose",
+    "roundUpSubtitle":  "Uruziga rugera kumibare yose mugihe uzigama inama",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ibi bizakuraho burundu inama zose zabitswe.",
+    "filters":  "Muyunguruzi",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ururimi",
+    "darkMode":  "Uburyo bwijimye",
+    "customQuickSubtitle":  "Hindura $ 10 · $ 20 · $ 50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Amateka",
+    "exportRangeMonth":  "Uku kwezi",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "Imibare",
+    "shareExperience":  "Sangira Ubunararibonye bwawe",
+    "filterToday":  "Uyu munsi",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Muri iki cyumweru",
+    "tipSaved":  "Inama yakijijwe",
+    "onboardingContinue":  "Komeza",
+    "onboardingMockCafeSub":  "Ukwezi - Kuwa",
+    "entries":  "Ibyinjira",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Ikigereranyo cy\u0027isaha:",
+    "onboardingJobsBody":  "Gucunga buri murimo ukoresheje amakarita asukuye kandi wohereze incamake ya PDF.",
+    "onboardingPreviewPdf":  "Reba PDF",
+    "noDataFound":  "Nta makuru yabonetse",
+    "deleteAllData":  "Siba amakuru yose",
+    "filterYear":  "Umwaka",
+    "navHistory":  "Amateka",
+    "greetingMorning":  "Mwaramutse!",
+    "onboardingProfessionalReports":  "Raporo Yumwuga",
+    "averageDayLabel":  "Impuzandengo / umunsi:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Twandikire",
+    "exportCsv":  "Kohereza CSV",
+    "navProfile":  "Umwirondoro",
+    "navHome":  "Murugo",
+    "quickButtons":  "Utubuto twihuse",
+    "onboardingMockRestaurantTitle":  "Ijoro rya Restaurant",
+    "currency":  "Ifaranga",
+    "onboardingMockRestaurantSub":  "Ku wa gatanu - Izuba",
+    "labelToday":  "Uyu munsi",
+    "exportRangeToday":  "Uyu munsi",
+    "recentEntries":  "Ibyanditswe vuba aha",
+    "pdfReportReady":  "Raporo ya PDF yiteguye gusangira",
+    "undo":  "Kuraho",
+    "onboardingSkip":  "Simbuka",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ukwezi",
+    "deleteAll":  "Siba byose",
+    "rateApp":  "Gereranya porogaramu",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job yarakijijwe",
+    "cancel":  "Kureka",
+    "@@locale":  "rw",
+    "exportRangeCustom":  "Urutonde rwumukiriya",
+    "exportFrom":  "From: {date}",
+    "export":  "Kohereza hanze",
+    "contactUsLabel":  "Twandikire",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Umunsi mwiza:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Inama yasibwe (Gusubiramo)",
+    "greetingAfternoon":  "Mwaramutse!",
+    "roundUp":  "Kuzamuka",
+    "onboardingWelcomeTitle":  "Murakaza neza",
+    "reportPdfTooltip":  "Tanga PDF",
+    "settingsSection":  "GUKORA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Kwohereza hanze ntabwo biboneka kururu rubuga.",
+    "quickButtonsUpdated":  "Utubuto twihuse twavuguruwe",
+    "pdfReports":  "Raporo ya PDF",
+    "supportSection":  "INKUNGA",
+    "filterWeek":  "Icyumweru",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Kurikirana buri nama kandi ugume kugenzura ibyo winjiza.",
+    "dailySummary":  "Incamake ya buri munsi",
+    "rateTheApp":  "Gereranya porogaramu",
+    "noIncomeRecorded":  "Nta musaruro wanditswe kuri uyumunsi. Kanda buto + kugirango wongereho imwe!",
+    "noTipsYet":  "Nta nama. Ongeraho imwe hamwe na buto hejuru.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Inama zose:",
+    "addTip":  "Ongeraho Inama",
+    "totalEarningsLabel":  "Amafaranga yinjiza yose:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Uyu munsi",
+    "noTipsToExport":  "Nta nama zo kohereza hanze.",
+    "noTipsForPeriod":  "Nta nama zabonetse mugihe cyatoranijwe.",
+    "backupTips":  "Bika amakuru yawe / Wibike inama zawe",
+    "jobs":  "Akazi",
+    "greetingEvening":  "Umugoroba mwiza!",
+    "languageSystemDefault":  "Sisitemu isanzwe",
+    "deleteThisTip":  "Siba iyi nama?",
+    "deleteAllDataTitle":  "Gusiba amakuru yose?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksport CSV",
+    "pdfExportUnavailable":  "Eksport PDF tidak tersedia pada platform ini.",
+    "delete":  "Padam",
+    "thanksFeedback":  "Terima kasih atas maklum balas anda!",
+    "languageEnglish":  "Inggeris",
+    "allDataDeleted":  "Semua data dipadamkan",
+    "language":  "Bahasa",
+    "appTitle":  "Penjejak Petua Saya",
+    "csvExported":  "CSV berjaya dieksport",
+    "onboardingJobsTitle":  "Pelbagai Pekerjaan \u0026 Laporan Profesional",
+    "totalEarnings":  "Jumlah Pendapatan",
+    "roundUpSubtitle":  "Bundarkan kepada nombor bulat apabila menyimpan petua",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ini akan mengalih keluar semua petua yang disimpan secara kekal.",
+    "filters":  "Penapis",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Bahasa",
+    "darkMode":  "Mod gelap",
+    "customQuickSubtitle":  "Edit $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Sejarah",
+    "exportRangeMonth":  "Bulan ini",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Kongsi Pengalaman Anda",
+    "filterToday":  "Hari ini",
+    "customQuickLabel":  "Adat",
+    "exportRangeWeek":  "Minggu ini",
+    "tipSaved":  "Petua disimpan",
+    "onboardingContinue":  "teruskan",
+    "onboardingMockCafeSub":  "Isn - Jum",
+    "entries":  "Entri",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Purata kadar setiap jam:",
+    "onboardingJobsBody":  "Urus setiap kerja dengan kad bersih dan eksport ringkasan sedia PDF.",
+    "onboardingPreviewPdf":  "Pratonton PDF",
+    "noDataFound":  "Tiada Data Ditemui",
+    "deleteAllData":  "Padam semua data",
+    "filterYear":  "tahun",
+    "navHistory":  "Sejarah",
+    "greetingMorning":  "Selamat Pagi!",
+    "onboardingProfessionalReports":  "Laporan Profesional",
+    "averageDayLabel":  "Purata/hari:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Hubungi kami",
+    "exportCsv":  "Eksport CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Rumah",
+    "quickButtons":  "Butang pantas",
+    "onboardingMockRestaurantTitle":  "Malam Restoran",
+    "currency":  "mata wang",
+    "onboardingMockRestaurantSub":  "Jum - Ahad",
+    "labelToday":  "Hari ini",
+    "exportRangeToday":  "Hari ini",
+    "recentEntries":  "Entri terbaru",
+    "pdfReportReady":  "Laporan PDF sedia untuk dikongsi",
+    "undo":  "Buat asal",
+    "onboardingSkip":  "Langkau",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "bulan",
+    "deleteAll":  "Padam semua",
+    "rateApp":  "Nilaikan apl",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Kerja disimpan",
+    "cancel":  "Batal",
+    "@@locale":  "ms",
+    "exportRangeCustom":  "Julat Tersuai",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksport",
+    "contactUsLabel":  "Hubungi kami",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Hari terbaik:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Petua dipadamkan (Buat asal)",
+    "greetingAfternoon":  "Selamat Petang!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Selamat datang",
+    "reportPdfTooltip":  "Laporkan PDF",
+    "settingsSection":  "TETAPAN",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksport tidak tersedia pada platform ini.",
+    "quickButtonsUpdated":  "Butang pantas dikemas kini",
+    "pdfReports":  "Laporan PDF",
+    "supportSection":  "SOKONGAN",
+    "filterWeek":  "Minggu",
+    "onboardingMockCafeTitle":  "Anjakan Kafe",
+    "onboardingWelcomeBody":  "Jejaki setiap petua dan kekal mengawal pendapatan anda.",
+    "dailySummary":  "Ringkasan Harian",
+    "rateTheApp":  "Nilaikan apl",
+    "noIncomeRecorded":  "Tiada pendapatan direkodkan untuk hari ini. Ketik butang + untuk menambah satu!",
+    "noTipsYet":  "Tiada petua lagi. Tambah satu dengan butang di atas.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Jumlah petua:",
+    "addTip":  "+ Tambah Petua",
+    "totalEarningsLabel":  "Jumlah pendapatan:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Hari ini",
+    "noTipsToExport":  "Tiada petua untuk mengeksport lagi.",
+    "noTipsForPeriod":  "Tiada petua ditemui untuk tempoh yang dipilih.",
+    "backupTips":  "Simpan data anda / Sandarkan petua anda",
+    "jobs":  "Pekerjaan",
+    "greetingEvening":  "Selamat Petang!",
+    "languageSystemDefault":  "Sistem lalai",
+    "deleteThisTip":  "Padamkan petua ini?",
+    "deleteAllDataTitle":  "Padamkan semua data?"
+}

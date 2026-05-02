@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV eksport ediň",
+    "pdfExportUnavailable":  "Bu platformada PDF eksporty elýeterli däl.",
+    "delete":  "Öçür",
+    "thanksFeedback":  "Pikirleriňiz üçin sag boluň!",
+    "languageEnglish":  "Iňlis",
+    "allDataDeleted":  "Datahli maglumatlar öçürildi",
+    "language":  "Dil",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV üstünlikli eksport edildi",
+    "onboardingJobsTitle":  "Birnäçe iş we hünär hasabaty",
+    "totalEarnings":  "Jemi girdeji",
+    "roundUpSubtitle":  "Maslahatlary tygşytlanyňyzda tegelek mukdarlar",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bu, saklanan ähli maslahatlary hemişelik aýyrar.",
+    "filters":  "Süzgüçler",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Dil",
+    "darkMode":  "Garaňky re .im",
+    "customQuickSubtitle":  "$ 10 · 20 $ 50 $ redaktirläň",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Taryh",
+    "exportRangeMonth":  "Bu aý",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "Statistikalar",
+    "shareExperience":  "Tejribäňizi paýlaşyň",
+    "filterToday":  "Bu gün",
+    "customQuickLabel":  "Omörite",
+    "exportRangeWeek":  "Bu hepde",
+    "tipSaved":  "Maslahat ýatda saklandy",
+    "onboardingContinue":  "Dowam et",
+    "onboardingMockCafeSub":  "Duş - Juma",
+    "entries":  "Triesazgylar",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Ortaça sagatlyk nyrh:",
+    "onboardingJobsBody":  "Her işi arassa kartoçkalar bilen dolandyryň we PDF taýýar gysgaça mazmuny eksport ediň.",
+    "onboardingPreviewPdf":  "PDF gözden geçiriň",
+    "noDataFound":  "Maglumat tapylmady",
+    "deleteAllData":  "Datahli maglumatlary pozuň",
+    "filterYear":  ".Yl",
+    "navHistory":  "Taryh",
+    "greetingMorning":  "Ertiriňiz haýyrly bolsun!",
+    "onboardingProfessionalReports":  "Hünär hasabaty",
+    "averageDayLabel":  "Ortaça / gün:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Biz bilen habarlaşyň",
+    "exportCsv":  "CSV eksport ediň",
+    "navProfile":  "Profil",
+    "navHome":  "Öý",
+    "quickButtons":  "Çalt düwmeler",
+    "onboardingMockRestaurantTitle":  "Restoran gijesi",
+    "currency":  "Walýuta",
+    "onboardingMockRestaurantSub":  "Juma - Gün",
+    "labelToday":  "Bu gün",
+    "exportRangeToday":  "Bu gün",
+    "recentEntries":  "Soňky ýazgylar",
+    "pdfReportReady":  "Paýlaşmaga taýyn PDF hasabaty",
+    "undo":  "Yza gaýtar",
+    "onboardingSkip":  "Geçmek",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Aý",
+    "deleteAll":  "Hemmesini poz",
+    "rateApp":  "Programma bahasy",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Iş halas edildi",
+    "cancel":  "Elatyr",
+    "@@locale":  "tk",
+    "exportRangeCustom":  "Omörite aralyk",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksport",
+    "contactUsLabel":  "Biz bilen habarlaşyň",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Iň gowy gün:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Maslahat öçürildi (Yza gaýtarmak)",
+    "greetingAfternoon":  "Günüňiz haýyrly bolsun!",
+    "roundUp":  "Tegelek",
+    "onboardingWelcomeTitle":  "Hoş geldiňiz",
+    "reportPdfTooltip":  "PDF hasabat beriň",
+    "settingsSection":  "GURAMALAR",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Bu platformada eksport elýeterli däl.",
+    "quickButtonsUpdated":  "Çalt düwmeler täzelendi",
+    "pdfReports":  "PDF hasabatlary",
+    "supportSection":  "Goldaw",
+    "filterWeek":  "Hepde",
+    "onboardingMockCafeTitle":  "Kafe çalşygy",
+    "onboardingWelcomeBody":  "Her maslahaty yzarlaň we girdejiňize gözegçilik ediň.",
+    "dailySummary":  "Gündelik gysgaça mazmun",
+    "rateTheApp":  "Programmany baha beriň",
+    "noIncomeRecorded":  "Bu gün üçin girdeji hasaba alynmady. Birini goşmak üçin + düwmesine basyň!",
+    "noTipsYet":  "Entek maslahat ýok. Aboveokardaky düwmeler bilen birini goşuň.",
+    "languageFrench":  "Fransuz",
+    "totalTipsLabel":  "Jemi maslahatlar:",
+    "addTip":  "Maslahat goşuň",
+    "totalEarningsLabel":  "Jemi girdeji:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Şu gün $ 245.00",
+    "noTipsToExport":  "Entek eksport etmek üçin maslahat ýok.",
+    "noTipsForPeriod":  "Saýlanan döwür üçin maslahat tapylmady.",
+    "backupTips":  "Maglumatlaryňyzy ýazdyryň / Maslahatlaryňyzy ätiýaçlaň",
+    "jobs":  "Işler",
+    "greetingEvening":  "Agşamyňyz haýyrly bolsun!",
+    "languageSystemDefault":  "Ulgam deslapky",
+    "deleteThisTip":  "Bu maslahaty pozuň?",
+    "deleteAllDataTitle":  "Datahli maglumatlary pozuň?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ukat yaqha markanakar apañataki",
+    "pdfExportUnavailable":  "PDF export ukax janiw aka plataformanx utjkiti.",
+    "delete":  "Phiskhsuña",
+    "thanksFeedback":  "¡Jumanakan amuyunakamat yuspajarapxsma!",
+    "languageEnglish":  "inklisa",
+    "allDataDeleted":  "Taqi datos ukanakax chhaqtayatawa",
+    "language":  "Aru",
+    "appTitle":  "MyTip ukax mä juk’a pachanakanwa",
+    "csvExported":  "CSV ukax wali sumaw aljasi",
+    "onboardingJobsTitle":  "Walja Irnaqawinaka \u0026 Profesional Yatiyawinaka",
+    "totalEarnings":  "Taqi Qullqi jikxatatanaka",
+    "roundUpSubtitle":  "Muyuñanakax taqpach jakhüwinakaruw puri, kunawsatix iwxt’anak imañax utjki ukhaxa",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ukhamatwa wiñayatak taqi qhispiyat iwxt’anak apsusini.",
+    "filters":  "Filtros ukanaka",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Aru",
+    "darkMode":  "Ch’amaka modalidad",
+    "customQuickSubtitle":  "Ukax $10 · $20 · $50 ukhawa",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Isturya",
+    "exportRangeMonth":  "Aka Phaxsi",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTADADOS ukat juk’ampinaka",
+    "shareExperience":  "Experienciamat yatiyañamawa",
+    "filterToday":  "Jichhüru",
+    "customQuickLabel":  "Isinaka",
+    "exportRangeWeek":  "Aka Simananxa",
+    "tipSaved":  "Tip ukax qhispiyatawa",
+    "onboardingContinue":  "Sarantaña",
+    "onboardingMockCafeSub":  "Lunes - Viernes urukama",
+    "entries":  "Uñt’ayatanaka",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Promedio horario ukax akhamawa:",
+    "onboardingJobsBody":  "Sapa irnaqawi q’uma tarjetanakampi apnaqaña ukhamaraki PDF wakicht’ata suma qhananchawinaka apsuña.",
+    "onboardingPreviewPdf":  "Nayraqata PDF uñakipt’aña",
+    "noDataFound":  "Janiw Datos ukanakax jikxataskiti",
+    "deleteAllData":  "Taqi datos ukanaka chhaqtayaña",
+    "filterYear":  "Mara",
+    "navHistory":  "Isturya",
+    "greetingMorning":  "Aski alwakipana!",
+    "onboardingProfessionalReports":  "Profesional ukan yatiyawinakapa",
+    "averageDayLabel":  "Promedio/uru: 1.1.",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Jiwasampiw aruskipt’apxañäni",
+    "exportCsv":  "CSV ukat yaqha markanakar apañataki",
+    "navProfile":  "Pirfila",
+    "navHome":  "Uta",
+    "quickButtons":  "Jank’akiw botones ukanakax utji",
+    "onboardingMockRestaurantTitle":  "Restaurante Arumax manq’añ uta",
+    "currency":  "Sinsillu",
+    "onboardingMockRestaurantSub":  "Viernes - Inti uru",
+    "labelToday":  "Jichhüru",
+    "exportRangeToday":  "Jichhüru",
+    "recentEntries":  "Jichha pacha qillqt’atanaka",
+    "pdfReportReady":  "PDF yatiyawix wakicht’atawa uñt’ayañataki",
+    "undo":  "Ukax mä juk’a pachanakanwa",
+    "onboardingSkip":  "Willikipaña",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Phaxsi",
+    "deleteAll":  "Taqi ukanak chhaqtayaña",
+    "rateApp":  "Tarifa ukax app ukawa",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job chachajj qhespiyatäjjänwa",
+    "cancel":  "Kansilaña",
+    "@@locale":  "ay",
+    "exportRangeCustom":  "Ukax mä juk’a pachanakanwa",
+    "exportFrom":  "From: {date}",
+    "export":  "Apayaña",
+    "contactUsLabel":  "Jiwasampiw aruskipt’apxañäni",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Wali suma uru:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Iwxt’awix chhaqtayatawa (Undo) .",
+    "greetingAfternoon":  "Aski jayp\u0027u!",
+    "roundUp":  "Muyuñani",
+    "onboardingWelcomeTitle":  "Aski jutäwi",
+    "reportPdfTooltip":  "Yatiyawi PDF",
+    "settingsSection":  "UTJAWIPA",
+    "languageArabic":  "العربية ukax mä juk’a pachanakanwa",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Exportación ukax janiw aka plataformanx utjkiti.",
+    "quickButtonsUpdated":  "Jank’akiw botones ukanakax machaqar tukuyata",
+    "pdfReports":  "PDF Yatiyawinaka",
+    "supportSection":  "SUPURTAÑA",
+    "filterWeek":  "Simana",
+    "onboardingMockCafeTitle":  "Café Turno ukax mä juk’a pachanakanwa",
+    "onboardingWelcomeBody":  "Sapa iwxt’anak arknaqañamawa ukat qullqi jikxatatanakam apnaqañamawa.",
+    "dailySummary":  "Sapa uru Suma qhanañcht’awi",
+    "rateTheApp":  "Uka app ukar uñt’ayaña",
+    "noIncomeRecorded":  "Aka urutakix janiw qullqix qillqantatäkiti. ¡+ botón ukar ch’iqt’am mä yapxatañataki!",
+    "noTipsYet":  "Janiw kuna iwxt’anakas utjkiti. Mä yapxataña ukatsti uka botonanakampi.",
+    "languageFrench":  "Français sat jilataw ukham luräna",
+    "totalTipsLabel":  "Taqi kuna iwxt’anaka:",
+    "addTip":  "+ Iwxt’awi yapxataña",
+    "totalEarningsLabel":  "Taqi qullqix akhamawa:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Jichhürunakanxa",
+    "noTipsToExport":  "Janiw kuna iwxt’anakas exportación ukatakix utjkiti.",
+    "noTipsForPeriod":  "Janiw kuna iwxt’anakas ajllit pachatakix jikxataskiti.",
+    "backupTips":  "Datos ukanaka imaña / Copia de seguridad uka iwxt’awinaka",
+    "jobs":  "Irnaqawinaka",
+    "greetingEvening":  "Aski arumaki!",
+    "languageSystemDefault":  "Sistema ukax default ukhamawa",
+    "deleteThisTip":  "¿Aka iwxt’a chhaqtayaña?",
+    "deleteAllDataTitle":  "Taqi datos chhaqtayaña?"
+}

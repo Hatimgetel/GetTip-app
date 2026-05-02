@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV برآمد کریں۔",
+    "pdfExportUnavailable":  "پی ڈی ایف ایکسپورٹ اس پلیٹ فارم پر دستیاب نہیں ہے۔",
+    "delete":  "حذف کریں۔",
+    "thanksFeedback":  "آپ کی رائے کا شکریہ!",
+    "languageEnglish":  "انگریزی",
+    "allDataDeleted":  "تمام ڈیٹا حذف کر دیا گیا۔",
+    "language":  "زبان",
+    "appTitle":  "مائی ٹِپ ٹریکر",
+    "csvExported":  "CSV کامیابی کے ساتھ برآمد ہو گیا۔",
+    "onboardingJobsTitle":  "متعدد ملازمتیں اور پیشہ ورانہ رپورٹس",
+    "totalEarnings":  "کل آمدنی",
+    "roundUpSubtitle":  "ٹپس کو محفوظ کرتے وقت مکمل نمبروں پر گول رقوم",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "یہ تمام محفوظ کردہ تجاویز کو مستقل طور پر ہٹا دے گا۔",
+    "filters":  "فلٹرز",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "زبان",
+    "darkMode":  "ڈارک موڈ",
+    "customQuickSubtitle":  "$10 · $20 · $50 میں ترمیم کریں۔",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تاریخ",
+    "exportRangeMonth":  "اس مہینے",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "اعداد و شمار",
+    "shareExperience":  "اپنا تجربہ شیئر کریں۔",
+    "filterToday":  "آج",
+    "customQuickLabel":  "حسب ضرورت",
+    "exportRangeWeek":  "اس ہفتے",
+    "tipSaved":  "ٹپ محفوظ ہو گئی۔",
+    "onboardingContinue":  "جاری رکھیں",
+    "onboardingMockCafeSub":  "پیر - جمعہ",
+    "entries":  "اندراجات",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "اوسط فی گھنٹہ کی شرح:",
+    "onboardingJobsBody":  "کلین کارڈز کے ساتھ ہر کام کا نظم کریں اور PDF کے لیے تیار خلاصے برآمد کریں۔",
+    "onboardingPreviewPdf":  "پی ڈی ایف کا پیش نظارہ کریں۔",
+    "noDataFound":  "کوئی ڈیٹا نہیں ملا",
+    "deleteAllData":  "تمام ڈیٹا کو حذف کریں۔",
+    "filterYear":  "سال",
+    "navHistory":  "تاریخ",
+    "greetingMorning":  "صبح بخیر!",
+    "onboardingProfessionalReports":  "پیشہ ورانہ رپورٹس",
+    "averageDayLabel":  "اوسط/دن:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ہم سے رابطہ کریں۔",
+    "exportCsv":  "CSV برآمد کریں۔",
+    "navProfile":  "پروفائل",
+    "navHome":  "گھر",
+    "quickButtons":  "فوری بٹن",
+    "onboardingMockRestaurantTitle":  "ریستوراں کی رات",
+    "currency":  "کرنسی",
+    "onboardingMockRestaurantSub":  "جمعہ - اتوار",
+    "labelToday":  "آج",
+    "exportRangeToday":  "آج",
+    "recentEntries":  "حالیہ اندراجات",
+    "pdfReportReady":  "پی ڈی ایف رپورٹ شیئر کرنے کے لیے تیار ہے۔",
+    "undo":  "کالعدم",
+    "onboardingSkip":  "چھوڑیں۔",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "مہینہ",
+    "deleteAll":  "سب کو حذف کریں۔",
+    "rateApp":  "ایپ کی درجہ بندی کریں۔",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "نوکری بچ گئی۔",
+    "cancel":  "منسوخ کریں۔",
+    "@@locale":  "ur",
+    "exportRangeCustom":  "اپنی مرضی کی حد",
+    "exportFrom":  "From: {date}",
+    "export":  "برآمد کریں۔",
+    "contactUsLabel":  "ہم سے رابطہ کریں۔",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "بہترین دن:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ٹپ حذف کر دی گئی (واپس کریں)",
+    "greetingAfternoon":  "گڈ دوپہر!",
+    "roundUp":  "راؤنڈ اپ",
+    "onboardingWelcomeTitle":  "خوش آمدید",
+    "reportPdfTooltip":  "پی ڈی ایف کی رپورٹ کریں۔",
+    "settingsSection":  "سیٹنگز",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "اس پلیٹ فارم پر ایکسپورٹ دستیاب نہیں ہے۔",
+    "quickButtonsUpdated":  "فوری بٹن اپ ڈیٹ ہو گئے۔",
+    "pdfReports":  "پی ڈی ایف رپورٹس",
+    "supportSection":  "سپورٹ",
+    "filterWeek":  "ہفتہ",
+    "onboardingMockCafeTitle":  "کیفے شفٹ",
+    "onboardingWelcomeBody":  "ہر ٹپ کو ٹریک کریں اور اپنی کمائی پر قابو رکھیں۔",
+    "dailySummary":  "روزانہ کا خلاصہ",
+    "rateTheApp":  "ایپ کی درجہ بندی کریں۔",
+    "noIncomeRecorded":  "اس دن کے لیے کوئی آمدنی ریکارڈ نہیں کی گئی۔ ایک شامل کرنے کے لیے + بٹن کو تھپتھپائیں!",
+    "noTipsYet":  "ابھی تک کوئی ٹپس نہیں۔ اوپر والے بٹنوں کے ساتھ ایک شامل کریں۔",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "کل تجاویز:",
+    "addTip":  "+ ٹپ شامل کریں۔",
+    "totalEarningsLabel":  "کل آمدنی:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 آج",
+    "noTipsToExport":  "برآمد کرنے کے لیے ابھی تک کوئی ٹپس نہیں۔",
+    "noTipsForPeriod":  "منتخب مدت کے لیے کوئی نکات نہیں ملے۔",
+    "backupTips":  "اپنا ڈیٹا محفوظ کریں / اپنی تجاویز کا بیک اپ لیں۔",
+    "jobs":  "نوکریاں",
+    "greetingEvening":  "شب بخیر!",
+    "languageSystemDefault":  "سسٹم ڈیفالٹ",
+    "deleteThisTip":  "اس ٹپ کو حذف کریں؟",
+    "deleteAllDataTitle":  "تمام ڈیٹا حذف کریں؟"
+}

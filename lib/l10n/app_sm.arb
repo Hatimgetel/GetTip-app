@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Lafo i fafo CSV",
+    "pdfExportUnavailable":  "E le maua le PDF export i luga o lenei tulaga.",
+    "delete":  "Aveese",
+    "thanksFeedback":  "Faafetai mo lou finagalo faaalia!",
+    "languageEnglish":  "Igilisi",
+    "allDataDeleted":  "Ua tape uma fa\u0027amaumauga",
+    "language":  "Gagana",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "Manuia le auina atu o le CSV",
+    "onboardingJobsTitle":  "Tele Galuega \u0026 Lipoti Faapolofesa",
+    "totalEarnings":  "Aofa\u0027i Tupe Maua",
+    "roundUpSubtitle":  "Ole fa\u0027ata\u0027amilosaga e fa\u0027atatau ile numera atoa pe a teu fa\u0027amatalaga",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ole mea lea ole a aveesea tumau uma fautuaga ua teuina.",
+    "filters":  "Filifiliga",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Gagana",
+    "darkMode":  "Faiga pogisa",
+    "customQuickSubtitle":  "Fa\u0027atonu $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tala\u0027aga",
+    "exportRangeMonth":  "Le Masina Lenei",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Faasoa Atu Lou Aafiaga",
+    "filterToday":  "I aso nei",
+    "customQuickLabel":  "Aganuu",
+    "exportRangeWeek":  "Ole Vaiaso lenei",
+    "tipSaved":  "Fa\u0027asaoina le fautuaga",
+    "onboardingContinue":  "Fa\u0027aauau",
+    "onboardingMockCafeSub":  "Mon - Aso Sa",
+    "entries":  "Fa\u0027amaumauga",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Fua Faatatau ile itula:",
+    "onboardingJobsBody":  "Puleaina galuega taitasi i kata mama ma auina atu i fafo otootoga ua saunia PDF.",
+    "onboardingPreviewPdf":  "Fa\u0027ailo PDF",
+    "noDataFound":  "Leai Faamatalaga Maua",
+    "deleteAllData":  "Aveese uma faʻamatalaga",
+    "filterYear":  "Tausaga",
+    "navHistory":  "Tala\u0027aga",
+    "greetingMorning":  "Manuia le taeao!",
+    "onboardingProfessionalReports":  "Lipoti Faapolofesa",
+    "averageDayLabel":  "averesi/aso:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Faafesootai matou",
+    "exportCsv":  "Lafo i fafo CSV",
+    "navProfile":  "Tala\u0027aga",
+    "navHome":  "Aiga",
+    "quickButtons":  "Fa\u0027amau fa\u0027avave",
+    "onboardingMockRestaurantTitle":  "Faleaiga Po",
+    "currency":  "Tupe",
+    "onboardingMockRestaurantSub":  "Aso Faraile - La",
+    "labelToday":  "I aso nei",
+    "exportRangeToday":  "I aso nei",
+    "recentEntries":  "Fa\u0027amaumauga lata mai",
+    "pdfReportReady":  "Lipoti PDF ua sauni e fa\u0027asoa",
+    "undo":  "Tatala",
+    "onboardingSkip":  "Fa\u0027ase\u0027e",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Masina",
+    "deleteAll":  "Aveese uma",
+    "rateApp":  "Fa\u0027atatau le app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Na faasaoina Iopu",
+    "cancel":  "Fa\u0027aleaogaina",
+    "@@locale":  "sm",
+    "exportRangeCustom":  "Tulaga Fa\u0027apitoa",
+    "exportFrom":  "From: {date}",
+    "export":  "Lafoa\u0027i atu",
+    "contactUsLabel":  "Faafesootai matou",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Aso sili ona lelei:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Motuga ua tape (Tala)",
+    "greetingAfternoon":  "Manuia le aoauli!",
+    "roundUp":  "Fa\u0027ata\u0027amilo i luga",
+    "onboardingWelcomeTitle":  "Afio mai",
+    "reportPdfTooltip":  "Lipoti PDF",
+    "settingsSection":  "FA\u0027ATUGA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "E le maua le auina atu i fafo i luga o lenei tulaga.",
+    "quickButtonsUpdated":  "Fa\u0027afou faamau vave",
+    "pdfReports":  "PDF Lipoti",
+    "supportSection":  "LAGOLAGO",
+    "filterWeek":  "Vaiaso",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Su\u0027e fa\u0027amatalaga uma ma tumau i le pulea o au tupe maua.",
+    "dailySummary":  "Aotelega i Aso Taitasi",
+    "rateTheApp":  "Fa\u0027ailoga le app",
+    "noIncomeRecorded":  "E leai se tupe maua na fa\u0027amauina mo lenei aso. Oomi le + faamau e faaopoopo ai se tasi!",
+    "noTipsYet":  "Leai ni fautuaga i le taimi nei. Fa\u0027aopoopo le tasi i fa\u0027amau i luga.",
+    "languageFrench":  "Farani",
+    "totalTipsLabel":  "Aofa\u0027iga fesoasoani:",
+    "addTip":  "+ Faaopoopo le Fautuaga",
+    "totalEarningsLabel":  "Aofa\u0027i tupe maua:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 I aso nei",
+    "noTipsToExport":  "Leai se fautuaga e ave i fafo.",
+    "noTipsForPeriod":  "Leai ni fautuaga na maua mo le vaitaimi filifilia.",
+    "backupTips":  "Faasaoina au faʻamatalaga / Faʻasaʻo au fautuaga",
+    "jobs":  "Galuega",
+    "greetingEvening":  "Manuia le afiafi!",
+    "languageSystemDefault":  "Faiga faaletonu",
+    "deleteThisTip":  "Ave\u0027ese lenei fa\u0027amatalaga?",
+    "deleteAllDataTitle":  "Ave\u0027ese uma fa\u0027amaumauga?"
+}

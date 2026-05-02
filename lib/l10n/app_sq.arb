@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksporto CSV",
+    "pdfExportUnavailable":  "Eksportimi PDF nuk disponohet në këtë platformë.",
+    "delete":  "Fshije",
+    "thanksFeedback":  "Faleminderit për komentet tuaja!",
+    "languageEnglish":  "anglisht",
+    "allDataDeleted":  "Të gjitha të dhënat u fshinë",
+    "language":  "Gjuha",
+    "appTitle":  "Gjurmuesi MyTip",
+    "csvExported":  "CSV u eksportua me sukses",
+    "onboardingJobsTitle":  "Punë të shumta dhe raporte profesionale",
+    "totalEarnings":  "Fitimet totale",
+    "roundUpSubtitle":  "Rrumbullakëta janë numra të plotë kur ruani këshilla",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Kjo do të heqë përgjithmonë të gjitha këshillat e ruajtura.",
+    "filters":  "Filtrat",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Gjuha",
+    "darkMode":  "Modaliteti i errët",
+    "customQuickSubtitle":  "Redakto $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Këtë muaj",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKAT",
+    "shareExperience":  "Ndani përvojën tuaj",
+    "filterToday":  "Sot",
+    "customQuickLabel":  "Me porosi",
+    "exportRangeWeek":  "Këtë Javë",
+    "tipSaved":  "Këshilla u ruajt",
+    "onboardingContinue":  "Vazhdoni",
+    "onboardingMockCafeSub":  "Hënë - e Premte",
+    "entries":  "Regjistrimet",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tarifa mesatare për orë:",
+    "onboardingJobsBody":  "Menaxhoni çdo punë me karta të pastra dhe eksportoni përmbledhje të gatshme për PDF.",
+    "onboardingPreviewPdf":  "Shikoni paraprakisht PDF",
+    "noDataFound":  "Nuk u gjetën të dhëna",
+    "deleteAllData":  "Fshini të gjitha të dhënat",
+    "filterYear":  "viti",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Mirëmëngjes!",
+    "onboardingProfessionalReports":  "Raportet Profesionale",
+    "averageDayLabel":  "Mesatarja/ditë:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Na kontaktoni",
+    "exportCsv":  "Eksporto CSV",
+    "navProfile":  "Profili",
+    "navHome":  "Shtëpi",
+    "quickButtons":  "Butonat e shpejtë",
+    "onboardingMockRestaurantTitle":  "Nata e restorantit",
+    "currency":  "Monedha",
+    "onboardingMockRestaurantSub":  "e premte - e diel",
+    "labelToday":  "Sot",
+    "exportRangeToday":  "Sot",
+    "recentEntries":  "Regjistrimet e fundit",
+    "pdfReportReady":  "Raporti PDF gati për t\u0027u ndarë",
+    "undo":  "Zhbër",
+    "onboardingSkip":  "Kapërce",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "muaj",
+    "deleteAll":  "Fshij të gjitha",
+    "rateApp":  "Vlerësoni aplikacionin",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Puna u ruajt",
+    "cancel":  "Anulo",
+    "@@locale":  "sq",
+    "exportRangeCustom":  "Gama e personalizuar",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksporto",
+    "contactUsLabel":  "Na kontaktoni",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Dita më e mirë:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Këshilla u fshi (Zhbë)",
+    "greetingAfternoon":  "Mirëdita!",
+    "roundUp":  "Rrumbullakosni lart",
+    "onboardingWelcomeTitle":  "Mirë se vini",
+    "reportPdfTooltip":  "Raportoni PDF",
+    "settingsSection":  "CILËSIMET",
+    "languageArabic":  "Arabisht",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksporti nuk ofrohet në këtë platformë.",
+    "quickButtonsUpdated":  "Butonat e shpejtë u përditësuan",
+    "pdfReports":  "Raportet PDF",
+    "supportSection":  "MBËSHTETJE",
+    "filterWeek":  "javë",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Ndiqni çdo bakshish dhe qëndroni në kontroll të fitimeve tuaja.",
+    "dailySummary":  "Përmbledhje ditore",
+    "rateTheApp":  "Vlerësoni aplikacionin",
+    "noIncomeRecorded":  "Nuk ka të ardhura të regjistruara për këtë ditë. Prekni butonin + për të shtuar një!",
+    "noTipsYet":  "Ende nuk ka këshilla. Shto një me butonat e mësipërm.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Këshilla totale:",
+    "addTip":  "+ Shto këshillë",
+    "totalEarningsLabel":  "Fitimet totale:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ sot",
+    "noTipsToExport":  "Nuk ka ende këshilla për eksport.",
+    "noTipsForPeriod":  "Nuk u gjet asnjë këshillë për periudhën e zgjedhur.",
+    "backupTips":  "Ruani të dhënat tuaja / Rezervoni këshillat tuaja",
+    "jobs":  "Punët",
+    "greetingEvening":  "Mirëmbrëma!",
+    "languageSystemDefault":  "Parazgjedhja e sistemit",
+    "deleteThisTip":  "Të fshihet kjo këshillë?",
+    "deleteAllDataTitle":  "Të fshihen të gjitha të dhënat?"
+}

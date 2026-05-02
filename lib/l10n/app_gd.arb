@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Às-mhalairt CSV",
+    "pdfExportUnavailable":  "Chan eil às-mhalairt PDF ri fhaighinn air an àrd-ùrlar seo.",
+    "delete":  "Sguab às",
+    "thanksFeedback":  "Tapadh leibh airson ur fios air ais!",
+    "languageEnglish":  "Sasannach",
+    "allDataDeleted":  "A h-uile dàta air a dhubhadh às",
+    "language":  "Cànain",
+    "appTitle":  "Lorgaire MyTip",
+    "csvExported":  "CSV às-mhalairt gu soirbheachail",
+    "onboardingJobsTitle":  "Ioma Obraichean \u0026 Aithisgean Proifeiseanta",
+    "totalEarnings":  "Cosnadh iomlan",
+    "roundUpSubtitle":  "Suimean cruinn gu àireamhan slàn nuair a shàbhaileas tu molaidhean",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bheir seo air falbh gu buan a h-uile comhairle a chaidh a shàbhaladh.",
+    "filters":  "Criathragan",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Cànain",
+    "darkMode":  "Modh dorcha",
+    "customQuickSubtitle":  "Deasaich $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Eachdraidh",
+    "exportRangeMonth":  "A\u0027 Mhìos seo",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STAIDEAN",
+    "shareExperience":  "Roinn an t-eòlas agad",
+    "filterToday":  "An-diugh",
+    "customQuickLabel":  "Gnàthach",
+    "exportRangeWeek":  "An t-seachdain seo",
+    "tipSaved":  "Tip air a shàbhaladh",
+    "onboardingContinue":  "Lean air adhart",
+    "onboardingMockCafeSub":  "Diluain - Fri",
+    "entries":  "Inntrigidhean",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Ìre cuibheasach uair a thìde:",
+    "onboardingJobsBody":  "Stiùirich gach obair le cairtean glan agus às-mhalairt geàrr-chunntasan deiseil PDF.",
+    "onboardingPreviewPdf":  "Ro-shealladh pdf",
+    "noDataFound":  "Cha deach dàta a lorg",
+    "deleteAllData":  "Sguab às a h-uile dàta",
+    "filterYear":  "Bliadhna",
+    "navHistory":  "Eachdraidh",
+    "greetingMorning":  "Madainn mhath!",
+    "onboardingProfessionalReports":  "Aithisgean Proifeiseanta",
+    "averageDayLabel":  "Cuibheasach/latha:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Cuir fios thugainn",
+    "exportCsv":  "Às-mhalairt CSV",
+    "navProfile":  "Pròifil",
+    "navHome":  "Dhachaigh",
+    "quickButtons":  "Putanan sgiobalta",
+    "onboardingMockRestaurantTitle":  "Oidhche taigh-bìdh",
+    "currency":  "Airgeadra",
+    "onboardingMockRestaurantSub":  "Fri - Grian",
+    "labelToday":  "An-diugh",
+    "exportRangeToday":  "An-diugh",
+    "recentEntries":  "Inntrigidhean o chionn ghoirid",
+    "pdfReportReady":  "Pdf aithisg deiseil airson a roinn",
+    "undo":  "Neo-dhèanamh",
+    "onboardingSkip":  "Leum",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mìos",
+    "deleteAll":  "Sguab às a h-uile",
+    "rateApp":  "App astar",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Iob air a shàbhaladh",
+    "cancel":  "Sguir dheth",
+    "@@locale":  "gd",
+    "exportRangeCustom":  "Raon Custom",
+    "exportFrom":  "From: {date}",
+    "export":  "Às-mhalairt",
+    "contactUsLabel":  "Cuir fios thugainn",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "An latha as fheàrr:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip air a thoirt air falbh (Sguir dheth)",
+    "greetingAfternoon":  "Feasgar math!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Fàilte",
+    "reportPdfTooltip":  "Dèan aithris PDF",
+    "settingsSection":  "SEALLADH",
+    "languageArabic":  "adh",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Chan eil às-mhalairt ri fhaighinn air an àrd-ùrlar seo.",
+    "quickButtonsUpdated":  "Putanan sgiobalta air an ùrachadh",
+    "pdfReports":  "Pdf aithisgean",
+    "supportSection":  "TAIC",
+    "filterWeek":  "Seachdain",
+    "onboardingMockCafeTitle":  "Gluasad cafaidh",
+    "onboardingWelcomeBody":  "Cum sùil air a h-uile tip agus cùm smachd air do chosnadh.",
+    "dailySummary":  "Geàrr-chunntas làitheil",
+    "rateTheApp":  "Dèan measadh air an aplacaid",
+    "noIncomeRecorded":  "Chan eil teachd-a-steach clàraichte airson an latha seo. Tap air a’ phutan + gus fear a chuir ris!",
+    "noTipsYet":  "Chan eil molaidhean ann fhathast. Cuir fear ris leis na putanan gu h-àrd.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Molaidhean iomlan:",
+    "addTip":  "+ Cuir ris Tip",
+    "totalEarningsLabel":  "Cosnadh iomlan:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "an-diugh na sheasamh aig 245.00 $",
+    "noTipsToExport":  "Chan eil molaidhean ann airson às-mhalairt fhathast.",
+    "noTipsForPeriod":  "Cha deach molaidhean a lorg airson ùine taghte.",
+    "backupTips":  "Sàbhail an dàta agad / Cùl-taic do mholaidhean",
+    "jobs":  "Obraichean",
+    "greetingEvening":  "Feasgar math!",
+    "languageSystemDefault":  "Ro-shealladh siostam",
+    "deleteThisTip":  "Sguab às a\u0027 chomhairle seo?",
+    "deleteAllDataTitle":  "Sguab às an dàta gu lèir?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Esportazzjoni CSV",
+    "pdfExportUnavailable":  "L-esportazzjoni PDF mhix disponibbli fuq din il-pjattaforma.",
+    "delete":  "Ħassar",
+    "thanksFeedback":  "Grazzi għall-feedback tiegħek!",
+    "languageEnglish":  "Ingliż",
+    "allDataDeleted":  "Id-dejta kollha mħassra",
+    "language":  "Lingwa",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV esportat b\u0027suċċess",
+    "onboardingJobsTitle":  "Impjiegi Multipli \u0026 Rapporti Professjonali",
+    "totalEarnings":  "Qligħ Totali",
+    "roundUpSubtitle":  "Round jammonta għal numri sħaħ meta tiffranka pariri",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Dan se jneħħi b\u0027mod permanenti l-pariri kollha ssejvjati.",
+    "filters":  "Filtri",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lingwa",
+    "darkMode":  "Mod skur",
+    "customQuickSubtitle":  "Editja $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Storja",
+    "exportRangeMonth":  "Dan ix-Xahar",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKA",
+    "shareExperience":  "Aqsam l-Esperjenza Tiegħek",
+    "filterToday":  "Illum",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Din il-Ġimgħa",
+    "tipSaved":  "Tip salvat",
+    "onboardingContinue":  "Kompli",
+    "onboardingMockCafeSub":  "Mon - Ġimgħa",
+    "entries":  "Daħliet",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Rata medja fis-siegħa:",
+    "onboardingJobsBody":  "Immaniġġja kull xogħol b\u0027karti nodfa u esporta sommarji lesti għall-PDF.",
+    "onboardingPreviewPdf":  "Preview PDF",
+    "noDataFound":  "Ebda Data misjuba",
+    "deleteAllData":  "Ħassar id-data kollha",
+    "filterYear":  "Sena",
+    "navHistory":  "Storja",
+    "greetingMorning":  "Il-Jum it-Tajjeb!",
+    "onboardingProfessionalReports":  "Rapporti Professjonali",
+    "averageDayLabel":  "Medja/jum:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Ikkuntattjana",
+    "exportCsv":  "Esportazzjoni CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Dar",
+    "quickButtons":  "Buttuni ta \u0027malajr",
+    "onboardingMockRestaurantTitle":  "Lejl tar-Restaurant",
+    "currency":  "Munita",
+    "onboardingMockRestaurantSub":  "Ġimgħa - Ħad",
+    "labelToday":  "Illum",
+    "exportRangeToday":  "Illum",
+    "recentEntries":  "Daħliet riċenti",
+    "pdfReportReady":  "Rapport PDF lest biex jaqsam",
+    "undo":  "Ħoll",
+    "onboardingSkip":  "Aqbeż",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Xahar",
+    "deleteAll":  "Ħassar kollox",
+    "rateApp":  "Rata app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job salvat",
+    "cancel":  "Ikkanċella",
+    "@@locale":  "mt",
+    "exportRangeCustom":  "Medda tad-dwana",
+    "exportFrom":  "From: {date}",
+    "export":  "Esportazzjoni",
+    "contactUsLabel":  "Ikkuntattjana",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "L-aħjar jum:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip imħassra (Ħoll)",
+    "greetingAfternoon":  "Wara nofsinhar it-tajjeb!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Merħba",
+    "reportPdfTooltip":  "Rapport PDF",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "L-esportazzjoni mhix disponibbli fuq din il-pjattaforma.",
+    "quickButtonsUpdated":  "Buttuni ta\u0027 malajr aġġornati",
+    "pdfReports":  "Rapporti PDF",
+    "supportSection":  "APPOĠĠ",
+    "filterWeek":  "Ġimgħa",
+    "onboardingMockCafeTitle":  "Kafè Shift",
+    "onboardingWelcomeBody":  "Track kull ponta u żomm il-kontroll tal-qligħ tiegħek.",
+    "dailySummary":  "Sommarju ta\u0027 Kuljum",
+    "rateTheApp":  "Rata l-app",
+    "noIncomeRecorded":  "Ebda dħul irreġistrat għal din il-ġurnata. Tektek il-buttuna + biex iżżid waħda!",
+    "noTipsYet":  "S\u0027issa l-ebda tips. Żid waħda bil-buttuni hawn fuq.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Pariri totali:",
+    "addTip":  "+ Żid Tip",
+    "totalEarningsLabel":  "Qligħ totali:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Illum",
+    "noTipsToExport":  "Għadu l-ebda tips biex tesporta.",
+    "noTipsForPeriod":  "Ebda tips misjuba għall-perjodu magħżul.",
+    "backupTips":  "Issejvja d-dejta tiegħek / Issejvja l-pariri tiegħek",
+    "jobs":  "Impjiegi",
+    "greetingEvening":  "Il-lejla t-tajba!",
+    "languageSystemDefault":  "Sistema default",
+    "deleteThisTip":  "Ħassar din il-ponta?",
+    "deleteAllDataTitle":  "Ħassar id-dejta kollha?"
+}

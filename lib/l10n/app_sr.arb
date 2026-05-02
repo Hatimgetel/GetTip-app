@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Извези ЦСВ",
+    "pdfExportUnavailable":  "Извоз у ПДФ није доступан на овој платформи.",
+    "delete":  "Избриши",
+    "thanksFeedback":  "Хвала на повратним информацијама!",
+    "languageEnglish":  "енглески",
+    "allDataDeleted":  "Сви подаци су избрисани",
+    "language":  "Језик",
+    "appTitle":  "МиТип Трацкер",
+    "csvExported":  "ЦСВ је извезен",
+    "onboardingJobsTitle":  "Више послова и професионалних извештаја",
+    "totalEarnings":  "Укупна зарада",
+    "roundUpSubtitle":  "Заокружени износи целих бројева при чувању савета",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ово ће трајно уклонити све сачуване савете.",
+    "filters":  "Филтери",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Језик",
+    "darkMode":  "Тамни режим",
+    "customQuickSubtitle":  "Уреди $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Историја",
+    "exportRangeMonth":  "Овог месеца",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТС",
+    "shareExperience":  "Поделите своје искуство",
+    "filterToday":  "данас",
+    "customQuickLabel":  "Цустом",
+    "exportRangeWeek":  "Ове недеље",
+    "tipSaved":  "Савет је сачуван",
+    "onboardingContinue":  "Настави",
+    "onboardingMockCafeSub":  "пон - пет",
+    "entries":  "Ентриес",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Просечна сатница:",
+    "onboardingJobsBody":  "Управљајте сваким послом помоћу чистих картица и извозите резимее спремне за ПДФ.",
+    "onboardingPreviewPdf":  "Преглед ПДФ",
+    "noDataFound":  "Подаци нису пронађени",
+    "deleteAllData":  "Избришите све податке",
+    "filterYear":  "Година",
+    "navHistory":  "Историја",
+    "greetingMorning":  "Добро јутро!",
+    "onboardingProfessionalReports":  "Стручни извештаји",
+    "averageDayLabel":  "Просек/дан:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Контактирајте нас",
+    "exportCsv":  "Извези ЦСВ",
+    "navProfile":  "Профил",
+    "navHome":  "Хоме",
+    "quickButtons":  "Брза дугмад",
+    "onboardingMockRestaurantTitle":  "Ноћ ресторана",
+    "currency":  "Валута",
+    "onboardingMockRestaurantSub":  "Пет - Нед",
+    "labelToday":  "данас",
+    "exportRangeToday":  "данас",
+    "recentEntries":  "Недавни уноси",
+    "pdfReportReady":  "ПДФ извештај спреман за дељење",
+    "undo":  "Поништи",
+    "onboardingSkip":  "Скип",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Месец",
+    "deleteAll":  "Обриши све",
+    "rateApp":  "Оцените апликацију",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Посао спасен",
+    "cancel":  "Откажи",
+    "@@locale":  "sr",
+    "exportRangeCustom":  "Прилагођени опсег",
+    "exportFrom":  "From: {date}",
+    "export":  "Извоз",
+    "contactUsLabel":  "Контактирајте нас",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Најбољи дан:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Савет је избрисан (Опозови)",
+    "greetingAfternoon":  "Добар дан!",
+    "roundUp":  "Роунд Уп",
+    "onboardingWelcomeTitle":  "Добродошли",
+    "reportPdfTooltip":  "Извештај ПДФ",
+    "settingsSection":  "СЕТТИНГС",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Извоз није доступан на овој платформи.",
+    "quickButtonsUpdated":  "Брза дугмад су ажурирана",
+    "pdfReports":  "ПДФ извештаји",
+    "supportSection":  "ПОДРШКА",
+    "filterWeek":  "Недеља",
+    "onboardingMockCafeTitle":  "Цафе Схифт",
+    "onboardingWelcomeBody":  "Пратите сваки савет и останите под контролом своје зараде.",
+    "dailySummary":  "Дневни резиме",
+    "rateTheApp":  "Оцените апликацију",
+    "noIncomeRecorded":  "За овај дан нису забележени приходи. Додирните дугме + да бисте га додали!",
+    "noTipsYet":  "Још нема савета. Додајте један помоћу дугмади изнад.",
+    "languageFrench":  "Францаис",
+    "totalTipsLabel":  "Укупно савета:",
+    "addTip":  "+ Додај савет",
+    "totalEarningsLabel":  "Укупна зарада:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 долара данас",
+    "noTipsToExport":  "Још увек нема савета за извоз.",
+    "noTipsForPeriod":  "Нису пронађени савети за изабрани период.",
+    "backupTips":  "Сачувајте своје податке / направите резервну копију савета",
+    "jobs":  "Послови",
+    "greetingEvening":  "Добро вече!",
+    "languageSystemDefault":  "Систем подразумевано",
+    "deleteThisTip":  "Желите ли да избришете овај савет?",
+    "deleteAllDataTitle":  "Избрисати све податке?"
+}

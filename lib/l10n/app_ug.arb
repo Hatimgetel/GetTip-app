@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV نى چىقىرىش",
+    "pdfExportUnavailable":  "بۇ سۇپىدا PDF ئېكسپورتى يوق.",
+    "delete":  "ئۆچۈرۈش",
+    "thanksFeedback":  "ئىنكاسىڭىزغا رەھمەت!",
+    "languageEnglish":  "ئىنگىلىزچە",
+    "allDataDeleted":  "بارلىق سانلىق مەلۇماتلار ئۆچۈرۈلدى",
+    "language":  "تىل",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV مۇۋەپپەقىيەتلىك ئېكسپورت قىلىندى",
+    "onboardingJobsTitle":  "كۆپ خىزمەت ۋە كەسپىي دوكلات",
+    "totalEarnings":  "ئومۇمىي كىرىم",
+    "roundUpSubtitle":  "كۆرسەتمىلەرنى ساقلىغاندا يۇمىلاق سان پۈتۈن سانغا يېتىدۇ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "بۇ ساقلانغان بارلىق كۆرسەتمىلەرنى مەڭگۈلۈك ئۆچۈرۈۋېتىدۇ.",
+    "filters":  "سۈزگۈچ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "تىل",
+    "darkMode":  "قاراڭغۇ ھالەت",
+    "customQuickSubtitle":  "$ 10 · $ 20 · $ 50 نى تەھرىرلەڭ",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تارىخ",
+    "exportRangeMonth":  "بۇ ئاي",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "تەجرىبىڭىزنى ئورتاقلىشىڭ",
+    "filterToday":  "بۈگۈن",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "بۇ ھەپتە",
+    "tipSaved":  "تەكلىپ ساقلاندى",
+    "onboardingContinue":  "داۋاملاشتۇر",
+    "onboardingMockCafeSub":  "Mon - Fri",
+    "entries":  "تۈرلەر",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ئوتتۇرىچە سائەتلىك نىسبىتى:",
+    "onboardingJobsBody":  "ھەر بىر خىزمەتنى پاكىز كارتا بىلەن باشقۇرۇپ ، PDF تەييار خۇلاسە چىقىرىڭ.",
+    "onboardingPreviewPdf":  "PDF ئالدىن كۆرۈش",
+    "noDataFound":  "سانلىق مەلۇمات تېپىلمىدى",
+    "deleteAllData":  "بارلىق سانلىق مەلۇماتلارنى ئۆچۈرۈڭ",
+    "filterYear":  "يىل",
+    "navHistory":  "تارىخ",
+    "greetingMorning":  "خەيرلىك ئەتىگەن!",
+    "onboardingProfessionalReports":  "كەسپىي دوكلاتلار",
+    "averageDayLabel":  "ئوتتۇرىچە / كۈن:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "بىز بىلەن ئالاقىلىشىڭ",
+    "exportCsv":  "CSV نى چىقىرىش",
+    "navProfile":  "ئارخىپ",
+    "navHome":  "ئۆي",
+    "quickButtons":  "تېز كۇنۇپكىلار",
+    "onboardingMockRestaurantTitle":  "رېستوران كېچىسى",
+    "currency":  "پۇل",
+    "onboardingMockRestaurantSub":  "جۈمە - قۇياش",
+    "labelToday":  "بۈگۈن",
+    "exportRangeToday":  "بۈگۈن",
+    "recentEntries":  "يېقىنقى ئەسەرلەر",
+    "pdfReportReady":  "ھەمبەھىرلىنىشكە تەييارلانغان PDF دوكلاتى",
+    "undo":  "ئەمەلدىن قالدۇرۇش",
+    "onboardingSkip":  "ئاتلاش",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ئاي",
+    "deleteAll":  "ھەممىنى ئۆچۈرۈڭ",
+    "rateApp":  "ئەپ دېتالى",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ئايۇپ قۇتۇلدى",
+    "cancel":  "بىكار قىلىش",
+    "@@locale":  "ug",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "ئېكسپورت",
+    "contactUsLabel":  "بىز بىلەن ئالاقىلىشىڭ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ئەڭ ياخشى كۈن:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "تەكلىپ ئۆچۈرۈلدى (ئەمەلدىن قالدۇرۇش)",
+    "greetingAfternoon":  "خەيرلىك چۈشتىن كېيىن!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "خۇش كەپسىز",
+    "reportPdfTooltip":  "PDF دوكلات قىلىڭ",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "بۇ سۇپىدا ئېكسپورت قىلىنمايدۇ.",
+    "quickButtonsUpdated":  "تېز كۇنۇپكىلار يېڭىلاندى",
+    "pdfReports":  "PDF دوكلاتلىرى",
+    "supportSection":  "SUPPORT",
+    "filterWeek":  "ھەپتە",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "ھەر بىر ئۇچىنى ئىز قوغلاپ كىرىمىڭىزنى كونترول قىلىڭ.",
+    "dailySummary":  "كۈندىلىك خۇلاسە",
+    "rateTheApp":  "ئەپكە باھا بېرىڭ",
+    "noIncomeRecorded":  "بۈگۈنگە قەدەر ھېچقانداق كىرىم خاتىرىلەنمىدى. بىرنى قوشۇش ئۈچۈن + كۇنۇپكىسىنى بېسىڭ!",
+    "noTipsYet":  "تېخىچە تەكلىپ يوق. ئۈستىدىكى كۇنۇپكىلار بىلەن بىرنى قوشۇڭ.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "ئومۇمىي تەكلىپلەر:",
+    "addTip":  "+ ئەسكەرتىش",
+    "totalEarningsLabel":  "ئومۇمىي كىرىمى:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "بۈگۈن 245.00 دوللار",
+    "noTipsToExport":  "ئېكىسپورت قىلىدىغان تەكلىپ يوق.",
+    "noTipsForPeriod":  "تاللانغان مەزگىل ئۈچۈن ھېچقانداق تەكلىپ تېپىلمىدى.",
+    "backupTips":  "سانلىق مەلۇماتلىرىڭىزنى ساقلاڭ / كۆرسەتمىلىرىڭىزنى زاپاسلاڭ",
+    "jobs":  "Jobs",
+    "greetingEvening":  "خەيرلىك كەچ!",
+    "languageSystemDefault":  "سىستېما سۈكۈتتىكى",
+    "deleteThisTip":  "بۇ كۆرسەتمىنى ئۆچۈرەمسىز؟",
+    "deleteAllDataTitle":  "بارلىق سانلىق مەلۇماتلارنى ئۆچۈرەمسىز؟"
+}

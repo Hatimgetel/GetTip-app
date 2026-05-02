@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Fa CSV kɔ amannɔne",
+    "pdfExportUnavailable":  "PDF export nni hɔ wɔ saa platform yi so.",
+    "delete":  "Pepa",
+    "thanksFeedback":  "Yɛda wo ase wɔ wo nsɛm a wokae no ho!",
+    "languageEnglish":  "Borɔfo",
+    "allDataDeleted":  "Wɔapopa data nyinaa",
+    "language":  "Kasa",
+    "appTitle":  "MyTip Tracker a Wɔde Di Dwuma",
+    "csvExported":  "CSV de kɔ amannɔne yiye",
+    "onboardingJobsTitle":  "Nnwuma \u0026 Adwumayɛfo Amanneɛbɔ ahorow pii",
+    "totalEarnings":  "Sika a Wonya Nyinaa",
+    "roundUpSubtitle":  "Round yɛ nɔma mũ bere a worekora afotu so no",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Eyi beyi afotu a wɔakora so nyinaa afi hɔ koraa.",
+    "filters":  "Nneɛma a wɔde yiyi nneɛma mu",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Kasa",
+    "darkMode":  "Esum mode",
+    "customQuickSubtitle":  "Sesa $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Abakɔsɛm",
+    "exportRangeMonth":  "Ɔsram yi",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "AKWANKYERƐ",
+    "shareExperience":  "Ka Wo Osuahu",
+    "filterToday":  "Ɛnnɛ",
+    "customQuickLabel":  "Amaneɛ",
+    "exportRangeWeek":  "Nnawɔtwe yi",
+    "tipSaved":  "Tip a wɔakora so",
+    "onboardingContinue":  "Toa so",
+    "onboardingMockCafeSub":  "Mon - Fida",
+    "entries":  "Nsɛm a wɔde hyɛ mu",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Avg dɔnhwerew biara rate:",
+    "onboardingJobsBody":  "Fa kaad a ɛho tew di adwuma biara ho dwuma na fa nsɛm a wɔaboaboa ano a wɔasiesie ama PDF kɔ amannɔne.",
+    "onboardingPreviewPdf":  "Hwɛ PDF no ansa na woayɛ",
+    "noDataFound":  "Wonhuu Data Biara",
+    "deleteAllData":  "Popa data nyinaa",
+    "filterYear":  "Afe",
+    "navHistory":  "Abakɔsɛm",
+    "greetingMorning":  "Mema wo akye!",
+    "onboardingProfessionalReports":  "Adwumayɛfo Amanneɛbɔ",
+    "averageDayLabel":  "Sɛ wɔkyekyem pɛpɛɛpɛ a/da:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Wo ne yɛn nkasa",
+    "exportCsv":  "Fa CSV kɔ amannɔne",
+    "navProfile":  "Ho asɛm",
+    "navHome":  "Fie",
+    "quickButtons":  "Ntɛmntɛm bɔton ahorow",
+    "onboardingMockRestaurantTitle":  "Adidibea Anadwo",
+    "currency":  "Sika",
+    "onboardingMockRestaurantSub":  "Fida - Owia",
+    "labelToday":  "Ɛnnɛ",
+    "exportRangeToday":  "Ɛnnɛ",
+    "recentEntries":  "Nsɛm a wɔakyerɛw nnansa yi",
+    "pdfReportReady":  "PDF amanneɛbɔ ayɛ krado sɛ wɔbɛkyɛ",
+    "undo":  "Undo no fi hɔ",
+    "onboardingSkip":  "Bɔ tra",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Bosome",
+    "deleteAll":  "Popa ne nyinaa",
+    "rateApp":  "Rate app no ​​ho",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Hiob gyee nkwa",
+    "cancel":  "Twam",
+    "@@locale":  "ak",
+    "exportRangeCustom":  "Amanneɛbɔ Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Mane kɔ",
+    "contactUsLabel":  "Wo ne yɛn nkasa",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Da a eye sen biara:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Wɔapopa afotu no (Undo) .",
+    "greetingAfternoon":  "Mema wo aha!",
+    "roundUp":  "Round Up no ho asɛm",
+    "onboardingWelcomeTitle":  "Akwaaba",
+    "reportPdfTooltip":  "Amanneɛbɔ PDF",
+    "settingsSection":  "NHYEHYƐE A WƆYƐ",
+    "languageArabic":  "العربية deɛ",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export nni hɔ wɔ saa platform yi so.",
+    "quickButtonsUpdated":  "Quick buttons a wɔayɛ no foforo",
+    "pdfReports":  "PDF Amanneɛbɔ ahorow",
+    "supportSection":  "MMOA",
+    "filterWeek":  "Nnawɔtwe",
+    "onboardingMockCafeTitle":  "Cafe Shift a Wɔyɛ no",
+    "onboardingWelcomeBody":  "Di afotu biara akyi na di wo sika a wunya no so.",
+    "dailySummary":  "Daa Daa Nsɛm a Wɔaboaboa Ano",
+    "rateTheApp":  "Fa app no ​​to gua",
+    "noIncomeRecorded":  "Wɔankyerɛw sika biara a wonyae wɔ saa da yi mu. Klik + button no so na fa biako ka ho!",
+    "noTipsYet":  "Afotu biara nni hɔ de besi nnɛ. Fa biako a ɛwɔ atifi hɔ no ka ho.",
+    "languageFrench":  "Français na ɔkyerɛwee",
+    "totalTipsLabel":  "Afotu a wɔde ma nyinaa:",
+    "addTip":  "+ Fa Tip ka ho",
+    "totalEarningsLabel":  "Sika a wonya nyinaa:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Ɛnnɛ",
+    "noTipsToExport":  "No tips to export de besi nnɛ.",
+    "noTipsForPeriod":  "Wonhuu afotu biara mma bere a wɔapaw.",
+    "backupTips":  "Sie wo data / Backup wo tips",
+    "jobs":  "Nnwuma",
+    "greetingEvening":  "Mema wo adwo!",
+    "languageSystemDefault":  "System default",
+    "deleteThisTip":  "Popa saa afotu yi?",
+    "deleteAllDataTitle":  "Popa data nyinaa?"
+}

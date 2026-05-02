@@ -1,0 +1,213 @@
+{
+    "exportCsvTitle":  "تصدير CSV",
+    "pdfExportUnavailable":  "تصدير PDF غير متوفر على هذا النظام الأساسي.",
+    "delete":  "يمسح",
+    "thanksFeedback":  "شكرا لملاحظاتك!",
+    "languageEnglish":  "إنجليزي",
+    "allDataDeleted":  "تم حذف كافة البيانات",
+    "language":  "لغة",
+    "appTitle":  "متتبع MyTip",
+    "csvExported":  "تم تصدير ملف CSV بنجاح",
+    "onboardingJobsTitle":  "وظائف متعددة وتقارير مهنية",
+    "totalEarnings":  "إجمالي الأرباح",
+    "roundUpSubtitle":  "قم بتقريب المبالغ إلى أرقام صحيحة عند حفظ النصائح",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "سيؤدي هذا إلى إزالة جميع النصائح المحفوظة بشكل دائم.",
+    "filters":  "المرشحات",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "لغة",
+    "darkMode":  "الوضع المظلم",
+    "customQuickSubtitle":  "تحرير 10 دولارات · 20 دولارًا · 50 دولارًا",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تاريخ",
+    "exportRangeMonth":  "هذا الشهر",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "إحصائيات",
+    "shareExperience":  "شارك تجربتك",
+    "filterToday":  "اليوم",
+    "customQuickLabel":  "مخصص",
+    "exportRangeWeek":  "هذا الاسبوع",
+    "tipSaved":  "تم حفظ Tip",
+    "onboardingContinue":  "يكمل",
+    "onboardingMockCafeSub":  "الإثنين - الجمعة",
+    "entries":  "إدخالات",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "متوسط ​​السعر بالساعة:",
+    "onboardingJobsBody":  "قم بإدارة كل مهمة باستخدام بطاقات نظيفة وتصدير ملخصات جاهزة لملفات PDF.",
+    "onboardingPreviewPdf":  "معاينة قوات الدفاع الشعبي",
+    "noDataFound":  "لم يتم العثور على بيانات",
+    "deleteAllData":  "احذف كافة البيانات",
+    "filterYear":  "سنة",
+    "navHistory":  "تاريخ",
+    "greetingMorning":  "صباح الخير!",
+    "onboardingProfessionalReports":  "التقارير المهنية",
+    "averageDayLabel":  "المتوسط/اليوم:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "اتصل بنا",
+    "exportCsv":  "تصدير CSV",
+    "navProfile":  "حساب تعريفي",
+    "navHome":  "بيت",
+    "quickButtons":  "أزرار سريعة",
+    "onboardingMockRestaurantTitle":  "ليلة المطعم",
+    "currency":  "عملة",
+    "onboardingMockRestaurantSub":  "الجمعة - الأحد",
+    "labelToday":  "اليوم",
+    "exportRangeToday":  "اليوم",
+    "recentEntries":  "الإدخالات الأخيرة",
+    "pdfReportReady":  "تقرير PDF جاهز للمشاركة",
+    "undo":  "تراجع",
+    "onboardingSkip":  "يتخطى",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "شهر",
+    "deleteAll":  "احذف الكل",
+    "rateApp":  "معدل التطبيق",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "تم حفظ الوظيفة",
+    "cancel":  "يلغي",
+    "@@locale":  "ar",
+    "exportRangeCustom":  "نطاق مخصص",
+    "exportFrom":  "From: {date}",
+    "export":  "يصدّر",
+    "contactUsLabel":  "اتصل بنا",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "أفضل يوم:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "تم حذف Tip (تراجع)",
+    "greetingAfternoon":  "مساء الخير!",
+    "roundUp":  "جمع الشمل",
+    "onboardingWelcomeTitle":  "مرحباً",
+    "reportPdfTooltip":  "تقرير قوات الدفاع الشعبي",
+    "settingsSection":  "إعدادات",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "التصدير غير متوفر على هذا النظام الأساسي.",
+    "quickButtonsUpdated":  "تم تحديث الأزرار السريعة",
+    "pdfReports":  "تقارير بصيغة PDF",
+    "supportSection":  "يدعم",
+    "filterWeek":  "أسبوع",
+    "onboardingMockCafeTitle":  "مقهى التحول",
+    "onboardingWelcomeBody":  "تتبع كل نصيحة وتحكم في أرباحك.",
+    "dailySummary":  "ملخص يومي",
+    "rateTheApp":  "قيم التطبيق",
+    "noIncomeRecorded":  "لم يتم تسجيل أي دخل لهذا اليوم. اضغط على الزر + لإضافة واحد!",
+    "noTipsYet":  "لا يوجد Tip بعد. أضف واحدًا باستخدام الأزرار أعلاه.",
+    "languageFrench":  "الفرنسية",
+    "totalTipsLabel":  "إجمالي Tip:",
+    "addTip":  "+ Add Tip",
+    "totalEarningsLabel":  "إجمالي الأرباح:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245.00 دولارًا اليوم",
+    "noTipsToExport":  "لا يوجد Tip للتصدير بعد.",
+    "noTipsForPeriod":  "لم يتم العثور على Tip للفترة المحددة.",
+    "backupTips":  "حفظ بياناتك / نسخ احتياطي لـ Tip",
+    "jobs":  "وظائف",
+    "greetingEvening":  "مساء الخير!",
+    "languageSystemDefault":  "الافتراضي للنظام",
+    "deleteThisTip":  "هل تريد حذف Tip هذا؟",
+    "deleteAllDataTitle":  "هل تريد حذف جميع البيانات؟",
+    "done":  "تم",
+    "noJobsYet":  "لا توجد وظائف بعد. أضف أول وظيفة.",
+    "deleteJobTitle":  "حذف الوظيفة؟",
+    "deleteJobBody":  "حذف \"{jobTitle}\"؟ ستبقى عناصر Tip الحالية محفوظة.",
+    "@deleteJobBody":  {
+                          "placeholders":  {
+                                               "jobTitle":  {
+                                                                "type":  "String"
+                                                            }
+                                           }
+                      },
+    "customizeQuickButtonsTitle":  "تخصيص الأزرار السريعة",
+    "tipNumberLabel":  "Tip {index}",
+    "@tipNumberLabel":  {
+                            "placeholders":  {
+                                                 "index":  {
+                                                               "type":  "int"
+                                                           }
+                                             }
+                        },
+    "amountLabel":  "المبلغ",
+    "noteUnderTipLabel":  "ملاحظة أسفل هذا Tip",
+    "reset":  "إعادة ضبط",
+    "invalidAmounts":  "يجب أن تكون المبالغ أرقامًا صالحة أكبر من 0",
+    "save":  "حفظ",
+    "titleIsRequired":  "العنوان مطلوب",
+    "enterValidHourlyRate":  "أدخل أجرًا بالساعة صالحًا أو اتركه فارغًا.",
+    "editJob":  "تعديل الوظيفة",
+    "addJobTitle":  "إضافة وظيفة",
+    "colorRequired":  "اللون *",
+    "titleRequired":  "العنوان *",
+    "employerOptional":  "صاحب العمل (اختياري)",
+    "hourlyRateOptional":  "الأجر بالساعة (اختياري)",
+    "workDaysOptional":  "أيام العمل (اختياري)",
+    "updateJob":  "تحديث الوظيفة",
+    "saveJob":  "حفظ الوظيفة",
+    "saveToPhone":  "حفظ في الهاتف",
+    "share":  "مشاركة",
+    "saveFileInDownloads":  "حفظ {fileType} في التنزيلات",
+    "@saveFileInDownloads":  {
+                                  "placeholders":  {
+                                                       "fileType":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                   }
+                              },
+    "openAppsToShareFile":  "افتح التطبيقات لمشاركة هذا {fileType}",
+    "@openAppsToShareFile":  {
+                                  "placeholders":  {
+                                                       "fileType":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                   }
+                              }
+}

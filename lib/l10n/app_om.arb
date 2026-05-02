@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV erguu",
+    "pdfExportUnavailable":  "PDF export waltajjii kana irratti hin argamu.",
+    "delete":  "Haquu",
+    "thanksFeedback":  "Yaada nuuf kennitaniif galatoomaa!",
+    "languageEnglish":  "Afaan Ingilizii",
+    "allDataDeleted":  "Daataan hundi haqame",
+    "language":  "Afaan",
+    "appTitle":  "Hordoffii Gorsa Koo",
+    "csvExported":  "CSV milkaa\u0027inaan ergame",
+    "onboardingJobsTitle":  "Hojii Dachaa \u0026 Gabaasa Ogummaa",
+    "totalEarnings":  "Galii Waliigalaa",
+    "roundUpSubtitle":  "Marsaan yeroo gorsa qusatan lakkoofsa guutuu ta\u0027a",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Kunis gorsa qusatame hunda dhaabbataadhaan ni balleessa.",
+    "filters":  "Filters",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Afaan",
+    "darkMode":  "Haala dukkanaa\u0027aa",
+    "customQuickSubtitle":  "Gulaali $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Seenaa",
+    "exportRangeMonth":  "Ji\u0027a Kana",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ISTAATISII",
+    "shareExperience":  "Muuxannoo Keessan Qooda",
+    "filterToday":  "Har\u0027a",
+    "customQuickLabel":  "Aadaa",
+    "exportRangeWeek":  "Torban Kana",
+    "tipSaved":  "Gorsa qusatameera",
+    "onboardingContinue":  "Itti fufuu",
+    "onboardingMockCafeSub":  "Mon - Fri",
+    "entries":  "Galmeewwan",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Giddugaleessaan sa\u0027aatii tokkoo:",
+    "onboardingJobsBody":  "Tokkoon tokkoon hojii kaardii qulqulluu ta\u0027een bulchuu fi gabaabduu PDF-qophaa\u0027e erguu.",
+    "onboardingPreviewPdf":  "PDF dursee ilaaluu",
+    "noDataFound":  "Daataan Hin Argamne",
+    "deleteAllData":  "Daataa hunda haqi",
+    "filterYear":  "Waggaa",
+    "navHistory":  "Seenaa",
+    "greetingMorning":  "Akkam bulte!",
+    "onboardingProfessionalReports":  "Gabaasa Ogeessotaa",
+    "averageDayLabel":  "Giddugaleessa/guyyaa: .",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Nu qunnamaa",
+    "exportCsv":  "CSV erguu",
+    "navProfile":  "Ibsama",
+    "navHome":  "Mana",
+    "quickButtons":  "Qabduu saffisaa",
+    "onboardingMockRestaurantTitle":  "Halkan Mana Nyaataa",
+    "currency":  "Maallaqa",
+    "onboardingMockRestaurantSub":  "Jimaata - Wiixata",
+    "labelToday":  "Har\u0027a",
+    "exportRangeToday":  "Har\u0027a",
+    "recentEntries":  "Galmee dhiheenya kanaa",
+    "pdfReportReady":  "Gabaasa PDF qooduuf qophiidha",
+    "undo":  "Deebisuu",
+    "onboardingSkip":  "Irra darbuu",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ji\u0027a",
+    "deleteAll":  "Hundaa haqi",
+    "rateApp":  "Appii sadarkaa kennuu",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Iyoob fayye",
+    "cancel":  "Haquu",
+    "@@locale":  "om",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Alergii",
+    "contactUsLabel":  "Nu qunnamaa",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Guyyaa hundarra gaarii:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Gorsi haqame (Undo) .",
+    "greetingAfternoon":  "Akkam ooltan!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Baga nagaan dhufte",
+    "reportPdfTooltip":  "Gabaasa PDF",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Al-ergiin waltajjii kana irratti hin argamu.",
+    "quickButtonsUpdated":  "Qabduu saffisaa haaromfame",
+    "pdfReports":  "Gabaasa PDF",
+    "supportSection":  "DEEGGARSA",
+    "filterWeek":  "Torbee",
+    "onboardingMockCafeTitle":  "Shiftaa Caffee",
+    "onboardingWelcomeBody":  "Gorsa hunda hordofaa galii keessan to\u0027adhaa.",
+    "dailySummary":  "Cuunfaa Guyyaa Guyyaa",
+    "rateTheApp":  "Appii kanaaf sadarkaa kenni",
+    "noIncomeRecorded":  "Guyyaa kanaaf galiin galmaa\u0027e hin jiru. Tokko itti dabaluuf + button tuqi!",
+    "noTipsYet":  "Gorsa hanga ammaatti hin jiru. Tokko buttons armaan olii waliin itti dabali.",
+    "languageFrench":  "Firaansi",
+    "totalTipsLabel":  "Gorsa waliigalaa:",
+    "addTip":  "+ Gorsa Dabaluu",
+    "totalEarningsLabel":  "Galii waliigalaa: 1.1.",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Har\u0027a",
+    "noTipsToExport":  "Gorsa hanga ammaatti erguuf hin jiru.",
+    "noTipsForPeriod":  "Yeroo filatameef gorsa hin argamne.",
+    "backupTips":  "Data keessan save / Gorsa keessan Backup godhaa",
+    "jobs":  "Hojii",
+    "greetingEvening":  "Akkam ooltan!",
+    "languageSystemDefault":  "Durtii sirnaa",
+    "deleteThisTip":  "Gorsa kana haquu?",
+    "deleteAllDataTitle":  "Daataa hunda haquu?"
+}

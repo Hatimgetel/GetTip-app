@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "ສົ່ງອອກ CSV",
+    "pdfExportUnavailable":  "ການສົ່ງອອກ PDF ບໍ່ສາມາດໃຊ້ໄດ້ໃນເວທີນີ້.",
+    "delete":  "ລຶບ",
+    "thanksFeedback":  "ຂໍ​ຂອບ​ໃຈ​ສໍາ​ລັບ​ຄໍາ​ຄຶດ​ຄໍາ​ເຫັນ​ຂອງ​ທ່ານ​!",
+    "languageEnglish":  "ພາສາອັງກິດ",
+    "allDataDeleted":  "ລຶບຂໍ້ມູນທັງໝົດແລ້ວ",
+    "language":  "ພາສາ",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "ສົ່ງອອກ CSV ສຳເລັດແລ້ວ",
+    "onboardingJobsTitle":  "ຫຼາຍວຽກ \u0026 ບົດລາຍງານວິຊາຊີບ",
+    "totalEarnings":  "ລາຍຮັບທັງໝົດ",
+    "roundUpSubtitle":  "ຕົວເລກຮອບເປັນຕົວເລກທັງໝົດເມື່ອບັນທຶກເຄັດລັບ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ນີ້ຈະເປັນການລຶບເຄັດລັບທີ່ບັນທຶກໄວ້ທັງໝົດອອກຢ່າງຖາວອນ.",
+    "filters":  "ການກັ່ນຕອງ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ພາສາ",
+    "darkMode":  "ໂໝດມືດ",
+    "customQuickSubtitle":  "ແກ້ໄຂ $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ປະຫວັດສາດ",
+    "exportRangeMonth":  "ເດືອນນີ້",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ສະຖິຕິ",
+    "shareExperience":  "ແບ່ງປັນປະສົບການຂອງທ່ານ",
+    "filterToday":  "ມື້ນີ້",
+    "customQuickLabel":  "ກຳນົດເອງ",
+    "exportRangeWeek":  "ອາທິດນີ້",
+    "tipSaved":  "ບັນທຶກເຄັດລັບແລ້ວ",
+    "onboardingContinue":  "ສືບຕໍ່",
+    "onboardingMockCafeSub":  "ຈັນ-ສຸກ",
+    "entries":  "ລາຍການ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ອັດຕາສະເລ່ຍຕໍ່ຊົ່ວໂມງ:",
+    "onboardingJobsBody":  "ຈັດການແຕ່ລະວຽກດ້ວຍບັດທີ່ສະອາດ ແລະສົ່ງອອກບົດສະຫຼຸບທີ່ພ້ອມແລ້ວເປັນ PDF.",
+    "onboardingPreviewPdf":  "ເບິ່ງຕົວຢ່າງ PDF",
+    "noDataFound":  "ບໍ່ພົບຂໍ້ມູນ",
+    "deleteAllData":  "ລຶບຂໍ້ມູນທັງໝົດ",
+    "filterYear":  "ປີ",
+    "navHistory":  "ປະຫວັດສາດ",
+    "greetingMorning":  "ສະບາຍດີຕອນເຊົ້າ!",
+    "onboardingProfessionalReports":  "ບົດລາຍງານວິຊາຊີບ",
+    "averageDayLabel":  "ສະເລ່ຍ/ມື້:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ຕິດຕໍ່ພວກເຮົາ",
+    "exportCsv":  "ສົ່ງອອກ CSV",
+    "navProfile":  "ໂປຣໄຟລ໌",
+    "navHome":  "ບ້ານ",
+    "quickButtons":  "ປຸ່ມດ່ວນ",
+    "onboardingMockRestaurantTitle":  "ຮ້ານອາຫານກາງຄືນ",
+    "currency":  "ສະກຸນເງິນ",
+    "onboardingMockRestaurantSub":  "ວັນສຸກ - ອາທິດ",
+    "labelToday":  "ມື້ນີ້",
+    "exportRangeToday":  "ມື້ນີ້",
+    "recentEntries":  "ລາຍການຫຼ້າສຸດ",
+    "pdfReportReady":  "ບົດ​ລາຍ​ງານ PDF ພ້ອມ​ທີ່​ຈະ​ແບ່ງ​ປັນ​",
+    "undo":  "ຍົກເລີກ",
+    "onboardingSkip":  "ຂ້າມ",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ເດືອນ",
+    "deleteAll":  "ລຶບທັງໝົດ",
+    "rateApp":  "ໃຫ້ຄະແນນແອັບ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ບັນທຶກວຽກແລ້ວ",
+    "cancel":  "ຍົກເລີກ",
+    "@@locale":  "lo",
+    "exportRangeCustom":  "ຊ່ວງກຳນົດເອງ",
+    "exportFrom":  "From: {date}",
+    "export":  "ສົ່ງອອກ",
+    "contactUsLabel":  "ຕິດຕໍ່ພວກເຮົາ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ມື້ທີ່ດີທີ່ສຸດ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ເຄັດລັບຖືກລຶບ (ຍົກເລີກ)",
+    "greetingAfternoon":  "ສະບາຍດີຕອນສວາຍ!",
+    "roundUp":  "ຮອບຂຶ້ນ",
+    "onboardingWelcomeTitle":  "ຍິນດີຕ້ອນຮັບ",
+    "reportPdfTooltip":  "ລາຍງານ PDF",
+    "settingsSection":  "ການຕັ້ງຄ່າ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ການສົ່ງອອກບໍ່ສາມາດໃຊ້ໄດ້ໃນເວທີນີ້.",
+    "quickButtonsUpdated":  "ອັບເດດປຸ່ມດ່ວນ",
+    "pdfReports":  "ບົດລາຍງານ PDF",
+    "supportSection":  "ສະຫນັບສະຫນູນ",
+    "filterWeek":  "ອາທິດ",
+    "onboardingMockCafeTitle":  "ຄາເຟ່ Shift",
+    "onboardingWelcomeBody":  "ຕິດຕາມທຸກໆຄໍາແນະນໍາແລະຢູ່ໃນການຄວບຄຸມລາຍໄດ້ຂອງທ່ານ.",
+    "dailySummary":  "ສະຫຼຸບປະຈໍາວັນ",
+    "rateTheApp":  "ໃຫ້ຄະແນນແອັບ",
+    "noIncomeRecorded":  "ບໍ່ມີລາຍຮັບທີ່ບັນທຶກໄວ້ສຳລັບມື້ນີ້. ແຕະປຸ່ມ + ເພື່ອເພີ່ມອັນ!",
+    "noTipsYet":  "ບໍ່ມີຄໍາແນະນໍາເທື່ອ. ເພີ່ມອັນນຶ່ງດ້ວຍປຸ່ມຂ້າງເທິງ.",
+    "languageFrench":  "ຝຣັ່ງເສດ",
+    "totalTipsLabel":  "ຄຳແນະນຳທັງໝົດ:",
+    "addTip":  "+ ເພີ່ມຄໍາແນະນໍາ",
+    "totalEarningsLabel":  "ລາຍຮັບທັງໝົດ:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 ມື້ນີ້",
+    "noTipsToExport":  "ບໍ່ມີຄໍາແນະນໍາທີ່ຈະສົ່ງອອກເທື່ອ.",
+    "noTipsForPeriod":  "ບໍ່ພົບຄໍາແນະນໍາສໍາລັບໄລຍະເວລາທີ່ເລືອກ.",
+    "backupTips":  "ບັນທຶກຂໍ້ມູນຂອງທ່ານ / Backup ຄໍາແນະນໍາຂອງທ່ານ",
+    "jobs":  "ວຽກ",
+    "greetingEvening":  "ສະບາຍດີຕອນແລງ!",
+    "languageSystemDefault":  "ຄ່າເລີ່ມຕົ້ນຂອງລະບົບ",
+    "deleteThisTip":  "ລຶບເຄັດລັບນີ້ບໍ?",
+    "deleteAllDataTitle":  "ລຶບຂໍ້ມູນທັງໝົດບໍ?"
+}

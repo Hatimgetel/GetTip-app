@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksportuoti CSV",
+    "pdfExportUnavailable":  "PDF eksportavimas šioje platformoje negalimas.",
+    "delete":  "Ištrinti",
+    "thanksFeedback":  "Dėkojame už atsiliepimą!",
+    "languageEnglish":  "anglų kalba",
+    "allDataDeleted":  "Visi duomenys ištrinti",
+    "language":  "Kalba",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV sėkmingai eksportuotas",
+    "onboardingJobsTitle":  "Keli darbai ir profesionalios ataskaitos",
+    "totalEarnings":  "Bendras uždarbis",
+    "roundUpSubtitle":  "Išsaugant arbatpinigius, apvalūs skaičiai yra sveikieji skaičiai",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Tai visam laikui pašalins visus išsaugotus patarimus.",
+    "filters":  "Filtrai",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Kalba",
+    "darkMode":  "Tamsus režimas",
+    "customQuickSubtitle":  "Redaguoti $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Istorija",
+    "exportRangeMonth":  "Šį mėnesį",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKA",
+    "shareExperience":  "Pasidalykite savo patirtimi",
+    "filterToday":  "Šiandien",
+    "customQuickLabel":  "Pasirinktinis",
+    "exportRangeWeek":  "Šią savaitę",
+    "tipSaved":  "Patarimas išsaugotas",
+    "onboardingContinue":  "Tęsti",
+    "onboardingMockCafeSub":  "P-Pn",
+    "entries":  "Įrašai",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Vidutinis valandinis tarifas:",
+    "onboardingJobsBody":  "Tvarkykite kiekvieną užduotį naudodami švarias korteles ir eksportuokite suvestines su PDF formatu.",
+    "onboardingPreviewPdf":  "Peržiūrėti PDF",
+    "noDataFound":  "Duomenų nerasta",
+    "deleteAllData":  "Ištrinti visus duomenis",
+    "filterYear":  "Metai",
+    "navHistory":  "Istorija",
+    "greetingMorning":  "Labas rytas!",
+    "onboardingProfessionalReports":  "Profesionalios ataskaitos",
+    "averageDayLabel":  "Vidutiniškai per dieną:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Susisiekite su mumis",
+    "exportCsv":  "Eksportuoti CSV",
+    "navProfile":  "Profilis",
+    "navHome":  "Pradžia",
+    "quickButtons":  "Greitieji mygtukai",
+    "onboardingMockRestaurantTitle":  "Restorano naktis",
+    "currency":  "Valiuta",
+    "onboardingMockRestaurantSub":  "Penktadienis – sekmadienis",
+    "labelToday":  "Šiandien",
+    "exportRangeToday":  "Šiandien",
+    "recentEntries":  "Naujausi įrašai",
+    "pdfReportReady":  "PDF ataskaita paruošta bendrinti",
+    "undo":  "Anuliuoti",
+    "onboardingSkip":  "Praleisti",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mėnuo",
+    "deleteAll":  "Ištrinti viską",
+    "rateApp":  "Įvertinkite programą",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Darbas išsaugotas",
+    "cancel":  "Atšaukti",
+    "@@locale":  "lt",
+    "exportRangeCustom":  "Pasirinktinis diapazonas",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksportuoti",
+    "contactUsLabel":  "Susisiekite su mumis",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Geriausia diena:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Patarimas ištrintas (anuliuoti)",
+    "greetingAfternoon":  "Laba diena!",
+    "roundUp":  "Suapvalinti",
+    "onboardingWelcomeTitle":  "Sveiki atvykę",
+    "reportPdfTooltip":  "Ataskaita PDF",
+    "settingsSection":  "NUSTATYMAI",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksportuoti šioje platformoje negalima.",
+    "quickButtonsUpdated":  "Greitieji mygtukai atnaujinti",
+    "pdfReports":  "PDF ataskaitos",
+    "supportSection":  "PARAMA",
+    "filterWeek":  "Savaitė",
+    "onboardingMockCafeTitle":  "Kavinė pamaina",
+    "onboardingWelcomeBody":  "Stebėkite kiekvieną patarimą ir kontroliuokite savo pajamas.",
+    "dailySummary":  "Dienos santrauka",
+    "rateTheApp":  "Įvertinkite programą",
+    "noIncomeRecorded":  "Šią dieną pajamų neužregistruota. Bakstelėkite + mygtuką, kad pridėtumėte!",
+    "noTipsYet":  "Patarimų dar nėra. Pridėkite vieną naudodami aukščiau esančius mygtukus.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Iš viso patarimų:",
+    "addTip":  "+ Pridėti patarimą",
+    "totalEarningsLabel":  "Bendras uždarbis:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 USD šiandien",
+    "noTipsToExport":  "Dar nėra patarimų, kaip eksportuoti.",
+    "noTipsForPeriod":  "Patarimų pasirinktam laikotarpiui nerasta.",
+    "backupTips":  "Išsaugokite duomenis / sukurkite atsargines patarimų kopijas",
+    "jobs":  "Darbai",
+    "greetingEvening":  "Labas vakaras!",
+    "languageSystemDefault":  "Numatytasis sistemos",
+    "deleteThisTip":  "Ištrinti šį patarimą?",
+    "deleteAllDataTitle":  "Ištrinti visus duomenis?"
+}

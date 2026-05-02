@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Ðo CSV ɖe duta",
+    "pdfExportUnavailable":  "PDF ɖoɖo ɖe duta mele mɔ̃ sia dzi o.",
+    "delete":  "Ɖe ɖa",
+    "thanksFeedback":  "Akpe na wò ɖe wò nyaŋuɖoɖo ta!",
+    "languageEnglish":  "iŋlisi",
+    "allDataDeleted":  "Wotutu nyatakakawo katã ɖa",
+    "language":  "Gbegbᴐgblᴐ",
+    "appTitle":  "NyeAɖaŋuɖoɖowo ƒe Mɔfiala",
+    "csvExported":  "CSV ɖoe ɖe duta dzidzedzetɔe",
+    "onboardingJobsTitle":  "Dɔ Geɖewo \u0026 Dɔwɔlawo ƒe Nyatakakawo",
+    "totalEarnings":  "Gakpɔkpɔ Katã",
+    "roundUpSubtitle":  "Round ƒe agbɔsɔsɔme nye xexlẽdzesi blibowo ne wole aɖaŋuɖoɖowo dzram ɖo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Esia aɖe aɖaŋuɖoɖo siwo katã wodzra ɖo la ɖa tegbee.",
+    "filters":  "Nusiwo wotsɔna tsia nu me",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Gbegbᴐgblᴐ",
+    "darkMode":  "Viviti ƒe nɔnɔme",
+    "customQuickSubtitle":  "Trɔ asi le $10 · $20 · $50 ŋu",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Nyadzɔdzɔ",
+    "exportRangeMonth":  "Ɣleti sia me",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "AKPAÐEKAWO",
+    "shareExperience":  "Gblɔ Wò Nuteƒekpɔkpɔa",
+    "filterToday":  "Egbe",
+    "customQuickLabel":  "Dekᴐnu",
+    "exportRangeWeek":  "Kwasiɖa sia me",
+    "tipSaved":  "Aɖaŋuɖoɖo si wodzra ɖo",
+    "onboardingContinue":  "Yi edzi",
+    "onboardingMockCafeSub":  "Memleɖa - Dzoɖa",
+    "entries":  "Nya siwo woŋlɔ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Gaƒoƒo ɖesiaɖe ƒe fetu le mama dedie nu:",
+    "onboardingJobsBody":  "Dzra dɔ ɖesiaɖe dzi kple agbalẽvi dzadzɛwo eye nàɖo nyatakaka kpui siwo sɔ na PDF la ɖe duta.",
+    "onboardingPreviewPdf":  "Kpɔ PDF la do ŋgɔ",
+    "noDataFound":  "Womekpɔ Nyatakaka aɖeke O",
+    "deleteAllData":  "Tutu nyatakakawo katã ɖa",
+    "filterYear":  "Ƒe",
+    "navHistory":  "Nyadzɔdzɔ",
+    "greetingMorning":  "Ŋdi!",
+    "onboardingProfessionalReports":  "Dɔnyala ƒe Nyatakakawo",
+    "averageDayLabel":  "Mamã dedie/ŋkeke:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Te ɖe mía ŋu",
+    "exportCsv":  "Ðo CSV ɖe duta",
+    "navProfile":  "Ŋuti nya",
+    "navHome":  "Aƒeme",
+    "quickButtons":  "Abɔta siwo wowɔna kabakaba",
+    "onboardingMockRestaurantTitle":  "Nuɖuɖudzraƒe ƒe Zã",
+    "currency":  "Ga",
+    "onboardingMockRestaurantSub":  "Dzoɖa - Dzoɖa",
+    "labelToday":  "Egbe",
+    "exportRangeToday":  "Egbe",
+    "recentEntries":  "Nusiwo woŋlɔ nyitsɔ laa",
+    "pdfReportReady":  "PDF nyatakaka si le klalo be yeama",
+    "undo":  "Trɔ asi le eŋu",
+    "onboardingSkip":  "Dzo to eta",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ɣleti",
+    "deleteAll":  "Tsɔ wo katã tutu ɖa",
+    "rateApp":  "Rate app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Hiob xɔ agbe",
+    "cancel":  "Te fli ɖe eme",
+    "@@locale":  "ee",
+    "exportRangeCustom":  "Dekɔnu ƒe Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Ɖoe ɖa",
+    "contactUsLabel":  "Te ɖe mía ŋu",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ŋkeke nyuitɔ kekeake:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Wotutu aɖaŋuɖoɖoa ɖa (Trɔ asi le eŋu) .",
+    "greetingAfternoon":  "Ŋdᴐ!",
+    "roundUp":  "Kplɔe Ðe Edzi",
+    "onboardingWelcomeTitle":  "Woezɔ̃",
+    "reportPdfTooltip":  "Nyatakaka PDF",
+    "settingsSection":  "NUWO ƑE ƉOÐOWO",
+    "languageArabic":  "العربية ƒe nya",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export mele mɔ̃ sia dzi o.",
+    "quickButtonsUpdated":  "Wowɔ asitɔtrɔ le abɔta kabakabawo ŋu",
+    "pdfReports":  "PDF Nyatakakawo",
+    "supportSection":  "DE MEGBE",
+    "filterWeek":  "Kᴐsiɖa",
+    "onboardingMockCafeTitle":  "Cafe ƒe Tɔtrɔ",
+    "onboardingWelcomeBody":  "Lé ŋku ɖe aɖaŋuɖoɖo ɖesiaɖe ŋu eye nànɔ wò gakpɔkpɔ dzi ɖum.",
+    "dailySummary":  "Gbesiagbe Kpuie",
+    "rateTheApp":  "De dzesi dɔwɔnua",
+    "noIncomeRecorded":  "Womeŋlɔ gakpɔkpɔ aɖeke ɖi le ŋkeke sia dzi o. Zi + ƒe dzesi dzi be nàtsɔ ɖeka akpe ɖe eŋu!",
+    "noTipsYet":  "Aɖaŋuɖoɖo aɖeke meli haɖe o. Tsɔ ɖeka kpe ɖe eŋu kple abɔta siwo le etame.",
+    "languageFrench":  "Français ye nye esia",
+    "totalTipsLabel":  "Aɖaŋuɖoɖowo katã:",
+    "addTip":  "+ Tsɔ Aɖaŋuɖoɖo kpee",
+    "totalEarningsLabel":  "Ga si wokpɔna ƒe ƒuƒoƒo:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Egbea",
+    "noTipsToExport":  "Aɖaŋuɖoɖo aɖeke meli si woatsɔ ayi duta haɖe o.",
+    "noTipsForPeriod":  "Womekpɔ aɖaŋuɖoɖo aɖeke le ɣeyiɣi tiatia aɖe me o.",
+    "backupTips":  "Dzra wò nyatakakawo ɖo / Backup wò aɖaŋuɖoɖowo",
+    "jobs":  "Dɔwo",
+    "greetingEvening":  "Fiɛ̃!",
+    "languageSystemDefault":  "System ƒe gɔmedzedze",
+    "deleteThisTip":  "Ðe aɖaŋuɖoɖo sia ɖaa?",
+    "deleteAllDataTitle":  "Tsɔ nyatakakawo katã tutu ɖaa?"
+}

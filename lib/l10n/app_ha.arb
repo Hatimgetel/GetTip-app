@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Fitar da CSV",
+    "pdfExportUnavailable":  "Babu fitarwar PDF akan wannan dandali.",
+    "delete":  "Share",
+    "thanksFeedback":  "Na gode da ra\u0027ayin ku!",
+    "languageEnglish":  "Turanci",
+    "allDataDeleted":  "An goge duk bayanan",
+    "language":  "Harshe",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "An fitar da CSV cikin nasara",
+    "onboardingJobsTitle":  "Ayyuka da yawa \u0026 Rahoton Ƙwararru",
+    "totalEarnings":  "Jimlar Samun Kuɗi",
+    "roundUpSubtitle":  "Zagaye yakai adadin lambobi lokacin ajiyar tukwici",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Wannan zai cire duk bayanan da aka adana har abada.",
+    "filters":  "Tace",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Harshe",
+    "darkMode":  "Yanayin duhu",
+    "customQuickSubtitle":  "Gyara $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tarihi",
+    "exportRangeMonth":  "Wannan Watan",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Raba Ƙwarewar ku",
+    "filterToday":  "Yau",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Wannan Makon",
+    "tipSaved":  "Ajiye tip",
+    "onboardingContinue":  "Ci gaba",
+    "onboardingMockCafeSub":  "Litinin - Juma\u0027a",
+    "entries":  "Shigarwa",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Matsakaicin adadin sa\u0027a:",
+    "onboardingJobsBody":  "Sarrafa kowane aiki tare da tsabtataccen katunan da fitar da taƙaitaccen shirye-shiryen PDF.",
+    "onboardingPreviewPdf":  "Duba PDF",
+    "noDataFound":  "Ba a Samu Bayanai ba",
+    "deleteAllData":  "Share duk bayanai",
+    "filterYear":  "Shekara",
+    "navHistory":  "Tarihi",
+    "greetingMorning":  "Barka da Safiya!",
+    "onboardingProfessionalReports":  "Rahotanni masu sana\u0027a",
+    "averageDayLabel":  "Matsakaici/rana:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Tuntube mu",
+    "exportCsv":  "Fitar da CSV",
+    "navProfile":  "Bayanan martaba",
+    "navHome":  "Gida",
+    "quickButtons":  "Maɓallai masu sauri",
+    "onboardingMockRestaurantTitle":  "Daren Gidan Abinci",
+    "currency":  "Kudi",
+    "onboardingMockRestaurantSub":  "Jumma\u0027a - Sun",
+    "labelToday":  "Yau",
+    "exportRangeToday":  "Yau",
+    "recentEntries":  "Shigarwar kwanan nan",
+    "pdfReportReady":  "Rahoton PDF yana shirye don rabawa",
+    "undo":  "Gyara",
+    "onboardingSkip":  "Tsallake",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Watan",
+    "deleteAll":  "Share duka",
+    "rateApp":  "Rate app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Aiki ceto",
+    "cancel":  "Soke",
+    "@@locale":  "ha",
+    "exportRangeCustom":  "Range na Musamman",
+    "exportFrom":  "From: {date}",
+    "export":  "fitarwa",
+    "contactUsLabel":  "Tuntube mu",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Mafi kyawun rana:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "An share tukwici (Kinga)",
+    "greetingAfternoon":  "Barka da yamma!",
+    "roundUp":  "Zagaye Up",
+    "onboardingWelcomeTitle":  "Barka da zuwa",
+    "reportPdfTooltip":  "Rahoton PDF",
+    "settingsSection":  "STINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Ba a samun fitarwa akan wannan dandali.",
+    "quickButtonsUpdated":  "Maɓallai masu sauri sun sabunta",
+    "pdfReports":  "Rahoton PDF",
+    "supportSection":  "TAIMAKO",
+    "filterWeek":  "Mako",
+    "onboardingMockCafeTitle":  "Kafe Shift",
+    "onboardingWelcomeBody":  "Bibiyar kowane tukwici kuma ku kasance da ikon sarrafa abin da kuka samu.",
+    "dailySummary":  "Takaitaccen Takaice",
+    "rateTheApp":  "Rate app",
+    "noIncomeRecorded":  "Babu kudin shiga da aka rubuta don wannan rana. Matsa maɓallin + don ƙara ɗaya!",
+    "noTipsYet":  "Babu shawarwari tukuna. Ƙara ɗaya tare da maɓallan da ke sama.",
+    "languageFrench":  "Faransa",
+    "totalTipsLabel":  "Jimlar shawarwari:",
+    "addTip":  "+ Ƙara Tukwici",
+    "totalEarningsLabel":  "Jimlar abin da aka samu:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 a yau",
+    "noTipsToExport":  "Babu shawarwari don fitarwa tukuna.",
+    "noTipsForPeriod":  "Babu shawarwarin da aka samo don zaɓaɓɓen lokacin.",
+    "backupTips":  "Ajiye bayanan ku / Ajiye shawarwarinku",
+    "jobs":  "Ayyuka",
+    "greetingEvening":  "Barka da yamma!",
+    "languageSystemDefault":  "Tsohuwar tsarin",
+    "deleteThisTip":  "Share wannan tip?",
+    "deleteAllDataTitle":  "Share duk bayanai?"
+}

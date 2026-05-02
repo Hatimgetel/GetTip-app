@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "ייצא CSV",
+    "pdfExportUnavailable":  "ייצוא PDF אינו זמין בפלטפורמה זו.",
+    "delete":  "לִמְחוֹק",
+    "thanksFeedback":  "תודה על המשוב שלך!",
+    "languageEnglish":  "אַנגְלִית",
+    "allDataDeleted":  "כל הנתונים נמחקו",
+    "language":  "שָׂפָה",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV יוצא בהצלחה",
+    "onboardingJobsTitle":  "ריבוי משרות ודוחות מקצועיים",
+    "totalEarnings":  "סך הרווחים",
+    "roundUpSubtitle":  "עגל סכומים למספרים שלמים בעת שמירת טיפים",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "פעולה זו תסיר לצמיתות את כל הטיפים השמורים.",
+    "filters":  "מסננים",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "שָׂפָה",
+    "darkMode":  "מצב כהה",
+    "customQuickSubtitle":  "ערוך $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "הִיסטוֹרִיָה",
+    "exportRangeMonth":  "החודש הזה",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "סטטיסטיקה",
+    "shareExperience":  "שתף את החוויה שלך",
+    "filterToday":  "הַיוֹם",
+    "customQuickLabel":  "מִנְהָג",
+    "exportRangeWeek":  "השבוע",
+    "tipSaved":  "הטיפ נשמר",
+    "onboardingContinue":  "לְהַמשִׁיך",
+    "onboardingMockCafeSub":  "שני - שישי",
+    "entries":  "ערכים",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "תעריף ממוצע לשעה:",
+    "onboardingJobsBody":  "נהל כל עבודה עם כרטיסים נקיים וייצא סיכומים מוכנים ל-PDF.",
+    "onboardingPreviewPdf":  "תצוגה מקדימה של PDF",
+    "noDataFound":  "לא נמצאו נתונים",
+    "deleteAllData":  "מחק את כל הנתונים",
+    "filterYear":  "שָׁנָה",
+    "navHistory":  "הִיסטוֹרִיָה",
+    "greetingMorning":  "בוקר טוב!",
+    "onboardingProfessionalReports":  "דוחות מקצועיים",
+    "averageDayLabel":  "ממוצע/יום:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "צור איתנו קשר",
+    "exportCsv":  "ייצא CSV",
+    "navProfile":  "פּרוֹפִיל",
+    "navHome":  "בַּיִת",
+    "quickButtons":  "כפתורים מהירים",
+    "onboardingMockRestaurantTitle":  "ערב מסעדות",
+    "currency":  "מַטְבֵּעַ",
+    "onboardingMockRestaurantSub":  "שישי - ראשון",
+    "labelToday":  "הַיוֹם",
+    "exportRangeToday":  "הַיוֹם",
+    "recentEntries":  "ערכים אחרונים",
+    "pdfReportReady":  "דוח PDF מוכן לשיתוף",
+    "undo":  "לְבַטֵל",
+    "onboardingSkip":  "לְדַלֵג",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "חוֹדֶשׁ",
+    "deleteAll":  "מחק הכל",
+    "rateApp":  "דרג את האפליקציה",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "העבודה נשמרה",
+    "cancel":  "לְבַטֵל",
+    "@@locale":  "he",
+    "exportRangeCustom":  "טווח מותאם אישית",
+    "exportFrom":  "From: {date}",
+    "export":  "יְצוּא",
+    "contactUsLabel":  "צור איתנו קשר",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "היום הכי טוב:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "טיפ נמחק (בטל)",
+    "greetingAfternoon":  "צהריים טובים!",
+    "roundUp":  "לֶאֱסוֹף",
+    "onboardingWelcomeTitle":  "קַבָּלַת פָּנִים",
+    "reportPdfTooltip":  "דווח ב-PDF",
+    "settingsSection":  "הגדרות",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ייצוא אינו זמין בפלטפורמה זו.",
+    "quickButtonsUpdated":  "כפתורים מהירים עודכנו",
+    "pdfReports":  "דוחות PDF",
+    "supportSection":  "תְמִיכָה",
+    "filterWeek":  "שָׁבוּעַ",
+    "onboardingMockCafeTitle":  "בית קפה משמרת",
+    "onboardingWelcomeBody":  "עקוב אחר כל טיפ והשאר בשליטה על הרווחים שלך.",
+    "dailySummary":  "סיכום יומי",
+    "rateTheApp":  "דרג את האפליקציה",
+    "noIncomeRecorded":  "לא נרשמה הכנסה ליום זה. הקש על כפתור + כדי להוסיף אחד!",
+    "noTipsYet":  "עדיין אין טיפים. הוסף אחד עם הכפתורים למעלה.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "סך הכל טיפים:",
+    "addTip":  "+ הוסף טיפ",
+    "totalEarningsLabel":  "סך הרווחים:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245.00 דולר היום",
+    "noTipsToExport":  "עדיין אין טיפים לייצוא.",
+    "noTipsForPeriod":  "לא נמצאו טיפים לתקופה שנבחרה.",
+    "backupTips":  "שמור את הנתונים שלך / גבה את הטיפים שלך",
+    "jobs":  "משרות",
+    "greetingEvening":  "ערב טוב!",
+    "languageSystemDefault":  "ברירת המחדל של המערכת",
+    "deleteThisTip":  "למחוק את הטיפ הזה?",
+    "deleteAllDataTitle":  "למחוק את כל הנתונים?"
+}

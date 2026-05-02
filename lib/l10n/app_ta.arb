@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "ஏற்றுமதி CSV",
+    "pdfExportUnavailable":  "PDF ஏற்றுமதி இந்த தளத்தில் இல்லை.",
+    "delete":  "நீக்கு",
+    "thanksFeedback":  "உங்கள் கருத்துக்கு நன்றி!",
+    "languageEnglish":  "ஆங்கிலம்",
+    "allDataDeleted":  "அனைத்து தரவு நீக்கப்பட்டது",
+    "language":  "மொழி",
+    "appTitle":  "MyTip டிராக்கர்",
+    "csvExported":  "CSV வெற்றிகரமாக ஏற்றுமதி செய்யப்பட்டது",
+    "onboardingJobsTitle":  "பல வேலைகள் \u0026 தொழில்முறை அறிக்கைகள்",
+    "totalEarnings":  "மொத்த வருவாய்",
+    "roundUpSubtitle":  "உதவிக்குறிப்புகளைச் சேமிக்கும் போது முழு எண்களுக்கு வட்டத் தொகைகள்",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "இது சேமிக்கப்பட்ட அனைத்து உதவிக்குறிப்புகளையும் நிரந்தரமாக அகற்றும்.",
+    "filters":  "வடிப்பான்கள்",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "மொழி",
+    "darkMode":  "இருண்ட பயன்முறை",
+    "customQuickSubtitle":  "திருத்து $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "வரலாறு",
+    "exportRangeMonth":  "இந்த மாதம்",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "புள்ளிவிவரங்கள்",
+    "shareExperience":  "உங்கள் அனுபவத்தை பகிர்ந்து கொள்ளுங்கள்",
+    "filterToday":  "இன்று",
+    "customQuickLabel":  "தனிப்பயன்",
+    "exportRangeWeek":  "இந்த வாரம்",
+    "tipSaved":  "உதவிக்குறிப்பு சேமிக்கப்பட்டது",
+    "onboardingContinue":  "தொடரவும்",
+    "onboardingMockCafeSub":  "திங்கள் - வெள்ளி",
+    "entries":  "உள்ளீடுகள்",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "சராசரி மணிநேர விகிதம்:",
+    "onboardingJobsBody":  "சுத்தமான கார்டுகளுடன் ஒவ்வொரு வேலையையும் நிர்வகிக்கவும் மற்றும் PDF-தயாரான சுருக்கங்களை ஏற்றுமதி செய்யவும்.",
+    "onboardingPreviewPdf":  "PDF மாதிரிக்காட்சி",
+    "noDataFound":  "தரவு எதுவும் கிடைக்கவில்லை",
+    "deleteAllData":  "எல்லா தரவையும் நீக்கு",
+    "filterYear":  "ஆண்டு",
+    "navHistory":  "வரலாறு",
+    "greetingMorning":  "காலை வணக்கம்!",
+    "onboardingProfessionalReports":  "தொழில்முறை அறிக்கைகள்",
+    "averageDayLabel":  "சராசரி/நாள்:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "எங்களை தொடர்பு கொள்ளவும்",
+    "exportCsv":  "ஏற்றுமதி CSV",
+    "navProfile":  "சுயவிவரம்",
+    "navHome":  "வீடு",
+    "quickButtons":  "விரைவு பொத்தான்கள்",
+    "onboardingMockRestaurantTitle":  "உணவக இரவு",
+    "currency":  "நாணயம்",
+    "onboardingMockRestaurantSub":  "வெள்ளி - சூரியன்",
+    "labelToday":  "இன்று",
+    "exportRangeToday":  "இன்று",
+    "recentEntries":  "சமீபத்திய பதிவுகள்",
+    "pdfReportReady":  "PDF அறிக்கை பகிர தயாராக உள்ளது",
+    "undo":  "செயல்தவிர்",
+    "onboardingSkip":  "தவிர்க்கவும்",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "மாதம்",
+    "deleteAll":  "அனைத்தையும் நீக்கு",
+    "rateApp":  "பயன்பாட்டை மதிப்பிடவும்",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "வேலை காப்பாற்றப்பட்டது",
+    "cancel":  "ரத்து செய்",
+    "@@locale":  "ta",
+    "exportRangeCustom":  "தனிப்பயன் வரம்பு",
+    "exportFrom":  "From: {date}",
+    "export":  "ஏற்றுமதி",
+    "contactUsLabel":  "எங்களை தொடர்பு கொள்ளவும்",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "சிறந்த நாள்:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "உதவிக்குறிப்பு நீக்கப்பட்டது (செயல்தவிர்)",
+    "greetingAfternoon":  "நல்ல மதியம்!",
+    "roundUp":  "ரவுண்ட் அப்",
+    "onboardingWelcomeTitle":  "வரவேற்கிறோம்",
+    "reportPdfTooltip":  "அறிக்கை PDF",
+    "settingsSection":  "அமைப்புகள்",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "இந்த தளத்தில் ஏற்றுமதி செய்ய முடியாது.",
+    "quickButtonsUpdated":  "விரைவு பொத்தான்கள் புதுப்பிக்கப்பட்டன",
+    "pdfReports":  "PDF அறிக்கைகள்",
+    "supportSection":  "ஆதரவு",
+    "filterWeek":  "வாரம்",
+    "onboardingMockCafeTitle":  "கஃபே ஷிப்ட்",
+    "onboardingWelcomeBody":  "ஒவ்வொரு உதவிக்குறிப்பையும் கண்காணித்து, உங்கள் வருவாயைக் கட்டுப்படுத்துங்கள்.",
+    "dailySummary":  "தினசரி சுருக்கம்",
+    "rateTheApp":  "பயன்பாட்டை மதிப்பிடவும்",
+    "noIncomeRecorded":  "இந்த நாளுக்கான வருமானம் எதுவும் பதிவு செய்யப்படவில்லை. ஒன்றைச் சேர்க்க + பொத்தானைத் தட்டவும்!",
+    "noTipsYet":  "இன்னும் குறிப்புகள் இல்லை. மேலே உள்ள பொத்தான்களுடன் ஒன்றைச் சேர்க்கவும்.",
+    "languageFrench":  "பிரான்சிஸ்",
+    "totalTipsLabel":  "மொத்த உதவிக்குறிப்புகள்:",
+    "addTip":  "+ உதவிக்குறிப்பைச் சேர்க்கவும்",
+    "totalEarningsLabel":  "மொத்த வருவாய்:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 இன்று",
+    "noTipsToExport":  "ஏற்றுமதி செய்வதற்கான உதவிக்குறிப்புகள் எதுவும் இல்லை.",
+    "noTipsForPeriod":  "தேர்ந்தெடுக்கப்பட்ட காலத்திற்கு குறிப்புகள் எதுவும் இல்லை.",
+    "backupTips":  "உங்கள் தரவைச் சேமிக்கவும் / உங்கள் உதவிக்குறிப்புகளை காப்புப் பிரதி எடுக்கவும்",
+    "jobs":  "வேலைகள்",
+    "greetingEvening":  "நல்ல மாலை!",
+    "languageSystemDefault":  "கணினி இயல்புநிலை",
+    "deleteThisTip":  "இந்த உதவிக்குறிப்பை நீக்கவா?",
+    "deleteAllDataTitle":  "எல்லா தரவையும் நீக்கவா?"
+}

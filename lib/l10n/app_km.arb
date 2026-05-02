@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "នាំចេញ CSV",
+    "pdfExportUnavailable":  "ការនាំចេញ PDF មិនមាននៅលើវេទិកានេះទេ។",
+    "delete":  "លុប",
+    "thanksFeedback":  "អរគុណសម្រាប់មតិកែលម្អរបស់អ្នក!",
+    "languageEnglish":  "ភាសាអង់គ្លេស",
+    "allDataDeleted":  "ទិន្នន័យទាំងអស់ត្រូវបានលុប",
+    "language":  "ភាសា",
+    "appTitle":  "កម្មវិធីតាមដាន MyTip",
+    "csvExported":  "នាំចេញ CSV ដោយជោគជ័យ",
+    "onboardingJobsTitle":  "របាយការណ៍ការងារ និងវិជ្ជាជីវៈច្រើន។",
+    "totalEarnings":  "ប្រាក់ចំណូលសរុប",
+    "roundUpSubtitle":  "ចំនួនបង្គត់ទៅលេខទាំងមូលនៅពេលរក្សាទុកគន្លឹះ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "វានឹងលុបគន្លឹះដែលបានរក្សាទុកទាំងអស់ជាអចិន្ត្រៃយ៍។",
+    "filters":  "តម្រង",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ភាសា",
+    "darkMode":  "របៀបងងឹត",
+    "customQuickSubtitle":  "កែសម្រួល $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ប្រវត្តិសាស្ត្រ",
+    "exportRangeMonth":  "ខែនេះ។",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ស្ថិតិ",
+    "shareExperience":  "ចែករំលែកបទពិសោធន៍របស់អ្នក។",
+    "filterToday":  "ថ្ងៃនេះ",
+    "customQuickLabel":  "ផ្ទាល់ខ្លួន",
+    "exportRangeWeek":  "សប្តាហ៍នេះ។",
+    "tipSaved":  "គន្លឹះត្រូវបានរក្សាទុក",
+    "onboardingContinue":  "បន្ត",
+    "onboardingMockCafeSub":  "ច័ន្ទ-សុក្រ",
+    "entries":  "ធាតុ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "អត្រាម៉ោងជាមធ្យម៖",
+    "onboardingJobsBody":  "គ្រប់គ្រងការងារនីមួយៗដោយប្រើកាតស្អាត ហើយនាំចេញសេចក្តីសង្ខេបដែលត្រៀមរួចជាស្រេចជា PDF ។",
+    "onboardingPreviewPdf":  "មើល PDF ជាមុន",
+    "noDataFound":  "រកមិនឃើញទិន្នន័យទេ។",
+    "deleteAllData":  "លុបទិន្នន័យទាំងអស់។",
+    "filterYear":  "ឆ្នាំ",
+    "navHistory":  "ប្រវត្តិសាស្ត្រ",
+    "greetingMorning":  "អរុណសួស្តី!",
+    "onboardingProfessionalReports":  "របាយការណ៍វិជ្ជាជីវៈ",
+    "averageDayLabel":  "មធ្យម/ថ្ងៃ៖",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ទាក់ទងមកយើងខ្ញុំ",
+    "exportCsv":  "នាំចេញ CSV",
+    "navProfile":  "ប្រវត្តិរូប",
+    "navHome":  "ផ្ទះ",
+    "quickButtons":  "ប៊ូតុងរហ័ស",
+    "onboardingMockRestaurantTitle":  "រាត្រីភោជនីយដ្ឋាន",
+    "currency":  "រូបិយប័ណ្ណ",
+    "onboardingMockRestaurantSub":  "ថ្ងៃសុក្រ - ព្រះអាទិត្យ",
+    "labelToday":  "ថ្ងៃនេះ",
+    "exportRangeToday":  "ថ្ងៃនេះ",
+    "recentEntries":  "ធាតុថ្មីៗ",
+    "pdfReportReady":  "របាយការណ៍ PDF រួចរាល់ដើម្បីចែករំលែក",
+    "undo":  "មិនធ្វើវិញ",
+    "onboardingSkip":  "រំលង",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ខែ",
+    "deleteAll":  "លុបទាំងអស់។",
+    "rateApp":  "វាយតម្លៃកម្មវិធី",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ការងារត្រូវបានរក្សាទុក",
+    "cancel":  "បោះបង់",
+    "@@locale":  "km",
+    "exportRangeCustom":  "ជួរផ្ទាល់ខ្លួន",
+    "exportFrom":  "From: {date}",
+    "export":  "នាំចេញ",
+    "contactUsLabel":  "ទាក់ទងមកយើងខ្ញុំ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ថ្ងៃល្អបំផុត៖",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "គន្លឹះត្រូវបានលុប (មិនធ្វើវិញ)",
+    "greetingAfternoon":  "អរុណសួស្តី!",
+    "roundUp":  "ជុំឡើង",
+    "onboardingWelcomeTitle":  "សូមស្វាគមន៍",
+    "reportPdfTooltip":  "រាយការណ៍ PDF",
+    "settingsSection":  "ការកំណត់",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ការនាំចេញមិនមាននៅលើវេទិកានេះទេ។",
+    "quickButtonsUpdated":  "បានធ្វើបច្ចុប្បន្នភាពប៊ូតុងរហ័ស",
+    "pdfReports":  "របាយការណ៍ PDF",
+    "supportSection":  "ជំនួយ",
+    "filterWeek":  "សប្តាហ៍",
+    "onboardingMockCafeTitle":  "ការផ្លាស់ប្តូរហាងកាហ្វេ",
+    "onboardingWelcomeBody":  "តាមដានរាល់ព័ត៌មានជំនួយ និងរក្សាការគ្រប់គ្រងលើប្រាក់ចំណូលរបស់អ្នក។",
+    "dailySummary":  "សង្ខេបប្រចាំថ្ងៃ",
+    "rateTheApp":  "វាយតម្លៃកម្មវិធី",
+    "noIncomeRecorded":  "គ្មានប្រាក់ចំណូលកត់ត្រាសម្រាប់ថ្ងៃនេះទេ។ ប៉ះប៊ូតុង + ដើម្បីបន្ថែមមួយ!",
+    "noTipsYet":  "មិនទាន់មានការណែនាំនៅឡើយទេ។ បន្ថែមមួយជាមួយប៊ូតុងខាងលើ។",
+    "languageFrench":  "បារាំង",
+    "totalTipsLabel":  "គន្លឹះសរុប៖",
+    "addTip":  "+ បន្ថែមព័ត៌មានជំនួយ",
+    "totalEarningsLabel":  "ប្រាក់ចំណូលសរុប៖",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 ថ្ងៃនេះ",
+    "noTipsToExport":  "មិនទាន់មានគន្លឹះក្នុងការនាំចេញនៅឡើយទេ។",
+    "noTipsForPeriod":  "រកមិនឃើញគន្លឹះសម្រាប់រយៈពេលដែលបានជ្រើសរើសទេ។",
+    "backupTips":  "រក្សាទុកទិន្នន័យរបស់អ្នក / បម្រុងទុកព័ត៌មានជំនួយរបស់អ្នក។",
+    "jobs":  "ការងារ",
+    "greetingEvening":  "រាត្រីសួស្តី!",
+    "languageSystemDefault":  "លំនាំដើមប្រព័ន្ធ",
+    "deleteThisTip":  "លុបព័ត៌មានជំនួយនេះ?",
+    "deleteAllDataTitle":  "លុបទិន្នន័យទាំងអស់?"
+}

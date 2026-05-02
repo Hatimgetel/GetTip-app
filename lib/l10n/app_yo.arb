@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Gbejade CSV",
+    "pdfExportUnavailable":  "PDF okeere ko si lori yi Syeed.",
+    "delete":  "Paarẹ",
+    "thanksFeedback":  "O ṣeun fun esi rẹ!",
+    "languageEnglish":  "English",
+    "allDataDeleted":  "Gbogbo data ti paarẹ",
+    "language":  "Ede",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV okeere ni aṣeyọri",
+    "onboardingJobsTitle":  "Awọn iṣẹ lọpọlọpọ \u0026 Awọn ijabọ Ọjọgbọn",
+    "totalEarnings":  "Lapapọ Awọn dukia",
+    "roundUpSubtitle":  "Yika iye si gbogbo awọn nọmba nigba fifipamọ awọn imọran",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Eyi yoo yọ gbogbo awọn imọran ti o fipamọ kuro patapata.",
+    "filters":  "Ajọ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ede",
+    "darkMode":  "Ipo dudu",
+    "customQuickSubtitle":  "Ṣatunkọ $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Itan",
+    "exportRangeMonth":  "Osu yii",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "Awọn iṣiro",
+    "shareExperience":  "Pin Iriri Rẹ",
+    "filterToday":  "Loni",
+    "customQuickLabel":  "Aṣa",
+    "exportRangeWeek":  "Ose yi",
+    "tipSaved":  "Italolobo ti o ti fipamọ",
+    "onboardingContinue":  "Tesiwaju",
+    "onboardingMockCafeSub":  "Mon - Jimọọ",
+    "entries":  "Awọn titẹ sii",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Oṣuwọn wakati wakati:",
+    "onboardingJobsBody":  "Ṣakoso iṣẹ kọọkan pẹlu awọn kaadi mimọ ati okeere awọn akopọ ti ṣetan PDF.",
+    "onboardingPreviewPdf":  "Awotẹlẹ PDF",
+    "noDataFound":  "Ko ri Data",
+    "deleteAllData":  "Pa gbogbo data rẹ",
+    "filterYear":  "Odun",
+    "navHistory":  "Itan",
+    "greetingMorning":  "E kaaro!",
+    "onboardingProfessionalReports":  "Ọjọgbọn Iroyin",
+    "averageDayLabel":  "Apapọ/ọjọ:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Pe wa",
+    "exportCsv":  "Gbejade CSV",
+    "navProfile":  "Profaili",
+    "navHome":  "Ile",
+    "quickButtons":  "Awọn bọtini iyara",
+    "onboardingMockRestaurantTitle":  "Ounjẹ Alẹ",
+    "currency":  "Owo owo",
+    "onboardingMockRestaurantSub":  "Jimọ - Oorun",
+    "labelToday":  "Loni",
+    "exportRangeToday":  "Loni",
+    "recentEntries":  "to šẹšẹ awọn titẹ sii",
+    "pdfReportReady":  "PDF Iroyin setan lati pin",
+    "undo":  "Yipada",
+    "onboardingSkip":  "Rekọja",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Osu",
+    "deleteAll":  "Pa gbogbo rẹ rẹ",
+    "rateApp":  "Oṣuwọn app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job ti o ti fipamọ",
+    "cancel":  "Fagilee",
+    "@@locale":  "yo",
+    "exportRangeCustom":  "Aṣa Ibiti",
+    "exportFrom":  "From: {date}",
+    "export":  "Si ilẹ okeere",
+    "contactUsLabel":  "Pe wa",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ọjọ ti o dara julọ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Imọran ti paarẹ (Paarẹ)",
+    "greetingAfternoon":  "E kaasan!",
+    "roundUp":  "Ṣe atojọ",
+    "onboardingWelcomeTitle":  "Kaabo",
+    "reportPdfTooltip":  "Jabo PDF",
+    "settingsSection":  "Awọn eto",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Si ilẹ okeere ko si lori iru ẹrọ yii.",
+    "quickButtonsUpdated":  "Awọn bọtini yara ni imudojuiwọn",
+    "pdfReports":  "PDF Iroyin",
+    "supportSection":  "ATILẸYIN ỌJA",
+    "filterWeek":  "Ọsẹ",
+    "onboardingMockCafeTitle":  "Cafe yi lọ yi bọ",
+    "onboardingWelcomeBody":  "Tọpinpin gbogbo imọran ki o duro ni iṣakoso ti awọn dukia rẹ.",
+    "dailySummary":  "Ojoojumọ Lakotan",
+    "rateTheApp":  "Oṣuwọn ohun elo naa",
+    "noIncomeRecorded":  "Ko si owo-wiwọle ti o gbasilẹ fun ọjọ yii. Fọwọ ba bọtini + lati ṣafikun ọkan!",
+    "noTipsYet":  "Ko si awọn imọran sibẹsibẹ. Fi ọkan kun pẹlu awọn bọtini loke.",
+    "languageFrench":  "Francais",
+    "totalTipsLabel":  "Lapapọ awọn imọran:",
+    "addTip":  "+ Fi Italologo kun",
+    "totalEarningsLabel":  "Lapapọ awọn dukia:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 loni",
+    "noTipsToExport":  "Ko si awọn imọran lati okeere sibẹsibẹ.",
+    "noTipsForPeriod":  "Ko si awọn imọran ti a rii fun akoko ti o yan.",
+    "backupTips":  "Fi data rẹ pamọ / Ṣe afẹyinti awọn imọran rẹ",
+    "jobs":  "Awọn iṣẹ",
+    "greetingEvening":  "Ka a ale!",
+    "languageSystemDefault":  "Aiyipada eto",
+    "deleteThisTip":  "Pa imọran yii rẹ bi?",
+    "deleteAllDataTitle":  "Pa gbogbo data rẹ rẹ bi?"
+}

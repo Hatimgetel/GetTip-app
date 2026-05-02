@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Ekspordi CSV",
+    "pdfExportUnavailable":  "PDF-i eksportimine pole sellel platvormil saadaval.",
+    "delete":  "Kustuta",
+    "thanksFeedback":  "Täname tagasiside eest!",
+    "languageEnglish":  "inglise keel",
+    "allDataDeleted":  "Kõik andmed kustutatud",
+    "language":  "Keel",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV eksportimine õnnestus",
+    "onboardingJobsTitle":  "Mitu tööd ja professionaalsed aruanded",
+    "totalEarnings":  "Kogutulu",
+    "roundUpSubtitle":  "Jootraha salvestamisel ümardatakse täisarvudena",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "See eemaldab jäädavalt kõik salvestatud näpunäited.",
+    "filters":  "Filtrid",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Keel",
+    "darkMode":  "Tume režiim",
+    "customQuickSubtitle":  "Redigeeri $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Ajalugu",
+    "exportRangeMonth":  "Sel kuul",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKA",
+    "shareExperience":  "Jagage oma kogemusi",
+    "filterToday":  "Täna",
+    "customQuickLabel":  "Kohandatud",
+    "exportRangeWeek":  "Sellel nädalal",
+    "tipSaved":  "Vihje salvestatud",
+    "onboardingContinue":  "Jätka",
+    "onboardingMockCafeSub":  "E-R",
+    "entries":  "Sissekanded",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Keskmine tunnitasu:",
+    "onboardingJobsBody":  "Hallake iga tööd puhaste kaartidega ja eksportige PDF-valmidusega kokkuvõtteid.",
+    "onboardingPreviewPdf":  "PDF-i eelvaade",
+    "noDataFound":  "Andmeid ei leitud",
+    "deleteAllData":  "Kustuta kõik andmed",
+    "filterYear":  "aasta",
+    "navHistory":  "Ajalugu",
+    "greetingMorning":  "Tere hommikust!",
+    "onboardingProfessionalReports":  "Professionaalsed aruanded",
+    "averageDayLabel":  "Keskmine/päev:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Võtke meiega ühendust",
+    "exportCsv":  "Ekspordi CSV",
+    "navProfile":  "Profiil",
+    "navHome":  "Kodu",
+    "quickButtons":  "Kiired nupud",
+    "onboardingMockRestaurantTitle":  "Restoranide õhtu",
+    "currency":  "Valuuta",
+    "onboardingMockRestaurantSub":  "P - P",
+    "labelToday":  "Täna",
+    "exportRangeToday":  "Täna",
+    "recentEntries":  "Viimased sissekanded",
+    "pdfReportReady":  "PDF-aruanne on jagamiseks valmis",
+    "undo":  "Võta tagasi",
+    "onboardingSkip":  "Jäta vahele",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Kuu",
+    "deleteAll":  "Kustuta kõik",
+    "rateApp":  "Hinda rakendust",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Töö päästetud",
+    "cancel":  "Tühista",
+    "@@locale":  "et",
+    "exportRangeCustom":  "Kohandatud vahemik",
+    "exportFrom":  "From: {date}",
+    "export":  "Ekspordi",
+    "contactUsLabel":  "Võtke meiega ühendust",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Parim päev:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Vihje kustutatud (Võta tagasi)",
+    "greetingAfternoon":  "Tere pärastlõunast!",
+    "roundUp":  "Ümar üles",
+    "onboardingWelcomeTitle":  "Tere tulemast",
+    "reportPdfTooltip":  "Teata PDF-ist",
+    "settingsSection":  "SEADED",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksport pole sellel platvormil saadaval.",
+    "quickButtonsUpdated":  "Kiirnupud uuendatud",
+    "pdfReports":  "PDF-aruanded",
+    "supportSection":  "TUGI",
+    "filterWeek":  "Nädal",
+    "onboardingMockCafeTitle":  "Kohviku vahetus",
+    "onboardingWelcomeBody":  "Jälgige iga vihjet ja hoidke oma tulude üle kontrolli.",
+    "dailySummary":  "Päeva kokkuvõte",
+    "rateTheApp":  "Hinda rakendust",
+    "noIncomeRecorded":  "Sellel päeval sissetulekuid pole registreeritud. Ühe lisamiseks puudutage nuppu +!",
+    "noTipsYet":  "Vihjeid veel pole. Lisage üks ülaltoodud nuppudega.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Näpunäiteid kokku:",
+    "addTip":  "+ Lisa vihje",
+    "totalEarningsLabel":  "Kogutulu:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ täna",
+    "noTipsToExport":  "Eksportimiseks pole veel nõuandeid.",
+    "noTipsForPeriod":  "Valitud perioodi kohta vihjeid ei leitud.",
+    "backupTips":  "Salvestage oma andmed / varundage oma nõuanded",
+    "jobs":  "Töökohad",
+    "greetingEvening":  "Tere õhtust!",
+    "languageSystemDefault":  "Süsteemi vaikeseade",
+    "deleteThisTip":  "Kas kustutada see nõuanne?",
+    "deleteAllDataTitle":  "Kas kustutada kõik andmed?"
+}

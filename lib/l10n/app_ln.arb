@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Bobimisi CSV na libanda",
+    "pdfExportUnavailable":  "Exportation ya PDF ezali te na plateforme oyo.",
+    "delete":  "Boma",
+    "thanksFeedback":  "Merci pona ba commentaires na bino!",
+    "languageEnglish":  "Lingelesi",
+    "allDataDeleted":  "Ba données nionso elongolami",
+    "language":  "Lokota",
+    "appTitle":  "Molandi ya MyTip",
+    "csvExported":  "CSV e exporter na elonga",
+    "onboardingJobsTitle":  "Misala \u0026 Rapports Professionnels ebele",
+    "totalEarnings":  "Total ya ba Revenus",
+    "roundUpSubtitle":  "Ronde ezali na ba nombres entiers tango ozali ko sauver ba conseils",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Yango ekolongola libela ba conseils nionso oyo ebombami.",
+    "filters":  "Ba filtres",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lokota",
+    "darkMode":  "Mode ya molili",
+    "customQuickSubtitle":  "Bobongisi $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Lisolo",
+    "exportRangeMonth":  "Sanza oyo",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Kabola Expérience na Yo",
+    "filterToday":  "Lelo",
+    "customQuickLabel":  "Momeseno",
+    "exportRangeWeek":  "Pɔsɔ oyo",
+    "tipSaved":  "Toli ebombami",
+    "onboardingContinue":  "Kokoba",
+    "onboardingMockCafeSub":  "Lun - Vendredi",
+    "entries":  "Ba entrées",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Moyenne ya taux ya ngonga:",
+    "onboardingJobsBody":  "Gérer mosala moko na moko na ba cartes ya peto mpe exporter ba résumés prêts ya PDF.",
+    "onboardingPreviewPdf":  "Botala liboso PDF",
+    "noDataFound":  "Ba Données Ezwami Te",
+    "deleteAllData":  "Bolongola ba données nionso",
+    "filterYear":  "Mbula",
+    "navHistory":  "Lisolo",
+    "greetingMorning":  "Mbote!",
+    "onboardingProfessionalReports":  "Ba rapports ya ba professionnels",
+    "averageDayLabel":  "Mwayene/mokolo:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Bokutana na biso",
+    "exportCsv":  "Bobimisi CSV na libanda",
+    "navProfile":  "Profil",
+    "navHome":  "Ndako",
+    "quickButtons":  "Ba boutons ya mbangu",
+    "onboardingMockRestaurantTitle":  "Butu ya Restaurant",
+    "currency":  "Mbongo",
+    "onboardingMockRestaurantSub":  "Vendredi - Mokolo ya lomingo",
+    "labelToday":  "Lelo",
+    "exportRangeToday":  "Lelo",
+    "recentEntries":  "Ba entrées ya sika",
+    "pdfReportReady":  "Rapport PDF prêt ya kokabola",
+    "undo":  "Kozongisa nsima",
+    "onboardingSkip":  "Kokipe te",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Sanza",
+    "deleteAll":  "Bolongola nionso",
+    "rateApp":  "Kopesa motuya na app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Yobo abikisaki",
+    "cancel":  "Kolongola",
+    "@@locale":  "ln",
+    "exportRangeCustom":  "Gamme personnalisée",
+    "exportFrom":  "From: {date}",
+    "export":  "Kotinda",
+    "contactUsLabel":  "Bokutana na biso",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Mokolo ya malamu koleka:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Toli elongolami (Kozongisa sima) .",
+    "greetingAfternoon":  "Nsima ya nzanga malamu!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Boyei malamu",
+    "reportPdfTooltip":  "Lapolo ya PDF",
+    "settingsSection":  "BILOKO YA KOSALELA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Exportation ezali te na plateforme oyo.",
+    "quickButtonsUpdated":  "Ba boutons ya mbangu ezongisami na mikolo",
+    "pdfReports":  "Balapolo ya PDF",
+    "supportSection":  "LISUNGI",
+    "filterWeek":  "Mposo",
+    "onboardingMockCafeTitle":  "Shift ya café",
+    "onboardingWelcomeBody":  "Bolanda conseil nionso pe tikala na contrôle ya ba revenus na yo.",
+    "dailySummary":  "Bokuse ya mokolo na mokolo",
+    "rateTheApp":  "Bopesa motuya na app",
+    "noIncomeRecorded":  "Mosolo moko te ekomamaki mpo na mokolo oyo. Finá na butɔ + mpo na kobakisa moko!",
+    "noTipsYet":  "Ba conseils moko te nanu. Bakisa moko na ba boutons oyo ezali likolo.",
+    "languageFrench":  "Français azali moto ya mayele",
+    "totalTipsLabel":  "Total ya ba conseils:",
+    "addTip":  "+ Bakisa Toli",
+    "totalEarningsLabel":  "Mosolo nyonso oyo moto azwi:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Lelo oyo",
+    "noTipsToExport":  "Ba conseils ya ko exporter nanu te.",
+    "noTipsForPeriod":  "Ba conseils moko te ezwami mpo na période oyo oponi.",
+    "backupTips":  "Bomba ba données na yo / Sauvegarde ya ba conseils na yo",
+    "jobs":  "Misala",
+    "greetingEvening":  "Mpokwa malamu!",
+    "languageSystemDefault":  "Système par défaut",
+    "deleteThisTip":  "Bolongola toli oyo?",
+    "deleteAllDataTitle":  "Bolongola ba données nionso?"
+}

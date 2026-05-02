@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksportuj plik CSV",
+    "pdfExportUnavailable":  "Eksport do pliku PDF nie jest dostępny na tej platformie.",
+    "delete":  "Usuwać",
+    "thanksFeedback":  "Dziękujemy za Twoją opinię!",
+    "languageEnglish":  "angielski",
+    "allDataDeleted":  "Wszystkie dane usunięte",
+    "language":  "Język",
+    "appTitle":  "Śledzenie moich wskazówek",
+    "csvExported":  "CSV wyeksportowany pomyślnie",
+    "onboardingJobsTitle":  "Wiele stanowisk pracy i raportów zawodowych",
+    "totalEarnings":  "Całkowite zarobki",
+    "roundUpSubtitle":  "Zaokrąglanie oznacza liczby całkowite podczas zapisywania napiwków",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Spowoduje to trwałe usunięcie wszystkich zapisanych wskazówek.",
+    "filters":  "Filtry",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Język",
+    "darkMode":  "Tryb ciemny",
+    "customQuickSubtitle":  "Edytuj 10 USD · 20 USD · 50 USD",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "W tym miesiącu",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATYSTYKI",
+    "shareExperience":  "Podziel się swoim doświadczeniem",
+    "filterToday":  "Dzisiaj",
+    "customQuickLabel":  "Zwyczaj",
+    "exportRangeWeek":  "W tym tygodniu",
+    "tipSaved":  "Wskazówka zapisana",
+    "onboardingContinue":  "Kontynuować",
+    "onboardingMockCafeSub":  "Pon. - Pt",
+    "entries":  "Wpisy",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Średnia stawka godzinowa:",
+    "onboardingJobsBody":  "Zarządzaj każdym zadaniem za pomocą czystych kart i eksportuj podsumowania w formacie PDF.",
+    "onboardingPreviewPdf":  "Podgląd pliku PDF",
+    "noDataFound":  "Nie znaleziono danych",
+    "deleteAllData":  "Usuń wszystkie dane",
+    "filterYear":  "Rok",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Dzień dobry!",
+    "onboardingProfessionalReports":  "Profesjonalne raporty",
+    "averageDayLabel":  "Średnia/dzień:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Skontaktuj się z nami",
+    "exportCsv":  "Eksportuj plik CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Dom",
+    "quickButtons":  "Szybkie przyciski",
+    "onboardingMockRestaurantTitle":  "Noc Restauracyjna",
+    "currency":  "Waluta",
+    "onboardingMockRestaurantSub":  "Piątek - Niedziela",
+    "labelToday":  "Dzisiaj",
+    "exportRangeToday":  "Dzisiaj",
+    "recentEntries":  "Najnowsze wpisy",
+    "pdfReportReady":  "Raport w formacie PDF gotowy do udostępnienia",
+    "undo":  "Anulować",
+    "onboardingSkip":  "Pominąć",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Miesiąc",
+    "deleteAll":  "Usuń wszystko",
+    "rateApp":  "Oceń aplikację",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Zadanie zapisane",
+    "cancel":  "Anulować",
+    "@@locale":  "pl",
+    "exportRangeCustom":  "Zakres niestandardowy",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksport",
+    "contactUsLabel":  "Skontaktuj się z nami",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Najlepszy dzień:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Wskazówka usunięta (Cofnij)",
+    "greetingAfternoon":  "Dzień dobry!",
+    "roundUp":  "Spędzać bydlę",
+    "onboardingWelcomeTitle":  "Powitanie",
+    "reportPdfTooltip":  "Raport w formacie PDF",
+    "settingsSection":  "USTAWIENIA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksport nie jest dostępny na tej platformie.",
+    "quickButtonsUpdated":  "Zaktualizowano szybkie przyciski",
+    "pdfReports":  "Raporty w formacie PDF",
+    "supportSection":  "WSPARCIE",
+    "filterWeek":  "Tydzień",
+    "onboardingMockCafeTitle":  "Zmiana kawiarni",
+    "onboardingWelcomeBody":  "Śledź każdą wskazówkę i miej kontrolę nad swoimi zarobkami.",
+    "dailySummary":  "Podsumowanie dnia",
+    "rateTheApp":  "Oceń aplikację",
+    "noIncomeRecorded":  "Na ten dzień nie zarejestrowano żadnego dochodu. Naciśnij przycisk +, aby go dodać!",
+    "noTipsYet":  "Nie ma jeszcze żadnych wskazówek. Dodaj jeden za pomocą powyższych przycisków.",
+    "languageFrench":  "francuski",
+    "totalTipsLabel":  "Suma wskazówek:",
+    "addTip":  "+ Dodaj napiwek",
+    "totalEarningsLabel":  "Całkowite zarobki:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 dolarów dzisiaj",
+    "noTipsToExport":  "Nie ma jeszcze wskazówek do wyeksportowania.",
+    "noTipsForPeriod":  "Nie znaleziono wskazówek dla wybranego okresu.",
+    "backupTips":  "Zapisz swoje dane / wykonaj kopię zapasową wskazówek",
+    "jobs":  "Praca",
+    "greetingEvening":  "Dobry wieczór!",
+    "languageSystemDefault":  "Domyślne systemowe",
+    "deleteThisTip":  "Usunąć tę wskazówkę?",
+    "deleteAllDataTitle":  "Usunąć wszystkie dane?"
+}

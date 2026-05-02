@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "עקספּאָרט CSV",
+    "pdfExportUnavailable":  "PDF עקספּאָרט איז ניט בנימצא אויף דעם פּלאַטפאָרמע.",
+    "delete":  "ויסמעקן",
+    "thanksFeedback":  "דאַנקען פֿאַר דיין באַמערקונגען!",
+    "languageEnglish":  "ענגליש",
+    "allDataDeleted":  "אַלע דאַטן אויסגעמעקט",
+    "language":  "שפּראַך",
+    "appTitle":  "מיטטיפּ טראַקער",
+    "csvExported":  "CSV עקספּאָרטירט הצלחה",
+    "onboardingJobsTitle":  "קייפל דזשאָבס \u0026 פאַכמאַן רעפּאָרץ",
+    "totalEarnings":  "גאַנץ פאַרדינסט",
+    "roundUpSubtitle":  "קייַלעכיק אַמאַונץ צו גאַנץ נומערן ווען שפּאָרן עצות",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "דאָס וועט פּערמאַנאַנטלי באַזייַטיקן אַלע געראטעוועט עצות.",
+    "filters":  "פילטערס",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "שפּראַך",
+    "darkMode":  "טונקל מאָדע",
+    "customQuickSubtitle":  "רעדאַגירן $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "געשיכטע",
+    "exportRangeMonth":  "דעם חודש",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "סטאַטיסטיק",
+    "shareExperience":  "ייַנטיילן דיין דערפאַרונג",
+    "filterToday":  "היינט",
+    "customQuickLabel":  "מנהג",
+    "exportRangeWeek":  "די וואָך",
+    "tipSaved":  "שפּיץ געראטעוועט",
+    "onboardingContinue":  "פאָרזעצן",
+    "onboardingMockCafeSub":  "מאנטיק - פרייטאג",
+    "entries":  "איינסן",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "דורכשניטלעך שעה קורס:",
+    "onboardingJobsBody":  "פירן יעדער אַרבעט מיט ריין קאַרדס און אַרויספירן פּדף-גרייט סאַמעריז.",
+    "onboardingPreviewPdf":  "פאָרויסיקע ווייַזונג פּדף",
+    "noDataFound":  "קיין דאַטן געפונען",
+    "deleteAllData":  "ויסמעקן אַלע דאַטן",
+    "filterYear":  "יאָר",
+    "navHistory":  "געשיכטע",
+    "greetingMorning":  "גוט מאָרגן!",
+    "onboardingProfessionalReports":  "פאַכמאַן רעפּאָרץ",
+    "averageDayLabel":  "דורכשניטלעך / טאָג:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "קאָנטאַקט אונדז",
+    "exportCsv":  "עקספּאָרט CSV",
+    "navProfile":  "פּראָפיל",
+    "navHome":  "היים",
+    "quickButtons":  "שנעל קנעפּלעך",
+    "onboardingMockRestaurantTitle":  "רעסטאָראַן נאַכט",
+    "currency":  "קראַנטקייַט",
+    "onboardingMockRestaurantSub":  "פרייטאג - זונטאג",
+    "labelToday":  "היינט",
+    "exportRangeToday":  "היינט",
+    "recentEntries":  "לעצטע איינסן",
+    "pdfReportReady":  "PDF באַריכט גרייט צו טיילן",
+    "undo":  "ופמאַכן",
+    "onboardingSkip":  "האָפּקען",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "חודש",
+    "deleteAll":  "ויסמעקן אַלע",
+    "rateApp":  "קורס אַפּ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "אַרבעט געראטעוועט",
+    "cancel":  "באָטל מאַכן",
+    "@@locale":  "yi",
+    "exportRangeCustom":  "מנהג ראַנגע",
+    "exportFrom":  "From: {date}",
+    "export":  "עקספּאָרט",
+    "contactUsLabel":  "קאָנטאַקט אונדז",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "בעסטער טאָג:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "עצה אויסגעמעקט (ופמאַכן)",
+    "greetingAfternoon":  "גוט נאָכמיטאָג!",
+    "roundUp":  "ראָונד אַרויף",
+    "onboardingWelcomeTitle":  "ברוכים הבאים",
+    "reportPdfTooltip":  "באריכט פּדף",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "עקספּאָרט איז ניט בנימצא אויף דעם פּלאַטפאָרמע.",
+    "quickButtonsUpdated":  "שנעל קנעפּלעך דערהייַנטיקט",
+    "pdfReports":  "פּדף רעפּאָרץ",
+    "supportSection":  "שטיצן",
+    "filterWeek":  "וואָך",
+    "onboardingMockCafeTitle":  "קאַפע שיפט",
+    "onboardingWelcomeBody":  "שפּור יעדער עצה און האַלטן קאָנטראָל פון דיין פאַרדינסט.",
+    "dailySummary":  "טעגלעך קיצער",
+    "rateTheApp":  "אָפּשאַצן די אַפּ",
+    "noIncomeRecorded":  "קיין האַכנאָסע רעקאָרדעד פֿאַר דעם טאָג. צאַפּן אויף די + קנעפּל צו לייגן איין!",
+    "noTipsYet":  "נאָך קיין עצות. לייג איינער מיט די קנעפּלעך אויבן.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "גאַנץ עצות:",
+    "addTip":  "+ לייג עצה",
+    "totalEarningsLabel":  "גאַנץ פאַרדינסט:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 הייַנט",
+    "noTipsToExport":  "קיין עצות צו אַרויספירן נאָך.",
+    "noTipsForPeriod":  "קיין עצות געפונען פֿאַר אויסגעקליבן צייט.",
+    "backupTips":  "היט דיין דאַטן / באַקאַפּ דיין עצות",
+    "jobs":  "דזשאָבס",
+    "greetingEvening":  "גוטן אָוונט!",
+    "languageSystemDefault":  "סיסטעם פעליקייַט",
+    "deleteThisTip":  "ויסמעקן דעם שפּיץ?",
+    "deleteAllDataTitle":  "ויסמעקן אַלע דאַטן?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Rhumela ehandle CSV",
+    "pdfExportUnavailable":  "Ku rhumela ehandle ka PDF a ku kumeki eka pulatifomo leyi.",
+    "delete":  "Sula",
+    "thanksFeedback":  "Ndza khensa eka swibumabumelo swa n\u0027wina!",
+    "languageEnglish":  "Xinghezi",
+    "allDataDeleted":  "Data hinkwayo yi susiwile",
+    "language":  "Ririmi",
+    "appTitle":  "Mulandzeri wa MyTip",
+    "csvExported":  "CSV yi rhumeriwile ehandle hi ndlela leyi humelelaka",
+    "onboardingJobsTitle":  "Mintirho yo tala \u0026 Swiviko swa Xiphurofexinali",
+    "totalEarnings":  "Ntsengo hinkwawo wa Miholo",
+    "roundUpSubtitle":  "Xirhendzevutani xi ringana na tinomboro leti heleleke loko u hlayisa switsundzuxo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Leswi swi ta susa switsundzuxo hinkwaswo leswi hlayisiweke hi laha ku nga heriki.",
+    "filters":  "Swisefo",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ririmi",
+    "darkMode":  "Mode ya munyama",
+    "customQuickSubtitle":  "Hlela $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Matimu",
+    "exportRangeMonth":  "N’hweti leyi",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Hlanganisa Ntokoto Wa Wena",
+    "filterToday":  "Namuntlha",
+    "customQuickLabel":  "Ntolovelo",
+    "exportRangeWeek":  "Vhiki Leri",
+    "tipSaved":  "Xitsundzuxo xi hlayisiwile",
+    "onboardingContinue":  "Yisa emahlweni",
+    "onboardingMockCafeSub":  "Mon - Ravuntlhanu",
+    "entries":  "Swingheniso",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Avg ya ntsengo wa awara:",
+    "onboardingJobsBody":  "Lawula ntirho wun’wana na wun’wana hi makhadi lama tengeke na ku rhumela ehandle switlhokovetselo leswi lunghekeleke PDF.",
+    "onboardingPreviewPdf":  "Xikombiso xa PDF",
+    "noDataFound":  "Ku hava Data leyi kumiweke",
+    "deleteAllData":  "Susa data hinkwayo",
+    "filterYear":  "Lembe",
+    "navHistory":  "Matimu",
+    "greetingMorning":  "Mixo lowunene!",
+    "onboardingProfessionalReports":  "Swiviko swa Xiphurofexinali",
+    "averageDayLabel":  "Xiringaniso/siku: .",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Tihlanganise na hina",
+    "exportCsv":  "Rhumela ehandle CSV",
+    "navProfile":  "Phurofayili",
+    "navHome":  "Kaya",
+    "quickButtons":  "Swikomba-nkarhi swa xihatla",
+    "onboardingMockRestaurantTitle":  "Vusiku bya Restaurant",
+    "currency":  "Mali ya tiko",
+    "onboardingMockRestaurantSub":  "Ravuntlhanu - Dyambu",
+    "labelToday":  "Namuntlha",
+    "exportRangeToday":  "Namuntlha",
+    "recentEntries":  "Swilo leswi nghenisiweke sweswinyana",
+    "pdfReportReady":  "Xiviko xa PDF xi lunghekele ku avelana",
+    "undo":  "Ku tlherisela endzhaku",
+    "onboardingSkip":  "Tlula",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "N\u0027hweti",
+    "deleteAll":  "Susa hinkwaswo",
+    "rateApp":  "Xiringanyeto xa app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Yobo u ponisiwile",
+    "cancel":  "Khansela",
+    "@@locale":  "ts",
+    "exportRangeCustom":  "Range ya Xihlawuhlawu",
+    "exportFrom":  "From: {date}",
+    "export":  "Rhumela",
+    "contactUsLabel":  "Tihlanganise na hina",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Siku lerinene ngopfu:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Xitsundzuxo xi susiwile (Undo) .",
+    "greetingAfternoon":  "Nhlikanhi lowunene!",
+    "roundUp":  "Xirhendzevutani xa le henhla",
+    "onboardingWelcomeTitle":  "Amukela",
+    "reportPdfTooltip":  "Xiviko xa PDF",
+    "settingsSection":  "SWIVUMBEKO SWA XIYIMO XA LE HENHLA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Ku rhumela ehandle a swi kumeki eka pulatifomo leyi.",
+    "quickButtonsUpdated":  "Swikoweto swa xihatla swi pfuxetiwile",
+    "pdfReports":  "Swiviko swa PDF",
+    "supportSection":  "NSEKETELO",
+    "filterWeek":  "Vhiki",
+    "onboardingMockCafeTitle":  "Ku Cinca ka Cafe",
+    "onboardingWelcomeBody":  "Landzelela xitsundzuxo xin’wana ni xin’wana naswona u tshama u ri karhi u lawula miholo ya wena.",
+    "dailySummary":  "Nkatsakanyo wa Siku na Siku",
+    "rateTheApp":  "Xiringanyeto xa app",
+    "noIncomeRecorded":  "Ku hava muholo lowu rhekhodiweke eka siku leri. Thepha + button ku engetela yin’we!",
+    "noTipsYet":  "Ku hava switsundzuxo ku fikela sweswi. Engeta yin’we leyi nga ni swikomba-nkarhi leswi nga laha henhla.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Switsundzuxo hinkwaswo:",
+    "addTip":  "+ Engetela Xitsundzuxo",
+    "totalEarningsLabel":  "Nhlayo hinkwayo ya miholo: .",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Namuntlha",
+    "noTipsToExport":  "Ku hava switsundzuxo swo rhumela ehandle ku fikela sweswi.",
+    "noTipsForPeriod":  "Ku hava switsundzuxo leswi kumiweke eka nkarhi lowu hlawuriweke.",
+    "backupTips":  "Hlayisa data ya wena / Backup switsundzuxo swa wena",
+    "jobs":  "Mintirho",
+    "greetingEvening":  "Riperile!",
+    "languageSystemDefault":  "Xiyimiso xa sisiteme",
+    "deleteThisTip":  "Susa xitsundzuxo lexi?",
+    "deleteAllDataTitle":  "Ku susa data hinkwayo?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV (CSV) bɔli kɛnɛ kan",
+    "pdfExportUnavailable":  "PDF bɔli tɛ sɔrɔ nin yɔrɔ in kan.",
+    "delete":  "Ka jɔsi",
+    "thanksFeedback":  "Aw ni ce aw ka hakilinaw la!",
+    "languageEnglish":  "Angilɛtɛri",
+    "allDataDeleted":  "Donanw bɛɛ bɔra",
+    "language":  "Kan",
+    "appTitle":  "MyTip Tracker (Tip) min bɛ tugu ɲɔgɔn kɔ",
+    "csvExported":  "CSV ye \u0027sèn Bɔ a la ka ɲɛ",
+    "onboardingJobsTitle":  "Baara caman \u0026 Baarakɛlaw ka kunnafonidisɛbɛnw",
+    "totalEarnings":  "Sɔrɔw bɛɛ lajɛlen",
+    "roundUpSubtitle":  "Round hakɛ bɛ kɛ jateden dafalenw ye ni i bɛ laadilikanw mara",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "O bɛna laadilikan maralenw bɛɛ bɔ yen kudayi.",
+    "filters":  "Filɛriw",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Kan",
+    "darkMode":  "Dibi cogoya",
+    "customQuickSubtitle":  "Ladilikan $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tariku",
+    "exportRangeMonth":  "Nin Kalo in na",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS (STATS) ye",
+    "shareExperience":  "Aw ye aw ka ko kɛlenw fɔ",
+    "filterToday":  "Bi",
+    "customQuickLabel":  "Laada",
+    "exportRangeWeek":  "Nin Dɔgɔkun in na",
+    "tipSaved":  "Ladilikan min maralen don",
+    "onboardingContinue":  "Ka taa fɛ",
+    "onboardingMockCafeSub":  "Lundi - Juma",
+    "entries":  "Donnakow",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Lɛrɛ hakɛ cɛmancɛ:",
+    "onboardingJobsBody":  "Baara kelen-kelen bɛɛ ɲɛnabɔ ni karti saniyalenw ye ani ka kunnafoni kuncɛlenw bila ka taa jamana wɛrɛw la minnu labɛnnen don PDF la.",
+    "onboardingPreviewPdf":  "PDF lajɛ fɔlɔ",
+    "noDataFound":  "Donan si ma Sɔrɔ",
+    "deleteAllData":  "Donanw bɛɛ bɔ yen",
+    "filterYear":  "San",
+    "navHistory":  "Tariku",
+    "greetingMorning":  "A\u0027 ni sɔgɔma!",
+    "onboardingProfessionalReports":  "Baarakɛlaw ka kunnafoniw",
+    "averageDayLabel":  "Kɛrɛnkɛrɛnnenya la/don:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Aw ye ɲɔgɔn sɔrɔ anw fɛ",
+    "exportCsv":  "CSV (CSV) bɔli kɛnɛ kan",
+    "navProfile":  "Porofili",
+    "navHome":  "So",
+    "quickButtons":  "Butɔn teliyalenw",
+    "onboardingMockRestaurantTitle":  "Restoransi Su fɛ",
+    "currency":  "Wari",
+    "onboardingMockRestaurantSub":  "Juma - Tile",
+    "labelToday":  "Bi",
+    "exportRangeToday":  "Bi",
+    "recentEntries":  "Kɔsa in na, sɛbɛnni minnu kɛra",
+    "pdfReportReady":  "PDF rapɔɔri labɛnnen don ka tila",
+    "undo":  "Undo (Undo) la",
+    "onboardingSkip":  "Ka lasogo",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Kalo",
+    "deleteAll":  "A bɛɛ bɔ yen",
+    "rateApp":  "Rate app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job ye kisi",
+    "cancel":  "ka dankari",
+    "@@locale":  "bm",
+    "exportRangeCustom":  "Custom Range ye",
+    "exportFrom":  "From: {date}",
+    "export":  "Ka labɔ",
+    "contactUsLabel":  "Aw ye ɲɔgɔn sɔrɔ anw fɛ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Don ɲumanba:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Ladilikan bɔra (Undo) .",
+    "greetingAfternoon":  "I ni wula!",
+    "roundUp":  "Round Up (Lamini ka wuli).",
+    "onboardingWelcomeTitle":  "I danse",
+    "reportPdfTooltip":  "Rapport PDF ye",
+    "settingsSection":  "ƝƐNABƆLI ƝƐNABƆLI",
+    "languageArabic":  "العربية ye",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export tɛ sɔrɔ nin plateforme in kan.",
+    "quickButtonsUpdated":  "Butɔn teliyalenw bɛ ladamu",
+    "pdfReports":  "PDF Laseliw",
+    "supportSection":  "SƐMƐJIRI",
+    "filterWeek":  "Dɔgɔkun",
+    "onboardingMockCafeTitle":  "Kafe Shift",
+    "onboardingWelcomeBody":  "Aw ye laadilikan bɛɛ lajɛ ani ka to aw ka sɔrɔ kunbɛnni na.",
+    "dailySummary":  "Don o don Kuma surun",
+    "rateTheApp":  "Aw ye appli (application) jate",
+    "noIncomeRecorded":  "Sɔrɔ si ma sɛbɛn nin don in na. + butɔn digi walisa ka dɔ fara a kan!",
+    "noTipsYet":  "Ladilikan si tɛ yen fɔlɔ. Aw bɛ kelen fara a kan ni butɔni minnu bɛ sanfɛ.",
+    "languageFrench":  "Français ye baara kɛ",
+    "totalTipsLabel":  "Ladilikanw bɛɛ lajɛlen:",
+    "addTip":  "+ Ladilikan fara a kan",
+    "totalEarningsLabel":  "Sɔrɔ bɛɛ lajɛlen:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Bi",
+    "noTipsToExport":  "Ladilikan si tɛ yen ka taa jamana wɛrɛw la fɔlɔ.",
+    "noTipsForPeriod":  "Ladilikan si ma sɔrɔ waati sugandilen na.",
+    "backupTips":  "Aw ye aw ka dataw mara / Aw ye aw ka laadilikanw mara",
+    "jobs":  "Baara minnu bɛ kɛ",
+    "greetingEvening":  "I ni su!",
+    "languageSystemDefault":  "Sistɛmu ka default",
+    "deleteThisTip":  "Aw ye nin laadilikan in bɔ yen wa?",
+    "deleteAllDataTitle":  "Donanw bɛɛ bɔ yen wa?"
+}

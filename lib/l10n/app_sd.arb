@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV برآمد ڪريو",
+    "pdfExportUnavailable":  "PDF ايڪسپورٽ هن پليٽ فارم تي دستياب ناهي.",
+    "delete":  "حذف ڪريو",
+    "thanksFeedback":  "توهان جي راءِ لاءِ مهرباني!",
+    "languageEnglish":  "انگريزي",
+    "allDataDeleted":  "سڀ ڊيٽا ختم",
+    "language":  "ٻولي",
+    "appTitle":  "MyTip ٽريڪٽر",
+    "csvExported":  "CSV ڪاميابيءَ سان برآمد ٿيو",
+    "onboardingJobsTitle":  "گهڻن نوڪريون ۽ پيشه ورانه رپورٽون",
+    "totalEarnings":  "ڪل آمدني",
+    "roundUpSubtitle":  "ٽوٽڪا محفوظ ڪرڻ وقت مڪمل انگن جي گول رقم",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "اهو مستقل طور تي سڀني محفوظ ڪيل تجويزن کي ختم ڪري ڇڏيندو.",
+    "filters":  "فلٽر",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ٻولي",
+    "darkMode":  "ڳاڙهو موڊ",
+    "customQuickSubtitle":  "ترميم ڪريو $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "تاريخ",
+    "exportRangeMonth":  "هن مهيني",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "اسٽيٽس",
+    "shareExperience":  "پنهنجو تجربو حصيداري ڪريو",
+    "filterToday":  "اڄ",
+    "customQuickLabel":  "حسب ضرورت",
+    "exportRangeWeek":  "هن هفتي",
+    "tipSaved":  "ٽپ محفوظ ڪيو",
+    "onboardingContinue":  "جاري رکو",
+    "onboardingMockCafeSub":  "سومر - جمعو",
+    "entries":  "داخلائون",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "سراسري ڪلاڪ جي شرح:",
+    "onboardingJobsBody":  "هر نوڪري کي صاف ڪارڊ سان منظم ڪريو ۽ PDF-تيار خلاصو برآمد ڪريو.",
+    "onboardingPreviewPdf":  "PDF جو جائزو وٺو",
+    "noDataFound":  "ڪابه ڊيٽا نه ملي",
+    "deleteAllData":  "سڀ ڊيٽا ختم ڪريو",
+    "filterYear":  "سال",
+    "navHistory":  "تاريخ",
+    "greetingMorning":  "صبح جو سلام!",
+    "onboardingProfessionalReports":  "پروفيشنل رپورٽون",
+    "averageDayLabel":  "سراسري/ڏينهن:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "اسان سان رابطو ڪريو",
+    "exportCsv":  "CSV برآمد ڪريو",
+    "navProfile":  "پروفائل",
+    "navHome":  "گهر",
+    "quickButtons":  "تڪڙو بٽڻ",
+    "onboardingMockRestaurantTitle":  "ريسٽورنٽ رات",
+    "currency":  "ڪرنسي",
+    "onboardingMockRestaurantSub":  "جمعو - آچر",
+    "labelToday":  "اڄ",
+    "exportRangeToday":  "اڄ",
+    "recentEntries":  "تازيون داخلائون",
+    "pdfReportReady":  "پي ڊي ايف رپورٽ شيئر ڪرڻ لاءِ تيار آهي",
+    "undo":  "اڻڄاتل",
+    "onboardingSkip":  "ڇڏڻ",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "مهينو",
+    "deleteAll":  "سڀ ختم ڪريو",
+    "rateApp":  "شرح ايپ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "نوڪري بچايو",
+    "cancel":  "منسوخ ڪريو",
+    "@@locale":  "sd",
+    "exportRangeCustom":  "ڪسٽم رينج",
+    "exportFrom":  "From: {date}",
+    "export":  "برآمد",
+    "contactUsLabel":  "اسان سان رابطو ڪريو",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "بهترين ڏينهن:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ترڪيب ختم ڪئي وئي (واپس ڪريو)",
+    "greetingAfternoon":  "منجهند جو سلام!",
+    "roundUp":  "گول مٿي",
+    "onboardingWelcomeTitle":  "ڀلي ڪري آيا",
+    "reportPdfTooltip":  "رپورٽ PDF",
+    "settingsSection":  "سيٽنگون",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ايڪسپورٽ هن پليٽ فارم تي دستياب ناهي.",
+    "quickButtonsUpdated":  "تڪڙو بٽڻ اپڊيٽ ڪيو",
+    "pdfReports":  "PDF رپورٽون",
+    "supportSection":  "سپورٽ",
+    "filterWeek":  "هفتو",
+    "onboardingMockCafeTitle":  "ڪيفي شفٽ",
+    "onboardingWelcomeBody":  "هر ٽپ کي ٽريڪ ڪريو ۽ توهان جي آمدني جي ڪنٽرول ۾ رکو.",
+    "dailySummary":  "روزاني خلاصو",
+    "rateTheApp":  "ايپ جي درجه بندي ڪريو",
+    "noIncomeRecorded":  "هن ڏينهن لاءِ ڪابه آمدني رڪارڊ ٿيل ناهي. هڪ شامل ڪرڻ لاءِ + بٽڻ ​​تي ٽيپ ڪريو!",
+    "noTipsYet":  "اڃان تائين ڪا به صلاح ناهي. مٿي ڏنل بٽڻ سان ھڪڙو شامل ڪريو.",
+    "languageFrench":  "فرانسيس",
+    "totalTipsLabel":  "کل ٽوٽڪا:",
+    "addTip":  "+ ٽپ شامل ڪريو",
+    "totalEarningsLabel":  "مجموعي آمدني:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 اڄ",
+    "noTipsToExport":  "اڃان تائين برآمد ڪرڻ لاء ڪا به صلاح ناهي.",
+    "noTipsForPeriod":  "چونڊيل مدت لاءِ ڪي به مشورا نه مليا.",
+    "backupTips":  "پنھنجي ڊيٽا کي محفوظ ڪريو / پنھنجي صلاحن جو بيڪ اپ ڪريو",
+    "jobs":  "نوڪريون",
+    "greetingEvening":  "شام جو سلام!",
+    "languageSystemDefault":  "سسٽم ڊفالٽ",
+    "deleteThisTip":  "هن ٽپ کي حذف ڪريو؟",
+    "deleteAllDataTitle":  "سڀ ڊيٽا ختم ڪريو؟"
+}

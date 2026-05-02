@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ରପ୍ତାନି କରନ୍ତୁ |",
+    "pdfExportUnavailable":  "ଏହି ପ୍ଲାଟଫର୍ମରେ PDF ରପ୍ତାନି ଉପଲବ୍ଧ ନାହିଁ |",
+    "delete":  "ବିଲୋପ କରନ୍ତୁ |",
+    "thanksFeedback":  "ଆପଣଙ୍କ ମତାମତ ପାଇଁ ଧନ୍ୟବାଦ!",
+    "languageEnglish":  "ଇଂରାଜୀ |",
+    "allDataDeleted":  "ସମସ୍ତ ଡାଟା ଡିଲିଟ୍ ହୋଇଛି |",
+    "language":  "ଭାଷା",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV ସଫଳତାର ସହିତ ରପ୍ତାନି ହେଲା |",
+    "onboardingJobsTitle":  "ଏକାଧିକ ଚାକିରି ଏବଂ ବୃତ୍ତିଗତ ରିପୋର୍ଟଗୁଡିକ |",
+    "totalEarnings":  "ମୋଟ ରୋଜଗାର |",
+    "roundUpSubtitle":  "ଟିପ୍ସ ସଞ୍ଚୟ କରିବା ସମୟରେ ଗୋଲ ପରିମାଣ ସମ୍ପୂର୍ଣ୍ଣ ସଂଖ୍ୟା |",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ଏହା ସବୁ ସଞ୍ଚିତ ଟିପ୍ସକୁ ସ୍ଥାୟୀ ଭାବରେ ଅପସାରଣ କରିବ |",
+    "filters":  "ଫିଲ୍ଟର୍ |",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ଭାଷା",
+    "darkMode":  "ଗା ark ମୋଡ୍ |",
+    "customQuickSubtitle":  "$ 10 · $ 20 · $ 50 ସଂପାଦନ କରନ୍ତୁ |",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ଇତିହାସ",
+    "exportRangeMonth":  "ଏହି ମାସ",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ପରିସଂଖ୍ୟାନ |",
+    "shareExperience":  "ଆପଣଙ୍କର ଅଭିଜ୍ଞତା ଅଂଶୀଦାର କରନ୍ତୁ |",
+    "filterToday":  "ଆଜି |",
+    "customQuickLabel":  "କଷ୍ଟମ୍",
+    "exportRangeWeek":  "ଏହି ସପ୍ତାହ",
+    "tipSaved":  "ଟିପ୍ପଣୀ ସଞ୍ଚୟ ହୋଇଛି |",
+    "onboardingContinue":  "ଜାରି ରଖ |",
+    "onboardingMockCafeSub":  "ସୋମ - ଶୁକ୍ର",
+    "entries":  "ଏଣ୍ଟ୍ରିଗୁଡିକ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ହାରାହାରି ଘଣ୍ଟା ହାର:",
+    "onboardingJobsBody":  "ପରିଷ୍କାର କାର୍ଡ ସହିତ ପ୍ରତ୍ୟେକ କାର୍ଯ୍ୟକୁ ପରିଚାଳନା କରନ୍ତୁ ଏବଂ PDF- ପ୍ରସ୍ତୁତ ସାରାଂଶ ରପ୍ତାନି କରନ୍ତୁ |",
+    "onboardingPreviewPdf":  "PDF ପୂର୍ବାବଲୋକନ କରନ୍ତୁ |",
+    "noDataFound":  "କ Data ଣସି ତଥ୍ୟ ମିଳିଲା ନାହିଁ |",
+    "deleteAllData":  "ସମସ୍ତ ତଥ୍ୟ ବିଲୋପ କରନ୍ତୁ |",
+    "filterYear":  "ବର୍ଷ",
+    "navHistory":  "ଇତିହାସ",
+    "greetingMorning":  "ଶୁଭ ସକାଳ!",
+    "onboardingProfessionalReports":  "ବୃତ୍ତିଗତ ରିପୋର୍ଟଗୁଡିକ |",
+    "averageDayLabel":  "ହାରାହାରି / ଦିନ:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ |",
+    "exportCsv":  "CSV ରପ୍ତାନି କରନ୍ତୁ |",
+    "navProfile":  "ପ୍ରୋଫାଇଲ୍",
+    "navHome":  "ଘର",
+    "quickButtons":  "ଦ୍ରୁତ ବଟନ୍",
+    "onboardingMockRestaurantTitle":  "ରେଷ୍ଟୁରାଣ୍ଟ ରାତି",
+    "currency":  "ମୁଦ୍ରା",
+    "onboardingMockRestaurantSub":  "ଶୁକ୍ର - ସୂର୍ଯ୍ୟ",
+    "labelToday":  "ଆଜି |",
+    "exportRangeToday":  "ଆଜି |",
+    "recentEntries":  "ସାମ୍ପ୍ରତିକ ପ୍ରବିଷ୍ଟଗୁଡିକ |",
+    "pdfReportReady":  "ଅଂଶୀଦାର କରିବାକୁ PDF ରିପୋର୍ଟ ପ୍ରସ୍ତୁତ |",
+    "undo":  "ପୂର୍ବବତ୍ କରନ୍ତୁ |",
+    "onboardingSkip":  "ଛାଡିଦିଅ |",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ମାସ",
+    "deleteAll":  "ସମସ୍ତ ବିଲୋପ କରନ୍ତୁ |",
+    "rateApp":  "ରେଟ୍ ଆପ୍ |",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ଚାକିରି ସଞ୍ଚୟ ହେଲା |",
+    "cancel":  "ବାତିଲ୍ କରନ୍ତୁ |",
+    "@@locale":  "or",
+    "exportRangeCustom":  "କଷ୍ଟମ୍ ପରିସର |",
+    "exportFrom":  "From: {date}",
+    "export":  "ରପ୍ତାନି କରନ୍ତୁ |",
+    "contactUsLabel":  "ଆମ ସହିତ ଯୋଗାଯୋଗ କରନ୍ତୁ |",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ସର୍ବୋତ୍ତମ ଦିନ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ଟିପ୍ପଣୀ ବିଲୋପ ହୋଇଛି (ପୂର୍ବବତ୍ କରନ୍ତୁ)",
+    "greetingAfternoon":  "ଶୁଭ ଅପରାହ୍ନ!",
+    "roundUp":  "ରାଉଣ୍ଡ ଅପ୍ |",
+    "onboardingWelcomeTitle":  "ସ୍ Welcome ାଗତ",
+    "reportPdfTooltip":  "PDF ରିପୋର୍ଟ କରନ୍ତୁ |",
+    "settingsSection":  "ସେଟିଂ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ଏହି ପ୍ଲାଟଫର୍ମରେ ରପ୍ତାନି ଉପଲବ୍ଧ ନାହିଁ |",
+    "quickButtonsUpdated":  "ଦ୍ରୁତ ବଟନ୍ ଗୁଡିକ ଅଦ୍ୟତନ ହୋଇଛି |",
+    "pdfReports":  "PDF ରିପୋର୍ଟଗୁଡିକ |",
+    "supportSection":  "ସମର୍ଥନ",
+    "filterWeek":  "ସପ୍ତାହ",
+    "onboardingMockCafeTitle":  "କାଫେ ସିଫ୍ଟ |",
+    "onboardingWelcomeBody":  "ପ୍ରତ୍ୟେକ ଟିପ୍ ଟ୍ରାକ୍ କରନ୍ତୁ ଏବଂ ଆପଣଙ୍କର ରୋଜଗାରକୁ ନିୟନ୍ତ୍ରଣରେ ରଖନ୍ତୁ |",
+    "dailySummary":  "ଦ Daily ନିକ ସାରାଂଶ",
+    "rateTheApp":  "ଆପ୍ ରେଟ୍ କରନ୍ତୁ |",
+    "noIncomeRecorded":  "ଏହି ଦିନ ପାଇଁ କ income ଣସି ଆୟ ରେକର୍ଡ ହୋଇନାହିଁ | ଗୋଟିଏ ଯୋଡିବାକୁ + ବଟନ୍ ଟ୍ୟାପ୍ କରନ୍ତୁ!",
+    "noTipsYet":  "ଏପର୍ଯ୍ୟନ୍ତ କ tips ଣସି ଟିପ୍ସ ନାହିଁ | ଉପର ବଟନ୍ ସହିତ ଗୋଟିଏ ଯୋଡନ୍ତୁ |",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "ମୋଟ ଟିପ୍ସ:",
+    "addTip":  "+ ଟିପ୍ପଣୀ ଯୋଡନ୍ତୁ |",
+    "totalEarningsLabel":  "ମୋଟ ରୋଜଗାର:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "ଆଜି $ 245.00 |",
+    "noTipsToExport":  "ଏପର୍ଯ୍ୟନ୍ତ ରପ୍ତାନି କରିବାକୁ କ tips ଣସି ଟିପ୍ସ ନାହିଁ |",
+    "noTipsForPeriod":  "ମନୋନୀତ ଅବଧି ପାଇଁ କ tips ଣସି ଟିପ୍ସ ମିଳିଲା ନାହିଁ |",
+    "backupTips":  "ଆପଣଙ୍କର ତଥ୍ୟ ସଂରକ୍ଷଣ କରନ୍ତୁ / ଆପଣଙ୍କର ଟିପ୍ସ ବ୍ୟାକଅପ୍ କରନ୍ତୁ |",
+    "jobs":  "ଚାକିରି",
+    "greetingEvening":  "ଶୁଭ ସନ୍ଧ୍ୟା!",
+    "languageSystemDefault":  "ସିଷ୍ଟମ୍ ଡିଫଲ୍ଟ |",
+    "deleteThisTip":  "ଏହି ଟିପ୍ପଣୀ ବିଲୋପ କରନ୍ତୁ?",
+    "deleteAllDataTitle":  "ସମସ୍ତ ତଥ୍ୟ ବିଲୋପ କରିବେ କି?"
+}

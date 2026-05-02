@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Экспарт CSV",
+    "pdfExportUnavailable":  "Экспарт PDF недаступны на гэтай платформе.",
+    "delete":  "Выдаліць",
+    "thanksFeedback":  "Дзякуй за ваш водгук!",
+    "languageEnglish":  "англійская",
+    "allDataDeleted":  "Усе даныя выдалены",
+    "language":  "мова",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV паспяхова экспартаваны",
+    "onboardingJobsTitle":  "Некалькі вакансій і прафесійныя справаздачы",
+    "totalEarnings":  "Агульны заробак",
+    "roundUpSubtitle":  "Пры захаванні падказак акругленне дае цэлыя лічбы",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Усе захаваныя парады будуць выдалены назаўжды.",
+    "filters":  "Фільтры",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "мова",
+    "darkMode":  "Цёмны рэжым",
+    "customQuickSubtitle":  "Рэдагаваць $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Гісторыя",
+    "exportRangeMonth":  "Гэты месяц",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТЫСТЫКА",
+    "shareExperience":  "Падзяліцеся сваім вопытам",
+    "filterToday":  "сёння",
+    "customQuickLabel":  "Прыстасаваныя",
+    "exportRangeWeek":  "На гэтым тыдні",
+    "tipSaved":  "Савет захаваны",
+    "onboardingContinue":  "Працягнуць",
+    "onboardingMockCafeSub":  "Пн - Пт",
+    "entries":  "Запісы",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Сярэдняя пагадзінная стаўка:",
+    "onboardingJobsBody":  "Кіруйце кожным заданнем з дапамогай чыстых картак і экспартуйце зводкі ў фармаце PDF.",
+    "onboardingPreviewPdf":  "Папярэдні прагляд PDF",
+    "noDataFound":  "Дадзеныя не знойдзены",
+    "deleteAllData":  "Выдаліць усе дадзеныя",
+    "filterYear":  "год",
+    "navHistory":  "Гісторыя",
+    "greetingMorning":  "Добрай раніцы!",
+    "onboardingProfessionalReports":  "Прафесійныя справаздачы",
+    "averageDayLabel":  "Сярэдняе/дзень:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Звязацца з намі",
+    "exportCsv":  "Экспарт CSV",
+    "navProfile":  "Профіль",
+    "navHome":  "дадому",
+    "quickButtons":  "Хуткія кнопкі",
+    "onboardingMockRestaurantTitle":  "Ноч у рэстаране",
+    "currency":  "Валюта",
+    "onboardingMockRestaurantSub":  "Пт - Нд",
+    "labelToday":  "сёння",
+    "exportRangeToday":  "сёння",
+    "recentEntries":  "Апошнія запісы",
+    "pdfReportReady":  "Справаздача ў фармаце PDF гатовая для абмену",
+    "undo":  "Адмяніць",
+    "onboardingSkip":  "Прапусціць",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Месяц",
+    "deleteAll":  "Выдаліць усе",
+    "rateApp":  "Ацаніце праграму",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Праца захавана",
+    "cancel":  "Адмяніць",
+    "@@locale":  "be",
+    "exportRangeCustom":  "Карыстальніцкі дыяпазон",
+    "exportFrom":  "From: {date}",
+    "export":  "Экспарт",
+    "contactUsLabel":  "Звязацца з намі",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Лепшы дзень:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Парада выдалена (Адмяніць)",
+    "greetingAfternoon":  "Добры дзень!",
+    "roundUp":  "Акругленне ўверх",
+    "onboardingWelcomeTitle":  "Сардэчна запрашаем",
+    "reportPdfTooltip":  "Справаздача PDF",
+    "settingsSection":  "НАСТРОЙКІ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Экспарт недаступны на гэтай платформе.",
+    "quickButtonsUpdated":  "Хуткія кнопкі абноўлены",
+    "pdfReports":  "Справаздачы ў фармаце PDF",
+    "supportSection":  "ПАДТРЫМКА",
+    "filterWeek":  "Тыдзень",
+    "onboardingMockCafeTitle":  "Кафэ Shift",
+    "onboardingWelcomeBody":  "Сачыце за кожнай падказкай і кантралюйце свае даходы.",
+    "dailySummary":  "Штодзённае зводка",
+    "rateTheApp":  "Ацаніце праграму",
+    "noIncomeRecorded":  "За гэты дзень даход не зафіксаваны. Націсніце кнопку +, каб дадаць!",
+    "noTipsYet":  "Саветаў пакуль няма. Дадайце адзін з кнопкамі вышэй.",
+    "languageFrench":  "Французская",
+    "totalTipsLabel":  "Усяго парадаў:",
+    "addTip":  "+ Дадаць параду",
+    "totalEarningsLabel":  "Агульны заробак:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 сёння",
+    "noTipsToExport":  "Пакуль няма парад па экспарту.",
+    "noTipsForPeriod":  "Падказкі за выбраны перыяд не знойдзены.",
+    "backupTips":  "Захоўвайце свае даныя / стварайце рэзервовыя копіі падказак",
+    "jobs":  "Праца",
+    "greetingEvening":  "Добры вечар!",
+    "languageSystemDefault":  "Сістэма па змаўчанні",
+    "deleteThisTip":  "Выдаліць гэту падказку?",
+    "deleteAllDataTitle":  "Выдаліць усе даныя?"
+}

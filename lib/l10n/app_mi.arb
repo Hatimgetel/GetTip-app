@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Kaweake CSV",
+    "pdfExportUnavailable":  "Ko te kaweake PDF kaore i te waatea i runga i tenei turanga.",
+    "delete":  "Mukua",
+    "thanksFeedback":  "Mauruuru mo to urupare!",
+    "languageEnglish":  "Ingarihi",
+    "allDataDeleted":  "Kua mukua nga raraunga katoa",
+    "language":  "Reo",
+    "appTitle":  "Aroturuki MyTip",
+    "csvExported":  "I momoho te kaweake CSV",
+    "onboardingJobsTitle":  "Nga Mahi Maha \u0026 Nga Ripoata Ngaio",
+    "totalEarnings":  "Nga Moni Tapeke",
+    "roundUpSubtitle":  "Ka nui te rauna ki te tauoti ina penapena tohutohu",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ma tenei ka tango i nga tohutohu kua tiakina.",
+    "filters":  "Tātari",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Reo",
+    "darkMode":  "Aratau pouri",
+    "customQuickSubtitle":  "Whakatika $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Hītori",
+    "exportRangeMonth":  "I tenei Marama",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "A faaite i to wheako",
+    "filterToday":  "I tenei ra",
+    "customQuickLabel":  "Ritenga",
+    "exportRangeWeek":  "I tenei wiki",
+    "tipSaved":  "Aki i tiakina",
+    "onboardingContinue":  "Haere tonu",
+    "onboardingMockCafeSub":  "Mane - Paraire",
+    "entries":  "Nga urunga",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Te utu toharite haora:",
+    "onboardingJobsBody":  "Whakahaerehia ia mahi me nga kaari maamaa me te kaweake i nga whakarāpopoto kua rite ki te PDF.",
+    "onboardingPreviewPdf":  "Arokite PDF",
+    "noDataFound":  "Kaore i kitea he Raraunga",
+    "deleteAllData":  "Mukua nga raraunga katoa",
+    "filterYear":  "Tau",
+    "navHistory":  "Hītori",
+    "greetingMorning":  "Ataata pai!",
+    "onboardingProfessionalReports":  "Nga Ripoata Ngaio",
+    "averageDayLabel":  "Wawaenga/ra:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Whakapā mai",
+    "exportCsv":  "Kaweake CSV",
+    "navProfile":  "Kōtaha",
+    "navHome":  "Kainga",
+    "quickButtons":  "Patene tere",
+    "onboardingMockRestaurantTitle":  "Po Wharekai",
+    "currency":  "Moni",
+    "onboardingMockRestaurantSub":  "Paraire - Ra",
+    "labelToday":  "I tenei ra",
+    "exportRangeToday":  "I tenei ra",
+    "recentEntries":  "Tuhinga o mua tata nei",
+    "pdfReportReady":  "Kua reri te purongo PDF ki te tiri",
+    "undo":  "Wetekina",
+    "onboardingSkip":  "Tīpoka",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Marama",
+    "deleteAll":  "Mukua katoa",
+    "rateApp":  "Reiti taupānga",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "I ora a Hopa",
+    "cancel":  "Whakakore",
+    "@@locale":  "mi",
+    "exportRangeCustom":  "Awhe Ritenga",
+    "exportFrom":  "From: {date}",
+    "export":  "Kaweake",
+    "contactUsLabel":  "Whakapā mai",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ra pai:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Aki i mukua (Wetekina)",
+    "greetingAfternoon":  "Kia pai te ahiahi!",
+    "roundUp":  "Rauna Runga",
+    "onboardingWelcomeTitle":  "Nau mai haere mai",
+    "reportPdfTooltip":  "Ripoata PDF",
+    "settingsSection":  "NGA TAUTAHI",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Kaore i te waatea te kaweake i runga i tenei turanga.",
+    "quickButtonsUpdated":  "Whakahouhia nga paatene tere",
+    "pdfReports":  "Nga Ripoata PDF",
+    "supportSection":  "TAUTOKO",
+    "filterWeek":  "Wiki",
+    "onboardingMockCafeTitle":  "Huri Kawhe",
+    "onboardingWelcomeBody":  "Aroturuki ia tohu ka noho ki te whakahaere i o moni whiwhi.",
+    "dailySummary":  "Whakarāpopototanga o ia rā",
+    "rateTheApp":  "Whakatauria te taupānga",
+    "noIncomeRecorded":  "Karekau he moni whiwhi i tuhia mo tenei ra. Patohia te paatene + hei taapiri i tetahi!",
+    "noTipsYet":  "Kaore ano he tohutohu. Tāpirihia tetahi me nga paatene o runga.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Katoa nga tohutohu:",
+    "addTip":  "+ Tāpiri Aki",
+    "totalEarningsLabel":  "Tapeke moni whiwhi:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 I tenei ra",
+    "noTipsToExport":  "Karekau he tohutohu hei kaweake.",
+    "noTipsForPeriod":  "Kaore i kitea he tohutohu mo te waa kua tohua.",
+    "backupTips":  "Tiakina o raraunga / Purua o tohutohu",
+    "jobs":  "Nga mahi",
+    "greetingEvening":  "Kia pai te ahiahi!",
+    "languageSystemDefault":  "Pūnaha taunoa",
+    "deleteThisTip":  "Mukua tenei aki?",
+    "deleteAllDataTitle":  "Mukua nga raraunga katoa?"
+}

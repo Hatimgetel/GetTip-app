@@ -1,0 +1,152 @@
+class AppLanguageOption {
+  const AppLanguageOption({
+    required this.code,
+    required this.name,
+    required this.countryCode,
+  });
+
+  final String code;
+  final String name;
+  final String countryCode;
+
+  String get flag => _countryCodeToFlag(countryCode);
+}
+
+String _countryCodeToFlag(String countryCode) {
+  final String upper = countryCode.toUpperCase();
+  if (upper.length != 2) return '🏳️';
+  final int first = upper.codeUnitAt(0) - 65 + 0x1F1E6;
+  final int second = upper.codeUnitAt(1) - 65 + 0x1F1E6;
+  return String.fromCharCode(first) + String.fromCharCode(second);
+}
+
+const List<AppLanguageOption> kWorldLanguages = <AppLanguageOption>[
+  AppLanguageOption(code: 'af', name: 'Afrikaans', countryCode: 'ZA'),
+  AppLanguageOption(code: 'ak', name: 'Akan', countryCode: 'GH'),
+  AppLanguageOption(code: 'sq', name: 'Albanian', countryCode: 'AL'),
+  AppLanguageOption(code: 'am', name: 'Amharic', countryCode: 'ET'),
+  AppLanguageOption(code: 'ar', name: 'Arabic', countryCode: 'SA'),
+  AppLanguageOption(code: 'hy', name: 'Armenian', countryCode: 'AM'),
+  AppLanguageOption(code: 'as', name: 'Assamese', countryCode: 'IN'),
+  AppLanguageOption(code: 'ay', name: 'Aymara', countryCode: 'BO'),
+  AppLanguageOption(code: 'az', name: 'Azerbaijani', countryCode: 'AZ'),
+  AppLanguageOption(code: 'bm', name: 'Bambara', countryCode: 'ML'),
+  AppLanguageOption(code: 'eu', name: 'Basque', countryCode: 'ES'),
+  AppLanguageOption(code: 'be', name: 'Belarusian', countryCode: 'BY'),
+  AppLanguageOption(code: 'bn', name: 'Bengali', countryCode: 'BD'),
+  AppLanguageOption(code: 'bs', name: 'Bosnian', countryCode: 'BA'),
+  AppLanguageOption(code: 'bg', name: 'Bulgarian', countryCode: 'BG'),
+  AppLanguageOption(code: 'my', name: 'Burmese', countryCode: 'MM'),
+  AppLanguageOption(code: 'ca', name: 'Catalan', countryCode: 'ES'),
+  AppLanguageOption(code: 'ceb', name: 'Cebuano', countryCode: 'PH'),
+  AppLanguageOption(code: 'zh', name: 'Chinese', countryCode: 'CN'),
+  AppLanguageOption(code: 'co', name: 'Corsican', countryCode: 'FR'),
+  AppLanguageOption(code: 'hr', name: 'Croatian', countryCode: 'HR'),
+  AppLanguageOption(code: 'cs', name: 'Czech', countryCode: 'CZ'),
+  AppLanguageOption(code: 'da', name: 'Danish', countryCode: 'DK'),
+  AppLanguageOption(code: 'dv', name: 'Dhivehi', countryCode: 'MV'),
+  AppLanguageOption(code: 'nl', name: 'Dutch', countryCode: 'NL'),
+  AppLanguageOption(code: 'en', name: 'English', countryCode: 'GB'),
+  AppLanguageOption(code: 'eo', name: 'Esperanto', countryCode: 'PL'),
+  AppLanguageOption(code: 'et', name: 'Estonian', countryCode: 'EE'),
+  AppLanguageOption(code: 'ee', name: 'Ewe', countryCode: 'GH'),
+  AppLanguageOption(code: 'fil', name: 'Filipino', countryCode: 'PH'),
+  AppLanguageOption(code: 'fi', name: 'Finnish', countryCode: 'FI'),
+  AppLanguageOption(code: 'fr', name: 'French', countryCode: 'FR'),
+  AppLanguageOption(code: 'fy', name: 'Frisian', countryCode: 'NL'),
+  AppLanguageOption(code: 'gl', name: 'Galician', countryCode: 'ES'),
+  AppLanguageOption(code: 'ka', name: 'Georgian', countryCode: 'GE'),
+  AppLanguageOption(code: 'de', name: 'German', countryCode: 'DE'),
+  AppLanguageOption(code: 'el', name: 'Greek', countryCode: 'GR'),
+  AppLanguageOption(code: 'gn', name: 'Guarani', countryCode: 'PY'),
+  AppLanguageOption(code: 'gu', name: 'Gujarati', countryCode: 'IN'),
+  AppLanguageOption(code: 'ht', name: 'Haitian Creole', countryCode: 'HT'),
+  AppLanguageOption(code: 'ha', name: 'Hausa', countryCode: 'NG'),
+  AppLanguageOption(code: 'haw', name: 'Hawaiian', countryCode: 'US'),
+  AppLanguageOption(code: 'he', name: 'Hebrew', countryCode: 'IL'),
+  AppLanguageOption(code: 'hi', name: 'Hindi', countryCode: 'IN'),
+  AppLanguageOption(code: 'hmn', name: 'Hmong', countryCode: 'CN'),
+  AppLanguageOption(code: 'hu', name: 'Hungarian', countryCode: 'HU'),
+  AppLanguageOption(code: 'is', name: 'Icelandic', countryCode: 'IS'),
+  AppLanguageOption(code: 'ig', name: 'Igbo', countryCode: 'NG'),
+  AppLanguageOption(code: 'id', name: 'Indonesian', countryCode: 'ID'),
+  AppLanguageOption(code: 'ga', name: 'Irish', countryCode: 'IE'),
+  AppLanguageOption(code: 'it', name: 'Italian', countryCode: 'IT'),
+  AppLanguageOption(code: 'ja', name: 'Japanese', countryCode: 'JP'),
+  AppLanguageOption(code: 'jv', name: 'Javanese', countryCode: 'ID'),
+  AppLanguageOption(code: 'kn', name: 'Kannada', countryCode: 'IN'),
+  AppLanguageOption(code: 'kk', name: 'Kazakh', countryCode: 'KZ'),
+  AppLanguageOption(code: 'km', name: 'Khmer', countryCode: 'KH'),
+  AppLanguageOption(code: 'rw', name: 'Kinyarwanda', countryCode: 'RW'),
+  AppLanguageOption(code: 'ko', name: 'Korean', countryCode: 'KR'),
+  AppLanguageOption(code: 'ku', name: 'Kurdish', countryCode: 'IQ'),
+  AppLanguageOption(code: 'ky', name: 'Kyrgyz', countryCode: 'KG'),
+  AppLanguageOption(code: 'lo', name: 'Lao', countryCode: 'LA'),
+  AppLanguageOption(code: 'la', name: 'Latin', countryCode: 'VA'),
+  AppLanguageOption(code: 'lv', name: 'Latvian', countryCode: 'LV'),
+  AppLanguageOption(code: 'ln', name: 'Lingala', countryCode: 'CD'),
+  AppLanguageOption(code: 'lt', name: 'Lithuanian', countryCode: 'LT'),
+  AppLanguageOption(code: 'lb', name: 'Luxembourgish', countryCode: 'LU'),
+  AppLanguageOption(code: 'mk', name: 'Macedonian', countryCode: 'MK'),
+  AppLanguageOption(code: 'mg', name: 'Malagasy', countryCode: 'MG'),
+  AppLanguageOption(code: 'ms', name: 'Malay', countryCode: 'MY'),
+  AppLanguageOption(code: 'ml', name: 'Malayalam', countryCode: 'IN'),
+  AppLanguageOption(code: 'mt', name: 'Maltese', countryCode: 'MT'),
+  AppLanguageOption(code: 'mi', name: 'Maori', countryCode: 'NZ'),
+  AppLanguageOption(code: 'mr', name: 'Marathi', countryCode: 'IN'),
+  AppLanguageOption(code: 'mn', name: 'Mongolian', countryCode: 'MN'),
+  AppLanguageOption(code: 'ne', name: 'Nepali', countryCode: 'NP'),
+  AppLanguageOption(code: 'no', name: 'Norwegian', countryCode: 'NO'),
+  AppLanguageOption(code: 'ny', name: 'Nyanja', countryCode: 'MW'),
+  AppLanguageOption(code: 'or', name: 'Odia', countryCode: 'IN'),
+  AppLanguageOption(code: 'om', name: 'Oromo', countryCode: 'ET'),
+  AppLanguageOption(code: 'ps', name: 'Pashto', countryCode: 'AF'),
+  AppLanguageOption(code: 'fa', name: 'Persian', countryCode: 'IR'),
+  AppLanguageOption(code: 'pl', name: 'Polish', countryCode: 'PL'),
+  AppLanguageOption(code: 'pt', name: 'Portuguese', countryCode: 'PT'),
+  AppLanguageOption(code: 'pa', name: 'Punjabi', countryCode: 'PK'),
+  AppLanguageOption(code: 'qu', name: 'Quechua', countryCode: 'PE'),
+  AppLanguageOption(code: 'ro', name: 'Romanian', countryCode: 'RO'),
+  AppLanguageOption(code: 'ru', name: 'Russian', countryCode: 'RU'),
+  AppLanguageOption(code: 'sm', name: 'Samoan', countryCode: 'WS'),
+  AppLanguageOption(code: 'gd', name: 'Scots Gaelic', countryCode: 'GB'),
+  AppLanguageOption(code: 'sr', name: 'Serbian', countryCode: 'RS'),
+  AppLanguageOption(code: 'st', name: 'Sesotho', countryCode: 'LS'),
+  AppLanguageOption(code: 'sn', name: 'Shona', countryCode: 'ZW'),
+  AppLanguageOption(code: 'sd', name: 'Sindhi', countryCode: 'PK'),
+  AppLanguageOption(code: 'si', name: 'Sinhala', countryCode: 'LK'),
+  AppLanguageOption(code: 'sk', name: 'Slovak', countryCode: 'SK'),
+  AppLanguageOption(code: 'sl', name: 'Slovenian', countryCode: 'SI'),
+  AppLanguageOption(code: 'so', name: 'Somali', countryCode: 'SO'),
+  AppLanguageOption(code: 'es', name: 'Spanish', countryCode: 'ES'),
+  AppLanguageOption(code: 'su', name: 'Sundanese', countryCode: 'ID'),
+  AppLanguageOption(code: 'sw', name: 'Swahili', countryCode: 'TZ'),
+  AppLanguageOption(code: 'sv', name: 'Swedish', countryCode: 'SE'),
+  AppLanguageOption(code: 'tg', name: 'Tajik', countryCode: 'TJ'),
+  AppLanguageOption(code: 'ta', name: 'Tamil', countryCode: 'IN'),
+  AppLanguageOption(code: 'tt', name: 'Tatar', countryCode: 'RU'),
+  AppLanguageOption(code: 'te', name: 'Telugu', countryCode: 'IN'),
+  AppLanguageOption(code: 'th', name: 'Thai', countryCode: 'TH'),
+  AppLanguageOption(code: 'ti', name: 'Tigrinya', countryCode: 'ER'),
+  AppLanguageOption(code: 'ts', name: 'Tsonga', countryCode: 'ZA'),
+  AppLanguageOption(code: 'tr', name: 'Turkish', countryCode: 'TR'),
+  AppLanguageOption(code: 'tk', name: 'Turkmen', countryCode: 'TM'),
+  AppLanguageOption(code: 'uk', name: 'Ukrainian', countryCode: 'UA'),
+  AppLanguageOption(code: 'ur', name: 'Urdu', countryCode: 'PK'),
+  AppLanguageOption(code: 'ug', name: 'Uyghur', countryCode: 'CN'),
+  AppLanguageOption(code: 'uz', name: 'Uzbek', countryCode: 'UZ'),
+  AppLanguageOption(code: 'vi', name: 'Vietnamese', countryCode: 'VN'),
+  AppLanguageOption(code: 'cy', name: 'Welsh', countryCode: 'GB'),
+  AppLanguageOption(code: 'xh', name: 'Xhosa', countryCode: 'ZA'),
+  AppLanguageOption(code: 'yi', name: 'Yiddish', countryCode: 'IL'),
+  AppLanguageOption(code: 'yo', name: 'Yoruba', countryCode: 'NG'),
+  AppLanguageOption(code: 'zu', name: 'Zulu', countryCode: 'ZA'),
+];
+
+final List<AppLanguageOption> kSelectableWorldLanguages = kWorldLanguages
+    .where((AppLanguageOption option) => option.code.length == 2)
+    .toList(growable: false);
+
+final Set<String> kWorldLanguageCodes = kSelectableWorldLanguages
+    .map((AppLanguageOption option) => option.code)
+    .toSet();

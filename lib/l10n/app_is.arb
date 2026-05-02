@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Flytja út CSV",
+    "pdfExportUnavailable":  "PDF útflutningur er ekki í boði á þessum vettvangi.",
+    "delete":  "Eyða",
+    "thanksFeedback":  "Takk fyrir álit þitt!",
+    "languageEnglish":  "ensku",
+    "allDataDeleted":  "Öllum gögnum eytt",
+    "language":  "Tungumál",
+    "appTitle":  "MyTip rekja spor einhvers",
+    "csvExported":  "CSV flutt út",
+    "onboardingJobsTitle":  "Mörg störf og fagskýrslur",
+    "totalEarnings":  "Heildartekjur",
+    "roundUpSubtitle":  "Námundarupphæðir eru heilar tölur þegar þú vistar ábendingar",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Þetta mun fjarlægja allar vistaðar ábendingar varanlega.",
+    "filters":  "Síur",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Tungumál",
+    "darkMode":  "Dökk stilling",
+    "customQuickSubtitle":  "Breyta $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Saga",
+    "exportRangeMonth":  "Í þessum mánuði",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STÖÐLEIKAR",
+    "shareExperience":  "Deildu reynslu þinni",
+    "filterToday":  "Í dag",
+    "customQuickLabel":  "Sérsniðin",
+    "exportRangeWeek":  "Þessa vikuna",
+    "tipSaved":  "Ábending vistað",
+    "onboardingContinue":  "Halda áfram",
+    "onboardingMockCafeSub":  "mán - fös",
+    "entries":  "Færslur",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Meðaltímagjald:",
+    "onboardingJobsBody":  "Stjórnaðu hverju verki með hreinum kortum og fluttu út PDF-tilbúnar samantektir.",
+    "onboardingPreviewPdf":  "Forskoða PDF",
+    "noDataFound":  "Engin gögn fundust",
+    "deleteAllData":  "Eyða öllum gögnum",
+    "filterYear":  "Ár",
+    "navHistory":  "Saga",
+    "greetingMorning":  "Góðan daginn!",
+    "onboardingProfessionalReports":  "Fagskýrslur",
+    "averageDayLabel":  "Meðaltal/dag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Hafðu samband við okkur",
+    "exportCsv":  "Flytja út CSV",
+    "navProfile":  "Prófíll",
+    "navHome":  "Heim",
+    "quickButtons":  "Hraðhnappar",
+    "onboardingMockRestaurantTitle":  "Veitingakvöld",
+    "currency":  "Gjaldmiðill",
+    "onboardingMockRestaurantSub":  "fös - sun",
+    "labelToday":  "Í dag",
+    "exportRangeToday":  "Í dag",
+    "recentEntries":  "Nýlegar færslur",
+    "pdfReportReady":  "PDF skýrsla tilbúin til að deila",
+    "undo":  "Afturkalla",
+    "onboardingSkip":  "Sleppa",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mánuður",
+    "deleteAll":  "Eyða öllum",
+    "rateApp":  "Gefðu appinu einkunn",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Starf bjargað",
+    "cancel":  "Hætta við",
+    "@@locale":  "is",
+    "exportRangeCustom":  "Sérsniðið svið",
+    "exportFrom":  "From: {date}",
+    "export":  "Útflutningur",
+    "contactUsLabel":  "Hafðu samband við okkur",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Besti dagurinn:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Ábendingunni eytt (Afturkalla)",
+    "greetingAfternoon":  "Góðan daginn!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Velkomin",
+    "reportPdfTooltip":  "Skýrsla PDF",
+    "settingsSection":  "STILLINGAR",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Útflutningur er ekki í boði á þessum vettvangi.",
+    "quickButtonsUpdated":  "Hraðhnappar uppfærðir",
+    "pdfReports":  "PDF skýrslur",
+    "supportSection":  "STUÐNINGUR",
+    "filterWeek":  "Vika",
+    "onboardingMockCafeTitle":  "Kaffihúsavakt",
+    "onboardingWelcomeBody":  "Fylgstu með hverju ráði og hafðu stjórn á tekjunum þínum.",
+    "dailySummary":  "Daglegt yfirlit",
+    "rateTheApp":  "Gefðu appinu einkunn",
+    "noIncomeRecorded":  "Engar tekjur skráðar fyrir þennan dag. Ýttu á + hnappinn til að bæta einum við!",
+    "noTipsYet":  "Engar ráðleggingar ennþá. Bættu við einum með hnöppunum hér að ofan.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Heildar ráðleggingar:",
+    "addTip":  "+ Bæta við ráði",
+    "totalEarningsLabel":  "Heildartekjur:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 í dag",
+    "noTipsToExport":  "Engar ráðleggingar til að flytja út ennþá.",
+    "noTipsForPeriod":  "Engar ábendingar fundust fyrir valið tímabil.",
+    "backupTips":  "Vistaðu gögnin þín / Taktu öryggisafrit af ráðunum þínum",
+    "jobs":  "Störf",
+    "greetingEvening":  "Gott kvöld!",
+    "languageSystemDefault":  "Sjálfgefið kerfi",
+    "deleteThisTip":  "Eyða þessari ábendingu?",
+    "deleteAllDataTitle":  "Eyða öllum gögnum?"
+}

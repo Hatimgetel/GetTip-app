@@ -1,0 +1,14 @@
+# Play Store / release signing — SETUP
+# 1. Copy this file to: android/key.properties  (key.properties is gitignored)
+# 2. Replace every YOUR_* value with your real keystore credentials.
+# 3. Put your upload keystore file next to this template path, e.g.:
+#      android/app/upload-keystore.jks
+# 4. Create a keystore (example):
+#      keytool -genkey -v -keystore android/app/upload-keystore.jks -storetype JKS -keyalg RSA -keysize 2048 -validity 10000 -alias upload
+#
+# storeFile is resolved relative to the android/app/ directory.
+
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=upload-keystore.jks

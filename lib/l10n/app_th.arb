@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "ส่งออก CSV",
+    "pdfExportUnavailable":  "การส่งออก PDF ไม่พร้อมใช้งานบนแพลตฟอร์มนี้",
+    "delete":  "ลบ",
+    "thanksFeedback":  "ขอบคุณสำหรับคำติชมของคุณ!",
+    "languageEnglish":  "ภาษาอังกฤษ",
+    "allDataDeleted":  "ลบข้อมูลทั้งหมดแล้ว",
+    "language":  "ภาษา",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "ส่งออก CSV เรียบร้อยแล้ว",
+    "onboardingJobsTitle":  "งานหลายงานและรายงานระดับมืออาชีพ",
+    "totalEarnings":  "รายได้รวม",
+    "roundUpSubtitle":  "ปัดเศษเป็นจำนวนเต็มเมื่อบันทึกทิป",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "การดำเนินการนี้จะลบเคล็ดลับที่บันทึกไว้ทั้งหมดอย่างถาวร",
+    "filters":  "ตัวกรอง",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ภาษา",
+    "darkMode":  "โหมดมืด",
+    "customQuickSubtitle":  "แก้ไข $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ประวัติศาสตร์",
+    "exportRangeMonth":  "เดือนนี้",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "สถิติ",
+    "shareExperience":  "แบ่งปันประสบการณ์ของคุณ",
+    "filterToday":  "วันนี้",
+    "customQuickLabel":  "กำหนดเอง",
+    "exportRangeWeek":  "สัปดาห์นี้",
+    "tipSaved":  "บันทึกเคล็ดลับแล้ว",
+    "onboardingContinue":  "ดำเนินการต่อ",
+    "onboardingMockCafeSub":  "จันทร์ - ศุกร์",
+    "entries":  "รายการ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "อัตราเฉลี่ยต่อชั่วโมง:",
+    "onboardingJobsBody":  "จัดการงานแต่ละงานด้วยการ์ดที่ชัดเจนและส่งออกข้อมูลสรุปในรูปแบบ PDF",
+    "onboardingPreviewPdf":  "ดูตัวอย่าง PDF",
+    "noDataFound":  "ไม่พบข้อมูล",
+    "deleteAllData":  "ลบข้อมูลทั้งหมด",
+    "filterYear":  "ปี",
+    "navHistory":  "ประวัติศาสตร์",
+    "greetingMorning":  "สวัสดีตอนเช้า!",
+    "onboardingProfessionalReports":  "รายงานระดับมืออาชีพ",
+    "averageDayLabel":  "เฉลี่ย/วัน:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ติดต่อเรา",
+    "exportCsv":  "ส่งออก CSV",
+    "navProfile":  "ประวัติโดยย่อ",
+    "navHome":  "บ้าน",
+    "quickButtons":  "ปุ่มด่วน",
+    "onboardingMockRestaurantTitle":  "ร้านอาหารไนท์",
+    "currency":  "สกุลเงิน",
+    "onboardingMockRestaurantSub":  "ศุกร์ - อาทิตย์",
+    "labelToday":  "วันนี้",
+    "exportRangeToday":  "วันนี้",
+    "recentEntries":  "รายการล่าสุด",
+    "pdfReportReady":  "รายงาน PDF พร้อมที่จะแบ่งปัน",
+    "undo":  "เลิกทำ",
+    "onboardingSkip":  "ข้าม",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "เดือน",
+    "deleteAll":  "ลบทั้งหมด",
+    "rateApp":  "ให้คะแนนแอป",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "บันทึกงานแล้ว",
+    "cancel":  "ยกเลิก",
+    "@@locale":  "th",
+    "exportRangeCustom":  "ช่วงที่กำหนดเอง",
+    "exportFrom":  "From: {date}",
+    "export":  "ส่งออก",
+    "contactUsLabel":  "ติดต่อเรา",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "วันที่ดีที่สุด:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "เคล็ดลับถูกลบ (เลิกทำ)",
+    "greetingAfternoon":  "สวัสดีตอนบ่าย!",
+    "roundUp":  "ปัดเศษขึ้น",
+    "onboardingWelcomeTitle":  "ยินดีต้อนรับ",
+    "reportPdfTooltip":  "รายงาน PDF",
+    "settingsSection":  "การตั้งค่า",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "การส่งออกไม่พร้อมใช้งานบนแพลตฟอร์มนี้",
+    "quickButtonsUpdated":  "อัปเดตปุ่มด่วนแล้ว",
+    "pdfReports":  "รายงาน PDF",
+    "supportSection":  "สนับสนุน",
+    "filterWeek":  "สัปดาห์",
+    "onboardingMockCafeTitle":  "คาเฟ่ชิฟท์",
+    "onboardingWelcomeBody":  "ติดตามทุกเคล็ดลับและควบคุมรายได้ของคุณ",
+    "dailySummary":  "สรุปรายวัน",
+    "rateTheApp":  "ให้คะแนนแอป",
+    "noIncomeRecorded":  "ไม่มีการบันทึกรายได้สำหรับวันนี้ แตะปุ่ม + เพื่อเพิ่ม!",
+    "noTipsYet":  "ยังไม่มีคำแนะนำ เพิ่มอันหนึ่งด้วยปุ่มด้านบน",
+    "languageFrench":  "ฝรั่งเศส",
+    "totalTipsLabel":  "เคล็ดลับทั้งหมด:",
+    "addTip":  "+ เพิ่มเคล็ดลับ",
+    "totalEarningsLabel":  "รายได้รวม:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 วันนี้",
+    "noTipsToExport":  "ยังไม่มีคำแนะนำในการส่งออก",
+    "noTipsForPeriod":  "ไม่พบเคล็ดลับสำหรับช่วงเวลาที่เลือก",
+    "backupTips":  "บันทึกข้อมูลของคุณ / สำรองเคล็ดลับของคุณ",
+    "jobs":  "งาน",
+    "greetingEvening":  "สวัสดีตอนเย็น!",
+    "languageSystemDefault":  "ค่าเริ่มต้นของระบบ",
+    "deleteThisTip":  "ลบเคล็ดลับนี้ใช่ไหม",
+    "deleteAllDataTitle":  "ลบข้อมูลทั้งหมดใช่ไหม"
+}

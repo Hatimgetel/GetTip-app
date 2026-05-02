@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Oguerahauka CSV",
+    "pdfExportUnavailable":  "PDF jeguerahauka ndojeguerekói ko plataforma-pe.",
+    "delete":  "Mboje\u0027oha",
+    "thanksFeedback":  "Aguyje ne remiandu rehe!",
+    "languageEnglish":  "inglés",
+    "allDataDeleted":  "Opaite dato oñembogue",
+    "language":  "Ñe\u0027ẽ",
+    "appTitle":  "MyTip Rastreador rehegua",
+    "csvExported":  "CSV ojeguerahauka porã",
+    "onboardingJobsTitle":  "Heta Mba’apo \u0026 Marandu Profesional rehegua",
+    "totalEarnings":  "Total Ganancia rehegua",
+    "roundUpSubtitle":  "Ronda ohupyty papapy entero oñeñongatu jave consejo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Péicha ojeipe’áta tapiaite opaite consejo oñeñongatúva.",
+    "filters":  "Filtro-kuéra rehegua",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ñe\u0027ẽ",
+    "darkMode":  "Modo iñypytũva",
+    "customQuickSubtitle":  "Omohenda 10 dólar · 20 dólar · 50 dólar",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Tembiasakue",
+    "exportRangeMonth":  "Ko Jasype",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTADÍSTICAS rehegua",
+    "shareExperience":  "Emombeʼu Ne Experiénsia",
+    "filterToday":  "Ko árape",
+    "customQuickLabel":  "Jepokuaa",
+    "exportRangeWeek":  "Ko Arapokõindýpe",
+    "tipSaved":  "Consejo oñeñongatu",
+    "onboardingContinue":  "Mbojoapy",
+    "onboardingMockCafeSub":  "Lunes - Vie",
+    "entries":  "Umi entrada",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tarifa promedio aravo rehegua:",
+    "onboardingJobsBody":  "Emohenda peteĩteĩ tembiapo tarjeta ipotĩva reheve ha emosẽ umi resumen PDF-pe g̃uarã.",
+    "onboardingPreviewPdf":  "PDF jehechauka mboyve",
+    "noDataFound":  "Ndojejuhúi Dato",
+    "deleteAllData":  "Ombogue opaite dato",
+    "filterYear":  "Ary",
+    "navHistory":  "Tembiasakue",
+    "greetingMorning":  "Mba\u0027éichapa ndepyhare!",
+    "onboardingProfessionalReports":  "Marandu Profesional rehegua",
+    "averageDayLabel":  "Promedio/ára: 1.1.",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Eñe\u0027ẽ orendive",
+    "exportCsv":  "Oguerahauka CSV",
+    "navProfile":  "Yke",
+    "navHome":  "Óga",
+    "quickButtons":  "Umi botón pya’e",
+    "onboardingMockRestaurantTitle":  "Restaurante Pyhare",
+    "currency":  "Viru ñemoambue",
+    "onboardingMockRestaurantSub":  "Vie - Kuarahy",
+    "labelToday":  "Ko árape",
+    "exportRangeToday":  "Ko árape",
+    "recentEntries":  "Umi mba’e ojeike ramoitéva",
+    "pdfReportReady":  "Marandu PDF oĩmava oñemboja’o hag̃ua",
+    "undo":  "Deshacer",
+    "onboardingSkip":  "Jepopo",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Jasy",
+    "deleteAll":  "Omboguepaite",
+    "rateApp":  "Tasa app rehegua",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job ojesalva",
+    "cancel":  "Heja",
+    "@@locale":  "gn",
+    "exportRangeCustom":  "Rango Personalizado rehegua",
+    "exportFrom":  "From: {date}",
+    "export":  "Rova",
+    "contactUsLabel":  "Eñe\u0027ẽ orendive",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ára iporãvéva:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Consejo oñembogue (Deshacer) .",
+    "greetingAfternoon":  "Tandeka\u0027aru porãite!",
+    "roundUp":  "Redondeo Up rehegua",
+    "onboardingWelcomeTitle":  "Tapeg̃uahẽporãite",
+    "reportPdfTooltip":  "Marandu PDF rehegua",
+    "settingsSection":  "CONFIGURACIÓN rehegua",
+    "languageArabic":  "العربية rehegua",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Exportación ndojeguerekói ko plataforma-pe.",
+    "quickButtonsUpdated":  "Umi botón pya’e oñembopyahu",
+    "pdfReports":  "PDF Marandukuéra",
+    "supportSection":  "PYTYVÕ",
+    "filterWeek":  "Arapokõindy",
+    "onboardingMockCafeTitle":  "Café Turno rehegua",
+    "onboardingWelcomeBody":  "Esegui opa consejo ha epyta control-pe nde ganancia rehe.",
+    "dailySummary":  "Resumen ára ha ára",
+    "rateTheApp":  "Ecalifica pe app",
+    "noIncomeRecorded":  "Ndaipóri ingreso ojeregistráva ko árape guarã. ¡Epoko pe botón + rehe emoĩ hag̃ua peteĩ!",
+    "noTipsYet":  "Ndaipóri gueteri consejo. Emoĩ peteĩ umi botón oĩva yvate reheve.",
+    "languageFrench":  "Français rehegua",
+    "totalTipsLabel":  "Consejos totales rehegua:",
+    "addTip":  "+ Ombojoapy Consejo",
+    "totalEarningsLabel":  "Opaite mba’e ojehupytýva: .",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Ko árape",
+    "noTipsToExport":  "Ndaipóri consejos ojeexporta haguã gueteri.",
+    "noTipsForPeriod":  "Ndojejuhúi consejos periodo ojeporavóvape guarã.",
+    "backupTips":  "Eñongatu nde datokuéra / Ejapo copia de seguridad nde consejos",
+    "jobs":  "Mba’apo rehegua",
+    "greetingEvening":  "Mba\u0027éichapa ndepyhare!",
+    "languageSystemDefault":  "Sistema ñepyrũrã",
+    "deleteThisTip":  "¿Embogue ko consejo?",
+    "deleteAllDataTitle":  "¿Omboguepaite umi dato?"
+}

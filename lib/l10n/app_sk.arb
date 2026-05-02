@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Export CSV",
+    "pdfExportUnavailable":  "Export do PDF nie je na tejto platforme dostupný.",
+    "delete":  "Odstrániť",
+    "thanksFeedback":  "Ďakujeme za vašu spätnú väzbu!",
+    "languageEnglish":  "angličtina",
+    "allDataDeleted":  "Všetky údaje boli odstránené",
+    "language":  "Jazyk",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "Súbor CSV bol úspešne exportovaný",
+    "onboardingJobsTitle":  "Viaceré pracovné miesta a profesionálne správy",
+    "totalEarnings":  "Celkové zárobky",
+    "roundUpSubtitle":  "Pri ukladaní tipov sa zaokrúhľuje na celé čísla",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Týmto natrvalo odstránite všetky uložené tipy.",
+    "filters":  "Filtre",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Jazyk",
+    "darkMode":  "Tmavý režim",
+    "customQuickSubtitle":  "Upraviť $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "História",
+    "exportRangeMonth":  "Tento mesiac",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ŠTATISTIKA",
+    "shareExperience":  "Podeľte sa o svoje skúsenosti",
+    "filterToday":  "Dnes",
+    "customQuickLabel":  "Vlastné",
+    "exportRangeWeek":  "Tento týždeň",
+    "tipSaved":  "Tip bol uložený",
+    "onboardingContinue":  "Pokračovať",
+    "onboardingMockCafeSub":  "Po - Pia",
+    "entries":  "Príspevky",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Priemerná hodinová sadzba:",
+    "onboardingJobsBody":  "Spravujte každú úlohu pomocou čistých kariet a exportujte súhrny pripravené vo formáte PDF.",
+    "onboardingPreviewPdf":  "Ukážka PDF",
+    "noDataFound":  "Nenašli sa žiadne údaje",
+    "deleteAllData":  "Vymažte všetky údaje",
+    "filterYear":  "rok",
+    "navHistory":  "História",
+    "greetingMorning":  "Dobré ráno!",
+    "onboardingProfessionalReports":  "Profesionálne správy",
+    "averageDayLabel":  "Priemer/deň:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontaktujte nás",
+    "exportCsv":  "Export CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Domov",
+    "quickButtons":  "Rýchle tlačidlá",
+    "onboardingMockRestaurantTitle":  "Noc reštaurácie",
+    "currency":  "mena",
+    "onboardingMockRestaurantSub":  "Pia - Ne",
+    "labelToday":  "Dnes",
+    "exportRangeToday":  "Dnes",
+    "recentEntries":  "Najnovšie záznamy",
+    "pdfReportReady":  "Správa PDF pripravená na zdieľanie",
+    "undo":  "Vrátiť späť",
+    "onboardingSkip":  "Preskočiť",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "mesiac",
+    "deleteAll":  "Vymazať všetky",
+    "rateApp":  "Ohodnoťte aplikáciu",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Úloha uložená",
+    "cancel":  "Zrušiť",
+    "@@locale":  "sk",
+    "exportRangeCustom":  "Vlastný rozsah",
+    "exportFrom":  "From: {date}",
+    "export":  "Exportovať",
+    "contactUsLabel":  "Kontaktujte nás",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Najlepší deň:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip bol odstránený (späť)",
+    "greetingAfternoon":  "Dobré popoludnie!",
+    "roundUp":  "Zaokrúhliť nahor",
+    "onboardingWelcomeTitle":  "Vitajte",
+    "reportPdfTooltip":  "Správa vo formáte PDF",
+    "settingsSection":  "NASTAVENIA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export nie je na tejto platforme dostupný.",
+    "quickButtonsUpdated":  "Rýchle tlačidlá boli aktualizované",
+    "pdfReports":  "Správy vo formáte PDF",
+    "supportSection":  "PODPORA",
+    "filterWeek":  "týždeň",
+    "onboardingMockCafeTitle":  "Kaviareň Shift",
+    "onboardingWelcomeBody":  "Sledujte každý tip a majte svoje zárobky pod kontrolou.",
+    "dailySummary":  "Denný súhrn",
+    "rateTheApp":  "Ohodnoťte aplikáciu",
+    "noIncomeRecorded":  "Pre tento deň nie je zaznamenaný žiadny príjem. Klepnutím na tlačidlo + jeden pridáte!",
+    "noTipsYet":  "Zatiaľ žiadne tipy. Pridajte jeden pomocou vyššie uvedených tlačidiel.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Celkové tipy:",
+    "addTip":  "+ Pridať tip",
+    "totalEarningsLabel":  "Celkové zárobky:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Dnes 245,00 dolárov",
+    "noTipsToExport":  "Zatiaľ žiadne tipy na export.",
+    "noTipsForPeriod":  "Pre zvolené obdobie sa nenašli žiadne tipy.",
+    "backupTips":  "Uložte si dáta / zálohujte si tipy",
+    "jobs":  "Práca",
+    "greetingEvening":  "Dobrý večer!",
+    "languageSystemDefault":  "Predvolené nastavenie systému",
+    "deleteThisTip":  "Odstrániť tento tip?",
+    "deleteAllDataTitle":  "Chcete odstrániť všetky údaje?"
+}

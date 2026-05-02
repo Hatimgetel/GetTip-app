@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Mbupu CSV",
+    "pdfExportUnavailable":  "Mbupụ PDF adịghị n\u0027elu ikpo okwu a.",
+    "delete":  "Hichapụ",
+    "thanksFeedback":  "Daalụ maka nzaghachi gị!",
+    "languageEnglish":  "Bekee",
+    "allDataDeleted":  "Hichapụ data niile",
+    "language":  "Asụsụ",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV ebupụla nke ọma",
+    "onboardingJobsTitle":  "Ọtụtụ Ọrụ \u0026 Akụkọ Ọkachamara",
+    "totalEarnings":  "Mgbakọta ego enwetara",
+    "roundUpSubtitle":  "Gburugburu bụ ọnụ ọgụgụ zuru ezu mgbe ị na-echekwa ndụmọdụ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Nke a ga-ewepụ ndụmọdụ niile echekwara kpamkpam.",
+    "filters":  "Ihe nzacha",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Asụsụ",
+    "darkMode":  "Ọnọdụ gbara ọchịchịrị",
+    "customQuickSubtitle":  "Dezie $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Akụkọ ihe mere eme",
+    "exportRangeMonth":  "Onwa a",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Kesaa Ahụmahụ Gị",
+    "filterToday":  "Taa",
+    "customQuickLabel":  "Omenala",
+    "exportRangeWeek":  "Izu a",
+    "tipSaved":  "echekwabara ndụmọdụ",
+    "onboardingContinue":  "Gaa n\u0027ihu",
+    "onboardingMockCafeSub":  "Mọnde - Fraịde",
+    "entries":  "Ndenye",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Ọnụego elekere kwa elekere:",
+    "onboardingJobsBody":  "Jikwaa ọrụ ọ bụla site na iji kaadị dị ọcha wee bupụ nchịkọta njikere PDF.",
+    "onboardingPreviewPdf":  "Lelee PDF",
+    "noDataFound":  "Enweghị data ahụrụ",
+    "deleteAllData":  "Hichapụ data niile",
+    "filterYear":  "Afọ",
+    "navHistory":  "Akụkọ ihe mere eme",
+    "greetingMorning":  "Ụtụtụ ọma!",
+    "onboardingProfessionalReports":  "Akụkọ ndị ọkachamara",
+    "averageDayLabel":  "Nkezi/ụbọchị:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kpọtụrụ anyị",
+    "exportCsv":  "Mbupu CSV",
+    "navProfile":  "Profaịlụ",
+    "navHome":  "Ụlọ",
+    "quickButtons":  "bọtịnụ ngwa ngwa",
+    "onboardingMockRestaurantTitle":  "Abalị ụlọ oriri na ọṅụṅụ",
+    "currency":  "Ego",
+    "onboardingMockRestaurantSub":  "Fraịde - Anyanwụ",
+    "labelToday":  "Taa",
+    "exportRangeToday":  "Taa",
+    "recentEntries":  "Ndenye nso nso a",
+    "pdfReportReady":  "Akwụkwọ PDF dị njikere ikesa",
+    "undo":  "Megharịa",
+    "onboardingSkip":  "Mafee",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Ọnwa",
+    "deleteAll":  "Hichapụ ihe niile",
+    "rateApp":  "Nweta ngwa",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "A zọpụtara ọrụ",
+    "cancel":  "Kagbuo",
+    "@@locale":  "ig",
+    "exportRangeCustom":  "Omenala nso",
+    "exportFrom":  "From: {date}",
+    "export":  "Mbupụ",
+    "contactUsLabel":  "Kpọtụrụ anyị",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Ụbọchị kacha mma:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Ndụmọdụ ehichapụrụ (Wepụ)",
+    "greetingAfternoon":  "Ehihie ọma!",
+    "roundUp":  "Chịkọba",
+    "onboardingWelcomeTitle":  "Nnọọ",
+    "reportPdfTooltip":  "Kpesa PDF",
+    "settingsSection":  "Ntọala",
+    "languageArabic":  "عربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Mbupụ adịghị n\u0027elu ikpo okwu a.",
+    "quickButtonsUpdated":  "Emelitere bọtịnụ ngwa ngwa",
+    "pdfReports":  "Akụkọ PDF",
+    "supportSection":  "Nkwado",
+    "filterWeek":  "Izu",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Soro ndụmọdụ ọ bụla ma nọrọ na njikwa ego gị.",
+    "dailySummary":  "Nchịkọta kwa ụbọchị",
+    "rateTheApp":  "Họrọ ngwa ahụ",
+    "noIncomeRecorded":  "Enweghị ego e dekọrọ maka ụbọchị a. Pịa bọtịnụ + ka ịgbakwunye otu!",
+    "noTipsYet":  "Enweghị ndụmọdụ ma. Tinye otu na bọtịnụ dị n\u0027elu.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Ngụkọta ndụmọdụ:",
+    "addTip":  "+ Tinye ndụmọdụ",
+    "totalEarningsLabel":  "Mgbakọta ego:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 taa",
+    "noTipsToExport":  "Enweghị ndụmọdụ maka mbupu.",
+    "noTipsForPeriod":  "Enweghị ndụmọdụ ahụrụ maka oge ahọpụtara.",
+    "backupTips":  "Chekwaa data gị / kwado ndụmọdụ gị",
+    "jobs":  "Ọrụ",
+    "greetingEvening":  "Mgbede ọma!",
+    "languageSystemDefault":  "Sistemụ ndabara",
+    "deleteThisTip":  "Hichapụ ndụmọdụ a?",
+    "deleteAllDataTitle":  "Hichapụ data niile?"
+}

@@ -1,0 +1,76 @@
+================================================================================
+GOOGLE PLAY CONSOLE — LISTING COPY (Get Tip / mytip_tracker)
+================================================================================
+
+--- SHORT DESCRIPTION (max 80 characters) ---
+Track tips, charts & CSV export for servers, bartenders & delivery pros.
+
+(Character count for short description line above: 76 including period)
+
+
+--- TARGET AUDIENCE ---
+Primary: waiters, bartenders, and delivery drivers (and anyone who earns tips
+or cash gratuities and wants a simple private log). Secondary: other tipped
+hospitality and gig workers who need quick entry, totals at a glance, and an
+optional weekly chart for patterns over time.
+
+
+--- KEY FEATURES (bullets for “Main store listing” / feature graphic notes) ---
+• Quick tip entry: amount, date, optional notes — saved on your device
+• Home dashboard with running total of all recorded tips
+• Swipe to delete mistaken entries
+• Weekly bar chart to spot busy weeks vs slow weeks
+• Export all tips to CSV (Date, Amount, Notes) for taxes, budgeting, or sharing with an accountant
+• Simple Material Design interface; works offline for core tracking
+• Privacy-first: your tip history stays in local storage unless you export it
+
+
+--- FULL DESCRIPTION (max 4000 characters; paste into Play Console “Full description”) ---
+Get Tip helps you remember every dollar when your income depends on tips.
+
+Whether you run tables, pour drinks, or deliver orders, it is easy to lose track
+of cash and card tips across shifts. Get Tip is a lightweight journal built
+for fast entry after work: log the amount, pick the date, add a short note if
+you want, and move on. Your entries stay on your phone so you can review totals
+without juggling notebooks or spreadsheets.
+
+See how you are doing over time. The weekly chart groups your tips by ISO week
+so you can compare busy streaks with slower periods—useful when scheduling
+extra shifts or planning expenses. The home screen shows a clear total so you
+always know what you have recorded so far.
+
+Need a clean file for taxes, a landlord, or your own budget? Export everything
+to a CSV with Date, Amount, and Notes columns and save it to your Downloads
+folder (where the device allows). No account is required for basic tracking.
+
+Get Tip is designed for waiters, bartenders, delivery drivers, and similar
+tipped roles: people who move fast, work irregular hours, and want numbers they
+can trust at the end of the week.
+
+Important: Get Tip is a personal log to supplement your own records. It
+does not replace official pay stubs, employer reporting, or tax advice. Always
+follow local laws and your employer’s policies for gratuities and reporting.
+
+If you want simple, offline-first tip tracking with totals, weekly insight, and
+CSV export, Get Tip is built for you.
+
+(Full description body above is under 4000 characters for Play Console.)
+
+
+--- RELEASE BUILD COMMANDS (from project root) ---
+APK:   flutter build apk --release
+AAB:   flutter build appbundle --release   (recommended for Play upload)
+
+Or run scripts in android/:
+  powershell -ExecutionPolicy Bypass -File android\build_release_apk.ps1
+  powershell -ExecutionPolicy Bypass -File android\build_release_appbundle.ps1
+  android\build_release_apk.bat
+
+
+--- BEFORE FIRST PLAY UPLOAD (checklist) ---
+[ ] Copy android/key.properties.template to android/key.properties and fill in
+[ ] Place upload keystore at path referenced by storeFile (e.g. android/app/upload-keystore.jks)
+[ ] Change applicationId from com.example.* to your own reverse-DNS package in android/app/build.gradle.kts
+[ ] Bump version in pubspec.yaml (versionName + versionCode after each release)
+[ ] Complete Play Console Data safety form (local storage / ads as applicable)
+[ ] Provide privacy policy URL if you collect data or use advertising IDs

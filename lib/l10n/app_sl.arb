@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Izvoz CSV",
+    "pdfExportUnavailable":  "Izvoz PDF ni na voljo na tej platformi.",
+    "delete":  "Izbriši",
+    "thanksFeedback":  "Hvala za vaše povratne informacije!",
+    "languageEnglish":  "angleščina",
+    "allDataDeleted":  "Vsi podatki izbrisani",
+    "language":  "Jezik",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV je bil uspešno izvožen",
+    "onboardingJobsTitle":  "Več delovnih mest in strokovna poročila",
+    "totalEarnings":  "Skupni zaslužek",
+    "roundUpSubtitle":  "Pri shranjevanju nasvetov se zaokroži na cela števila",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "S tem boste trajno odstranili vse shranjene nasvete.",
+    "filters":  "Filtri",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Jezik",
+    "darkMode":  "Temni način",
+    "customQuickSubtitle":  "Uredi $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Zgodovina",
+    "exportRangeMonth":  "Ta mesec",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKA",
+    "shareExperience":  "Delite svojo izkušnjo",
+    "filterToday":  "Danes",
+    "customQuickLabel":  "Po meri",
+    "exportRangeWeek":  "Ta teden",
+    "tipSaved":  "Namig shranjen",
+    "onboardingContinue":  "Nadaljuj",
+    "onboardingMockCafeSub":  "pon - pet",
+    "entries":  "Vnosi",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Povprečna urna postavka:",
+    "onboardingJobsBody":  "Upravljajte vsako opravilo s čistimi karticami in izvozite povzetke, pripravljene za PDF.",
+    "onboardingPreviewPdf":  "Predogled PDF-ja",
+    "noDataFound":  "Ni podatkov",
+    "deleteAllData":  "Izbriši vse podatke",
+    "filterYear":  "leto",
+    "navHistory":  "Zgodovina",
+    "greetingMorning":  "Dobro jutro!",
+    "onboardingProfessionalReports":  "Strokovna poročila",
+    "averageDayLabel":  "Povprečje/dan:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontaktirajte nas",
+    "exportCsv":  "Izvoz CSV",
+    "navProfile":  "Profil",
+    "navHome":  "domov",
+    "quickButtons":  "Hitri gumbi",
+    "onboardingMockRestaurantTitle":  "Večer restavracije",
+    "currency":  "Valuta",
+    "onboardingMockRestaurantSub":  "pet - ned",
+    "labelToday":  "Danes",
+    "exportRangeToday":  "Danes",
+    "recentEntries":  "Nedavni vnosi",
+    "pdfReportReady":  "Poročilo PDF pripravljeno za skupno rabo",
+    "undo":  "Razveljavi",
+    "onboardingSkip":  "Preskoči",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "mesec",
+    "deleteAll":  "Izbriši vse",
+    "rateApp":  "Ocenite aplikacijo",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Delo shranjeno",
+    "cancel":  "Prekliči",
+    "@@locale":  "sl",
+    "exportRangeCustom":  "Razpon po meri",
+    "exportFrom":  "From: {date}",
+    "export":  "Izvozi",
+    "contactUsLabel":  "Kontaktirajte nas",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "najboljši dan:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Nasvet izbrisan (Razveljavi)",
+    "greetingAfternoon":  "Dober dan!",
+    "roundUp":  "Zaokroži",
+    "onboardingWelcomeTitle":  "dobrodošli",
+    "reportPdfTooltip":  "Prijavite PDF",
+    "settingsSection":  "NASTAVITVE",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Izvoz na tej platformi ni na voljo.",
+    "quickButtonsUpdated":  "Posodobljeni hitri gumbi",
+    "pdfReports":  "PDF poročila",
+    "supportSection":  "PODPORA",
+    "filterWeek":  "teden",
+    "onboardingMockCafeTitle":  "Kavarna Shift",
+    "onboardingWelcomeBody":  "Spremljajte vsako napitnino in ohranite nadzor nad svojim zaslužkom.",
+    "dailySummary":  "Dnevni povzetek",
+    "rateTheApp":  "Ocenite aplikacijo",
+    "noIncomeRecorded":  "Za ta dan ni zabeležen dohodek. Dotaknite se gumba +, da ga dodate!",
+    "noTipsYet":  "Ni še nasvetov. Dodajte enega z zgornjimi gumbi.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Skupaj nasvetov:",
+    "addTip":  "+ Dodaj nasvet",
+    "totalEarningsLabel":  "Skupni zaslužek:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 USD danes",
+    "noTipsToExport":  "Namigov za izvoz še ni.",
+    "noTipsForPeriod":  "Za izbrano obdobje ni namigov.",
+    "backupTips":  "Shranite svoje podatke / varnostno kopirajte svoje nasvete",
+    "jobs":  "delovna mesta",
+    "greetingEvening":  "Dober večer!",
+    "languageSystemDefault":  "Sistemsko privzeto",
+    "deleteThisTip":  "Želite izbrisati ta nasvet?",
+    "deleteAllDataTitle":  "Želite izbrisati vse podatke?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ကို ထုတ်ယူပါ။",
+    "pdfExportUnavailable":  "PDF ထုတ်ယူခြင်းကို ဤပလပ်ဖောင်းပေါ်တွင် မရရှိနိုင်ပါ။",
+    "delete":  "ဖျက်ပါ။",
+    "thanksFeedback":  "သင့်အကြံပြုချက်အတွက် ကျေးဇူးတင်ပါသည်။",
+    "languageEnglish":  "အင်္ဂလိပ်စာ",
+    "allDataDeleted":  "ဒေတာအားလုံးကို ဖျက်လိုက်ပါပြီ။",
+    "language":  "ဘာသာစကား",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV ကို အောင်မြင်စွာ ထုတ်ယူပြီးပါပြီ။",
+    "onboardingJobsTitle":  "အလုပ်များစွာနှင့် ပရော်ဖက်ရှင်နယ် အစီရင်ခံစာများ",
+    "totalEarnings":  "စုစုပေါင်းရရှိငွေများ",
+    "roundUpSubtitle":  "အကြံပြုချက်များကို သိမ်းဆည်းသောအခါတွင် ကိန်းဂဏန်းများအားလုံးသို့ အဝိုင်းပမာဏများ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "၎င်းသည် သိမ်းဆည်းထားသော အကြံပြုချက်အားလုံးကို အပြီးတိုင် ဖယ်ရှားပါမည်။",
+    "filters":  "စစ်ထုတ်မှုများ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ဘာသာစကား",
+    "darkMode":  "အမှောင်မုဒ်",
+    "customQuickSubtitle":  "$10 · $20 · $50 တည်းဖြတ်ပါ။",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "သမိုင်း",
+    "exportRangeMonth":  "ဒီလ",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "အခြေနေ",
+    "shareExperience":  "သင်၏အတွေ့အကြုံကိုမျှဝေပါ။",
+    "filterToday":  "ဒီနေ့",
+    "customQuickLabel":  "စိတ်ကြိုက်",
+    "exportRangeWeek":  "ဒီတစ်ပတ်",
+    "tipSaved":  "အကြံပြုချက် သိမ်းဆည်းပြီးပါပြီ။",
+    "onboardingContinue":  "ဆက်ရန်",
+    "onboardingMockCafeSub":  "မွန်-သောကြာ",
+    "entries":  "ထည့်သွင်းမှုများ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ပျမ်းမျှတစ်နာရီနှုန်း-",
+    "onboardingJobsBody":  "အလုပ်တစ်ခုစီကို သန့်ရှင်းသောကတ်များဖြင့် စီမံပြီး PDF အဆင်သင့် အကျဉ်းချုပ်များကို ထုတ်ယူပါ။",
+    "onboardingPreviewPdf":  "PDF ကို အစမ်းကြည့်ပါ။",
+    "noDataFound":  "ဒေတာမတွေ့ပါ။",
+    "deleteAllData":  "ဒေတာအားလုံးကို ဖျက်ပါ။",
+    "filterYear":  "တစ်နှစ်",
+    "navHistory":  "သမိုင်း",
+    "greetingMorning":  "မင်္ဂလာနံနက်ခင်းပါ!",
+    "onboardingProfessionalReports":  "ပရော်ဖက်ရှင်နယ်အစီရင်ခံစာများ",
+    "averageDayLabel":  "ပျမ်းမျှ/နေ့-",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ကြှနျုပျတို့ကိုဆကျသှယျရနျ",
+    "exportCsv":  "CSV ကို ထုတ်ယူပါ။",
+    "navProfile":  "ကိုယ်ရေးအကျဉ်း",
+    "navHome":  "အိမ်",
+    "quickButtons":  "အမြန်ခလုတ်များ",
+    "onboardingMockRestaurantTitle":  "စားသောက်ဆိုင်ည",
+    "currency":  "ငွေကြေး",
+    "onboardingMockRestaurantSub":  "Fri - နေမင်း",
+    "labelToday":  "ဒီနေ့",
+    "exportRangeToday":  "ဒီနေ့",
+    "recentEntries":  "လတ်တလော ထည့်သွင်းမှုများ",
+    "pdfReportReady":  "PDF အစီရင်ခံစာကို မျှဝေရန် အသင့်ဖြစ်နေပါပြီ။",
+    "undo":  "မလုပ်တော့",
+    "onboardingSkip":  "ကျော်သွားပါ။",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "လ",
+    "deleteAll":  "အားလုံးကို ဖျက်ပါ။",
+    "rateApp":  "အက်ပ်ကို အဆင့်သတ်မှတ်ပါ။",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "အလုပ်က ကယ်လိုက်တာ",
+    "cancel":  "မလုပ်တော့",
+    "@@locale":  "my",
+    "exportRangeCustom":  "စိတ်ကြိုက်အတိုင်းအတာ",
+    "exportFrom":  "From: {date}",
+    "export":  "တင်ပို့ခြင်း။",
+    "contactUsLabel":  "ကြှနျုပျတို့ကိုဆကျသှယျရနျ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "အကောင်းဆုံးနေ့-",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "အကြံပြုချက် ဖျက်လိုက်ပါပြီ (နောက်တော့)",
+    "greetingAfternoon":  "မင်္ဂလာနေ့လည်ခင်းပါ!",
+    "roundUp":  "စုသည်",
+    "onboardingWelcomeTitle":  "ကြိုဆိုပါတယ်။",
+    "reportPdfTooltip":  "PDF အစီရင်ခံပါ။",
+    "settingsSection":  "ဆက်တင်များ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "တင်ပို့မှုကို ဤပလပ်ဖောင်းပေါ်တွင် မရရှိနိုင်ပါ။",
+    "quickButtonsUpdated":  "အမြန်ခလုတ်များကို အပ်ဒိတ်လုပ်ထားသည်။",
+    "pdfReports":  "PDF အစီရင်ခံစာများ",
+    "supportSection":  "ပံ့ပိုးမှု",
+    "filterWeek":  "အေးလေ",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "အကြံပြုချက်တိုင်းကို ခြေရာခံပြီး သင့်ဝင်ငွေများကို ဆက်လက်ထိန်းချုပ်ပါ။",
+    "dailySummary":  "နေ့စဉ်အကျဉ်းချုပ်",
+    "rateTheApp":  "အက်ပ်ကို အဆင့်သတ်မှတ်ပါ။",
+    "noIncomeRecorded":  "ယနေ့အတွက် ဝင်ငွေစာရင်းမရှိပါ။ တစ်ခုထည့်ရန် + ခလုတ်ကို တို့ပါ။",
+    "noTipsYet":  "အကြံဥာဏ်များ မရှိသေးပါ။ အပေါ်က ခလုတ်တွေနဲ့ တစ်ခုထည့်ပါ။",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "စုစုပေါင်းအကြံပြုချက်များ-",
+    "addTip":  "+ အကြံပြုချက်ထည့်ပါ။",
+    "totalEarningsLabel":  "စုစုပေါင်းရရှိငွေ-",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 ယနေ့",
+    "noTipsToExport":  "တင်ပို့ရန် အကြံပြုချက်များ မရှိသေးပါ။",
+    "noTipsForPeriod":  "ရွေးချယ်ထားသောကာလအတွက် အကြံပြုချက်မတွေ့ပါ။",
+    "backupTips":  "သင်၏ဒေတာကိုသိမ်းဆည်းပါ / သင်၏အကြံပြုချက်များကိုအရန်သိမ်းဆည်းပါ။",
+    "jobs":  "အလုပ်များ",
+    "greetingEvening":  "မင်္ဂလာညနေခင်းပါ!",
+    "languageSystemDefault":  "စနစ် ပုံသေ",
+    "deleteThisTip":  "ဤအကြံပြုချက်ကို ဖျက်မလား။",
+    "deleteAllDataTitle":  "ဒေတာအားလုံးကို ဖျက်မလား။"
+}

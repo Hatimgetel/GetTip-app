@@ -1,0 +1,213 @@
+{
+    "exportCsvTitle":  "Exporter au format CSV",
+    "pdfExportUnavailable":  "L\u0027exportation PDF n\u0027est pas disponible sur cette plateforme.",
+    "delete":  "Supprimer",
+    "thanksFeedback":  "Merci pour vos commentaires !",
+    "languageEnglish":  "Anglais",
+    "allDataDeleted":  "Toutes les données supprimées",
+    "language":  "Langue",
+    "appTitle":  "Mon suivi des pourboires",
+    "csvExported":  "CSV exporté avec succès",
+    "onboardingJobsTitle":  "Plusieurs travaux et rapports professionnels",
+    "totalEarnings":  "Gains totaux",
+    "roundUpSubtitle":  "Arrondissez les montants en nombres entiers lorsque vous enregistrez des pourboires",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Cela supprimera définitivement tous les conseils enregistrés.",
+    "filters":  "Filtres",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Langue",
+    "darkMode":  "Mode sombre",
+    "customQuickSubtitle":  "Modifier 10 $ · 20 $ · 50 $",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Histoire",
+    "exportRangeMonth":  "Ce mois-ci",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIQUES",
+    "shareExperience":  "Partagez votre expérience",
+    "filterToday":  "Aujourd\u0027hui",
+    "customQuickLabel":  "Coutume",
+    "exportRangeWeek":  "Cette semaine",
+    "tipSaved":  "Tip enregistré",
+    "onboardingContinue":  "Continuer",
+    "onboardingMockCafeSub":  "Du lundi au vendredi",
+    "entries":  "Entrées",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Taux horaire moyen :",
+    "onboardingJobsBody":  "Gérez chaque travail avec des cartes propres et exportez des résumés prêts au format PDF.",
+    "onboardingPreviewPdf":  "Aperçu du PDF",
+    "noDataFound":  "Aucune donnée trouvée",
+    "deleteAllData":  "Supprimer toutes les données",
+    "filterYear":  "Année",
+    "navHistory":  "Histoire",
+    "greetingMorning":  "Bonjour!",
+    "onboardingProfessionalReports":  "Rapports professionnels",
+    "averageDayLabel":  "Moyenne/jour :",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contactez-nous",
+    "exportCsv":  "Exporter au format CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Maison",
+    "quickButtons":  "Boutons rapides",
+    "onboardingMockRestaurantTitle":  "Soirée au restaurant",
+    "currency":  "Devise",
+    "onboardingMockRestaurantSub":  "Vendredi - Dimanche",
+    "labelToday":  "Aujourd\u0027hui",
+    "exportRangeToday":  "Aujourd\u0027hui",
+    "recentEntries":  "Entrées récentes",
+    "pdfReportReady":  "Rapport PDF prêt à partager",
+    "undo":  "Défaire",
+    "onboardingSkip":  "Sauter",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mois",
+    "deleteAll":  "Supprimer tout",
+    "rateApp":  "Évaluer l\u0027application",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Travail enregistré",
+    "cancel":  "Annuler",
+    "@@locale":  "fr",
+    "exportRangeCustom":  "Gamme personnalisée",
+    "exportFrom":  "From: {date}",
+    "export":  "Exporter",
+    "contactUsLabel":  "Contactez-nous",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Meilleur jour :",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip supprimé (Annuler)",
+    "greetingAfternoon":  "Bon après-midi!",
+    "roundUp":  "Rassembler",
+    "onboardingWelcomeTitle":  "Accueillir",
+    "reportPdfTooltip":  "Rapport PDF",
+    "settingsSection":  "PARAMÈTRES",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "L\u0027exportation n\u0027est pas disponible sur cette plateforme.",
+    "quickButtonsUpdated":  "Boutons rapides mis à jour",
+    "pdfReports":  "Rapports PDF",
+    "supportSection":  "SOUTIEN",
+    "filterWeek":  "Semaine",
+    "onboardingMockCafeTitle":  "Changement de café",
+    "onboardingWelcomeBody":  "Suivez chaque pourboire et gardez le contrôle de vos revenus.",
+    "dailySummary":  "Résumé quotidien",
+    "rateTheApp":  "Évaluez l\u0027application",
+    "noIncomeRecorded":  "Aucun revenu enregistré pour cette journée. Appuyez sur le bouton + pour en ajouter un !",
+    "noTipsYet":  "Pas encore de Tip. Ajoutez-en un avec les boutons ci-dessus.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Total Tip :",
+    "addTip":  "+ Add Tip",
+    "totalEarningsLabel":  "Gains totaux :",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ aujourd\u0027hui",
+    "noTipsToExport":  "Pas encore de Tip à exporter.",
+    "noTipsForPeriod":  "Aucun Tip trouvé pour la période sélectionnée.",
+    "backupTips":  "Enregistrez vos données / Sauvegardez vos Tip",
+    "jobs":  "Emplois",
+    "greetingEvening":  "Bonne soirée!",
+    "languageSystemDefault":  "Valeur par défaut du système",
+    "deleteThisTip":  "Supprimer ce Tip ?",
+    "deleteAllDataTitle":  "Supprimer toutes les données ?",
+    "done":  "Terminé",
+    "noJobsYet":  "Aucun job pour le moment. Ajoutez votre premier job.",
+    "deleteJobTitle":  "Supprimer le job ?",
+    "deleteJobBody":  "Supprimer \"{jobTitle}\" ? Les Tip existants resteront enregistrés.",
+    "@deleteJobBody":  {
+                          "placeholders":  {
+                                               "jobTitle":  {
+                                                                "type":  "String"
+                                                            }
+                                           }
+                      },
+    "customizeQuickButtonsTitle":  "Personnaliser les boutons rapides",
+    "tipNumberLabel":  "Tip {index}",
+    "@tipNumberLabel":  {
+                            "placeholders":  {
+                                                 "index":  {
+                                                               "type":  "int"
+                                                           }
+                                             }
+                        },
+    "amountLabel":  "Montant",
+    "noteUnderTipLabel":  "Note sous ce Tip",
+    "reset":  "Réinitialiser",
+    "invalidAmounts":  "Les montants doivent être des nombres valides > 0",
+    "save":  "Enregistrer",
+    "titleIsRequired":  "Le titre est obligatoire",
+    "enterValidHourlyRate":  "Entrez un taux horaire valide ou laissez vide.",
+    "editJob":  "Modifier le job",
+    "addJobTitle":  "Ajouter un job",
+    "colorRequired":  "Couleur *",
+    "titleRequired":  "Titre *",
+    "employerOptional":  "Employeur (Optionnel)",
+    "hourlyRateOptional":  "Taux horaire (Optionnel)",
+    "workDaysOptional":  "Jours de travail (Optionnel)",
+    "updateJob":  "Mettre à jour le job",
+    "saveJob":  "Enregistrer le job",
+    "saveToPhone":  "Enregistrer sur le téléphone",
+    "share":  "Partager",
+    "saveFileInDownloads":  "Enregistrer {fileType} dans Téléchargements",
+    "@saveFileInDownloads":  {
+                                  "placeholders":  {
+                                                       "fileType":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                   }
+                              },
+    "openAppsToShareFile":  "Ouvrir des apps pour partager ce {fileType}",
+    "@openAppsToShareFile":  {
+                                  "placeholders":  {
+                                                       "fileType":  {
+                                                                        "type":  "String"
+                                                                    }
+                                                   }
+                              }
+}

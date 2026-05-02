@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksportēt CSV",
+    "pdfExportUnavailable":  "PDF eksportēšana šajā platformā nav pieejama.",
+    "delete":  "Dzēst",
+    "thanksFeedback":  "Paldies par atsauksmēm!",
+    "languageEnglish":  "angļu valoda",
+    "allDataDeleted":  "Visi dati izdzēsti",
+    "language":  "Valoda",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV fails ir veiksmīgi eksportēts",
+    "onboardingJobsTitle":  "Vairāki darbi un profesionāli pārskati",
+    "totalEarnings":  "Kopējie ieņēmumi",
+    "roundUpSubtitle":  "Saglabājot padomus, apaļas summas ir veseli skaitļi",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Tādējādi tiks neatgriezeniski noņemti visi saglabātie padomi.",
+    "filters":  "Filtri",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Valoda",
+    "darkMode":  "Tumšais režīms",
+    "customQuickSubtitle":  "Rediģēt $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Vēsture",
+    "exportRangeMonth":  "Šomēnes",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKA",
+    "shareExperience":  "Dalieties savā pieredzē",
+    "filterToday":  "Šodien",
+    "customQuickLabel":  "Pielāgots",
+    "exportRangeWeek":  "Šonedēļ",
+    "tipSaved":  "Padoms saglabāts",
+    "onboardingContinue":  "Turpināt",
+    "onboardingMockCafeSub":  "P-P",
+    "entries":  "Ieraksti",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Vidējā stundas likme:",
+    "onboardingJobsBody":  "Pārvaldiet katru darbu ar tīrām kartēm un eksportējiet PDF formātā gatavus kopsavilkumus.",
+    "onboardingPreviewPdf":  "Priekšskatīt PDF",
+    "noDataFound":  "Dati netika atrasti",
+    "deleteAllData":  "Dzēst visus datus",
+    "filterYear":  "gads",
+    "navHistory":  "Vēsture",
+    "greetingMorning":  "Labrīt!",
+    "onboardingProfessionalReports":  "Profesionālie ziņojumi",
+    "averageDayLabel":  "Vidēji dienā:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Sazinieties ar mums",
+    "exportCsv":  "Eksportēt CSV",
+    "navProfile":  "Profils",
+    "navHome":  "Sākums",
+    "quickButtons":  "Ātrās pogas",
+    "onboardingMockRestaurantTitle":  "Restorānu nakts",
+    "currency":  "Valūta",
+    "onboardingMockRestaurantSub":  "Piekt - Sv",
+    "labelToday":  "Šodien",
+    "exportRangeToday":  "Šodien",
+    "recentEntries":  "Jaunākie ieraksti",
+    "pdfReportReady":  "PDF pārskats gatavs kopīgošanai",
+    "undo":  "Atsaukt",
+    "onboardingSkip":  "Izlaist",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mēnesis",
+    "deleteAll":  "Dzēst visu",
+    "rateApp":  "Novērtēt lietotni",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Darbs saglabāts",
+    "cancel":  "Atcelt",
+    "@@locale":  "lv",
+    "exportRangeCustom":  "Pielāgots diapazons",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksportēt",
+    "contactUsLabel":  "Sazinieties ar mums",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Labākā diena:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Padoms izdzēsts (Atsaukt)",
+    "greetingAfternoon":  "Labvakar!",
+    "roundUp":  "Noapaļot uz augšu",
+    "onboardingWelcomeTitle":  "Laipni lūdzam",
+    "reportPdfTooltip":  "Pārskats PDF formātā",
+    "settingsSection":  "IESTATĪJUMI",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksportēšana šajā platformā nav pieejama.",
+    "quickButtonsUpdated":  "Ātrās pogas ir atjauninātas",
+    "pdfReports":  "PDF pārskati",
+    "supportSection":  "ATBALSTS",
+    "filterWeek":  "nedēļa",
+    "onboardingMockCafeTitle":  "Kafejnīca Shift",
+    "onboardingWelcomeBody":  "Izsekojiet katram padomu un kontrolējiet savus ieņēmumus.",
+    "dailySummary":  "Dienas kopsavilkums",
+    "rateTheApp":  "Novērtējiet lietotni",
+    "noIncomeRecorded":  "Šajā dienā ienākumi nav reģistrēti. Pieskarieties pogai +, lai to pievienotu!",
+    "noTipsYet":  "Pagaidām nav padomu. Pievienojiet vienu ar augstāk esošajām pogām.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Kopējie padomi:",
+    "addTip":  "+ Pievienot padomu",
+    "totalEarningsLabel":  "Kopējie ieņēmumi:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 USD šodien",
+    "noTipsToExport":  "Pagaidām nav padomu eksportēšanai.",
+    "noTipsForPeriod":  "Nav atrasts neviens padoms atlasītajam periodam.",
+    "backupTips":  "Saglabājiet savus datus / dublējiet savus padomus",
+    "jobs":  "Darbavietas",
+    "greetingEvening":  "Labvakar!",
+    "languageSystemDefault":  "Sistēmas noklusējums",
+    "deleteThisTip":  "Vai dzēst šo padomu?",
+    "deleteAllDataTitle":  "Vai dzēst visus datus?"
+}

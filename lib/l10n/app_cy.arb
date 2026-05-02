@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Allforio CSV",
+    "pdfExportUnavailable":  "Nid yw allforio PDF ar gael ar y platfform hwn.",
+    "delete":  "Dileu",
+    "thanksFeedback":  "Diolch am eich adborth!",
+    "languageEnglish":  "Saesneg",
+    "allDataDeleted":  "Yr holl ddata wedi\u0027i ddileu",
+    "language":  "Iaith",
+    "appTitle":  "Traciwr MyTip",
+    "csvExported":  "CSV wedi\u0027i allforio yn llwyddiannus",
+    "onboardingJobsTitle":  "Swyddi Lluosog ac Adroddiadau Proffesiynol",
+    "totalEarnings":  "Cyfanswm Enillion",
+    "roundUpSubtitle":  "Talgrynnu symiau i rifau cyfan wrth arbed awgrymiadau",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bydd hyn yn dileu\u0027r holl awgrymiadau sydd wedi\u0027u cadw yn barhaol.",
+    "filters":  "Hidlau",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Iaith",
+    "darkMode":  "Modd tywyll",
+    "customQuickSubtitle":  "Golygu $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Hanes",
+    "exportRangeMonth":  "Y Mis hwn",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Rhannwch Eich Profiad",
+    "filterToday":  "Heddiw",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Yr Wythnos hon",
+    "tipSaved":  "Awgrym wedi\u0027i gadw",
+    "onboardingContinue":  "Parhau",
+    "onboardingMockCafeSub":  "Llun - Gwener",
+    "entries":  "Cofnodion",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Cyfradd fesul awr Cyf:",
+    "onboardingJobsBody":  "Rheoli pob swydd gyda chardiau glân ac allforio crynodebau parod PDF.",
+    "onboardingPreviewPdf":  "Rhagolwg PDF",
+    "noDataFound":  "Heb Ddarganfod Data",
+    "deleteAllData":  "Dileu\u0027r holl ddata",
+    "filterYear":  "Blwyddyn",
+    "navHistory":  "Hanes",
+    "greetingMorning":  "Bore Da!",
+    "onboardingProfessionalReports":  "Adroddiadau Proffesiynol",
+    "averageDayLabel":  "Cyfartaledd/diwrnod:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Cysylltwch â ni",
+    "exportCsv":  "Allforio CSV",
+    "navProfile":  "Proffil",
+    "navHome":  "Cartref",
+    "quickButtons":  "Botymau cyflym",
+    "onboardingMockRestaurantTitle":  "Noson Bwyty",
+    "currency":  "Arian cyfred",
+    "onboardingMockRestaurantSub":  "Gwe - Haul",
+    "labelToday":  "Heddiw",
+    "exportRangeToday":  "Heddiw",
+    "recentEntries":  "Cofnodion diweddar",
+    "pdfReportReady":  "Adroddiad PDF yn barod i\u0027w rannu",
+    "undo":  "Dadwneud",
+    "onboardingSkip":  "Sgipio",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mis",
+    "deleteAll":  "Dileu popeth",
+    "rateApp":  "Cyfradd app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Arbedodd Job",
+    "cancel":  "Canslo",
+    "@@locale":  "cy",
+    "exportRangeCustom":  "Ystod Custom",
+    "exportFrom":  "From: {date}",
+    "export":  "Allforio",
+    "contactUsLabel":  "Cysylltwch â ni",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Diwrnod gorau:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Awgrym wedi\u0027i ddileu (Dadwneud)",
+    "greetingAfternoon":  "Prynhawn Da!",
+    "roundUp":  "Talgrynnu",
+    "onboardingWelcomeTitle":  "Croeso",
+    "reportPdfTooltip":  "Adroddiad PDF",
+    "settingsSection":  "GOSODIADAU",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Nid yw allforio ar gael ar y platfform hwn.",
+    "quickButtonsUpdated":  "Botymau cyflym wedi\u0027u diweddaru",
+    "pdfReports":  "Adroddiadau PDF",
+    "supportSection":  "CEFNOGAETH",
+    "filterWeek":  "Wythnos",
+    "onboardingMockCafeTitle":  "Shift Caffi",
+    "onboardingWelcomeBody":  "Dilynwch bob awgrym a chadwch reolaeth ar eich enillion.",
+    "dailySummary":  "Crynodeb Dyddiol",
+    "rateTheApp":  "Graddiwch yr app",
+    "noIncomeRecorded":  "Dim incwm wedi\u0027i gofnodi ar gyfer y diwrnod hwn. Tapiwch y botwm + i ychwanegu un!",
+    "noTipsYet":  "Dim awgrymiadau eto. Ychwanegwch un gyda\u0027r botymau uchod.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Cyfanswm awgrymiadau:",
+    "addTip":  "+ Ychwanegu Awgrym",
+    "totalEarningsLabel":  "Cyfanswm enillion:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 Heddiw",
+    "noTipsToExport":  "Dim awgrymiadau i allforio eto.",
+    "noTipsForPeriod":  "Ni chanfuwyd unrhyw awgrymiadau ar gyfer cyfnod penodol.",
+    "backupTips":  "Arbedwch eich data / Gwneud copi wrth gefn o\u0027ch awgrymiadau",
+    "jobs":  "Swyddi",
+    "greetingEvening":  "Noson dda!",
+    "languageSystemDefault":  "System diofyn",
+    "deleteThisTip":  "Dileu\u0027r awgrym hwn?",
+    "deleteAllDataTitle":  "Dileu\u0027r holl ddata?"
+}

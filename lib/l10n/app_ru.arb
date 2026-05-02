@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Экспортировать CSV",
+    "pdfExportUnavailable":  "Экспорт PDF недоступен на этой платформе.",
+    "delete":  "Удалить",
+    "thanksFeedback":  "Спасибо за ваш отзыв!",
+    "languageEnglish":  "Английский",
+    "allDataDeleted":  "Все данные удалены",
+    "language":  "Язык",
+    "appTitle":  "МойТип Трекер",
+    "csvExported":  "CSV успешно экспортирован",
+    "onboardingJobsTitle":  "Несколько вакансий и профессиональные отчеты",
+    "totalEarnings":  "Общий доход",
+    "roundUpSubtitle":  "При сохранении советов округляйте суммы до целых чисел.",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Это приведет к безвозвратному удалению всех сохраненных советов.",
+    "filters":  "Фильтры",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Язык",
+    "darkMode":  "Темный режим",
+    "customQuickSubtitle":  "Изменить 10 долларов США – 20 долларов США — 50 долларов США.",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "История",
+    "exportRangeMonth":  "В этом месяце",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТИСТИКА",
+    "shareExperience":  "Поделитесь своим опытом",
+    "filterToday":  "Сегодня",
+    "customQuickLabel":  "Обычай",
+    "exportRangeWeek":  "На этой неделе",
+    "tipSaved":  "Совет сохранен.",
+    "onboardingContinue":  "Продолжать",
+    "onboardingMockCafeSub":  "Пн - Пт",
+    "entries":  "Записи",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Средняя почасовая ставка:",
+    "onboardingJobsBody":  "Управляйте каждым заданием с помощью чистых карточек и экспортируйте сводки в формате PDF.",
+    "onboardingPreviewPdf":  "Предварительный просмотр PDF",
+    "noDataFound":  "Данные не найдены",
+    "deleteAllData":  "Удалить все данные",
+    "filterYear":  "Год",
+    "navHistory":  "История",
+    "greetingMorning":  "Доброе утро!",
+    "onboardingProfessionalReports":  "Профессиональные отчеты",
+    "averageDayLabel":  "В среднем/день:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Связаться с нами",
+    "exportCsv":  "Экспортировать CSV",
+    "navProfile":  "Профиль",
+    "navHome":  "Дом",
+    "quickButtons":  "Быстрые кнопки",
+    "onboardingMockRestaurantTitle":  "Ночь ресторана",
+    "currency":  "Валюта",
+    "onboardingMockRestaurantSub":  "Пт - Вс",
+    "labelToday":  "Сегодня",
+    "exportRangeToday":  "Сегодня",
+    "recentEntries":  "Последние записи",
+    "pdfReportReady":  "Отчет в формате PDF готов к публикации",
+    "undo":  "Отменить",
+    "onboardingSkip":  "Пропускать",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Месяц",
+    "deleteAll":  "Удалить все",
+    "rateApp":  "Оцените приложение",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Вакансия сохранена",
+    "cancel":  "Отмена",
+    "@@locale":  "ru",
+    "exportRangeCustom":  "Пользовательский диапазон",
+    "exportFrom":  "From: {date}",
+    "export":  "Экспорт",
+    "contactUsLabel":  "Связаться с нами",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Лучший день:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Совет удален (Отменить)",
+    "greetingAfternoon":  "Добрый день!",
+    "roundUp":  "Округлять",
+    "onboardingWelcomeTitle":  "Добро пожаловать",
+    "reportPdfTooltip":  "Отчет PDF",
+    "settingsSection":  "НАСТРОЙКИ",
+    "languageArabic":  "عربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Экспорт недоступен на этой платформе.",
+    "quickButtonsUpdated":  "Обновлены быстрые кнопки",
+    "pdfReports":  "PDF-отчеты",
+    "supportSection":  "ПОДДЕРЖИВАТЬ",
+    "filterWeek":  "Неделя",
+    "onboardingMockCafeTitle":  "Кафе Смена",
+    "onboardingWelcomeBody":  "Отслеживайте все чаевые и контролируйте свои доходы.",
+    "dailySummary":  "Ежедневная сводка",
+    "rateTheApp":  "Оцените приложение",
+    "noIncomeRecorded":  "Доходов за этот день не зафиксировано. Нажмите кнопку +, чтобы добавить его!",
+    "noTipsYet":  "Советов пока нет. Добавьте его с помощью кнопок выше.",
+    "languageFrench":  "Франсэ",
+    "totalTipsLabel":  "Всего советов:",
+    "addTip":  "+ Добавить совет",
+    "totalEarningsLabel":  "Общий доход:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 Сегодня",
+    "noTipsToExport":  "Советов по экспорту пока нет.",
+    "noTipsForPeriod":  "Советы за выбранный период не найдены.",
+    "backupTips":  "Сохраните свои данные / сделайте резервную копию своих советов",
+    "jobs":  "Вакансии",
+    "greetingEvening":  "Добрый вечер!",
+    "languageSystemDefault":  "Система по умолчанию",
+    "deleteThisTip":  "Удалить этот совет?",
+    "deleteAllDataTitle":  "Удалить все данные?"
+}

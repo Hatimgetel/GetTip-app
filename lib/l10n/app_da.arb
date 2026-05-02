@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksporter CSV",
+    "pdfExportUnavailable":  "PDF-eksport er ikke tilgængelig på denne platform.",
+    "delete":  "Slet",
+    "thanksFeedback":  "Tak for din feedback!",
+    "languageEnglish":  "engelsk",
+    "allDataDeleted":  "Alle data slettet",
+    "language":  "Sprog",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV eksporteret",
+    "onboardingJobsTitle":  "Flere job og professionelle rapporter",
+    "totalEarnings":  "Samlet indtjening",
+    "roundUpSubtitle":  "Afrund beløb til hele tal, når du gemmer tips",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Dette vil permanent fjerne alle gemte tips.",
+    "filters":  "Filtre",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Sprog",
+    "darkMode":  "Mørk tilstand",
+    "customQuickSubtitle":  "Rediger $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historie",
+    "exportRangeMonth":  "Denne måned",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIK",
+    "shareExperience":  "Del din oplevelse",
+    "filterToday":  "I dag",
+    "customQuickLabel":  "Skik",
+    "exportRangeWeek":  "Denne uge",
+    "tipSaved":  "Tip gemt",
+    "onboardingContinue":  "Fortsætte",
+    "onboardingMockCafeSub":  "man - fre",
+    "entries":  "Indgange",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Gennemsnitlig timepris:",
+    "onboardingJobsBody":  "Administrer hvert job med rene kort og eksporter PDF-klare oversigter.",
+    "onboardingPreviewPdf":  "Forhåndsvisning af PDF",
+    "noDataFound":  "Ingen data fundet",
+    "deleteAllData":  "Slet alle data",
+    "filterYear":  "År",
+    "navHistory":  "Historie",
+    "greetingMorning":  "Godmorgen!",
+    "onboardingProfessionalReports":  "Professionelle rapporter",
+    "averageDayLabel":  "Gennemsnit/dag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontakt os",
+    "exportCsv":  "Eksporter CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Hjem",
+    "quickButtons":  "Hurtige knapper",
+    "onboardingMockRestaurantTitle":  "Restaurantaften",
+    "currency":  "Valuta",
+    "onboardingMockRestaurantSub":  "fre - søn",
+    "labelToday":  "I dag",
+    "exportRangeToday":  "I dag",
+    "recentEntries":  "Seneste poster",
+    "pdfReportReady":  "PDF-rapport klar til deling",
+    "undo":  "Fortryd",
+    "onboardingSkip":  "Springe",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Måned",
+    "deleteAll":  "Slet alle",
+    "rateApp":  "Bedøm app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job reddet",
+    "cancel":  "Ophæve",
+    "@@locale":  "da",
+    "exportRangeCustom":  "Brugerdefineret rækkevidde",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksportere",
+    "contactUsLabel":  "Kontakt os",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Bedste dag:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip slettet (Fortryd)",
+    "greetingAfternoon":  "God eftermiddag!",
+    "roundUp":  "Runder op",
+    "onboardingWelcomeTitle":  "Velkomst",
+    "reportPdfTooltip":  "Rapporter PDF",
+    "settingsSection":  "INDSTILLINGER",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksport er ikke tilgængelig på denne platform.",
+    "quickButtonsUpdated":  "Hurtige knapper opdateret",
+    "pdfReports":  "PDF rapporter",
+    "supportSection":  "STØTTE",
+    "filterWeek":  "Uge",
+    "onboardingMockCafeTitle":  "Cafe Skift",
+    "onboardingWelcomeBody":  "Spor hvert tip og bevar kontrol over din indtjening.",
+    "dailySummary":  "Daglig oversigt",
+    "rateTheApp":  "Bedøm appen",
+    "noIncomeRecorded":  "Ingen indtægt registreret for denne dag. Tryk på knappen + for at tilføje en!",
+    "noTipsYet":  "Ingen tips endnu. Tilføj en med knapperne ovenfor.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Samlet tips:",
+    "addTip":  "+ Tilføj tip",
+    "totalEarningsLabel":  "Samlet indtjening:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ i dag",
+    "noTipsToExport":  "Ingen tip til eksport endnu.",
+    "noTipsForPeriod":  "Ingen tips fundet for den valgte periode.",
+    "backupTips":  "Gem dine data / Sikkerhedskopier dine tips",
+    "jobs":  "Jobs",
+    "greetingEvening":  "God aften!",
+    "languageSystemDefault":  "System standard",
+    "deleteThisTip":  "Vil du slette dette tip?",
+    "deleteAllDataTitle":  "Vil du slette alle data?"
+}

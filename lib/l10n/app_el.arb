@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Εξαγωγή CSV",
+    "pdfExportUnavailable":  "Η εξαγωγή PDF δεν είναι διαθέσιμη σε αυτήν την πλατφόρμα.",
+    "delete":  "Διαγράφω",
+    "thanksFeedback":  "Ευχαριστώ για τα σχόλιά σας!",
+    "languageEnglish":  "αγγλικός",
+    "allDataDeleted":  "Όλα τα δεδομένα διαγράφηκαν",
+    "language":  "Γλώσσα",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "Το CSV εξήχθη με επιτυχία",
+    "onboardingJobsTitle":  "Πολλαπλές θέσεις εργασίας \u0026 επαγγελματικές αναφορές",
+    "totalEarnings":  "Συνολικά Κέρδη",
+    "roundUpSubtitle":  "Το στρογγυλό ποσό αντιστοιχεί σε ακέραιους αριθμούς κατά την αποθήκευση συμβουλών",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Αυτό θα καταργήσει οριστικά όλες τις αποθηκευμένες συμβουλές.",
+    "filters":  "Φίλτρα",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Γλώσσα",
+    "darkMode":  "Σκοτεινή λειτουργία",
+    "customQuickSubtitle":  "Επεξεργασία 10 $ · 20 $ · 50 $",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Ιστορία",
+    "exportRangeMonth":  "Αυτόν τον Μήνα",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ΣΤΑΤΙΣΤΙΚΑ",
+    "shareExperience":  "Μοιραστείτε την εμπειρία σας",
+    "filterToday":  "Σήμερα",
+    "customQuickLabel":  "Εθιμο",
+    "exportRangeWeek":  "Αυτή την εβδομάδα",
+    "tipSaved":  "Η συμβουλή αποθηκεύτηκε",
+    "onboardingContinue":  "Συνεχίζω",
+    "onboardingMockCafeSub":  "Δευτ. - Παρ",
+    "entries":  "Συμμετοχές",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Μέση ωριαία χρέωση:",
+    "onboardingJobsBody":  "Διαχειριστείτε κάθε εργασία με καθαρές κάρτες και εξάγετε συνόψεις έτοιμες για PDF.",
+    "onboardingPreviewPdf":  "Προεπισκόπηση PDF",
+    "noDataFound":  "Δεν βρέθηκαν δεδομένα",
+    "deleteAllData":  "Διαγραφή όλων των δεδομένων",
+    "filterYear":  "Ετος",
+    "navHistory":  "Ιστορία",
+    "greetingMorning":  "Καλημέρα!",
+    "onboardingProfessionalReports":  "Επαγγελματικές Εκθέσεις",
+    "averageDayLabel":  "Μέσος όρος/ημέρα:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Επικοινωνήστε μαζί μας",
+    "exportCsv":  "Εξαγωγή CSV",
+    "navProfile":  "Προφίλ",
+    "navHome":  "Σπίτι",
+    "quickButtons":  "Γρήγορα κουμπιά",
+    "onboardingMockRestaurantTitle":  "Βραδιά εστιατορίου",
+    "currency":  "Νόμισμα",
+    "onboardingMockRestaurantSub":  "Παρ - Κυρ",
+    "labelToday":  "Σήμερα",
+    "exportRangeToday":  "Σήμερα",
+    "recentEntries":  "Πρόσφατες καταχωρήσεις",
+    "pdfReportReady":  "Έτοιμη για κοινή χρήση αναφοράς PDF",
+    "undo":  "Ξεκάνω",
+    "onboardingSkip":  "Παραλείπω",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Μήνας",
+    "deleteAll":  "Διαγραφή όλων",
+    "rateApp":  "Βαθμολογήστε την εφαρμογή",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Η δουλειά σώθηκε",
+    "cancel":  "Ματαίωση",
+    "@@locale":  "el",
+    "exportRangeCustom":  "Προσαρμοσμένο εύρος",
+    "exportFrom":  "From: {date}",
+    "export":  "Εξαγωγή",
+    "contactUsLabel":  "Επικοινωνήστε μαζί μας",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Καλύτερη μέρα:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Η συμβουλή διαγράφηκε (Αναίρεση)",
+    "greetingAfternoon":  "Καλημέρα!",
+    "roundUp":  "Μανδρίζω",
+    "onboardingWelcomeTitle":  "Καλωσόρισμα",
+    "reportPdfTooltip":  "Αναφορά PDF",
+    "settingsSection":  "ΡΥΘΜΙΣΕΙΣ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Η εξαγωγή δεν είναι διαθέσιμη σε αυτήν την πλατφόρμα.",
+    "quickButtonsUpdated":  "Τα γρήγορα κουμπιά ενημερώθηκαν",
+    "pdfReports":  "Αναφορές PDF",
+    "supportSection":  "ΥΠΟΣΤΗΡΙΞΗ",
+    "filterWeek":  "Εβδομάδα",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Παρακολουθήστε κάθε συμβουλή και διατηρήστε τον έλεγχο των κερδών σας.",
+    "dailySummary":  "Ημερήσια Περίληψη",
+    "rateTheApp":  "Βαθμολογήστε την εφαρμογή",
+    "noIncomeRecorded":  "Δεν καταγράφηκαν έσοδα για αυτήν την ημέρα. Πατήστε το κουμπί + για να προσθέσετε ένα!",
+    "noTipsYet":  "Δεν υπάρχουν ακόμα συμβουλές. Προσθέστε ένα με τα κουμπιά παραπάνω.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Σύνολο συμβουλές:",
+    "addTip":  "+ Προσθήκη συμβουλής",
+    "totalEarningsLabel":  "Συνολικά κέρδη:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ σήμερα",
+    "noTipsToExport":  "Δεν υπάρχουν ακόμα συμβουλές για εξαγωγή.",
+    "noTipsForPeriod":  "Δεν βρέθηκαν συμβουλές για την επιλεγμένη περίοδο.",
+    "backupTips":  "Αποθηκεύστε τα δεδομένα σας / Δημιουργήστε αντίγραφα ασφαλείας των συμβουλών σας",
+    "jobs":  "Θέσεις εργασίας",
+    "greetingEvening":  "Καλησπέρα!",
+    "languageSystemDefault":  "Προεπιλογή συστήματος",
+    "deleteThisTip":  "Διαγραφή αυτής της συμβουλής;",
+    "deleteAllDataTitle":  "Διαγραφή όλων των δεδομένων;"
+}

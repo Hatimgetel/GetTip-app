@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV экспортлох",
+    "pdfExportUnavailable":  "PDF экспортыг энэ платформ дээр ашиглах боломжгүй.",
+    "delete":  "Устгах",
+    "thanksFeedback":  "Санал хүсэлт өгсөнд баярлалаа!",
+    "languageEnglish":  "Англи",
+    "allDataDeleted":  "Бүх өгөгдлийг устгасан",
+    "language":  "Хэл",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV амжилттай экспортлогдсон",
+    "onboardingJobsTitle":  "Олон ажил, мэргэжлийн тайлан",
+    "totalEarnings":  "Нийт орлого",
+    "roundUpSubtitle":  "Зөвлөмжийг хадгалахдаа бүхэл тоогоор дугуйлна",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Энэ нь бүх хадгалсан зөвлөмжийг бүрмөсөн устгах болно.",
+    "filters":  "Шүүлтүүр",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Хэл",
+    "darkMode":  "Харанхуй горим",
+    "customQuickSubtitle":  "$10 · $20 · $50 засах",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Түүх",
+    "exportRangeMonth":  "Энэ сард",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "СТАТАТ",
+    "shareExperience":  "Туршлагаасаа хуваалцаарай",
+    "filterToday":  "Өнөөдөр",
+    "customQuickLabel":  "Захиалгат",
+    "exportRangeWeek":  "Энэ долоо хоногт",
+    "tipSaved":  "Зөвлөгөө хадгалсан",
+    "onboardingContinue":  "Үргэлжлүүлэх",
+    "onboardingMockCafeSub":  "Даваа - Баасан",
+    "entries":  "Бичлэгүүд",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Нэг цагийн дундаж үнэ:",
+    "onboardingJobsBody":  "Ажил бүрийг цэвэр картаар удирдаж, PDF-д бэлэн хураангуйг экспортлоорой.",
+    "onboardingPreviewPdf":  "PDF урьдчилан үзэх",
+    "noDataFound":  "Өгөгдөл олдсонгүй",
+    "deleteAllData":  "Бүх өгөгдлийг устгах",
+    "filterYear":  "Жил",
+    "navHistory":  "Түүх",
+    "greetingMorning":  "Өглөөний мэнд!",
+    "onboardingProfessionalReports":  "Мэргэжлийн тайлан",
+    "averageDayLabel":  "Дундаж/өдөр:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Бидэнтэй холбоо барина уу",
+    "exportCsv":  "CSV экспортлох",
+    "navProfile":  "Профайл",
+    "navHome":  "Гэр",
+    "quickButtons":  "Түргэн товчлуурууд",
+    "onboardingMockRestaurantTitle":  "Рестораны шөнө",
+    "currency":  "Валют",
+    "onboardingMockRestaurantSub":  "Баасан - Ням",
+    "labelToday":  "Өнөөдөр",
+    "exportRangeToday":  "Өнөөдөр",
+    "recentEntries":  "Сүүлийн үеийн оруулгууд",
+    "pdfReportReady":  "PDF тайланг хуваалцахад бэлэн байна",
+    "undo":  "Буцаах",
+    "onboardingSkip":  "Алгасах",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Сар",
+    "deleteAll":  "Бүгдийг устгах",
+    "rateApp":  "Аппликейшнийг үнэлэх",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Ажлыг хадгалсан",
+    "cancel":  "Цуцлах",
+    "@@locale":  "mn",
+    "exportRangeCustom":  "Тусгай хүрээ",
+    "exportFrom":  "From: {date}",
+    "export":  "Экспорт",
+    "contactUsLabel":  "Бидэнтэй холбоо барина уу",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Хамгийн сайн өдөр:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Зөвлөмжийг устгасан (Буцаах)",
+    "greetingAfternoon":  "Өдрийн мэнд!",
+    "roundUp":  "Дугуйлах",
+    "onboardingWelcomeTitle":  "Тавтай морил",
+    "reportPdfTooltip":  "PDF мэдээлэх",
+    "settingsSection":  "Тохиргоо",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Энэ платформ дээр экспорт хийх боломжгүй.",
+    "quickButtonsUpdated":  "Шуурхай товчлууруудыг шинэчилсэн",
+    "pdfReports":  "PDF тайлан",
+    "supportSection":  "ДЭМЖЛЭГ",
+    "filterWeek":  "Долоо хоног",
+    "onboardingMockCafeTitle":  "Кафены ээлж",
+    "onboardingWelcomeBody":  "Зөвлөмж бүрийг хянаж, орлогоо хянаж байгаарай.",
+    "dailySummary":  "Өдөр тутмын хураангуй",
+    "rateTheApp":  "Аппликешныг үнэлнэ үү",
+    "noIncomeRecorded":  "Энэ өдрийн орлого бүртгэгдээгүй. Нэг нэмэхийн тулд + товчийг товшино уу!",
+    "noTipsYet":  "Одоогоор зөвлөгөө алга. Дээрх товчлууруудаар нэгийг нэмнэ үү.",
+    "languageFrench":  "Франц",
+    "totalTipsLabel":  "Нийт зөвлөмжүүд:",
+    "addTip":  "+ Зөвлөмж нэмэх",
+    "totalEarningsLabel":  "Нийт орлого:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Өнөөдөр 245.00 доллар",
+    "noTipsToExport":  "Одоогоор экспортлох зөвлөмж байхгүй байна.",
+    "noTipsForPeriod":  "Сонгосон хугацаанд зөвлөмж олдсонгүй.",
+    "backupTips":  "Өгөгдлөө хадгалах / Зөвлөмжөө нөөцлөх",
+    "jobs":  "Ажлын байр",
+    "greetingEvening":  "Оройн мэнд!",
+    "languageSystemDefault":  "Системийн өгөгдмөл",
+    "deleteThisTip":  "Энэ зөвлөгөөг устгах уу?",
+    "deleteAllDataTitle":  "Бүх өгөгдлийг устгах уу?"
+}

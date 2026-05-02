@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Ékspor CSV",
+    "pdfExportUnavailable":  "Ékspor PDF henteu sayogi dina platform ieu.",
+    "delete":  "Hapus",
+    "thanksFeedback":  "Hatur nuhun eupan balik anjeun!",
+    "languageEnglish":  "Inggris",
+    "allDataDeleted":  "Sadaya data dipupus",
+    "language":  "Basa",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV suksés diékspor",
+    "onboardingJobsTitle":  "Sababaraha Proyék \u0026 Laporan Profesional",
+    "totalEarnings":  "Total earnings",
+    "roundUpSubtitle":  "Babak jumlahna sakabeh angka nalika nyimpen tips",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ieu bakal ngahapus sacara permanen sadaya tip anu disimpen.",
+    "filters":  "Saringan",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Basa",
+    "darkMode":  "Modeu poék",
+    "customQuickSubtitle":  "Édit $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Sajarah",
+    "exportRangeMonth":  "Bulan ieu",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Bagikeun Pangalaman anjeun",
+    "filterToday":  "Kiwari",
+    "customQuickLabel":  "Adat",
+    "exportRangeWeek":  "Minggu ayeuna",
+    "tipSaved":  "Tip disimpen",
+    "onboardingContinue":  "Teraskeun",
+    "onboardingMockCafeSub":  "Sen - Jum",
+    "entries":  "éntri",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Rata-rata ongkos per jam:",
+    "onboardingJobsBody":  "Atur unggal padamelan nganggo kartu bersih sareng ékspor kasimpulan anu siap PDF.",
+    "onboardingPreviewPdf":  "Nilik PDF",
+    "noDataFound":  "Taya Data Kapanggih",
+    "deleteAllData":  "Pupus sadaya data",
+    "filterYear":  "Taun",
+    "navHistory":  "Sajarah",
+    "greetingMorning":  "Wilujeng énjing!",
+    "onboardingProfessionalReports":  "Laporan profésional",
+    "averageDayLabel":  "Rata-rata/dinten:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Taros Kami",
+    "exportCsv":  "Ékspor CSV",
+    "navProfile":  "Propil",
+    "navHome":  "Imah",
+    "quickButtons":  "Tombol gancang",
+    "onboardingMockRestaurantTitle":  "Réstoran Peuting",
+    "currency":  "Mata uang",
+    "onboardingMockRestaurantSub":  "Jum - Panonpoé",
+    "labelToday":  "Kiwari",
+    "exportRangeToday":  "Kiwari",
+    "recentEntries":  "éntri panganyarna",
+    "pdfReportReady":  "laporan PDF siap dibagikeun",
+    "undo":  "Ngabolaykeun",
+    "onboardingSkip":  "Skip",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "bulan",
+    "deleteAll":  "Pupus sadayana",
+    "rateApp":  "Meunteun aplikasi",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Proyék disimpen",
+    "cancel":  "Ngabolaykeun",
+    "@@locale":  "su",
+    "exportRangeCustom":  "Rentang custom",
+    "exportFrom":  "From: {date}",
+    "export":  "Ékspor",
+    "contactUsLabel":  "Taros Kami",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Dinten pangsaéna:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tip dihapus (Batalkeun)",
+    "greetingAfternoon":  "Wilujeng sonten!",
+    "roundUp":  "Ngariung",
+    "onboardingWelcomeTitle":  "Wilujeng sumping",
+    "reportPdfTooltip":  "Laporan PDF",
+    "settingsSection":  "SETELAN",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Ékspor henteu sayogi dina platform ieu.",
+    "quickButtonsUpdated":  "Tombol gancang diropéa",
+    "pdfReports":  "Laporan PDF",
+    "supportSection":  "ngadukung",
+    "filterWeek":  "Minggu",
+    "onboardingMockCafeTitle":  "Kafé Shift",
+    "onboardingWelcomeBody":  "Lacak unggal tip sareng tetep ngontrol penghasilan anjeun.",
+    "dailySummary":  "Ringkesan poean",
+    "rateTheApp":  "Meunteun aplikasi",
+    "noIncomeRecorded":  "Taya panghasilan kacatet pikeun poé ieu. Ketok tombol + pikeun nambahkeun hiji!",
+    "noTipsYet":  "Taya tips acan. Tambahkeun hiji jeung tombol di luhur.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Total tips:",
+    "addTip":  "+ Tambahkeun Tip",
+    "totalEarningsLabel":  "Total panghasilan:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 Dinten",
+    "noTipsToExport":  "Henteu aya tips pikeun ékspor.",
+    "noTipsForPeriod":  "Teu aya tips anu kapendak pikeun période anu dipilih.",
+    "backupTips":  "Simpen data anjeun / Nyadangkeun tip anjeun",
+    "jobs":  "Pakasaban",
+    "greetingEvening":  "Wilujeng sonten!",
+    "languageSystemDefault":  "Sistem standar",
+    "deleteThisTip":  "Hapus tip ieu?",
+    "deleteAllDataTitle":  "Pupus sadaya data?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSVのエクスポート",
+    "pdfExportUnavailable":  "このプラットフォームでは PDF エクスポートは利用できません。",
+    "delete":  "消去",
+    "thanksFeedback":  "フィードバックをお寄せいただきありがとうございます。",
+    "languageEnglish":  "英語",
+    "allDataDeleted":  "すべてのデータが削除されました",
+    "language":  "言語",
+    "appTitle":  "マイチップトラッカー",
+    "csvExported":  "CSV が正常にエクスポートされました",
+    "onboardingJobsTitle":  "複数のジョブと専門的なレポート",
+    "totalEarnings":  "総収益",
+    "roundUpSubtitle":  "チップを保存するときの四捨五入は整数になります",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "これにより、保存されたすべてのヒントが完全に削除されます。",
+    "filters":  "フィルター",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "言語",
+    "darkMode":  "ダークモード",
+    "customQuickSubtitle":  "編集 $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "歴史",
+    "exportRangeMonth":  "今月",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "統計",
+    "shareExperience":  "あなたの経験を共有してください",
+    "filterToday":  "今日",
+    "customQuickLabel":  "カスタム",
+    "exportRangeWeek":  "今週",
+    "tipSaved":  "チップを保存しました",
+    "onboardingContinue":  "続く",
+    "onboardingMockCafeSub":  "月～金",
+    "entries":  "エントリー",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "平均時給:",
+    "onboardingJobsBody":  "きれいなカードで各ジョブを管理し、PDF 対応の概要をエクスポートします。",
+    "onboardingPreviewPdf":  "PDFのプレビュー",
+    "noDataFound":  "データが見つかりません",
+    "deleteAllData":  "すべてのデータを削除する",
+    "filterYear":  "年",
+    "navHistory":  "歴史",
+    "greetingMorning":  "おはよう！",
+    "onboardingProfessionalReports":  "プロフェッショナルレポート",
+    "averageDayLabel":  "1 日あたりの平均:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "お問い合わせ",
+    "exportCsv":  "CSVのエクスポート",
+    "navProfile":  "プロフィール",
+    "navHome":  "家",
+    "quickButtons":  "クイックボタン",
+    "onboardingMockRestaurantTitle":  "レストランナイト",
+    "currency":  "通貨",
+    "onboardingMockRestaurantSub":  "金～日",
+    "labelToday":  "今日",
+    "exportRangeToday":  "今日",
+    "recentEntries":  "最近のエントリー",
+    "pdfReportReady":  "PDF レポートを共有する準備ができました",
+    "undo":  "元に戻す",
+    "onboardingSkip":  "スキップ",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "月",
+    "deleteAll":  "すべて削除",
+    "rateApp":  "アプリを評価する",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ジョブが保存されました",
+    "cancel":  "キャンセル",
+    "@@locale":  "ja",
+    "exportRangeCustom":  "カスタム範囲",
+    "exportFrom":  "From: {date}",
+    "export":  "輸出",
+    "contactUsLabel":  "お問い合わせ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "最高の日:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ヒントを削除しました (元に戻す)",
+    "greetingAfternoon":  "こんにちは！",
+    "roundUp":  "切り上げする",
+    "onboardingWelcomeTitle":  "いらっしゃいませ",
+    "reportPdfTooltip":  "レポートPDF",
+    "settingsSection":  "設定",
+    "languageArabic":  "ああ",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "このプラットフォームではエクスポートは利用できません。",
+    "quickButtonsUpdated":  "クイックボタンが更新されました",
+    "pdfReports":  "PDFレポート",
+    "supportSection":  "サポート",
+    "filterWeek":  "週",
+    "onboardingMockCafeTitle":  "カフェシフト",
+    "onboardingWelcomeBody":  "すべてのヒントを追跡し、収益を管理します。",
+    "dailySummary":  "毎日のサマリー",
+    "rateTheApp":  "アプリを評価する",
+    "noIncomeRecorded":  "この日の収入は記録されていません。 + ボタンをタップして追加してください。",
+    "noTipsYet":  "まだヒントはありません。上のボタンを使用して追加します。",
+    "languageFrench":  "フランセ",
+    "totalTipsLabel":  "合計ヒント:",
+    "addTip":  "+ ヒントを追加",
+    "totalEarningsLabel":  "総収益:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "今日 $245.00",
+    "noTipsToExport":  "エクスポートするためのヒントはまだありません。",
+    "noTipsForPeriod":  "選択した期間にヒントが見つかりませんでした。",
+    "backupTips":  "データを保存する / ヒントをバックアップする",
+    "jobs":  "求人",
+    "greetingEvening":  "こんばんは！",
+    "languageSystemDefault":  "システムのデフォルト",
+    "deleteThisTip":  "このヒントを削除しますか?",
+    "deleteAllDataTitle":  "すべてのデータを削除しますか?"
+}

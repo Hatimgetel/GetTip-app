@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "导出 CSV",
+    "pdfExportUnavailable":  "此平台不支持 PDF 导出。",
+    "delete":  "删除",
+    "thanksFeedback":  "感谢您的反馈！",
+    "languageEnglish":  "英语",
+    "allDataDeleted":  "所有数据已删除",
+    "language":  "语言",
+    "appTitle":  "我的提示追踪器",
+    "csvExported":  "CSV 导出成功",
+    "onboardingJobsTitle":  "多项工作和专业报告",
+    "totalEarnings":  "总盈利",
+    "roundUpSubtitle":  "保存小费时四舍五入为整数",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "这将永久删除所有保存的提示。",
+    "filters":  "过滤器",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "语言",
+    "darkMode":  "深色模式",
+    "customQuickSubtitle":  "编辑 $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "历史",
+    "exportRangeMonth":  "本月",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "统计数据",
+    "shareExperience":  "分享您的经验",
+    "filterToday":  "今天",
+    "customQuickLabel":  "风俗",
+    "exportRangeWeek":  "本星期",
+    "tipSaved":  "小费已保存",
+    "onboardingContinue":  "继续",
+    "onboardingMockCafeSub":  "周一至周五",
+    "entries":  "参赛作品",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "平均每小时费率：",
+    "onboardingJobsBody":  "使用干净的卡片管理每项工作并导出 PDF 格式的摘要。",
+    "onboardingPreviewPdf":  "预览 PDF",
+    "noDataFound":  "没有找到数据",
+    "deleteAllData":  "删除所有数据",
+    "filterYear":  "年",
+    "navHistory":  "历史",
+    "greetingMorning":  "早上好！",
+    "onboardingProfessionalReports":  "专业报告",
+    "averageDayLabel":  "平均/天：",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "联系我们",
+    "exportCsv":  "导出 CSV",
+    "navProfile":  "轮廓",
+    "navHome":  "家",
+    "quickButtons":  "快捷按钮",
+    "onboardingMockRestaurantTitle":  "餐厅之夜",
+    "currency":  "货币",
+    "onboardingMockRestaurantSub":  "周五至周日",
+    "labelToday":  "今天",
+    "exportRangeToday":  "今天",
+    "recentEntries":  "最近的条目",
+    "pdfReportReady":  "PDF 报告可供分享",
+    "undo":  "撤消",
+    "onboardingSkip":  "跳过",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "月",
+    "deleteAll":  "全部删除",
+    "rateApp":  "评价应用程序",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "工作已保存",
+    "cancel":  "取消",
+    "@@locale":  "zh",
+    "exportRangeCustom":  "定制范围",
+    "exportFrom":  "From: {date}",
+    "export":  "出口",
+    "contactUsLabel":  "联系我们",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "最好的一天：",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "提示已删除（撤消）",
+    "greetingAfternoon":  "下午好！",
+    "roundUp":  "围捕",
+    "onboardingWelcomeTitle":  "欢迎",
+    "reportPdfTooltip":  "报告 PDF",
+    "settingsSection":  "设置",
+    "languageArabic":  "巴黎",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "此平台不支持导出。",
+    "quickButtonsUpdated":  "更新了快速按钮",
+    "pdfReports":  "PDF报告",
+    "supportSection":  "支持",
+    "filterWeek":  "星期",
+    "onboardingMockCafeTitle":  "咖啡馆班次",
+    "onboardingWelcomeBody":  "追踪每一条小费并掌控您的收入。",
+    "dailySummary":  "每日总结",
+    "rateTheApp":  "评价应用程序",
+    "noIncomeRecorded":  "这一天没有收入记录。点击+按钮添加一个！",
+    "noTipsYet":  "还没有提示。使用上面的按钮添加一个。",
+    "languageFrench":  "法国人",
+    "totalTipsLabel":  "总提示：",
+    "addTip":  "+ 添加提示",
+    "totalEarningsLabel":  "总收入：",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "今天 245.00 美元",
+    "noTipsToExport":  "尚无导出提示。",
+    "noTipsForPeriod":  "未找到选定时间段内的提示。",
+    "backupTips":  "保存您的数据/备份您的提示",
+    "jobs":  "工作机会",
+    "greetingEvening":  "晚上好！",
+    "languageSystemDefault":  "系统默认",
+    "deleteThisTip":  "删除这个提示吗？",
+    "deleteAllDataTitle":  "删除所有数据？"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Esporta CSV",
+    "pdfExportUnavailable":  "L\u0027esportazione PDF ùn hè micca dispunibule nantu à sta piattaforma.",
+    "delete":  "Sguassà",
+    "thanksFeedback":  "Grazie per u vostru feedback!",
+    "languageEnglish":  "Inglese",
+    "allDataDeleted":  "Tutti i dati sguassati",
+    "language":  "Lingua",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV esportatu cù successu",
+    "onboardingJobsTitle":  "Diversi impieghi è rapporti prufessiunali",
+    "totalEarnings":  "Guadagni totali",
+    "roundUpSubtitle":  "Round ammonti à numeri interi quandu salvà cunsiglii",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Questu eliminerà permanentemente tutti i cunsiglii salvati.",
+    "filters":  "Filtri",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lingua",
+    "darkMode":  "Modu scuru",
+    "customQuickSubtitle":  "Modifica $ 10 · $ 20 · $ 50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Storia",
+    "exportRangeMonth":  "Stu mese",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTICA",
+    "shareExperience":  "Condividi a vostra sperienza",
+    "filterToday":  "Oghje",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Sta settimana",
+    "tipSaved":  "Cunsigliu salvatu",
+    "onboardingContinue":  "Cuntinuà",
+    "onboardingMockCafeSub":  "Lun - ven",
+    "entries":  "Entrate",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tariffa oraria media:",
+    "onboardingJobsBody":  "Gestite ogni travagliu cù carte pulite è esportate riassunti pronti per PDF.",
+    "onboardingPreviewPdf":  "Preview PDF",
+    "noDataFound":  "Nisun Dati Trovatu",
+    "deleteAllData":  "Sguassà tutti i dati",
+    "filterYear":  "Annu",
+    "navHistory":  "Storia",
+    "greetingMorning":  "Bonghjornu!",
+    "onboardingProfessionalReports":  "Rapporti prufessiunali",
+    "averageDayLabel":  "Media / ghjornu:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Cuntatta ci",
+    "exportCsv":  "Esporta CSV",
+    "navProfile":  "Prufilu",
+    "navHome":  "A casa",
+    "quickButtons":  "Buttuni rapidi",
+    "onboardingMockRestaurantTitle":  "Notte di ristorante",
+    "currency":  "valuta",
+    "onboardingMockRestaurantSub":  "Ven - Dum",
+    "labelToday":  "Oghje",
+    "exportRangeToday":  "Oghje",
+    "recentEntries":  "Entrate recenti",
+    "pdfReportReady":  "Rapportu PDF prontu à sparte",
+    "undo":  "Annulla",
+    "onboardingSkip":  "Saltà",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mese",
+    "deleteAll":  "Sguassà tuttu",
+    "rateApp":  "App di valuta",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "U travagliu salvatu",
+    "cancel":  "Cancella",
+    "@@locale":  "co",
+    "exportRangeCustom":  "Gamma persunalizata",
+    "exportFrom":  "From: {date}",
+    "export":  "Esporta",
+    "contactUsLabel":  "Cuntatta ci",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "U megliu ghjornu:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Cunsigliu eliminatu (Annulla)",
+    "greetingAfternoon":  "Bonghjornu!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Benvenuti",
+    "reportPdfTooltip":  "Rapportu PDF",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "L\u0027esportazione ùn hè micca dispunibule nantu à sta piattaforma.",
+    "quickButtonsUpdated":  "Buttuni rapidi aghjurnati",
+    "pdfReports":  "Rapporti PDF",
+    "supportSection":  "SUPPORTU",
+    "filterWeek":  "Settimana",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Segui ogni punta è mantene u cuntrollu di i vostri guadagni.",
+    "dailySummary":  "Riassuntu di ogni ghjornu",
+    "rateTheApp":  "Valuta l\u0027app",
+    "noIncomeRecorded":  "Nisun ingressu registratu per questu ghjornu. Tocca u buttone + per aghjunghje unu!",
+    "noTipsYet":  "Nisun cunsiglii ancora. Aghjunghjite unu cù i buttoni sopra.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Cunsiglii totali:",
+    "addTip":  "+ Aggiungi Cunsigliu",
+    "totalEarningsLabel":  "Guadagni totali:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 oghje",
+    "noTipsToExport":  "Ùn ci hè ancu cunsiglii per esportà.",
+    "noTipsForPeriod":  "Nisun cunsigliu trovu per u periodu sceltu.",
+    "backupTips":  "Salvà i vostri dati / Salvà i vostri cunsiglii",
+    "jobs":  "Impieghi",
+    "greetingEvening":  "Bona sera!",
+    "languageSystemDefault":  "Sistema predeterminatu",
+    "deleteThisTip":  "Eliminà sta punta?",
+    "deleteAllDataTitle":  "Eliminate tutti i dati?"
+}

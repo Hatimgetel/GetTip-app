@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Tumizani kunja CSV",
+    "pdfExportUnavailable":  "Kutumiza kwa PDF sikukupezeka papulatifomu.",
+    "delete":  "Chotsani",
+    "thanksFeedback":  "Zikomo chifukwa cha ndemanga zanu!",
+    "languageEnglish":  "Chingerezi",
+    "allDataDeleted":  "Zonse zachotsedwa",
+    "language":  "Chiyankhulo",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV idatumizidwa bwino",
+    "onboardingJobsTitle":  "Ntchito Zambiri \u0026 Malipoti Aukadaulo",
+    "totalEarnings":  "Ndalama Zonse",
+    "roundUpSubtitle":  "Kuzungulira kumakhala manambala athunthu posunga malangizo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Izi zidzachotsa nsonga zonse zosungidwa.",
+    "filters":  "Zosefera",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Chiyankhulo",
+    "darkMode":  "Mdima wakuda",
+    "customQuickSubtitle":  "Sinthani $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Mbiri",
+    "exportRangeMonth":  "Mwezi uno",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Gawani Zomwe Mumakumana Nazo",
+    "filterToday":  "Lero",
+    "customQuickLabel":  "Mwambo",
+    "exportRangeWeek":  "Sabata ino",
+    "tipSaved":  "Langizo lasungidwa",
+    "onboardingContinue":  "Pitirizani",
+    "onboardingMockCafeSub":  "Lolemba - Lachisanu",
+    "entries":  "Zolemba",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Chiyerekezo cha ola lililonse:",
+    "onboardingJobsBody":  "Sinthani ntchito iliyonse ndi makhadi oyera ndikutumiza zidule zokonzekera PDF.",
+    "onboardingPreviewPdf":  "Onani PDF",
+    "noDataFound":  "Palibe Zomwe Zapezeka",
+    "deleteAllData":  "Chotsani deta yonse",
+    "filterYear":  "Chaka",
+    "navHistory":  "Mbiri",
+    "greetingMorning":  "M\u0027mawa wabwino!",
+    "onboardingProfessionalReports":  "Malipoti Aukadaulo",
+    "averageDayLabel":  "Avereji/tsiku:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Lumikizanani nafe",
+    "exportCsv":  "Tumizani kunja CSV",
+    "navProfile":  "Mbiri",
+    "navHome":  "Kunyumba",
+    "quickButtons":  "Mabatani ofulumira",
+    "onboardingMockRestaurantTitle":  "Usiku wa Restaurant",
+    "currency":  "Ndalama",
+    "onboardingMockRestaurantSub":  "Lachisanu - Sun",
+    "labelToday":  "Lero",
+    "exportRangeToday":  "Lero",
+    "recentEntries":  "Zolemba zaposachedwa",
+    "pdfReportReady":  "Lipoti la PDF lakonzeka kugawana",
+    "undo":  "Bwezerani",
+    "onboardingSkip":  "Dumphani",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mwezi",
+    "deleteAll":  "Chotsani zonse",
+    "rateApp":  "Voterani pulogalamu",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Yobu anapulumutsidwa",
+    "cancel":  "Letsani",
+    "@@locale":  "ny",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Tumizani kunja",
+    "contactUsLabel":  "Lumikizanani nafe",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Tsiku labwino kwambiri:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Langizo lafufutidwa (Bwezerani)",
+    "greetingAfternoon":  "Masana abwino!",
+    "roundUp":  "Sonkhanitsani",
+    "onboardingWelcomeTitle":  "Takulandirani",
+    "reportPdfTooltip":  "Report PDF",
+    "settingsSection":  "ZOCHITIKA",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Kutumiza kunja sikukupezeka papulatifomu.",
+    "quickButtonsUpdated":  "Mabatani ofulumira asinthidwa",
+    "pdfReports":  "Malipoti a PDF",
+    "supportSection":  "THANDIZA",
+    "filterWeek":  "Mlungu",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Tsatirani malangizo aliwonse ndikuwongolera zomwe mumapeza.",
+    "dailySummary":  "Chidule cha Tsiku ndi Tsiku",
+    "rateTheApp":  "Voterani pulogalamuyi",
+    "noIncomeRecorded":  "Palibe ndalama zomwe zalembedwa lero. Dinani batani + kuti muwonjezere imodzi!",
+    "noTipsYet":  "Palibe maupangiri panobe. Onjezani imodzi ndi mabatani pamwambapa.",
+    "languageFrench":  "Chifransa",
+    "totalTipsLabel":  "Malangizo onse:",
+    "addTip":  "+ Onjezani Langizo",
+    "totalEarningsLabel":  "Ndalama zonse:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 lero",
+    "noTipsToExport":  "Palibe maupangiri otumizira pano.",
+    "noTipsForPeriod":  "Palibe maupangiri omwe apezeka anthawi yosankhidwa.",
+    "backupTips":  "Sungani deta yanu / Sungani malangizo anu",
+    "jobs":  "Ntchito",
+    "greetingEvening":  "Madzulo abwino!",
+    "languageSystemDefault":  "Kusakhazikika kwadongosolo",
+    "deleteThisTip":  "Chotsani malangizowa?",
+    "deleteAllDataTitle":  "Chotsani deta yonse?"
+}

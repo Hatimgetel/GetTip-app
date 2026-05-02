@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ექსპორტი",
+    "pdfExportUnavailable":  "PDF export is not available on this platform.",
+    "delete":  "წაშლა",
+    "thanksFeedback":  "გმადლობთ თქვენი გამოხმაურებისთვის!",
+    "languageEnglish":  "ინგლისური",
+    "allDataDeleted":  "ყველა მონაცემი წაშლილია",
+    "language":  "ენა",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV წარმატებით იქნა ექსპორტირებული",
+    "onboardingJobsTitle":  "მრავალი სამუშაო და პროფესიული ანგარიშები",
+    "totalEarnings":  "მთლიანი მოგება",
+    "roundUpSubtitle":  "რჩევების შენახვისას მრგვალი შეადგენს მთელ რიცხვებს",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ეს სამუდამოდ წაშლის ყველა შენახულ რჩევას.",
+    "filters":  "ფილტრები",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ენა",
+    "darkMode":  "მუქი რეჟიმი",
+    "customQuickSubtitle":  "რედაქტირება $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ისტორია",
+    "exportRangeMonth":  "ამ თვეში",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "სტატისტიკა",
+    "shareExperience":  "გაუზიარეთ თქვენი გამოცდილება",
+    "filterToday":  "დღეს",
+    "customQuickLabel":  "საბაჟო",
+    "exportRangeWeek":  "ამ კვირაში",
+    "tipSaved":  "რჩევა შენახულია",
+    "onboardingContinue":  "განაგრძეთ",
+    "onboardingMockCafeSub":  "ორშაბათი - პარასკე",
+    "entries":  "ჩანაწერები",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "საშუალო საათობრივი განაკვეთი:",
+    "onboardingJobsBody":  "მართეთ თითოეული სამუშაო სუფთა ბარათებით და ექსპორტზე PDF მზა შეჯამებები.",
+    "onboardingPreviewPdf":  "Preview PDF",
+    "noDataFound":  "მონაცემები ვერ მოიძებნა",
+    "deleteAllData":  "წაშალეთ ყველა მონაცემი",
+    "filterYear":  "წელიწადი",
+    "navHistory":  "ისტორია",
+    "greetingMorning":  "Good Morning!",
+    "onboardingProfessionalReports":  "Professional Reports",
+    "averageDayLabel":  "Average/day:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contact us",
+    "exportCsv":  "Export CSV",
+    "navProfile":  "Profile",
+    "navHome":  "Home",
+    "quickButtons":  "Quick buttons",
+    "onboardingMockRestaurantTitle":  "Restaurant Night",
+    "currency":  "Currency",
+    "onboardingMockRestaurantSub":  "Fri - Sun",
+    "labelToday":  "Today",
+    "exportRangeToday":  "Today",
+    "recentEntries":  "Recent entries",
+    "pdfReportReady":  "PDF report ready to share",
+    "undo":  "Undo",
+    "onboardingSkip":  "Skip",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Month",
+    "deleteAll":  "Delete all",
+    "rateApp":  "შეაფასეთ აპლიკაცია",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job saved",
+    "cancel":  "გაუქმება",
+    "@@locale":  "ka",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Contact us",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Best day:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "რჩევა წაშლილია (გაუქმება)",
+    "greetingAfternoon":  "Good Afternoon!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Welcome",
+    "reportPdfTooltip":  "Report PDF",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export is not available on this platform.",
+    "quickButtonsUpdated":  "Quick buttons updated",
+    "pdfReports":  "PDF ანგარიშები",
+    "supportSection":  "SUPPORT",
+    "filterWeek":  "Week",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Track every tip and stay in control of your earnings.",
+    "dailySummary":  "Daily Summary",
+    "rateTheApp":  "შეაფასეთ აპლიკაცია",
+    "noIncomeRecorded":  "No income recorded for this day. Tap the + button to add one!",
+    "noTipsYet":  "No tips yet. Add one with the buttons above.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Total tips:",
+    "addTip":  "+ Add Tip",
+    "totalEarningsLabel":  "Total earnings:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Today",
+    "noTipsToExport":  "No tips to export yet.",
+    "noTipsForPeriod":  "No tips found for selected period.",
+    "backupTips":  "Save your data / Backup your tips",
+    "jobs":  "Jobs",
+    "greetingEvening":  "Good Evening!",
+    "languageSystemDefault":  "System default",
+    "deleteThisTip":  "Delete this tip?",
+    "deleteAllDataTitle":  "Delete all data?"
+}

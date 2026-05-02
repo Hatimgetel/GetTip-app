@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV കയറ്റുമതി ചെയ്യുക",
+    "pdfExportUnavailable":  "ഈ പ്ലാറ്റ്‌ഫോമിൽ PDF എക്‌സ്‌പോർട്ട് ലഭ്യമല്ല.",
+    "delete":  "ഇല്ലാതാക്കുക",
+    "thanksFeedback":  "നിങ്ങളുടെ ഫീഡ്‌ബാക്കിന് നന്ദി!",
+    "languageEnglish":  "ഇംഗ്ലീഷ്",
+    "allDataDeleted":  "എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കി",
+    "language":  "ഭാഷ",
+    "appTitle":  "MyTip ട്രാക്കർ",
+    "csvExported":  "CSV വിജയകരമായി കയറ്റുമതി ചെയ്തു",
+    "onboardingJobsTitle":  "ഒന്നിലധികം ജോലികളും പ്രൊഫഷണൽ റിപ്പോർട്ടുകളും",
+    "totalEarnings":  "ആകെ വരുമാനം",
+    "roundUpSubtitle":  "നുറുങ്ങുകൾ സംരക്ഷിക്കുമ്പോൾ വൃത്താകൃതിയിലുള്ള തുകകൾ പൂർണ്ണ സംഖ്യകൾ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ഇത് സംരക്ഷിച്ച എല്ലാ നുറുങ്ങുകളും ശാശ്വതമായി നീക്കം ചെയ്യും.",
+    "filters":  "ഫിൽട്ടറുകൾ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ഭാഷ",
+    "darkMode":  "ഡാർക്ക് മോഡ്",
+    "customQuickSubtitle":  "$10 · $20 · $50 എഡിറ്റ് ചെയ്യുക",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ചരിത്രം",
+    "exportRangeMonth":  "ഈ മാസം",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "സ്ഥിതിവിവരക്കണക്കുകൾ",
+    "shareExperience":  "നിങ്ങളുടെ അനുഭവം പങ്കിടുക",
+    "filterToday":  "ഇന്ന്",
+    "customQuickLabel":  "കസ്റ്റം",
+    "exportRangeWeek":  "ഈ ആഴ്ച",
+    "tipSaved":  "നുറുങ്ങ് സംരക്ഷിച്ചു",
+    "onboardingContinue":  "തുടരുക",
+    "onboardingMockCafeSub":  "തിങ്കൾ - വെള്ളി",
+    "entries":  "എൻട്രികൾ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ശരാശരി മണിക്കൂർ നിരക്ക്:",
+    "onboardingJobsBody":  "വൃത്തിയുള്ള കാർഡുകൾ ഉപയോഗിച്ച് ഓരോ ജോലിയും കൈകാര്യം ചെയ്യുക, PDF-തയ്യാറായ സംഗ്രഹങ്ങൾ കയറ്റുമതി ചെയ്യുക.",
+    "onboardingPreviewPdf":  "PDF പ്രിവ്യൂ ചെയ്യുക",
+    "noDataFound":  "ഡാറ്റയൊന്നും കണ്ടെത്തിയില്ല",
+    "deleteAllData":  "എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കുക",
+    "filterYear":  "വർഷം",
+    "navHistory":  "ചരിത്രം",
+    "greetingMorning":  "സുപ്രഭാതം!",
+    "onboardingProfessionalReports":  "പ്രൊഫഷണൽ റിപ്പോർട്ടുകൾ",
+    "averageDayLabel":  "ശരാശരി/ദിവസം:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ഞങ്ങളെ സമീപിക്കുക",
+    "exportCsv":  "CSV കയറ്റുമതി ചെയ്യുക",
+    "navProfile":  "പ്രൊഫൈൽ",
+    "navHome":  "വീട്",
+    "quickButtons":  "ദ്രുത ബട്ടണുകൾ",
+    "onboardingMockRestaurantTitle":  "റെസ്റ്റോറൻ്റ് നൈറ്റ്",
+    "currency":  "കറൻസി",
+    "onboardingMockRestaurantSub":  "വെള്ളി - സൂര്യൻ",
+    "labelToday":  "ഇന്ന്",
+    "exportRangeToday":  "ഇന്ന്",
+    "recentEntries":  "സമീപകാല എൻട്രികൾ",
+    "pdfReportReady":  "PDF റിപ്പോർട്ട് പങ്കിടാൻ തയ്യാറാണ്",
+    "undo":  "പഴയപടിയാക്കുക",
+    "onboardingSkip":  "ഒഴിവാക്കുക",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "മാസം",
+    "deleteAll":  "എല്ലാം ഇല്ലാതാക്കുക",
+    "rateApp":  "ആപ്പ് റേറ്റ് ചെയ്യുക",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ജോലി രക്ഷപ്പെട്ടു",
+    "cancel":  "റദ്ദാക്കുക",
+    "@@locale":  "ml",
+    "exportRangeCustom":  "ഇഷ്‌ടാനുസൃത ശ്രേണി",
+    "exportFrom":  "From: {date}",
+    "export":  "കയറ്റുമതി",
+    "contactUsLabel":  "ഞങ്ങളെ സമീപിക്കുക",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "മികച്ച ദിവസം:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "നുറുങ്ങ് ഇല്ലാതാക്കി (പഴയപടിയാക്കുക)",
+    "greetingAfternoon":  "ഗുഡ് ആഫ്റ്റർനൂൺ!",
+    "roundUp":  "റൗണ്ട് അപ്പ്",
+    "onboardingWelcomeTitle":  "സ്വാഗതം",
+    "reportPdfTooltip":  "PDF റിപ്പോർട്ട് ചെയ്യുക",
+    "settingsSection":  "ക്രമീകരണങ്ങൾ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ഈ പ്ലാറ്റ്‌ഫോമിൽ കയറ്റുമതി ലഭ്യമല്ല.",
+    "quickButtonsUpdated":  "ദ്രുത ബട്ടണുകൾ അപ്ഡേറ്റ് ചെയ്തു",
+    "pdfReports":  "PDF റിപ്പോർട്ടുകൾ",
+    "supportSection":  "പിന്തുണ",
+    "filterWeek":  "ആഴ്ച",
+    "onboardingMockCafeTitle":  "കഫേ ഷിഫ്റ്റ്",
+    "onboardingWelcomeBody":  "എല്ലാ നുറുങ്ങുകളും ട്രാക്ക് ചെയ്യുകയും നിങ്ങളുടെ വരുമാനത്തിൻ്റെ നിയന്ത്രണം നിലനിർത്തുകയും ചെയ്യുക.",
+    "dailySummary":  "പ്രതിദിന സംഗ്രഹം",
+    "rateTheApp":  "ആപ്പ് റേറ്റുചെയ്യുക",
+    "noIncomeRecorded":  "ഈ ദിവസത്തെ വരുമാനമൊന്നും രേഖപ്പെടുത്തിയിട്ടില്ല. ഒരെണ്ണം ചേർക്കാൻ + ബട്ടൺ ടാപ്പുചെയ്യുക!",
+    "noTipsYet":  "ഇതുവരെ നുറുങ്ങുകളൊന്നുമില്ല. മുകളിലുള്ള ബട്ടണുകൾ ഉപയോഗിച്ച് ഒന്ന് ചേർക്കുക.",
+    "languageFrench":  "ഫ്രാൻസായിസ്",
+    "totalTipsLabel":  "ആകെ നുറുങ്ങുകൾ:",
+    "addTip":  "+ നുറുങ്ങ് ചേർക്കുക",
+    "totalEarningsLabel":  "മൊത്തം വരുമാനം:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 ഇന്ന്",
+    "noTipsToExport":  "കയറ്റുമതി ചെയ്യാൻ ഇതുവരെ നുറുങ്ങുകളൊന്നുമില്ല.",
+    "noTipsForPeriod":  "തിരഞ്ഞെടുത്ത കാലയളവിനായി നുറുങ്ങുകളൊന്നും കണ്ടെത്തിയില്ല.",
+    "backupTips":  "നിങ്ങളുടെ ഡാറ്റ സംരക്ഷിക്കുക / നിങ്ങളുടെ നുറുങ്ങുകൾ ബാക്കപ്പ് ചെയ്യുക",
+    "jobs":  "ജോലികൾ",
+    "greetingEvening":  "ഗുഡ് ഈവനിംഗ്!",
+    "languageSystemDefault":  "സിസ്റ്റം ഡിഫോൾട്ട്",
+    "deleteThisTip":  "ഈ നുറുങ്ങ് ഇല്ലാതാക്കണോ?",
+    "deleteAllDataTitle":  "എല്ലാ ഡാറ്റയും ഇല്ലാതാക്കണോ?"
+}

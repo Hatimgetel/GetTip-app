@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Eksportu CSV",
+    "pdfExportUnavailable":  "PDF-eksporto ne haveblas sur ĉi tiu platformo.",
+    "delete":  "Forigi",
+    "thanksFeedback":  "Dankon pro via sugesto!",
+    "languageEnglish":  "la angla",
+    "allDataDeleted":  "Ĉiuj datumoj forigitaj",
+    "language":  "Lingvo",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV sukcese eksportita",
+    "onboardingJobsTitle":  "Multoblaj Laborpostenoj kaj Profesiaj Raportoj",
+    "totalEarnings":  "Tutaj Enspezoj",
+    "roundUpSubtitle":  "Rondaj kvantoj al tutaj nombroj dum konservado de konsiletoj",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ĉi tio konstante forigos ĉiujn konservitajn konsiletojn.",
+    "filters":  "Filtriloj",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lingvo",
+    "darkMode":  "Malhela reĝimo",
+    "customQuickSubtitle":  "Redaktu $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historio",
+    "exportRangeMonth":  "Ĉi tiu monato",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIKOJ",
+    "shareExperience":  "Kunhavigu Vian Sperton",
+    "filterToday":  "Hodiaŭ",
+    "customQuickLabel":  "Kutimo",
+    "exportRangeWeek":  "Ĉi tiu Semajno",
+    "tipSaved":  "Konsileto konservita",
+    "onboardingContinue":  "Daŭrigu",
+    "onboardingMockCafeSub":  "lun - ven",
+    "entries":  "Enskriboj",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Meza hora tarifo:",
+    "onboardingJobsBody":  "Administru ĉiun laboron per puraj kartoj kaj eksportu PDF-pretajn resumojn.",
+    "onboardingPreviewPdf":  "Antaŭrigardu PDF",
+    "noDataFound":  "Neniuj Datumoj Trovita",
+    "deleteAllData":  "Forigu ĉiujn datumojn",
+    "filterYear":  "Jaro",
+    "navHistory":  "Historio",
+    "greetingMorning":  "Bonan matenon!",
+    "onboardingProfessionalReports":  "Profesiaj Raportoj",
+    "averageDayLabel":  "Mezumo/tago:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontaktu nin",
+    "exportCsv":  "Eksportu CSV",
+    "navProfile":  "Profilo",
+    "navHome":  "Hejmo",
+    "quickButtons":  "Rapidaj butonoj",
+    "onboardingMockRestaurantTitle":  "Restoracia Nokto",
+    "currency":  "Monero",
+    "onboardingMockRestaurantSub":  "Ven - Suno",
+    "labelToday":  "Hodiaŭ",
+    "exportRangeToday":  "Hodiaŭ",
+    "recentEntries":  "Lastatempaj enskriboj",
+    "pdfReportReady":  "PDF-raporto preta por dividi",
+    "undo":  "Malfari",
+    "onboardingSkip":  "Saltu",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Monato",
+    "deleteAll":  "Forigu ĉion",
+    "rateApp":  "Taksi apon",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Ijob savita",
+    "cancel":  "Nuligi",
+    "@@locale":  "eo",
+    "exportRangeCustom":  "Propra Gamo",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksporto",
+    "contactUsLabel":  "Kontaktu nin",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Plej bona tago:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Konsileto forigita (Malfari)",
+    "greetingAfternoon":  "Bonan Posttagmezon!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Bonvenon",
+    "reportPdfTooltip":  "Raporto PDF",
+    "settingsSection":  "Agordoj",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Eksporto ne haveblas sur ĉi tiu platformo.",
+    "quickButtonsUpdated":  "Rapidaj butonoj ĝisdatigitaj",
+    "pdfReports":  "PDF-Raportoj",
+    "supportSection":  "SUBTENO",
+    "filterWeek":  "Semajno",
+    "onboardingMockCafeTitle":  "Kafejo Ŝanĝo",
+    "onboardingWelcomeBody":  "Spuri ĉiun konsileton kaj kontrolu viajn enspezojn.",
+    "dailySummary":  "Ĉiutaga Resumo",
+    "rateTheApp":  "Tatu la apon",
+    "noIncomeRecorded":  "Neniu enspezo registrita por ĉi tiu tago. Frapu la + butonon por aldoni unu!",
+    "noTipsYet":  "Ankoraŭ neniuj konsiloj. Aldonu unu per la supraj butonoj.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Sumaj konsiletoj:",
+    "addTip":  "+ Aldonu Konsileton",
+    "totalEarningsLabel":  "Totalaj gajnoj:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Hodiaŭ",
+    "noTipsToExport":  "Ankoraŭ neniuj konsiloj por eksporti.",
+    "noTipsForPeriod":  "Neniuj konsiloj trovitaj por elektita periodo.",
+    "backupTips":  "Konservu viajn datumojn / Rezervu viajn konsiletojn",
+    "jobs":  "Laborpostenoj",
+    "greetingEvening":  "Bonan Vesperon!",
+    "languageSystemDefault":  "Sistemo defaŭlta",
+    "deleteThisTip":  "Ĉu forigi ĉi tiun konsileton?",
+    "deleteAllDataTitle":  "Ĉu forigi ĉiujn datumojn?"
+}

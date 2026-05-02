@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV exportálása",
+    "pdfExportUnavailable":  "A PDF-exportálás nem érhető el ezen a platformon.",
+    "delete":  "Töröl",
+    "thanksFeedback":  "Köszönjük visszajelzését!",
+    "languageEnglish":  "angol",
+    "allDataDeleted":  "Minden adat törölve",
+    "language":  "Nyelv",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "A CSV exportálása sikeres volt",
+    "onboardingJobsTitle":  "Több állás és szakmai jelentések",
+    "totalEarnings":  "Összes bevétel",
+    "roundUpSubtitle":  "A kerekítések egész számok a tippek mentésekor",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ezzel véglegesen eltávolítja az összes mentett tippet.",
+    "filters":  "Szűrők",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Nyelv",
+    "darkMode":  "Sötét mód",
+    "customQuickSubtitle":  "Szerkesztés $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Történelem",
+    "exportRangeMonth":  "Ebben a hónapban",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISZTIKA",
+    "shareExperience":  "Ossza meg tapasztalatait",
+    "filterToday":  "Ma",
+    "customQuickLabel":  "Szokás",
+    "exportRangeWeek":  "Ezen a héten",
+    "tipSaved":  "Tipp mentve",
+    "onboardingContinue":  "Folytatás",
+    "onboardingMockCafeSub":  "H-P",
+    "entries":  "Bejegyzések",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Átlagos óradíj:",
+    "onboardingJobsBody":  "Kezelje az egyes feladatokat tiszta kártyákkal, és exportáljon PDF-kompatibilis összefoglalókat.",
+    "onboardingPreviewPdf":  "PDF előnézete",
+    "noDataFound":  "Nem található adat",
+    "deleteAllData":  "Törölje az összes adatot",
+    "filterYear":  "Év",
+    "navHistory":  "Történelem",
+    "greetingMorning":  "Jó reggelt!",
+    "onboardingProfessionalReports":  "Szakmai jelentések",
+    "averageDayLabel":  "Átlag/nap:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Vegye fel velünk a kapcsolatot",
+    "exportCsv":  "CSV exportálása",
+    "navProfile":  "Profil",
+    "navHome":  "Otthon",
+    "quickButtons":  "Gyors gombok",
+    "onboardingMockRestaurantTitle":  "Étterem este",
+    "currency":  "Valuta",
+    "onboardingMockRestaurantSub":  "P - V",
+    "labelToday":  "Ma",
+    "exportRangeToday":  "Ma",
+    "recentEntries":  "Legutóbbi bejegyzések",
+    "pdfReportReady":  "PDF jelentés készen áll a megosztásra",
+    "undo":  "Visszavonás",
+    "onboardingSkip":  "Kihagyás",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Hónap",
+    "deleteAll":  "Az összes törlése",
+    "rateApp":  "Értékelje az alkalmazást",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Munka mentve",
+    "cancel":  "Mégse",
+    "@@locale":  "hu",
+    "exportRangeCustom":  "Egyedi tartomány",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Vegye fel velünk a kapcsolatot",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Legjobb nap:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tipp törölve (Visszavonás)",
+    "greetingAfternoon":  "Jó napot!",
+    "roundUp":  "Felhajt",
+    "onboardingWelcomeTitle":  "Üdvözöljük",
+    "reportPdfTooltip":  "Jelentés PDF",
+    "settingsSection":  "BEÁLLÍTÁSOK",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Az exportálás nem érhető el ezen a platformon.",
+    "quickButtonsUpdated":  "A gyorsgombok frissítve",
+    "pdfReports":  "PDF jelentések",
+    "supportSection":  "TÁMOGATÁS",
+    "filterWeek":  "Hét",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Kövesse nyomon minden tippet, és irányítsa bevételeit.",
+    "dailySummary":  "Napi összefoglaló",
+    "rateTheApp":  "Értékelje az alkalmazást",
+    "noIncomeRecorded":  "Ezen a napon nincs bevétel. Érintse meg a + gombot egy hozzáadásához!",
+    "noTipsYet":  "Még nincsenek tippek. Adjon hozzá egyet a fenti gombokkal.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Összes tipp:",
+    "addTip":  "+ Tipp hozzáadása",
+    "totalEarningsLabel":  "Összes bevétel:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 $ ma",
+    "noTipsToExport":  "Még nincs tipp az exportáláshoz.",
+    "noTipsForPeriod":  "Nem található tipp a kiválasztott időszakban.",
+    "backupTips":  "Mentse el adatait / készítsen biztonsági másolatot tippjeiről",
+    "jobs":  "Állások",
+    "greetingEvening":  "Jó estét!",
+    "languageSystemDefault":  "Rendszer alapértelmezett",
+    "deleteThisTip":  "Törli ezt a tippet?",
+    "deleteAllDataTitle":  "Törli az összes adatot?"
+}

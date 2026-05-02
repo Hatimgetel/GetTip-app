@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Thumela ngaphandle CSV",
+    "pdfExportUnavailable":  "Ukuthunyelwa ngaphandle kwePDF akufumaneki kweli qonga.",
+    "delete":  "Cima",
+    "thanksFeedback":  "Enkosi ngempendulo yakho!",
+    "languageEnglish":  "IsiNgesi",
+    "allDataDeleted":  "Yonke idatha icinyiwe",
+    "language":  "Ulwimi",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "I-CSV ithunyelwe ngaphandle ngempumelelo",
+    "onboardingJobsTitle":  "Imisebenzi emininzi kunye neeNgxelo zobuNgcali",
+    "totalEarnings":  "IMvuzo iyonke",
+    "roundUpSubtitle":  "Amaxabiso ajikelezayo kumanani apheleleyo xa ugcina iingcebiso",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Oku kuya kususa ngokusisigxina onke amacebiso agciniweyo.",
+    "filters":  "Izihluzi",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ulwimi",
+    "darkMode":  "Imowudi emnyama",
+    "customQuickSubtitle":  "Hlela i-$ 10 · $ 20 · $ 50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Imbali",
+    "exportRangeMonth":  "Kule nyanga",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "IZIBALO",
+    "shareExperience":  "Yabelana Ngamava Akho",
+    "filterToday":  "Namhlanje",
+    "customQuickLabel":  "Isiko",
+    "exportRangeWeek":  "Kule veki",
+    "tipSaved":  "Ingcebiso igciniwe",
+    "onboardingContinue":  "Qhubeka",
+    "onboardingMockCafeSub":  "Mon-Fri",
+    "entries":  "Amangeno",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Umyinge weyure nganye:",
+    "onboardingJobsBody":  "Lawula umsebenzi ngamnye ngamakhadi acocekileyo kunye nokuthumela ngaphandle izishwankathelo ezilungele iPDF.",
+    "onboardingPreviewPdf":  "Jonga kwangaphambili iPDF",
+    "noDataFound":  "Akukho datha ifunyenweyo",
+    "deleteAllData":  "Cima yonke idatha",
+    "filterYear":  "Unyaka",
+    "navHistory":  "Imbali",
+    "greetingMorning":  "Mholo ngalentsasa!",
+    "onboardingProfessionalReports":  "Iingxelo zobuNgcali",
+    "averageDayLabel":  "Umndilili/usuku:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Qhagamshelana nathi",
+    "exportCsv":  "Thumela ngaphandle CSV",
+    "navProfile":  "Inkangeleko yesimo",
+    "navHome":  "Ekhaya",
+    "quickButtons":  "Amaqhosha akhawulezayo",
+    "onboardingMockRestaurantTitle":  "Ubusuku bokutyela",
+    "currency":  "Imali",
+    "onboardingMockRestaurantSub":  "NgoLwesihlanu-Langa",
+    "labelToday":  "Namhlanje",
+    "exportRangeToday":  "Namhlanje",
+    "recentEntries":  "Amangeno akutsha nje",
+    "pdfReportReady":  "Ingxelo yePDF ilungele ukwabelana",
+    "undo":  "qhaqha",
+    "onboardingSkip":  "Tsiba",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Inyanga",
+    "deleteAll":  "Cima zonke",
+    "rateApp":  "Ixabiso losetyenziso",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "UYobhi ugciniwe",
+    "cancel":  "Rhoxisa",
+    "@@locale":  "xh",
+    "exportRangeCustom":  "Uluhlu lwesiko",
+    "exportFrom":  "From: {date}",
+    "export":  "Thumela ngaphandle",
+    "contactUsLabel":  "Qhagamshelana nathi",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Usuku olungcono:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Ingcebiso icinyiwe (Hlehlisa)",
+    "greetingAfternoon":  "Mholo emvakwemini!",
+    "roundUp":  "Yisonge yonke",
+    "onboardingWelcomeTitle":  "Wamkelekile",
+    "reportPdfTooltip":  "Ingxelo yePDF",
+    "settingsSection":  "IISETHINGI",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Ukuthunyelwa ngaphandle akufumaneki kweli qonga.",
+    "quickButtonsUpdated":  "Amaqhosha akhawulezayo ahlaziyiwe",
+    "pdfReports":  "Iingxelo zePDF",
+    "supportSection":  "INKXASO",
+    "filterWeek":  "Iveki",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Landela onke amacebiso kwaye uhlale ulawula umvuzo wakho.",
+    "dailySummary":  "IsiShwankathelo semihla ngemihla",
+    "rateTheApp":  "Thelekelela usetyenziso",
+    "noIncomeRecorded":  "Akukho ngeniso irekhodiweyo ngolu suku. Cofa iqhosha + ukuze wongeze enye!",
+    "noTipsYet":  "Akukho ngcebiso okwangoku. Yongeza enye enamaqhosha angentla.",
+    "languageFrench":  "isiFrançais",
+    "totalTipsLabel":  "Amacebiso ewonke:",
+    "addTip":  "+ Yongeza ingcebiso",
+    "totalEarningsLabel":  "Ingeniso iyonke:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Namhlanje",
+    "noTipsToExport":  "Akukho ngcebiso zokuthumela ngaphandle okwangoku.",
+    "noTipsForPeriod":  "Akukho ngcebiso zifunyenweyo zexesha elikhethiweyo.",
+    "backupTips":  "Gcina idatha yakho / Gcina iingcebiso zakho",
+    "jobs":  "Imisebenzi",
+    "greetingEvening":  "Mholo ngokuhlwa nje!",
+    "languageSystemDefault":  "Ukungagqibeki kwenkqubo",
+    "deleteThisTip":  "Cima le ngcebiso?",
+    "deleteAllDataTitle":  "Cima yonke idatha?"
+}

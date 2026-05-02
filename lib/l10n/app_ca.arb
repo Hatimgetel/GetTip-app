@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Exporta CSV",
+    "pdfExportUnavailable":  "L\u0027exportació de PDF no està disponible en aquesta plataforma.",
+    "delete":  "Suprimeix",
+    "thanksFeedback":  "Gràcies pels teus comentaris!",
+    "languageEnglish":  "Anglès",
+    "allDataDeleted":  "S\u0027han suprimit totes les dades",
+    "language":  "Llengua",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV exportat correctament",
+    "onboardingJobsTitle":  "Múltiples treballs i informes professionals",
+    "totalEarnings":  "Guanys totals",
+    "roundUpSubtitle":  "Arrodonir els imports a nombres enters quan deseu propis",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Això eliminarà permanentment tots els consells desats.",
+    "filters":  "Filtres",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Llengua",
+    "darkMode":  "Mode fosc",
+    "customQuickSubtitle":  "Edita 10 $ · 20 $ · 50 $",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Història",
+    "exportRangeMonth":  "Aquest mes",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTADÍSTIQUES",
+    "shareExperience":  "Comparteix la teva experiència",
+    "filterToday":  "Avui",
+    "customQuickLabel":  "Personalitzat",
+    "exportRangeWeek":  "Aquesta setmana",
+    "tipSaved":  "S\u0027ha desat la propina",
+    "onboardingContinue":  "Continua",
+    "onboardingMockCafeSub":  "dilluns - divendres",
+    "entries":  "Entrades",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tarifa mitjana per hora:",
+    "onboardingJobsBody":  "Gestioneu cada treball amb targetes netes i exporteu resums preparats per a PDF.",
+    "onboardingPreviewPdf":  "Vista prèvia del PDF",
+    "noDataFound":  "No s\u0027han trobat dades",
+    "deleteAllData":  "Suprimeix totes les dades",
+    "filterYear":  "Any",
+    "navHistory":  "Història",
+    "greetingMorning":  "Bon dia!",
+    "onboardingProfessionalReports":  "Informes professionals",
+    "averageDayLabel":  "Mitjana/dia:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contacta amb nosaltres",
+    "exportCsv":  "Exporta CSV",
+    "navProfile":  "Perfil",
+    "navHome":  "Casa",
+    "quickButtons":  "Botons ràpids",
+    "onboardingMockRestaurantTitle":  "Nit Restaurant",
+    "currency":  "Moneda",
+    "onboardingMockRestaurantSub":  "Dv - Dg",
+    "labelToday":  "Avui",
+    "exportRangeToday":  "Avui",
+    "recentEntries":  "Entrades recents",
+    "pdfReportReady":  "Informe PDF llest per compartir",
+    "undo":  "Desfer",
+    "onboardingSkip":  "Saltar",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mes",
+    "deleteAll":  "Suprimeix-ho tot",
+    "rateApp":  "Valora l\u0027aplicació",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Feina guardada",
+    "cancel":  "Cancel·la",
+    "@@locale":  "ca",
+    "exportRangeCustom":  "Interval personalitzat",
+    "exportFrom":  "From: {date}",
+    "export":  "Exporta",
+    "contactUsLabel":  "Contacta amb nosaltres",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Millor dia:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Consell suprimit (Desfer)",
+    "greetingAfternoon":  "Bona tarda!",
+    "roundUp":  "Arrodonit cap amunt",
+    "onboardingWelcomeTitle":  "Benvingut",
+    "reportPdfTooltip":  "Informe PDF",
+    "settingsSection":  "CONFIGURACIÓ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "L\u0027exportació no està disponible en aquesta plataforma.",
+    "quickButtonsUpdated":  "Botons ràpids actualitzats",
+    "pdfReports":  "Informes en PDF",
+    "supportSection":  "SUPORT",
+    "filterWeek":  "Setmana",
+    "onboardingMockCafeTitle":  "Cafè Torn",
+    "onboardingWelcomeBody":  "Feu un seguiment de cada propina i manteniu el control dels vostres guanys.",
+    "dailySummary":  "Resum diari",
+    "rateTheApp":  "Valoreu l\u0027aplicació",
+    "noIncomeRecorded":  "No s\u0027han registrat ingressos per aquest dia. Toqueu el botó + per afegir-ne un!",
+    "noTipsYet":  "Encara no hi ha consells. Afegiu-ne un amb els botons de dalt.",
+    "languageFrench":  "Francès",
+    "totalTipsLabel":  "Total de consells:",
+    "addTip":  "+ Afegeix un consell",
+    "totalEarningsLabel":  "Guanys totals:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Avui",
+    "noTipsToExport":  "Encara no hi ha consells per exportar.",
+    "noTipsForPeriod":  "No s\u0027han trobat consells per al període seleccionat.",
+    "backupTips":  "Guarda les teves dades / Fes una còpia de seguretat dels teus consells",
+    "jobs":  "Feines",
+    "greetingEvening":  "Bona tarda!",
+    "languageSystemDefault":  "Sistema predeterminat",
+    "deleteThisTip":  "Vols suprimir aquest consell?",
+    "deleteAllDataTitle":  "Vols suprimir totes les dades?"
+}

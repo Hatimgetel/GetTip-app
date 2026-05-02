@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "ሲኤስቪ ሰደድ",
+    "pdfExportUnavailable":  "PDF export ኣብዚ መድረኽ ኣይርከብን እዩ።",
+    "delete":  "ምድምሳስ",
+    "thanksFeedback":  "ንዝሃብኩምና ርእይቶ የቐንየልና!",
+    "languageEnglish":  "ኢንግሊሽ",
+    "allDataDeleted":  "ኩሉ ዳታ ተደምሲሱ",
+    "language":  "ቋንቋ",
+    "appTitle":  "ማይቲፕ ትራከር",
+    "csvExported":  "CSV ብዓወት ናብ ወጻኢ ሰደድ",
+    "onboardingJobsTitle":  "ብዙሕ ስራሕን ሞያዊ ጸብጻባትን።",
+    "totalEarnings":  "ጠቕላላ ኣታዊታት",
+    "roundUpSubtitle":  "ምኽርታት ኣብ እትዕቅበሉ እዋን ዙርያ ምሉእ ቁጽሪ ይኸውን።",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "እዚ ድማ ንኹሎም ዝተቐመጡ ምኽርታት ንሓዋሩ ከወግድ እዩ።",
+    "filters":  "ፍልትራት",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ቋንቋ",
+    "darkMode":  "ጸሊም ሞድ",
+    "customQuickSubtitle":  "ኣርትዖት $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ታሪኽ",
+    "exportRangeMonth":  "ኣብዚ ወርሒ",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ስታቲስቲክስ",
+    "shareExperience":  "ተመኩሮኹም ኣካፍሉ።",
+    "filterToday":  "ሎምዓንቲ",
+    "customQuickLabel":  "ቅቡል ልምዲ",
+    "exportRangeWeek":  "ኣብዚ ሰሙን",
+    "tipSaved":  "ምኽሪ ተዓቂቡ።",
+    "onboardingContinue":  "ቀፃሊ",
+    "onboardingMockCafeSub":  "ሰኑይ - ዓርቢ",
+    "entries":  "ምእታው",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ማእከላይ ዋጋ ኣብ ሰዓት፤",
+    "onboardingJobsBody":  "ነፍሲ ወከፍ ስራሕ ብጽሩይ ካርድታት ኣመሓድርን ንፒዲኤፍ ድሉው ዝኾነ ጽማቝ ጽሑፋት ሰደድ።",
+    "onboardingPreviewPdf":  "ቅድመ ምርኢት ፒዲኤፍ",
+    "noDataFound":  "ዳታ ኣይተረኽበን።",
+    "deleteAllData":  "ኩሉ ዳታ ምድምሳስ",
+    "filterYear":  "ዓመት",
+    "navHistory":  "ታሪኽ",
+    "greetingMorning":  "ከመይ ሓዲርኩም!",
+    "onboardingProfessionalReports":  "ሞያዊ ጸብጻባት",
+    "averageDayLabel":  "ማእከላይ/መዓልቲ፤",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ርኸቡና",
+    "exportCsv":  "ሲኤስቪ ሰደድ",
+    "navProfile":  "መግለፂ",
+    "navHome":  "ገዛ",
+    "quickButtons":  "ቅልጡፍ መጠወቒታት",
+    "onboardingMockRestaurantTitle":  "ምሸት ቤት መግቢ",
+    "currency":  "ገንዘብ",
+    "onboardingMockRestaurantSub":  "ዓርቢ - ሰንበት",
+    "labelToday":  "ሎምዓንቲ",
+    "exportRangeToday":  "ሎምዓንቲ",
+    "recentEntries":  "ኣብ ቀረባ እዋን ዝኣተዉ",
+    "pdfReportReady":  "PDF ጸብጻብ ንምክፋል ድሉው",
+    "undo":  "ንድሕሪት ምምላስ",
+    "onboardingSkip":  "ዝለል",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ወርሒ",
+    "deleteAll":  "ኩሉ ደምስሶ",
+    "rateApp":  "ደረጃ ምሃብ ኣፕ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "እዮብ ኣድሒኑ",
+    "cancel":  "ሰርዝ",
+    "@@locale":  "ti",
+    "exportRangeCustom":  "ብሕታዊ ደረጃ",
+    "exportFrom":  "From: {date}",
+    "export":  "ናብ ደገ ምልኣኽ",
+    "contactUsLabel":  "ርኸቡና",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ዝበለጸት መዓልቲ፤",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ምኽሪ ተደምሲሱ (Undo)",
+    "greetingAfternoon":  "ከመይ ውዒሎም!",
+    "roundUp":  "ዙርያ ምግባር",
+    "onboardingWelcomeTitle":  "እንኳዕ ደሓን መፁ",
+    "reportPdfTooltip":  "ጸብጻብ ፒዲኤፍ",
+    "settingsSection":  "ቅጥዕታት",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ኣብዚ መድረኽ ሰደድ ኣይርከብን እዩ።",
+    "quickButtonsUpdated":  "ቅልጡፍ መጠወቒታት ተሓዲሱ",
+    "pdfReports":  "PDF ጸብጻባት",
+    "supportSection":  "ሓገዝ",
+    "filterWeek":  "ሰሙን",
+    "onboardingMockCafeTitle":  "ካፌ ሽፍት",
+    "onboardingWelcomeBody":  "ነፍሲ ወከፍ ምኽሪ ተኸታተሎ እሞ ኣታዊታትካ ኣብ ትሕቲ ቁጽጽርካ ጽናሕ።",
+    "dailySummary":  "መዓልታዊ ጽማቕ",
+    "rateTheApp":  "ነቲ ኣፕ ደረጃ ሃቦ",
+    "noIncomeRecorded":  "ነዛ መዓልቲ እዚኣ ዝኾነ ኣታዊ ኣይተመዝገበን። ሓደ ንምውሳኽ + ዝብል ቁልፊ ጠውቕ!",
+    "noTipsYet":  "ገና ምኽሪ የለን። ምስቲ ኣብ ላዕሊ ዘሎ መጠወቒታት ሓደ ወስኸሉ።",
+    "languageFrench":  "ፍራንቸስኮ",
+    "totalTipsLabel":  "ጠቕላላ ምኽርታት፤",
+    "addTip":  "+ ምኽሪ ምውሳኽ",
+    "totalEarningsLabel":  "ጠቕላላ ኣታዊታት፤",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 ሎሚ",
+    "noTipsToExport":  "ክሳብ ሕጂ ንሰደድ ዝኸውን ምኽሪ የለን።",
+    "noTipsForPeriod":  "ንዝተመርጸ ግዜ ዝኾነ ምኽሪ ኣይተረኽበን።",
+    "backupTips":  "ዳታኻ ዕቅብ / ምኽርታትካ ባክኣፕ ግበር",
+    "jobs":  "ስራሕ",
+    "greetingEvening":  "ከመይ ኣምሽዮም!",
+    "languageSystemDefault":  "ስርዓት ነባሪ",
+    "deleteThisTip":  "ነዚ ምኽሪ ምድምሳስ?",
+    "deleteAllDataTitle":  "ኩሉ ዳታ ምድምሳስ?"
+}

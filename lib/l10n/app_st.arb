@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "E romela kantle ho CSV",
+    "pdfExportUnavailable":  "Ho romelloa ha PDF ha ho teng sethaleng sena.",
+    "delete":  "Hlakola",
+    "thanksFeedback":  "Re leboha maikutlo a hau!",
+    "languageEnglish":  "Senyesemane",
+    "allDataDeleted":  "Lintlha tsohle li hlakotsoe",
+    "language":  "Puo",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV e rometsoe ka katleho",
+    "onboardingJobsTitle":  "Mesebetsi e Mengata \u0026 Litlaleho tsa Litsebi",
+    "totalEarnings":  "Kakaretso ea Meputso",
+    "roundUpSubtitle":  "Round e lekana le linomoro tse felletseng ha u boloka malebela",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Sena se tla tlosa ka ho sa feleng malebela a bolokiloeng.",
+    "filters":  "Lisefe",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Puo",
+    "darkMode":  "Mokhoa o lefifi",
+    "customQuickSubtitle":  "Fetola $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Histori",
+    "exportRangeMonth":  "Kgweding ena",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "LITŠOANTŠISO",
+    "shareExperience":  "Arolelana Phihlelo ea Hao",
+    "filterToday":  "Kajeno",
+    "customQuickLabel":  "Tloaelo",
+    "exportRangeWeek":  "Bekeng ena",
+    "tipSaved":  "Keletso e bolokiloe",
+    "onboardingContinue":  "Tswella",
+    "onboardingMockCafeSub":  "Mantaha - Labohlano",
+    "entries":  "Kenyelletso",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Kakaretso ea sekhahla sa hora:",
+    "onboardingJobsBody":  "Laola mosebetsi o mong le o mong ka likarete tse hloekileng le ho romella likakaretso tse seng li lokisitsoe ke PDF.",
+    "onboardingPreviewPdf":  "Sheba PDF pele",
+    "noDataFound":  "Ha ho Boitsebiso bo Fumanetsoeng",
+    "deleteAllData":  "Hlakola data kaofela",
+    "filterYear":  "Selemo",
+    "navHistory":  "Histori",
+    "greetingMorning":  "Khotsong!",
+    "onboardingProfessionalReports":  "Litlaleho tsa Litsebi",
+    "averageDayLabel":  "Kakaretso/letsatsi:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Iteanye le rona",
+    "exportCsv":  "E romela kantle ho CSV",
+    "navProfile":  "Profile",
+    "navHome":  "Lehae",
+    "quickButtons":  "Likonopo tse potlakileng",
+    "onboardingMockRestaurantTitle":  "Bosiu ba Lijo",
+    "currency":  "Chelete",
+    "onboardingMockRestaurantSub":  "Labohlano - Letsatsi",
+    "labelToday":  "Kajeno",
+    "exportRangeToday":  "Kajeno",
+    "recentEntries":  "Maikutlo a morao tjena",
+    "pdfReportReady":  "Tlaleho ea PDF e loketse ho arolelanoa",
+    "undo":  "Etsolla",
+    "onboardingSkip":  "Tlola",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Kgwedi",
+    "deleteAll":  "Hlakola kaofela",
+    "rateApp":  "Reite app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Jobo o pholositsoe",
+    "cancel":  "Hlakola",
+    "@@locale":  "st",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Iteanye le rona",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Letsatsi le letle:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Keletso e hlakotsoe (Etsolla)",
+    "greetingAfternoon":  "Lumelang!",
+    "roundUp":  "Akaretsa",
+    "onboardingWelcomeTitle":  "Rea u amohela",
+    "reportPdfTooltip":  "Tlaleha PDF",
+    "settingsSection":  "LIEKETSENG",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Thepa ha e fumanehe sethaleng sena.",
+    "quickButtonsUpdated":  "Likonopo tse potlakileng li ntlafalitsoe",
+    "pdfReports":  "Litlaleho tsa PDF",
+    "supportSection":  "TS\u0027ESO",
+    "filterWeek":  "Beke",
+    "onboardingMockCafeTitle":  "Khafe Shift",
+    "onboardingWelcomeBody":  "Latela keletso e \u0027ngoe le e \u0027ngoe \u0027me u lule u laola meputso ea hau.",
+    "dailySummary":  "Kakaretso ea Letsatsi le Letsatsi",
+    "rateTheApp":  "Kala sesebelisoa",
+    "noIncomeRecorded":  "Ha ho chelete e kenang ea letsatsi lena. Tlanya konopo ea + ho eketsa e le \u0027ngoe!",
+    "noTipsYet":  "Ha ho na malebela hajoale. Kenya e \u0027ngoe ka likonopo tse ka holimo.",
+    "languageFrench":  "Se-Français",
+    "totalTipsLabel":  "Kakaretso ea malebela:",
+    "addTip":  "+ Eketsa Keletso",
+    "totalEarningsLabel":  "Kakaretso ea meputso:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 Kajeno",
+    "noTipsToExport":  "Ha ho na malebela a ho romela kantle.",
+    "noTipsForPeriod":  "Ha ho likeletso tse fumanoeng bakeng sa nako e khethiloeng.",
+    "backupTips":  "Boloka lintlha tsa hau / Boloka malebela a hau",
+    "jobs":  "Mesebetsi",
+    "greetingEvening":  "Lumelang!",
+    "languageSystemDefault":  "Kakaretso ea sistimi",
+    "deleteThisTip":  "Hlakola keletso ee?",
+    "deleteAllDataTitle":  "Hlakola lintlha kaofela?"
+}

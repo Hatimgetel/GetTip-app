@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Easpórtáil CSV",
+    "pdfExportUnavailable":  "Níl easpórtáil PDF ar fáil ar an ardán seo.",
+    "delete":  "Scrios",
+    "thanksFeedback":  "Go raibh maith agat as do chuid aiseolais!",
+    "languageEnglish":  "Béarla",
+    "allDataDeleted":  "Scriosadh na sonraí go léir",
+    "language":  "Teanga",
+    "appTitle":  "Lorgaire MyTip",
+    "csvExported":  "D\u0027éirigh le heaspórtáil CSV",
+    "onboardingJobsTitle":  "Poist Il \u0026 Tuarascálacha Gairmiúla",
+    "totalEarnings":  "Tuilleamh Iomlán",
+    "roundUpSubtitle":  "Slánaigh méideanna go slánuimhreacha agus leideanna á sábháil",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Bainfidh sé seo gach leid shábháilte go buan.",
+    "filters":  "Scagairí",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Teanga",
+    "darkMode":  "Mod dorcha",
+    "customQuickSubtitle":  "Cuir $10 · $20 · $50 in eagar",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Stair",
+    "exportRangeMonth":  "An Mhí seo",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Roinn Do Eispéireas",
+    "filterToday":  "Inniu",
+    "customQuickLabel":  "Saincheaptha",
+    "exportRangeWeek":  "An tSeachtain seo",
+    "tipSaved":  "Leid shábháil",
+    "onboardingContinue":  "Lean ort",
+    "onboardingMockCafeSub":  "Luan - Aoine",
+    "entries":  "Iontrálacha",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Meánráta in aghaidh na huaire:",
+    "onboardingJobsBody":  "Bainistigh gach post le cártaí glan agus easpórtáil achoimrí atá réidh le PDF.",
+    "onboardingPreviewPdf":  "Réamhamharc PDF",
+    "noDataFound":  "Níor aimsíodh aon sonraí",
+    "deleteAllData":  "Scrios na sonraí go léir",
+    "filterYear":  "Bliain",
+    "navHistory":  "Stair",
+    "greetingMorning":  "Maidin mhaith!",
+    "onboardingProfessionalReports":  "Tuarascálacha Gairmiúla",
+    "averageDayLabel":  "Meán/lá:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Déan teagmháil linn",
+    "exportCsv":  "Easpórtáil CSV",
+    "navProfile":  "Próifíl",
+    "navHome":  "Baile",
+    "quickButtons":  "Cnaipí tapaidh",
+    "onboardingMockRestaurantTitle":  "Oíche Bialann",
+    "currency":  "Airgeadra",
+    "onboardingMockRestaurantSub":  "Aoine - Sun",
+    "labelToday":  "Inniu",
+    "exportRangeToday":  "Inniu",
+    "recentEntries":  "Iontrálacha le déanaí",
+    "pdfReportReady":  "Pdf tuarascáil réidh le roinnt",
+    "undo":  "Cealaigh",
+    "onboardingSkip":  "Scipeáil",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mí",
+    "deleteAll":  "Scrios go léir",
+    "rateApp":  "App rátáil",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Shábháil Job",
+    "cancel":  "Cealaigh",
+    "@@locale":  "ga",
+    "exportRangeCustom":  "Raon an Chustaim",
+    "exportFrom":  "From: {date}",
+    "export":  "Easpórtáil",
+    "contactUsLabel":  "Déan teagmháil linn",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "An lá is fearr:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Scriosadh an leid (Cealaigh)",
+    "greetingAfternoon":  "Tráthnóna maith!",
+    "roundUp":  "Babhta Suas",
+    "onboardingWelcomeTitle":  "Fáilte",
+    "reportPdfTooltip":  "Tuarascáil pdf",
+    "settingsSection":  "SOCRUITHE",
+    "languageArabic":  "abair",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Níl easpórtáil ar fáil ar an ardán seo.",
+    "quickButtonsUpdated":  "Cnaipí tapaidh nuashonraithe",
+    "pdfReports":  "Tuarascálacha PDF",
+    "supportSection":  "TACAÍOCHT",
+    "filterWeek":  "Seachtain",
+    "onboardingMockCafeTitle":  "Shift Caife",
+    "onboardingWelcomeBody":  "Rianaigh gach leid agus coinnigh smacht ar do thuilleamh.",
+    "dailySummary":  "Achoimre Laethúil",
+    "rateTheApp":  "Ráta an app",
+    "noIncomeRecorded":  "Níl aon ioncam taifeadta don lá seo. Tapáil an cnaipe + chun ceann a chur leis!",
+    "noTipsYet":  "Gan leideanna fós. Cuir ceann leis na cnaipí thuas.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Leideanna iomlána:",
+    "addTip":  "+ Cuir Leid leis",
+    "totalEarningsLabel":  "Tuilleamh iomlán:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 Inniu",
+    "noTipsToExport":  "Níl aon leideanna le heaspórtáil fós.",
+    "noTipsForPeriod":  "Níor aimsíodh aon leideanna don tréimhse roghnaithe.",
+    "backupTips":  "Sábháil do shonraí / Cúltaca do leideanna",
+    "jobs":  "Poist",
+    "greetingEvening":  "Oíche mhaith!",
+    "languageSystemDefault":  "Réamhshocrú córais",
+    "deleteThisTip":  "An bhfuil fonn ort an leid seo a scriosadh?",
+    "deleteAllDataTitle":  "Scrios na sonraí go léir?"
+}

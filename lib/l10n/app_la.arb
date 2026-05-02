@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Exportare CSV",
+    "pdfExportUnavailable":  "PDF educendo in hoc suggestu praesto non est.",
+    "delete":  "Delere",
+    "thanksFeedback":  "Gratias pro feedback!",
+    "languageEnglish":  "Anglicus",
+    "allDataDeleted":  "Omnia data delevit",
+    "language":  "Linguae",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV feliciter emitur",
+    "onboardingJobsTitle":  "Multiplex Jobs \u0026 Professional Renuntiationes",
+    "totalEarnings":  "Summa CAPTURA",
+    "roundUpSubtitle":  "Circum idem numeri integri cum salvis apicibus",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Hoc in perpetuum tollemus omnes apices servatos.",
+    "filters":  "Filtra",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Linguae",
+    "darkMode":  "Tenebris modus",
+    "customQuickSubtitle":  "Edit $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Hoc mense",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Share Your Usus",
+    "filterToday":  "hodie",
+    "customQuickLabel":  "Consuetudinem",
+    "exportRangeWeek":  "Hoc Hebdomada",
+    "tipSaved":  "Indicium salvus",
+    "onboardingContinue":  "continue",
+    "onboardingMockCafeSub":  "Mon - Fri",
+    "entries":  "Entries",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Avg hourly rate:",
+    "onboardingJobsBody":  "Unumquodque officium cum schedulis mundandis et exportandis summaria PDF-parata administrare.",
+    "onboardingPreviewPdf":  "Praevius PDF",
+    "noDataFound":  "Nulla Data Found",
+    "deleteAllData":  "Delere omnia data",
+    "filterYear":  "Annus",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Salve!",
+    "onboardingProfessionalReports":  "Renuntiationes professionales",
+    "averageDayLabel":  "Mediocris / die:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contact us",
+    "exportCsv":  "Exportare CSV",
+    "navProfile":  "Profile",
+    "navHome":  "Home",
+    "quickButtons":  "Velox bullarum",
+    "onboardingMockRestaurantTitle":  "Restaurant noctem",
+    "currency":  "Currency",
+    "onboardingMockRestaurantSub":  "Tue - Sun",
+    "labelToday":  "hodie",
+    "exportRangeToday":  "hodie",
+    "recentEntries":  "Recent entries",
+    "pdfReportReady":  "PDF nuntiare parati ad participes",
+    "undo":  "Undo",
+    "onboardingSkip":  "Skip",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mensis",
+    "deleteAll":  "Delere omnia",
+    "rateApp":  "Rate app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job salvus",
+    "cancel":  "Cancel",
+    "@@locale":  "la",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Exportare",
+    "contactUsLabel":  "Contact us",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Dies optimus:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Indicium deletum (Undo)",
+    "greetingAfternoon":  "Salve!",
+    "roundUp":  "Circum Sursum",
+    "onboardingWelcomeTitle":  "Grata",
+    "reportPdfTooltip":  "Report PDF",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Exportare in hoc suggestu praesto non est.",
+    "quickButtonsUpdated":  "Velox bullarum updated",
+    "pdfReports":  "PDF Renuntiationes",
+    "supportSection":  "SUPPLEMENTUM",
+    "filterWeek":  "Hebdomada",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Vestigare omne extremum et manere in potestate tua mercedes.",
+    "dailySummary":  "Cotidiana Summary",
+    "rateTheApp":  "Rate in app",
+    "noIncomeRecorded":  "Nulli reditus ad hunc diem scripti sunt. Tap in + puga adde unum!",
+    "noTipsYet":  "Nulla sed sapien. Unum cum globulis supra adde.",
+    "languageFrench":  "Franciscus",
+    "totalTipsLabel":  "Summa tips:",
+    "addTip":  "+ Adde consilium",
+    "totalEarningsLabel":  "Summa mercedes:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Hodie",
+    "noTipsToExport":  "No tips to export yet.",
+    "noTipsForPeriod":  "Nulla sapien pro lectus tempus.",
+    "backupTips":  "Servo vestri notitia / tips Tergum tuum",
+    "jobs":  "Jobs",
+    "greetingEvening":  "Bonum factum est vespere!",
+    "languageSystemDefault":  "Ratio default",
+    "deleteThisTip":  "Delere hoc extremum?",
+    "deleteAllDataTitle":  "Omnes notitia delere?"
+}

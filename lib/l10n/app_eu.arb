@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Esportatu CSV",
+    "pdfExportUnavailable":  "PDF esportazioa ez dago eskuragarri plataforma honetan.",
+    "delete":  "Ezabatu",
+    "thanksFeedback":  "Eskerrik asko zure iritziagatik!",
+    "languageEnglish":  "ingelesa",
+    "allDataDeleted":  "Datu guztiak ezabatu dira",
+    "language":  "Hizkuntza",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV behar bezala esportatu da",
+    "onboardingJobsTitle":  "Hainbat lan eta txosten profesionalak",
+    "totalEarnings":  "Guztizko irabaziak",
+    "roundUpSubtitle":  "Biribildu kopuruak zenbaki osoetara aholkuak gordetzean",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Honek betiko kenduko ditu gordetako aholku guztiak.",
+    "filters":  "Iragazkiak",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Hizkuntza",
+    "darkMode":  "Modu iluna",
+    "customQuickSubtitle":  "Editatu $ 10 · $ 20 · $ 50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Hilabete honetan",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTATISTIKAK",
+    "shareExperience":  "Partekatu zure esperientzia",
+    "filterToday":  "Gaur",
+    "customQuickLabel":  "Pertsonalizatua",
+    "exportRangeWeek":  "Aste honetan",
+    "tipSaved":  "Aholkua gorde da",
+    "onboardingContinue":  "Jarraitu",
+    "onboardingMockCafeSub":  "astelehena - ostirala",
+    "entries":  "Sarrerak",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Orduko batez besteko tarifa:",
+    "onboardingJobsBody":  "Kudeatu lan bakoitza txartel garbiekin eta esportatu PDFetarako prest dauden laburpenak.",
+    "onboardingPreviewPdf":  "Aurreikusi PDFa",
+    "noDataFound":  "Ez da daturik aurkitu",
+    "deleteAllData":  "Ezabatu datu guztiak",
+    "filterYear":  "Urtea",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Egun on!",
+    "onboardingProfessionalReports":  "Txosten Profesionalak",
+    "averageDayLabel":  "Batez bestekoa/eguneko:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Jarri gurekin harremanetan",
+    "exportCsv":  "Esportatu CSV",
+    "navProfile":  "Profila",
+    "navHome":  "Hasiera",
+    "quickButtons":  "Botoi azkarrak",
+    "onboardingMockRestaurantTitle":  "Jatetxe Gaua",
+    "currency":  "Moneta",
+    "onboardingMockRestaurantSub":  "Ostirala - Igandea",
+    "labelToday":  "Gaur",
+    "exportRangeToday":  "Gaur",
+    "recentEntries":  "Azken sarrerak",
+    "pdfReportReady":  "PDF txostena partekatzeko prest",
+    "undo":  "Desegin",
+    "onboardingSkip":  "Saltatu",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Hilabetea",
+    "deleteAll":  "Ezabatu guztiak",
+    "rateApp":  "Baloratu aplikazioa",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Lana gordeta",
+    "cancel":  "Utzi",
+    "@@locale":  "eu",
+    "exportRangeCustom":  "Barruti pertsonalizatua",
+    "exportFrom":  "From: {date}",
+    "export":  "Esportatu",
+    "contactUsLabel":  "Jarri gurekin harremanetan",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Egunik onena:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Aholkua ezabatu da (Desegin)",
+    "greetingAfternoon":  "Arratsalde on!",
+    "roundUp":  "Biribildu",
+    "onboardingWelcomeTitle":  "Ongi etorri",
+    "reportPdfTooltip":  "Txostena PDFa",
+    "settingsSection":  "EZARPENAK",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Plataforma honetan ez dago esportatu erabilgarri.",
+    "quickButtonsUpdated":  "Botoi azkarrak eguneratu dira",
+    "pdfReports":  "PDF Txostenak",
+    "supportSection":  "LAGUNTZA",
+    "filterWeek":  "Astea",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Jarrai ezazu aholku bakoitza eta mantendu zure irabazien kontrola.",
+    "dailySummary":  "Eguneko laburpena",
+    "rateTheApp":  "Baloratu aplikazioa",
+    "noIncomeRecorded":  "Ez dago diru-sarrerarik egun honetarako. Sakatu + botoia bat gehitzeko!",
+    "noTipsYet":  "Oraindik ez dago aholkurik. Gehitu bat goiko botoiekin.",
+    "languageFrench":  "Frantsesa",
+    "totalTipsLabel":  "Aholkuak guztira:",
+    "addTip":  "+ Gehitu aholkua",
+    "totalEarningsLabel":  "Irabaziak guztira:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Gaur",
+    "noTipsToExport":  "Oraindik ez dago esportatzeko aholkurik.",
+    "noTipsForPeriod":  "Ez da aholkurik aurkitu hautatutako aldirako.",
+    "backupTips":  "Gorde zure datuak / Egin babeskopiak zure aholkuak",
+    "jobs":  "Lanpostuak",
+    "greetingEvening":  "Arratsalde on!",
+    "languageSystemDefault":  "Sistema lehenetsia",
+    "deleteThisTip":  "Aholku hau ezabatu nahi duzu?",
+    "deleteAllDataTitle":  "Datu guztiak ezabatu?"
+}

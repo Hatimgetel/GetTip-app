@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Exportera CSV",
+    "pdfExportUnavailable":  "PDF-export är inte tillgänglig på den här plattformen.",
+    "delete":  "Radera",
+    "thanksFeedback":  "Tack för din feedback!",
+    "languageEnglish":  "engelska",
+    "allDataDeleted":  "All data raderad",
+    "language":  "Språk",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV-exporten lyckades",
+    "onboardingJobsTitle":  "Flera jobb \u0026 professionella rapporter",
+    "totalEarnings":  "Totala intäkter",
+    "roundUpSubtitle":  "Avrunda belopp till heltal när du sparar tips",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Detta tar bort alla sparade tips permanent.",
+    "filters":  "Filter",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Språk",
+    "darkMode":  "Mörkt läge",
+    "customQuickSubtitle":  "Redigera $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Denna månad",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIK",
+    "shareExperience":  "Dela din erfarenhet",
+    "filterToday":  "I dag",
+    "customQuickLabel":  "Beställnings",
+    "exportRangeWeek":  "Denna vecka",
+    "tipSaved":  "Tipset sparat",
+    "onboardingContinue":  "Fortsätta",
+    "onboardingMockCafeSub":  "mån - fre",
+    "entries":  "Inlägg",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Genomsnittligt timpris:",
+    "onboardingJobsBody":  "Hantera varje jobb med rena kort och exportera PDF-klara sammanfattningar.",
+    "onboardingPreviewPdf":  "Förhandsgranska PDF",
+    "noDataFound":  "Inga data hittades",
+    "deleteAllData":  "Radera all data",
+    "filterYear":  "År",
+    "navHistory":  "Historia",
+    "greetingMorning":  "God morgon!",
+    "onboardingProfessionalReports":  "Professionella rapporter",
+    "averageDayLabel":  "Genomsnitt/dag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontakta oss",
+    "exportCsv":  "Exportera CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Hem",
+    "quickButtons":  "Snabbknappar",
+    "onboardingMockRestaurantTitle":  "Restaurangkväll",
+    "currency":  "Valuta",
+    "onboardingMockRestaurantSub":  "fre - sön",
+    "labelToday":  "I dag",
+    "exportRangeToday":  "I dag",
+    "recentEntries":  "Senaste inlägg",
+    "pdfReportReady":  "PDF-rapport redo att delas",
+    "undo":  "Ångra",
+    "onboardingSkip":  "Hoppa",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Månad",
+    "deleteAll":  "Ta bort alla",
+    "rateApp":  "Betygsätt app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Jobbet sparat",
+    "cancel":  "Avboka",
+    "@@locale":  "sv",
+    "exportRangeCustom":  "Anpassat intervall",
+    "exportFrom":  "From: {date}",
+    "export":  "Exportera",
+    "contactUsLabel":  "Kontakta oss",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Bästa dagen:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tipset raderat (ångra)",
+    "greetingAfternoon":  "God eftermiddag!",
+    "roundUp":  "Samla ihop",
+    "onboardingWelcomeTitle":  "Välkomna",
+    "reportPdfTooltip":  "Rapportera PDF",
+    "settingsSection":  "INSTÄLLNINGAR",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Export är inte tillgänglig på den här plattformen.",
+    "quickButtonsUpdated":  "Snabbknappar uppdaterade",
+    "pdfReports":  "PDF-rapporter",
+    "supportSection":  "STÖD",
+    "filterWeek":  "Vecka",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Spåra varje tips och ha kontroll över dina intäkter.",
+    "dailySummary":  "Daglig sammanfattning",
+    "rateTheApp":  "Betygsätt appen",
+    "noIncomeRecorded":  "Ingen inkomst registrerad för denna dag. Tryck på +-knappen för att lägga till en!",
+    "noTipsYet":  "Inga tips än. Lägg till en med knapparna ovan.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Totalt antal tips:",
+    "addTip":  "+ Lägg till tips",
+    "totalEarningsLabel":  "Totala intäkter:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245,00 idag",
+    "noTipsToExport":  "Inga tips att exportera än.",
+    "noTipsForPeriod":  "Inga tips hittades för den valda perioden.",
+    "backupTips":  "Spara dina data / Säkerhetskopiera dina tips",
+    "jobs":  "Jobb",
+    "greetingEvening":  "God afton!",
+    "languageSystemDefault":  "Systemstandard",
+    "deleteThisTip":  "Vill du ta bort det här tipset?",
+    "deleteAllDataTitle":  "Ta bort all data?"
+}

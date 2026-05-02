@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Hamisha CSV",
+    "pdfExportUnavailable":  "Uhamishaji wa PDF haupatikani kwenye jukwaa hili.",
+    "delete":  "Futa",
+    "thanksFeedback":  "Asante kwa maoni yako!",
+    "languageEnglish":  "Kiingereza",
+    "allDataDeleted":  "Data yote imefutwa",
+    "language":  "Lugha",
+    "appTitle":  "Kifuatiliaji cha MyTip",
+    "csvExported":  "CSV imetumwa kwa mafanikio",
+    "onboardingJobsTitle":  "Ajira Nyingi \u0026 Ripoti za Kitaalamu",
+    "totalEarnings":  "Jumla ya Mapato",
+    "roundUpSubtitle":  "Kiasi cha pande zote kwa nambari nzima wakati wa kuhifadhi vidokezo",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Hii itaondoa kabisa vidokezo vyote vilivyohifadhiwa.",
+    "filters":  "Vichujio",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lugha",
+    "darkMode":  "Hali ya giza",
+    "customQuickSubtitle":  "Hariri $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Mwezi Huu",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "TAKWIMU",
+    "shareExperience":  "Shiriki Uzoefu Wako",
+    "filterToday":  "Leo",
+    "customQuickLabel":  "Desturi",
+    "exportRangeWeek":  "Wiki Hii",
+    "tipSaved":  "Kidokezo kimehifadhiwa",
+    "onboardingContinue":  "Endelea",
+    "onboardingMockCafeSub":  "Jumatatu - Ijumaa",
+    "entries":  "Maingizo",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Wastani wa kiwango cha saa:",
+    "onboardingJobsBody":  "Dhibiti kila kazi ukitumia kadi safi na uhamishe muhtasari ulio tayari wa PDF.",
+    "onboardingPreviewPdf":  "Hakiki PDF",
+    "noDataFound":  "Hakuna Data Imepatikana",
+    "deleteAllData":  "Futa data zote",
+    "filterYear":  "Mwaka",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Habari za Asubuhi!",
+    "onboardingProfessionalReports":  "Ripoti za Kitaalam",
+    "averageDayLabel":  "Wastani kwa siku:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Wasiliana nasi",
+    "exportCsv":  "Hamisha CSV",
+    "navProfile":  "Wasifu",
+    "navHome":  "Nyumbani",
+    "quickButtons":  "Vifungo vya haraka",
+    "onboardingMockRestaurantTitle":  "Usiku wa Mgahawa",
+    "currency":  "Sarafu",
+    "onboardingMockRestaurantSub":  "Ijumaa - Jua",
+    "labelToday":  "Leo",
+    "exportRangeToday":  "Leo",
+    "recentEntries":  "Maingizo ya hivi karibuni",
+    "pdfReportReady":  "Ripoti ya PDF iko tayari kushirikiwa",
+    "undo":  "Tendua",
+    "onboardingSkip":  "Ruka",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mwezi",
+    "deleteAll":  "Futa zote",
+    "rateApp":  "Kadiria programu",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Kazi imehifadhiwa",
+    "cancel":  "Ghairi",
+    "@@locale":  "sw",
+    "exportRangeCustom":  "Masafa Maalum",
+    "exportFrom":  "From: {date}",
+    "export":  "Hamisha",
+    "contactUsLabel":  "Wasiliana nasi",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Siku bora zaidi:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Kidokezo kimefutwa (Tendua)",
+    "greetingAfternoon":  "Alasiri Njema!",
+    "roundUp":  "Zungusha",
+    "onboardingWelcomeTitle":  "Karibu",
+    "reportPdfTooltip":  "Ripoti PDF",
+    "settingsSection":  "MIPANGILIO",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Uhamishaji haupatikani kwenye jukwaa hili.",
+    "quickButtonsUpdated":  "Vifungo vya haraka vimesasishwa",
+    "pdfReports":  "Ripoti za PDF",
+    "supportSection":  "MSAADA",
+    "filterWeek":  "Wiki",
+    "onboardingMockCafeTitle":  "Shift ya Mkahawa",
+    "onboardingWelcomeBody":  "Fuatilia kila kidokezo na uendelee kudhibiti mapato yako.",
+    "dailySummary":  "Muhtasari wa Kila Siku",
+    "rateTheApp":  "Kadiria programu",
+    "noIncomeRecorded":  "Hakuna mapato yaliyorekodiwa kwa siku hii. Gusa kitufe cha + ili kuongeza moja!",
+    "noTipsYet":  "Bado hakuna vidokezo. Ongeza moja na vifungo hapo juu.",
+    "languageFrench":  "Kifaransa",
+    "totalTipsLabel":  "Jumla ya vidokezo:",
+    "addTip":  "+ Ongeza Kidokezo",
+    "totalEarningsLabel":  "Jumla ya mapato:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$245.00 leo",
+    "noTipsToExport":  "Bado hakuna vidokezo vya kusafirisha.",
+    "noTipsForPeriod":  "Hakuna vidokezo vilivyopatikana kwa kipindi kilichochaguliwa.",
+    "backupTips":  "Hifadhi data yako / Hifadhi nakala za vidokezo vyako",
+    "jobs":  "Ajira",
+    "greetingEvening":  "Jioni Njema!",
+    "languageSystemDefault":  "Chaguomsingi ya mfumo",
+    "deleteThisTip":  "Ungependa kufuta kidokezo hiki?",
+    "deleteAllDataTitle":  "Ungependa kufuta data yote?"
+}

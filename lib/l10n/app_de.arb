@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV exportieren",
+    "pdfExportUnavailable":  "Der PDF-Export ist auf dieser Plattform nicht verfügbar.",
+    "delete":  "Löschen",
+    "thanksFeedback":  "Vielen Dank für Ihr Feedback!",
+    "languageEnglish":  "Englisch",
+    "allDataDeleted":  "Alle Daten gelöscht",
+    "language":  "Sprache",
+    "appTitle":  "MyTip-Tracker",
+    "csvExported":  "CSV erfolgreich exportiert",
+    "onboardingJobsTitle":  "Mehrere Jobs und Berufsberichte",
+    "totalEarnings":  "Gesamtertrag",
+    "roundUpSubtitle":  "Beim Speichern von Trinkgeldern werden ganze Zahlen gerundet",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Dadurch werden alle gespeicherten Tipps dauerhaft entfernt.",
+    "filters":  "Filter",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Sprache",
+    "darkMode":  "Dunkler Modus",
+    "customQuickSubtitle":  "Bearbeiten Sie 10 $ · 20 $ · 50 $",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Geschichte",
+    "exportRangeMonth":  "Diesen Monat",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "Statistiken",
+    "shareExperience":  "Teilen Sie Ihre Erfahrungen",
+    "filterToday":  "Heute",
+    "customQuickLabel":  "Brauch",
+    "exportRangeWeek":  "Diese Woche",
+    "tipSaved":  "Tipp gespeichert",
+    "onboardingContinue":  "Weitermachen",
+    "onboardingMockCafeSub":  "Mo - Fr",
+    "entries":  "Einträge",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Durchschnittlicher Stundensatz:",
+    "onboardingJobsBody":  "Verwalten Sie jeden Auftrag mit sauberen Karten und exportieren Sie PDF-fähige Zusammenfassungen.",
+    "onboardingPreviewPdf":  "PDF-Vorschau anzeigen",
+    "noDataFound":  "Keine Daten gefunden",
+    "deleteAllData":  "Alle Daten löschen",
+    "filterYear":  "Jahr",
+    "navHistory":  "Geschichte",
+    "greetingMorning":  "Guten Morgen!",
+    "onboardingProfessionalReports":  "Professionelle Berichte",
+    "averageDayLabel":  "Durchschnitt/Tag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontaktieren Sie uns",
+    "exportCsv":  "CSV exportieren",
+    "navProfile":  "Profil",
+    "navHome":  "Heim",
+    "quickButtons":  "Schnelltasten",
+    "onboardingMockRestaurantTitle":  "Restaurantabend",
+    "currency":  "Währung",
+    "onboardingMockRestaurantSub":  "Fr. - So",
+    "labelToday":  "Heute",
+    "exportRangeToday":  "Heute",
+    "recentEntries":  "Aktuelle Einträge",
+    "pdfReportReady":  "PDF-Bericht zum Teilen bereit",
+    "undo":  "Rückgängig machen",
+    "onboardingSkip":  "Überspringen",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Monat",
+    "deleteAll":  "Alles löschen",
+    "rateApp":  "App bewerten",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Auftrag gespeichert",
+    "cancel":  "Stornieren",
+    "@@locale":  "de",
+    "exportRangeCustom":  "Benutzerdefinierter Bereich",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Kontaktieren Sie uns",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Bester Tag:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Tipp gelöscht (Rückgängig machen)",
+    "greetingAfternoon":  "Guten Tag!",
+    "roundUp":  "Aufrunden",
+    "onboardingWelcomeTitle":  "Willkommen",
+    "reportPdfTooltip":  "Bericht PDF",
+    "settingsSection":  "EINSTELLUNGEN",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Der Export ist auf dieser Plattform nicht verfügbar.",
+    "quickButtonsUpdated":  "Schnellschaltflächen aktualisiert",
+    "pdfReports":  "PDF-Berichte",
+    "supportSection":  "UNTERSTÜTZUNG",
+    "filterWeek":  "Woche",
+    "onboardingMockCafeTitle":  "Café Shift",
+    "onboardingWelcomeBody":  "Verfolgen Sie jedes Trinkgeld und behalten Sie die Kontrolle über Ihre Einnahmen.",
+    "dailySummary":  "Tägliche Zusammenfassung",
+    "rateTheApp":  "Bewerten Sie die App",
+    "noIncomeRecorded":  "Für diesen Tag wurden keine Einnahmen erfasst. Tippen Sie auf die Schaltfläche „+“, um eins hinzuzufügen!",
+    "noTipsYet":  "Noch keine Tipps. Fügen Sie eines mit den Schaltflächen oben hinzu.",
+    "languageFrench":  "Französisch",
+    "totalTipsLabel":  "Gesamttipps:",
+    "addTip":  "+ Trinkgeld hinzufügen",
+    "totalEarningsLabel":  "Gesamtverdienst:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "Heute 245,00 $",
+    "noTipsToExport":  "Noch keine Tipps zum Exportieren.",
+    "noTipsForPeriod":  "Für den ausgewählten Zeitraum wurden keine Tipps gefunden.",
+    "backupTips":  "Speichern Sie Ihre Daten / Sichern Sie Ihre Tipps",
+    "jobs":  "Jobs",
+    "greetingEvening":  "Guten Abend!",
+    "languageSystemDefault":  "Systemstandard",
+    "deleteThisTip":  "Diesen Tipp löschen?",
+    "deleteAllDataTitle":  "Alle Daten löschen?"
+}

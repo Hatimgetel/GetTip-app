@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Dhoofinta CSV",
+    "pdfExportUnavailable":  "dhoofinta PDF lagama heli karo goobtan",
+    "delete":  "Tirtir",
+    "thanksFeedback":  "Waad ku mahadsan tahay faallo celintaada!",
+    "languageEnglish":  "Ingiriis",
+    "allDataDeleted":  "Dhammaan xogta waa la tirtiray",
+    "language":  "Luuqad",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV si guul leh ayaa loo dhoofiyay",
+    "onboardingJobsTitle":  "Shaqooyin Badan \u0026 Warbixino Xirfadeed",
+    "totalEarnings":  "Wadarta Dakhliga",
+    "roundUpSubtitle":  "Wareeggu waa tiro dhan marka la kaydinayo talooyinka",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Tani waxay si joogto ah meesha uga saari doontaa dhammaan talooyinka la keydiyay.",
+    "filters":  "Shaandhaynta",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Luuqad",
+    "darkMode":  "Qaab mugdi ah",
+    "customQuickSubtitle":  "Wax ka beddel $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Taariikhda",
+    "exportRangeMonth":  "Bishan",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "La wadaag khibradaada",
+    "filterToday":  "Maanta",
+    "customQuickLabel":  "Caadiyan",
+    "exportRangeWeek":  "Todobaadkan",
+    "tipSaved":  "Talo waa la badbaadiyay",
+    "onboardingContinue":  "Sii wad",
+    "onboardingMockCafeSub":  "Isniin-Jimce",
+    "entries":  "Gelida",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Celceliska qiimaha saacadii:",
+    "onboardingJobsBody":  "Ku maamul shaqo kasta kaarar nadiif ah oo dhoofi qoraallo kooban oo diyaar u ah PDF.",
+    "onboardingPreviewPdf":  "Fiiri PDF",
+    "noDataFound":  "Xog lama Helin",
+    "deleteAllData":  "Tirtir dhammaan xogta",
+    "filterYear":  "Sannadka",
+    "navHistory":  "Taariikhda",
+    "greetingMorning":  "Subax Wanaagsan!",
+    "onboardingProfessionalReports":  "Warbixinnada Xirfadlayaasha",
+    "averageDayLabel":  "Celceliska/maalintii:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Nala soo xidhiidh",
+    "exportCsv":  "Dhoofinta CSV",
+    "navProfile":  "Profile",
+    "navHome":  "Guriga",
+    "quickButtons":  "Badhamada degdega ah",
+    "onboardingMockRestaurantTitle":  "Habeenka makhaayadda",
+    "currency":  "Lacagta",
+    "onboardingMockRestaurantSub":  "Jimce - Cadceed",
+    "labelToday":  "Maanta",
+    "exportRangeToday":  "Maanta",
+    "recentEntries":  "Gelitaanadii dhawaa",
+    "pdfReportReady":  "Warbixinta PDF oo diyaar u ah in la wadaago",
+    "undo":  "Ka noqo",
+    "onboardingSkip":  "Ka bood",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Bisha",
+    "deleteAll":  "Tirtir dhammaan",
+    "rateApp":  "Qiimee abka",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Shaqada badbaadisay",
+    "cancel":  "Jooji",
+    "@@locale":  "so",
+    "exportRangeCustom":  "Range Custom",
+    "exportFrom":  "From: {date}",
+    "export":  "Dhoofinta",
+    "contactUsLabel":  "Nala soo xidhiidh",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Maalinta ugu fiican:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Talada waa la tirtiray (Ka noqo)",
+    "greetingAfternoon":  "Galab Wacan!",
+    "roundUp":  "Isku soo wada duuboo",
+    "onboardingWelcomeTitle":  "Soo dhawoow",
+    "reportPdfTooltip":  "Ka warbixi PDF",
+    "settingsSection":  "Dejinta",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Dhoofinta lagama heli karo goobtan",
+    "quickButtonsUpdated":  "Badhamada degdega ah waa la cusboonaysiiyay",
+    "pdfReports":  "Warbixinta PDF",
+    "supportSection":  "TAAGEERO",
+    "filterWeek":  "Todobaadka",
+    "onboardingMockCafeTitle":  "Shift Cafe",
+    "onboardingWelcomeBody":  "Raad raac talo kasta oo gacanta ku hay dakhligaaga.",
+    "dailySummary":  "Soo koobida maalinlaha ah",
+    "rateTheApp":  "Qiimee abka",
+    "noIncomeRecorded":  "Wax dakhli ah oo la diiwaangeliyay ma jiro maalintan. Taabo badhanka + si aad mid ugu darto!",
+    "noTipsYet":  "Talooyin wali ma jiraan. Ku dar mid leh badhamada kore.",
+    "languageFrench":  "Francais",
+    "totalTipsLabel":  "Wadarta talooyinka:",
+    "addTip":  "+ Ku dar Talo",
+    "totalEarningsLabel":  "Wadarta dakhliga:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "maanta waxay u taagan tahay 245.00 $",
+    "noTipsToExport":  "Weli ma jiraan talooyin lagu dhoofiyo",
+    "noTipsForPeriod":  "Talooyin looma helin xilliga la doortay",
+    "backupTips":  "Keydi xogtaada/Kabtay talooyinkaaga",
+    "jobs":  "Shaqooyinka",
+    "greetingEvening":  "Fiid Wanaagsan!",
+    "languageSystemDefault":  "Nadaamka habaysan",
+    "deleteThisTip":  "Tirtir tilmaantan?",
+    "deleteAllDataTitle":  "tirtir dhammaan xogta?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ರಫ್ತು ಮಾಡಿ",
+    "pdfExportUnavailable":  "ಈ ವೇದಿಕೆಯಲ್ಲಿ PDF ರಫ್ತು ಲಭ್ಯವಿಲ್ಲ.",
+    "delete":  "ಅಳಿಸಿ",
+    "thanksFeedback":  "ನಿಮ್ಮ ಪ್ರತಿಕ್ರಿಯೆಗಾಗಿ ಧನ್ಯವಾದಗಳು!",
+    "languageEnglish":  "ಇಂಗ್ಲೀಷ್",
+    "allDataDeleted":  "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸಲಾಗಿದೆ",
+    "language":  "ಭಾಷೆ",
+    "appTitle":  "MyTip ಟ್ರ್ಯಾಕರ್",
+    "csvExported":  "CSV ಯಶಸ್ವಿಯಾಗಿ ರಫ್ತು ಮಾಡಲಾಗಿದೆ",
+    "onboardingJobsTitle":  "ಬಹು ಉದ್ಯೋಗಗಳು ಮತ್ತು ವೃತ್ತಿಪರ ವರದಿಗಳು",
+    "totalEarnings":  "ಒಟ್ಟು ಗಳಿಕೆಗಳು",
+    "roundUpSubtitle":  "ಸುಳಿವುಗಳನ್ನು ಉಳಿಸುವಾಗ ಪೂರ್ಣ ಸಂಖ್ಯೆಗಳಿಗೆ ಸುತ್ತಿನ ಮೊತ್ತಗಳು",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ಇದು ಉಳಿಸಿದ ಎಲ್ಲಾ ಸಲಹೆಗಳನ್ನು ಶಾಶ್ವತವಾಗಿ ತೆಗೆದುಹಾಕುತ್ತದೆ.",
+    "filters":  "ಶೋಧಕಗಳು",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ಭಾಷೆ",
+    "darkMode":  "ಡಾರ್ಕ್ ಮೋಡ್",
+    "customQuickSubtitle":  "$10 · $20 · $50 ಸಂಪಾದಿಸಿ",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ಇತಿಹಾಸ",
+    "exportRangeMonth":  "ಈ ತಿಂಗಳು",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ಅಂಕಿಅಂಶಗಳು",
+    "shareExperience":  "ನಿಮ್ಮ ಅನುಭವವನ್ನು ಹಂಚಿಕೊಳ್ಳಿ",
+    "filterToday":  "ಇಂದು",
+    "customQuickLabel":  "ಕಸ್ಟಮ್",
+    "exportRangeWeek":  "ಈ ವಾರ",
+    "tipSaved":  "ಸಲಹೆಯನ್ನು ಉಳಿಸಲಾಗಿದೆ",
+    "onboardingContinue":  "ಮುಂದುವರಿಸಿ",
+    "onboardingMockCafeSub":  "ಸೋಮ - ಶುಕ್ರ",
+    "entries":  "ನಮೂದುಗಳು",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ಸರಾಸರಿ ಗಂಟೆಯ ದರ:",
+    "onboardingJobsBody":  "ಕ್ಲೀನ್ ಕಾರ್ಡ್‌ಗಳೊಂದಿಗೆ ಪ್ರತಿ ಕೆಲಸವನ್ನು ನಿರ್ವಹಿಸಿ ಮತ್ತು PDF-ಸಿದ್ಧ ಸಾರಾಂಶಗಳನ್ನು ರಫ್ತು ಮಾಡಿ.",
+    "onboardingPreviewPdf":  "ಪೂರ್ವವೀಕ್ಷಣೆ PDF",
+    "noDataFound":  "ಯಾವುದೇ ಡೇಟಾ ಕಂಡುಬಂದಿಲ್ಲ",
+    "deleteAllData":  "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸಿ",
+    "filterYear":  "ವರ್ಷ",
+    "navHistory":  "ಇತಿಹಾಸ",
+    "greetingMorning":  "ಶುಭೋದಯ!",
+    "onboardingProfessionalReports":  "ವೃತ್ತಿಪರ ವರದಿಗಳು",
+    "averageDayLabel":  "ಸರಾಸರಿ/ದಿನ:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "exportCsv":  "CSV ರಫ್ತು ಮಾಡಿ",
+    "navProfile":  "ಪ್ರೊಫೈಲ್",
+    "navHome":  "ಮನೆ",
+    "quickButtons":  "ತ್ವರಿತ ಗುಂಡಿಗಳು",
+    "onboardingMockRestaurantTitle":  "ರೆಸ್ಟೋರೆಂಟ್ ರಾತ್ರಿ",
+    "currency":  "ಕರೆನ್ಸಿ",
+    "onboardingMockRestaurantSub":  "ಶುಕ್ರ - ಸೂರ್ಯ",
+    "labelToday":  "ಇಂದು",
+    "exportRangeToday":  "ಇಂದು",
+    "recentEntries":  "ಇತ್ತೀಚಿನ ನಮೂದುಗಳು",
+    "pdfReportReady":  "PDF ವರದಿ ಹಂಚಿಕೊಳ್ಳಲು ಸಿದ್ಧವಾಗಿದೆ",
+    "undo":  "ರದ್ದುಮಾಡು",
+    "onboardingSkip":  "ಬಿಟ್ಟುಬಿಡಿ",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "ತಿಂಗಳು",
+    "deleteAll":  "ಎಲ್ಲವನ್ನೂ ಅಳಿಸಿ",
+    "rateApp":  "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ರೇಟ್ ಮಾಡಿ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "ಉದ್ಯೋಗವನ್ನು ಉಳಿಸಲಾಗಿದೆ",
+    "cancel":  "ರದ್ದುಮಾಡಿ",
+    "@@locale":  "kn",
+    "exportRangeCustom":  "ಕಸ್ಟಮ್ ಶ್ರೇಣಿ",
+    "exportFrom":  "From: {date}",
+    "export":  "ರಫ್ತು ಮಾಡಿ",
+    "contactUsLabel":  "ನಮ್ಮನ್ನು ಸಂಪರ್ಕಿಸಿ",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "ಅತ್ಯುತ್ತಮ ದಿನ:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ಸುಳಿವು ಅಳಿಸಲಾಗಿದೆ (ರದ್ದುಮಾಡು)",
+    "greetingAfternoon":  "ಶುಭ ಮಧ್ಯಾಹ್ನ!",
+    "roundUp":  "ರೌಂಡ್ ಅಪ್",
+    "onboardingWelcomeTitle":  "ಸ್ವಾಗತ",
+    "reportPdfTooltip":  "ಪಿಡಿಎಫ್ ವರದಿ ಮಾಡಿ",
+    "settingsSection":  "ಸೆಟ್ಟಿಂಗ್‌ಗಳು",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "ಈ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್‌ನಲ್ಲಿ ರಫ್ತು ಲಭ್ಯವಿಲ್ಲ.",
+    "quickButtonsUpdated":  "ತ್ವರಿತ ಬಟನ್‌ಗಳನ್ನು ನವೀಕರಿಸಲಾಗಿದೆ",
+    "pdfReports":  "PDF ವರದಿಗಳು",
+    "supportSection":  "ಬೆಂಬಲ",
+    "filterWeek":  "ವಾರ",
+    "onboardingMockCafeTitle":  "ಕೆಫೆ ಶಿಫ್ಟ್",
+    "onboardingWelcomeBody":  "ಪ್ರತಿ ಸಲಹೆಯನ್ನು ಟ್ರ್ಯಾಕ್ ಮಾಡಿ ಮತ್ತು ನಿಮ್ಮ ಗಳಿಕೆಯ ನಿಯಂತ್ರಣದಲ್ಲಿರಿ.",
+    "dailySummary":  "ದೈನಂದಿನ ಸಾರಾಂಶ",
+    "rateTheApp":  "ಅಪ್ಲಿಕೇಶನ್ ಅನ್ನು ರೇಟ್ ಮಾಡಿ",
+    "noIncomeRecorded":  "ಈ ದಿನದ ಆದಾಯವನ್ನು ದಾಖಲಿಸಲಾಗಿಲ್ಲ. ಒಂದನ್ನು ಸೇರಿಸಲು + ಬಟನ್ ಟ್ಯಾಪ್ ಮಾಡಿ!",
+    "noTipsYet":  "ಇನ್ನೂ ಯಾವುದೇ ಸಲಹೆಗಳಿಲ್ಲ. ಮೇಲಿನ ಬಟನ್‌ಗಳೊಂದಿಗೆ ಒಂದನ್ನು ಸೇರಿಸಿ.",
+    "languageFrench":  "ಫ್ರಾಂಚೈಸ್",
+    "totalTipsLabel":  "ಒಟ್ಟು ಸಲಹೆಗಳು:",
+    "addTip":  "+ ಸಲಹೆ ಸೇರಿಸಿ",
+    "totalEarningsLabel":  "ಒಟ್ಟು ಗಳಿಕೆಗಳು:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 ಇಂದು",
+    "noTipsToExport":  "ರಫ್ತು ಮಾಡಲು ಇನ್ನೂ ಯಾವುದೇ ಸಲಹೆಗಳಿಲ್ಲ.",
+    "noTipsForPeriod":  "ಆಯ್ಕೆಮಾಡಿದ ಅವಧಿಗೆ ಯಾವುದೇ ಸಲಹೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.",
+    "backupTips":  "ನಿಮ್ಮ ಡೇಟಾವನ್ನು ಉಳಿಸಿ / ನಿಮ್ಮ ಸಲಹೆಗಳನ್ನು ಬ್ಯಾಕಪ್ ಮಾಡಿ",
+    "jobs":  "ಉದ್ಯೋಗಗಳು",
+    "greetingEvening":  "ಶುಭ ಸಂಜೆ!",
+    "languageSystemDefault":  "ಸಿಸ್ಟಮ್ ಡೀಫಾಲ್ಟ್",
+    "deleteThisTip":  "ಈ ಸಲಹೆಯನ್ನು ಅಳಿಸುವುದೇ?",
+    "deleteAllDataTitle":  "ಎಲ್ಲಾ ಡೇಟಾವನ್ನು ಅಳಿಸುವುದೇ?"
+}

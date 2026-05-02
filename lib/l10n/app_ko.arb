@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV 내보내기",
+    "pdfExportUnavailable":  "이 플랫폼에서는 PDF 내보내기를 사용할 수 없습니다.",
+    "delete":  "삭제",
+    "thanksFeedback":  "피드백을 보내주셔서 감사합니다!",
+    "languageEnglish":  "영어",
+    "allDataDeleted":  "모든 데이터가 삭제되었습니다.",
+    "language":  "언어",
+    "appTitle":  "마이팁 트래커",
+    "csvExported":  "CSV를 성공적으로 내보냈습니다.",
+    "onboardingJobsTitle":  "여러 직업 및 전문 보고서",
+    "totalEarnings":  "총 수익",
+    "roundUpSubtitle":  "팁을 저장할 때 반올림 금액은 정수로 표시됩니다.",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "이렇게 하면 저장된 모든 팁이 영구적으로 제거됩니다.",
+    "filters":  "필터",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "언어",
+    "darkMode":  "다크 모드",
+    "customQuickSubtitle":  "편집 $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "역사",
+    "exportRangeMonth":  "이번 달",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "통계",
+    "shareExperience":  "당신의 경험을 공유하세요",
+    "filterToday":  "오늘",
+    "customQuickLabel":  "관습",
+    "exportRangeWeek":  "이번 주",
+    "tipSaved":  "팁이 저장되었습니다.",
+    "onboardingContinue":  "계속하다",
+    "onboardingMockCafeSub":  "월~금",
+    "entries":  "항목",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "평균 시간당 요율:",
+    "onboardingJobsBody":  "깨끗한 카드로 각 작업을 관리하고 PDF 지원 요약을 내보냅니다.",
+    "onboardingPreviewPdf":  "PDF 미리보기",
+    "noDataFound":  "데이터를 찾을 수 없습니다",
+    "deleteAllData":  "모든 데이터 삭제",
+    "filterYear":  "년도",
+    "navHistory":  "역사",
+    "greetingMorning":  "좋은 아침이에요!",
+    "onboardingProfessionalReports":  "전문 보고서",
+    "averageDayLabel":  "평균/일:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "문의하기",
+    "exportCsv":  "CSV 내보내기",
+    "navProfile":  "윤곽",
+    "navHome":  "집",
+    "quickButtons":  "빠른 버튼",
+    "onboardingMockRestaurantTitle":  "레스토랑 나이트",
+    "currency":  "통화",
+    "onboardingMockRestaurantSub":  "금~일",
+    "labelToday":  "오늘",
+    "exportRangeToday":  "오늘",
+    "recentEntries":  "최근 항목",
+    "pdfReportReady":  "PDF 보고서 공유 준비 완료",
+    "undo":  "끄르다",
+    "onboardingSkip":  "건너뛰다",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "월",
+    "deleteAll":  "모두 삭제",
+    "rateApp":  "앱 평가",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "작업이 저장되었습니다.",
+    "cancel":  "취소",
+    "@@locale":  "ko",
+    "exportRangeCustom":  "맞춤 범위",
+    "exportFrom":  "From: {date}",
+    "export":  "내보내다",
+    "contactUsLabel":  "문의하기",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "최고의 날:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "도움말이 삭제되었습니다(실행취소).",
+    "greetingAfternoon":  "좋은 오후에요!",
+    "roundUp":  "반올림",
+    "onboardingWelcomeTitle":  "환영",
+    "reportPdfTooltip":  "PDF 보고",
+    "settingsSection":  "설정",
+    "languageArabic":  "아랍어",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "이 플랫폼에서는 내보내기를 사용할 수 없습니다.",
+    "quickButtonsUpdated":  "빠른 버튼이 업데이트되었습니다.",
+    "pdfReports":  "PDF 보고서",
+    "supportSection":  "지원하다",
+    "filterWeek":  "주",
+    "onboardingMockCafeTitle":  "카페 쉬프트",
+    "onboardingWelcomeBody":  "모든 팁을 추적하고 수입을 관리하세요.",
+    "dailySummary":  "일일 요약",
+    "rateTheApp":  "앱 평가",
+    "noIncomeRecorded":  "해당일에 기록된 수입이 없습니다. + 버튼을 눌러 추가해주세요!",
+    "noTipsYet":  "아직 팁이 없습니다. 위의 버튼으로 하나를 추가하세요.",
+    "languageFrench":  "프랑세즈",
+    "totalTipsLabel":  "총 팁:",
+    "addTip":  "+ 팁 추가",
+    "totalEarningsLabel":  "총 수입:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 오늘",
+    "noTipsToExport":  "아직 내보낼 팁이 없습니다.",
+    "noTipsForPeriod":  "선택한 기간에 대한 팁을 찾을 수 없습니다.",
+    "backupTips":  "데이터 저장 / 팁 백업",
+    "jobs":  "채용 정보",
+    "greetingEvening":  "좋은 저녁이에요!",
+    "languageSystemDefault":  "시스템 기본값",
+    "deleteThisTip":  "이 팁을 삭제하시겠습니까?",
+    "deleteAllDataTitle":  "모든 데이터를 삭제하시겠습니까?"
+}

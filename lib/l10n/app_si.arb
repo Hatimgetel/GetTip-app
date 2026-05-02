@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV අපනයනය කරන්න",
+    "pdfExportUnavailable":  "PDF අපනයනය මෙම වේදිකාවේ නොමැත.",
+    "delete":  "මකන්න",
+    "thanksFeedback":  "ඔබගේ ප්‍රතිපෝෂණයට ස්තූතියි!",
+    "languageEnglish":  "ඉංග්රීසි",
+    "allDataDeleted":  "සියලුම දත්ත මකා ඇත",
+    "language":  "භාෂාව",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV සාර්ථකව නිර්යාත කරන ලදී",
+    "onboardingJobsTitle":  "බහු රැකියා සහ වෘත්තීය වාර්තා",
+    "totalEarnings":  "මුළු ඉපැයීම්",
+    "roundUpSubtitle":  "ඉඟි සුරකින විට වටකුරු අගයන් සම්පූර්ණ සංඛ්‍යා වේ",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "මෙය සුරැකි ඉඟි සියල්ල ස්ථිරවම ඉවත් කරයි.",
+    "filters":  "පෙරහන්",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "භාෂාව",
+    "darkMode":  "අඳුරු මාදිලිය",
+    "customQuickSubtitle":  "$10 · $20 · $50 සංස්කරණය කරන්න",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ඉතිහාසය",
+    "exportRangeMonth":  "මෙම මාසයේ",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "සංඛ්‍යාලේඛන",
+    "shareExperience":  "ඔබේ අත්දැකීම් බෙදාගන්න",
+    "filterToday":  "අද",
+    "customQuickLabel":  "අභිරුචි",
+    "exportRangeWeek":  "මෙම සතිය",
+    "tipSaved":  "ඉඟිය සුරැකිණි",
+    "onboardingContinue":  "දිගටම කරගෙන යන්න",
+    "onboardingMockCafeSub":  "සඳු - සිකු",
+    "entries":  "ඇතුළත් කිරීම්",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "සාමාන්‍ය පැයක අනුපාතය:",
+    "onboardingJobsBody":  "පිරිසිදු කාඩ්පත් සමඟ සෑම කාර්යයක්ම කළමනාකරණය කරන්න සහ PDF-සුදානම් සාරාංශ අපනයනය කරන්න.",
+    "onboardingPreviewPdf":  "PDF පෙරදසුන් කරන්න",
+    "noDataFound":  "දත්ත හමු නොවීය",
+    "deleteAllData":  "සියලුම දත්ත මකන්න",
+    "filterYear":  "වසර",
+    "navHistory":  "ඉතිහාසය",
+    "greetingMorning":  "සුභ උදෑසනක්!",
+    "onboardingProfessionalReports":  "වෘත්තීය වාර්තා",
+    "averageDayLabel":  "සාමාන්‍යය/දිනය:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "අපව අමතන්න",
+    "exportCsv":  "CSV අපනයනය කරන්න",
+    "navProfile":  "පැතිකඩ",
+    "navHome":  "නිවස",
+    "quickButtons":  "ඉක්මන් බොත්තම්",
+    "onboardingMockRestaurantTitle":  "ආපනශාලා රාත්රිය",
+    "currency":  "මුදල්",
+    "onboardingMockRestaurantSub":  "සිකු - ඉර",
+    "labelToday":  "අද",
+    "exportRangeToday":  "අද",
+    "recentEntries":  "මෑත ඇතුළත් කිරීම්",
+    "pdfReportReady":  "PDF වාර්තාව බෙදා ගැනීමට සූදානම්",
+    "undo":  "අහෝසි කරන්න",
+    "onboardingSkip":  "මඟ හරින්න",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "මාසය",
+    "deleteAll":  "සියල්ල මකන්න",
+    "rateApp":  "යෙදුම අගයන්න",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "රැකියාව බේරුණා",
+    "cancel":  "අවලංගු කරන්න",
+    "@@locale":  "si",
+    "exportRangeCustom":  "අභිරුචි පරාසය",
+    "exportFrom":  "From: {date}",
+    "export":  "අපනයනය කරන්න",
+    "contactUsLabel":  "අපව අමතන්න",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "හොඳම දිනය:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "ඉඟිය මකා ඇත (අස් කරන්න)",
+    "greetingAfternoon":  "සුභ සන්ධ්යාවක්!",
+    "roundUp":  "වටයන්න",
+    "onboardingWelcomeTitle":  "සාදරයෙන් පිළිගනිමු",
+    "reportPdfTooltip":  "PDF වාර්තා කරන්න",
+    "settingsSection":  "සැකසීම්",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "මෙම වේදිකාව මත අපනයනය ලබා ගත නොහැක.",
+    "quickButtonsUpdated":  "ඉක්මන් බොත්තම් යාවත්කාලීන කරන ලදී",
+    "pdfReports":  "PDF වාර්තා",
+    "supportSection":  "සහාය",
+    "filterWeek":  "සතිය",
+    "onboardingMockCafeTitle":  "කැෆේ මාරුව",
+    "onboardingWelcomeBody":  "සෑම ඉඟියක්ම නිරීක්ෂණය කර ඔබේ ඉපැයීම් පාලනය කර ගන්න.",
+    "dailySummary":  "දෛනික සාරාංශය",
+    "rateTheApp":  "යෙදුම ශ්‍රේණිගත කරන්න",
+    "noIncomeRecorded":  "මෙම දිනය සඳහා කිසිදු ආදායමක් වාර්තා කර නොමැත. එකක් එක් කිරීමට + බොත්තම තට්ටු කරන්න!",
+    "noTipsYet":  "තවම ඉඟි නැත. ඉහත බොත්තම් සහිත එකක් එක් කරන්න.",
+    "languageFrench":  "ප්රංශය",
+    "totalTipsLabel":  "සම්පූර්ණ ඉඟි:",
+    "addTip":  "+ ඉඟිය එක් කරන්න",
+    "totalEarningsLabel":  "මුළු ඉපැයීම්:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "අද $245.00",
+    "noTipsToExport":  "තවමත් නිර්යාත කිරීමට ඉඟි නැත.",
+    "noTipsForPeriod":  "තෝරාගත් කාල සීමාව සඳහා ඉඟි හමු නොවීය.",
+    "backupTips":  "ඔබගේ දත්ත සුරකින්න / ඔබගේ ඉඟි උපස්ථ කරන්න",
+    "jobs":  "රැකියා",
+    "greetingEvening":  "සුභ සන්ද්යාවක්!",
+    "languageSystemDefault":  "පද්ධති පෙරනිමිය",
+    "deleteThisTip":  "මෙම ඉඟිය මකන්නද?",
+    "deleteAllDataTitle":  "සියලු දත්ත මකන්නද?"
+}

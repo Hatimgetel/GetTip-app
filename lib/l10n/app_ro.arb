@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Exportați CSV",
+    "pdfExportUnavailable":  "Exportul PDF nu este disponibil pe această platformă.",
+    "delete":  "Şterge",
+    "thanksFeedback":  "Vă mulțumim pentru feedback!",
+    "languageEnglish":  "engleză",
+    "allDataDeleted":  "Toate datele au fost șterse",
+    "language":  "Limbă",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV a fost exportat cu succes",
+    "onboardingJobsTitle":  "Locuri de muncă multiple și rapoarte profesionale",
+    "totalEarnings":  "Câștigurile totale",
+    "roundUpSubtitle":  "Sumele rotunjite la numere întregi atunci când salvați sfaturi",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Acest lucru va elimina definitiv toate sfaturile salvate.",
+    "filters":  "Filtre",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Limbă",
+    "darkMode":  "Modul întunecat",
+    "customQuickSubtitle":  "Editați 10 USD · 20 USD · 50 USD",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Istorie",
+    "exportRangeMonth":  "Luna aceasta",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTICI",
+    "shareExperience":  "Împărtășiți-vă experiența",
+    "filterToday":  "Astăzi",
+    "customQuickLabel":  "Personalizat",
+    "exportRangeWeek":  "În această săptămână",
+    "tipSaved":  "Sfat salvat",
+    "onboardingContinue":  "Continua",
+    "onboardingMockCafeSub":  "Luni - Vineri",
+    "entries":  "Intrări",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tarif orar mediu:",
+    "onboardingJobsBody":  "Gestionați fiecare lucrare cu carduri curate și exportați rezumate gata pentru PDF.",
+    "onboardingPreviewPdf":  "Previzualizează PDF",
+    "noDataFound":  "Nu au fost găsite date",
+    "deleteAllData":  "Ștergeți toate datele",
+    "filterYear":  "An",
+    "navHistory":  "Istorie",
+    "greetingMorning":  "Bună dimineaţa!",
+    "onboardingProfessionalReports":  "Rapoarte profesionale",
+    "averageDayLabel":  "Medie/zi:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contactaţi-ne",
+    "exportCsv":  "Exportați CSV",
+    "navProfile":  "Profil",
+    "navHome":  "Acasă",
+    "quickButtons":  "Butoane rapide",
+    "onboardingMockRestaurantTitle":  "Noaptea restaurantului",
+    "currency":  "Valută",
+    "onboardingMockRestaurantSub":  "Vineri - Duminica",
+    "labelToday":  "Astăzi",
+    "exportRangeToday":  "Astăzi",
+    "recentEntries":  "Intrări recente",
+    "pdfReportReady":  "Raport PDF gata de partajat",
+    "undo":  "Anula",
+    "onboardingSkip":  "Sari peste",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Lună",
+    "deleteAll":  "Ștergeți tot",
+    "rateApp":  "Evaluați aplicația",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job salvat",
+    "cancel":  "Anula",
+    "@@locale":  "ro",
+    "exportRangeCustom":  "Interval personalizat",
+    "exportFrom":  "From: {date}",
+    "export":  "Export",
+    "contactUsLabel":  "Contactaţi-ne",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Cea mai buna zi:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Sfat șters (Anulați)",
+    "greetingAfternoon":  "Bună ziua!",
+    "roundUp":  "Ridica",
+    "onboardingWelcomeTitle":  "Bun venit",
+    "reportPdfTooltip":  "Raport PDF",
+    "settingsSection":  "SETĂRI",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Exportul nu este disponibil pe această platformă.",
+    "quickButtonsUpdated":  "Butoanele rapide actualizate",
+    "pdfReports":  "Rapoarte PDF",
+    "supportSection":  "SPRIJIN",
+    "filterWeek":  "Săptămână",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Urmăriți fiecare bacșiș și păstrați controlul asupra câștigurilor dvs.",
+    "dailySummary":  "Rezumat zilnic",
+    "rateTheApp":  "Evaluează aplicația",
+    "noIncomeRecorded":  "Nu s-au înregistrat venituri pentru această zi. Atingeți butonul + pentru a adăuga unul!",
+    "noTipsYet":  "Niciun sfat încă. Adăugați unul cu butoanele de mai sus.",
+    "languageFrench":  "Franceză",
+    "totalTipsLabel":  "Total sfaturi:",
+    "addTip":  "+ Adăugați un sfat",
+    "totalEarningsLabel":  "Câștiguri totale:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "245,00 USD astăzi",
+    "noTipsToExport":  "Încă nu există sfaturi de export.",
+    "noTipsForPeriod":  "Nu s-au găsit sfaturi pentru perioada selectată.",
+    "backupTips":  "Salvați-vă datele / Faceți backup pentru sfaturile dvs",
+    "jobs":  "Locuri de muncă",
+    "greetingEvening":  "Bună seara!",
+    "languageSystemDefault":  "Implicit de sistem",
+    "deleteThisTip":  "Ștergeți acest sfat?",
+    "deleteAllDataTitle":  "Ștergeți toate datele?"
+}

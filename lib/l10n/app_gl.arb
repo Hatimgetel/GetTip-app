@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Exportar CSV",
+    "pdfExportUnavailable":  "A exportación PDF non está dispoñible nesta plataforma.",
+    "delete":  "Eliminar",
+    "thanksFeedback":  "Grazas polos teus comentarios!",
+    "languageEnglish":  "inglés",
+    "allDataDeleted":  "Borráronse todos os datos",
+    "language":  "Linguaxe",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "Exportouse CSV correctamente",
+    "onboardingJobsTitle":  "Múltiples traballos e informes profesionais",
+    "totalEarnings":  "Ganancias totais",
+    "roundUpSubtitle":  "As cantidades redondeadas a números enteiros ao gardar consellos",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Isto eliminará permanentemente todos os consellos gardados.",
+    "filters":  "Filtros",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Linguaxe",
+    "darkMode":  "Modo escuro",
+    "customQuickSubtitle":  "Editar $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Historia",
+    "exportRangeMonth":  "Este mes",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "ESTADÍSTICAS",
+    "shareExperience":  "Comparte a túa experiencia",
+    "filterToday":  "Hoxe",
+    "customQuickLabel":  "Personalizado",
+    "exportRangeWeek":  "Esta semana",
+    "tipSaved":  "Gardouse a suxestión",
+    "onboardingContinue":  "Continuar",
+    "onboardingMockCafeSub":  "Lun - Ven",
+    "entries":  "Entradas",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Tarifa media por hora:",
+    "onboardingJobsBody":  "Xestiona cada traballo con tarxetas limpas e exporta resumos preparados para PDF.",
+    "onboardingPreviewPdf":  "Vista previa do PDF",
+    "noDataFound":  "Non se atoparon datos",
+    "deleteAllData":  "Eliminar todos os datos",
+    "filterYear":  "Ano",
+    "navHistory":  "Historia",
+    "greetingMorning":  "Bos días!",
+    "onboardingProfessionalReports":  "Informes profesionais",
+    "averageDayLabel":  "Media/día:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Contacta connosco",
+    "exportCsv":  "Exportar CSV",
+    "navProfile":  "Perfil",
+    "navHome":  "Casa",
+    "quickButtons":  "Botóns rápidos",
+    "onboardingMockRestaurantTitle":  "Noite Restaurante",
+    "currency":  "Moeda",
+    "onboardingMockRestaurantSub":  "Ven - Dom",
+    "labelToday":  "Hoxe",
+    "exportRangeToday":  "Hoxe",
+    "recentEntries":  "Entradas recentes",
+    "pdfReportReady":  "Informe PDF listo para compartir",
+    "undo":  "Desfacer",
+    "onboardingSkip":  "Saltar",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mes",
+    "deleteAll":  "Eliminar todo",
+    "rateApp":  "Valorar aplicación",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Traballo gardado",
+    "cancel":  "Cancelar",
+    "@@locale":  "gl",
+    "exportRangeCustom":  "Rango personalizado",
+    "exportFrom":  "From: {date}",
+    "export":  "Exportar",
+    "contactUsLabel":  "Contacta connosco",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Mellor día:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Suxestión eliminada (Desfacer)",
+    "greetingAfternoon":  "Boas tardes!",
+    "roundUp":  "Redondear",
+    "onboardingWelcomeTitle":  "Benvido",
+    "reportPdfTooltip":  "Informe PDF",
+    "settingsSection":  "CONFIGURACIÓN",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "A exportación non está dispoñible nesta plataforma.",
+    "quickButtonsUpdated":  "Botóns rápidos actualizados",
+    "pdfReports":  "Informes PDF",
+    "supportSection":  "APOIO",
+    "filterWeek":  "Semana",
+    "onboardingMockCafeTitle":  "Quenda de Café",
+    "onboardingWelcomeBody":  "Rastrexa cada consello e mantén o control das túas ganancias.",
+    "dailySummary":  "Resumo diario",
+    "rateTheApp":  "Valora a aplicación",
+    "noIncomeRecorded":  "Non se rexistraron ingresos para este día. Toca o botón + para engadir un!",
+    "noTipsYet":  "Aínda non hai consellos. Engade un cos botóns de arriba.",
+    "languageFrench":  "Francés",
+    "totalTipsLabel":  "Suxestións totais:",
+    "addTip":  "+ Engadir consello",
+    "totalEarningsLabel":  "Ganancias totais:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 hoxe",
+    "noTipsToExport":  "Aínda non hai consellos para exportar.",
+    "noTipsForPeriod":  "Non se atoparon consellos para o período seleccionado.",
+    "backupTips":  "Garda os teus datos / Fai unha copia de seguranza dos teus consellos",
+    "jobs":  "Traballos",
+    "greetingEvening":  "Boas noites!",
+    "languageSystemDefault":  "Sistema predeterminado",
+    "deleteThisTip":  "Queres eliminar este consello?",
+    "deleteAllDataTitle":  "Queres eliminar todos os datos?"
+}

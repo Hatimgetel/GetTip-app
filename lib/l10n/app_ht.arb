@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Ekspòte CSV",
+    "pdfExportUnavailable":  "Ekspòtasyon PDF pa disponib sou platfòm sa a.",
+    "delete":  "Efase",
+    "thanksFeedback":  "Mèsi pou fidbak ou!",
+    "languageEnglish":  "angle",
+    "allDataDeleted":  "Tout done yo efase",
+    "language":  "Lang",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV ekspòte avèk siksè",
+    "onboardingJobsTitle":  "Travay miltip ak rapò pwofesyonèl",
+    "totalEarnings":  "Salè Total",
+    "roundUpSubtitle":  "Awondi kantite lajan yo ak nimewo antye lè w ap sove konsèy",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Sa a pral nèt ale retire tout konsèy sove.",
+    "filters":  "Filtè",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Lang",
+    "darkMode":  "Mòd nwa",
+    "customQuickSubtitle":  "Edit $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Istwa",
+    "exportRangeMonth":  "Mwa sa a",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIK",
+    "shareExperience":  "Pataje eksperyans ou",
+    "filterToday":  "Jodi a",
+    "customQuickLabel":  "Custom",
+    "exportRangeWeek":  "Semèn sa a",
+    "tipSaved":  "Konsèy sove",
+    "onboardingContinue":  "Kontinye",
+    "onboardingMockCafeSub":  "Lendi - Vendredi",
+    "entries":  "Antre yo",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Mwayèn to èdtan:",
+    "onboardingJobsBody":  "Jere chak travay ak kat pwòp epi ekspòte rezime PDF pare.",
+    "onboardingPreviewPdf":  "Preview PDF",
+    "noDataFound":  "Pa gen done yo jwenn",
+    "deleteAllData":  "Efase tout done yo",
+    "filterYear":  "Ane",
+    "navHistory":  "Istwa",
+    "greetingMorning":  "Bonjou!",
+    "onboardingProfessionalReports":  "Rapò pwofesyonèl",
+    "averageDayLabel":  "Mwayèn/jou:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontakte nou",
+    "exportCsv":  "Ekspòte CSV",
+    "navProfile":  "Profile",
+    "navHome":  "Lakay",
+    "quickButtons":  "Bouton rapid",
+    "onboardingMockRestaurantTitle":  "Nwit Restoran",
+    "currency":  "Lajan",
+    "onboardingMockRestaurantSub":  "Vendredi - Solèy",
+    "labelToday":  "Jodi a",
+    "exportRangeToday":  "Jodi a",
+    "recentEntries":  "Dènye antre yo",
+    "pdfReportReady":  "Rapò PDF pare pou pataje",
+    "undo":  "Defèt",
+    "onboardingSkip":  "Sote",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Mwa",
+    "deleteAll":  "Efase tout",
+    "rateApp":  "To app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Jòb sove",
+    "cancel":  "Anile",
+    "@@locale":  "ht",
+    "exportRangeCustom":  "Custom Range",
+    "exportFrom":  "From: {date}",
+    "export":  "Ekspòtasyon",
+    "contactUsLabel":  "Kontakte nou",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Pi bon jou:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Konsèy efase (Anfèt)",
+    "greetingAfternoon":  "Bon apremidi!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Byenvini",
+    "reportPdfTooltip":  "Rapò PDF",
+    "settingsSection":  "PARAMÈT",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Ekspòtasyon pa disponib sou platfòm sa a.",
+    "quickButtonsUpdated":  "Bouton rapid mete ajou",
+    "pdfReports":  "Rapò PDF yo",
+    "supportSection":  "SIPÒ",
+    "filterWeek":  "Semèn",
+    "onboardingMockCafeTitle":  "Kafe Shift",
+    "onboardingWelcomeBody":  "Swiv chak konsèy epi rete nan kontwòl salè ou.",
+    "dailySummary":  "Rezime chak jou",
+    "rateTheApp":  "Evalye app a",
+    "noIncomeRecorded":  "Pa gen revni anrejistre pou jou sa a. Tape bouton + pou ajoute youn!",
+    "noTipsYet":  "Pa gen konsèy ankò. Ajoute youn ak bouton ki anwo yo.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Total konsèy:",
+    "addTip":  "+ Ajoute Konsèy",
+    "totalEarningsLabel":  "Salè total:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245.00 Jodi a",
+    "noTipsToExport":  "Pa gen konsèy pou ekspòte ankò.",
+    "noTipsForPeriod":  "Pa jwenn konsèy pou peryòd chwazi a.",
+    "backupTips":  "Sove done ou / Sovgad konsèy ou yo",
+    "jobs":  "Travay",
+    "greetingEvening":  "Bonswa!",
+    "languageSystemDefault":  "Sistèm default",
+    "deleteThisTip":  "Efase konsèy sa a?",
+    "deleteAllDataTitle":  "Efase tout done?"
+}

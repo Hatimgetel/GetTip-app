@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Voer CSV uit",
+    "pdfExportUnavailable":  "PDF-uitvoer is nie op hierdie platform beskikbaar nie.",
+    "delete":  "Vee uit",
+    "thanksFeedback":  "Dankie vir jou terugvoer!",
+    "languageEnglish":  "Engels",
+    "allDataDeleted":  "Alle data is uitgevee",
+    "language":  "Taal",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV is suksesvol uitgevoer",
+    "onboardingJobsTitle":  "Veelvuldige poste en professionele verslae",
+    "totalEarnings":  "Totale verdienste",
+    "roundUpSubtitle":  "Rond bedrae af tot heelgetalle wanneer wenke gestoor word",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Dit sal alle gestoorde wenke permanent verwyder.",
+    "filters":  "Filters",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Taal",
+    "darkMode":  "Donker modus",
+    "customQuickSubtitle":  "Wysig $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Geskiedenis",
+    "exportRangeMonth":  "Hierdie Maand",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATISTIEK",
+    "shareExperience":  "Deel jou ervaring",
+    "filterToday":  "Vandag",
+    "customQuickLabel":  "Pasgemaak",
+    "exportRangeWeek":  "Hierdie week",
+    "tipSaved":  "Wenk is gestoor",
+    "onboardingContinue":  "Gaan voort",
+    "onboardingMockCafeSub":  "Ma - Vr",
+    "entries":  "Inskrywings",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Gemiddelde uurlikse tarief:",
+    "onboardingJobsBody":  "Bestuur elke werk met skoon kaarte en voer PDF-gereed opsommings uit.",
+    "onboardingPreviewPdf":  "Voorskou PDF",
+    "noDataFound":  "Geen data gevind nie",
+    "deleteAllData":  "Vee alle data uit",
+    "filterYear":  "Jaar",
+    "navHistory":  "Geskiedenis",
+    "greetingMorning":  "Goeie More!",
+    "onboardingProfessionalReports":  "Professionele verslae",
+    "averageDayLabel":  "Gemiddeld/dag:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Kontak ons",
+    "exportCsv":  "Voer CSV uit",
+    "navProfile":  "Profiel",
+    "navHome":  "Tuis",
+    "quickButtons":  "Vinnige knoppies",
+    "onboardingMockRestaurantTitle":  "Restaurantaand",
+    "currency":  "Geldeenheid",
+    "onboardingMockRestaurantSub":  "Vry - So",
+    "labelToday":  "Vandag",
+    "exportRangeToday":  "Vandag",
+    "recentEntries":  "Onlangse inskrywings",
+    "pdfReportReady":  "PDF-verslag gereed om te deel",
+    "undo":  "Ontdoen",
+    "onboardingSkip":  "Slaan oor",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Maand",
+    "deleteAll":  "Vee alles uit",
+    "rateApp":  "Beoordeel app",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Job gered",
+    "cancel":  "Kanselleer",
+    "@@locale":  "af",
+    "exportRangeCustom":  "Pasgemaakte reeks",
+    "exportFrom":  "From: {date}",
+    "export":  "Uitvoer",
+    "contactUsLabel":  "Kontak ons",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Beste dag:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Wenk is uitgevee (Ontdoen)",
+    "greetingAfternoon":  "Goeie middag!",
+    "roundUp":  "Rond af",
+    "onboardingWelcomeTitle":  "Welkom",
+    "reportPdfTooltip":  "Rapporteer PDF",
+    "settingsSection":  "INSTELLINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Uitvoer is nie op hierdie platform beskikbaar nie.",
+    "quickButtonsUpdated":  "Vinnige knoppies opgedateer",
+    "pdfReports":  "PDF verslae",
+    "supportSection":  "ONDERSTEUN",
+    "filterWeek":  "Week",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Volg elke wenk en bly in beheer van jou verdienste.",
+    "dailySummary":  "Daaglikse Opsomming",
+    "rateTheApp":  "Beoordeel die toepassing",
+    "noIncomeRecorded":  "Geen inkomste aangeteken vir hierdie dag nie. Tik die +-knoppie om een ​​by te voeg!",
+    "noTipsYet":  "Nog geen wenke nie. Voeg een by met die knoppies hierbo.",
+    "languageFrench":  "Frans",
+    "totalTipsLabel":  "Totale wenke:",
+    "addTip":  "+ Voeg wenk by",
+    "totalEarningsLabel":  "Totale verdienste:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 vandag",
+    "noTipsToExport":  "Nog geen wenke om uit te voer nie.",
+    "noTipsForPeriod":  "Geen wenke vir geselekteerde tydperk gevind nie.",
+    "backupTips":  "Stoor jou data / Rugsteun jou wenke",
+    "jobs":  "Werksgeleenthede",
+    "greetingEvening":  "Goeienaand!",
+    "languageSystemDefault":  "Stelsel verstek",
+    "deleteThisTip":  "Vee hierdie wenk uit?",
+    "deleteAllDataTitle":  "Vee alle data uit?"
+}

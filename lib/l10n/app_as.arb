@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "CSV ৰপ্তানি কৰক",
+    "pdfExportUnavailable":  "এই প্লেটফৰ্মত PDF ৰপ্তানি উপলব্ধ নহয়।",
+    "delete":  "বিলোপ",
+    "thanksFeedback":  "আপোনাৰ মতামতৰ বাবে ধন্যবাদ!",
+    "languageEnglish":  "ইংৰাজী",
+    "allDataDeleted":  "সকলো তথ্য মচি পেলোৱা হৈছে",
+    "language":  "ভাষা",
+    "appTitle":  "মাইটিপ ট্ৰেকাৰ",
+    "csvExported":  "CSV সফলভাৱে ৰপ্তানি কৰা হৈছে",
+    "onboardingJobsTitle":  "একাধিক চাকৰি আৰু পেছাদাৰী প্ৰতিবেদন",
+    "totalEarnings":  "মুঠ উপাৰ্জন",
+    "roundUpSubtitle":  "টিপচ্ চেভ কৰাৰ সময়ত গোল সংখ্যাৰ পৰিমাণ পূৰ্ণসংখ্যা",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "ইয়াৰ ফলত সকলো সংৰক্ষিত টিপছ স্থায়ীভাৱে আঁতৰাই পেলোৱা হ’ব।",
+    "filters":  "ফিল্টাৰসমূহ",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "ভাষা",
+    "darkMode":  "ডাৰ্ক মোড",
+    "customQuickSubtitle":  "সম্পাদনা কৰক $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "ইতিহাস",
+    "exportRangeMonth":  "এই মাহত",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "আপোনাৰ অভিজ্ঞতা শ্বেয়াৰ কৰক",
+    "filterToday":  "আজি",
+    "customQuickLabel":  "অনুকুলন কৰা",
+    "exportRangeWeek":  "এই সপ্তাহত",
+    "tipSaved":  "টিপ সংৰক্ষণ কৰা হৈছে",
+    "onboardingContinue":  "অব্যাহত ৰাখক",
+    "onboardingMockCafeSub":  "সোম - শুকুৰবাৰ",
+    "entries":  "প্ৰৱেশ পত্ৰ",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "ঘণ্টাৰ গড় হাৰ:",
+    "onboardingJobsBody":  "প্ৰতিটো কাম পৰিষ্কাৰ কাৰ্ডৰ সৈতে পৰিচালনা কৰক আৰু PDF-প্ৰস্তুত সাৰাংশ ৰপ্তানি কৰক।",
+    "onboardingPreviewPdf":  "পিডিএফৰ পূৰ্বদৰ্শন",
+    "noDataFound":  "কোনো তথ্য পোৱা নগ\u0027ল",
+    "deleteAllData":  "সকলো তথ্য মচি পেলাওক",
+    "filterYear":  "বছৰ",
+    "navHistory":  "ইতিহাস",
+    "greetingMorning":  "সুপ্ৰভাত!",
+    "onboardingProfessionalReports":  "পেছাদাৰী প্ৰতিবেদন",
+    "averageDayLabel":  "গড়/দিন:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "আমাৰ সৈতে যোগাযোগ কৰক",
+    "exportCsv":  "CSV ৰপ্তানি কৰক",
+    "navProfile":  "ৰূপৰেখা",
+    "navHome":  "গৃহ",
+    "quickButtons":  "দ্ৰুত বুটাম",
+    "onboardingMockRestaurantTitle":  "ৰেষ্টুৰেণ্ট নাইট",
+    "currency":  "মুদ্ৰা",
+    "onboardingMockRestaurantSub":  "শুক্ৰ - ৰবি",
+    "labelToday":  "আজি",
+    "exportRangeToday":  "আজি",
+    "recentEntries":  "শেহতীয়া প্ৰৱেশ",
+    "pdfReportReady":  "শ্বেয়াৰ কৰিবলৈ সাজু PDF ৰিপৰ্ট",
+    "undo":  "পূৰ্বৱৰ্তী অৱস্থালৈ ঘূৰাই আনিব",
+    "onboardingSkip":  "বাদ দিয়া",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "মাহ",
+    "deleteAll":  "সকলো মচি পেলাওক",
+    "rateApp":  "ৰেট এপ",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "চাকৰি ৰক্ষা কৰিলে",
+    "cancel":  "বাতিল কৰক",
+    "@@locale":  "as",
+    "exportRangeCustom":  "কাষ্টম ৰেঞ্জ",
+    "exportFrom":  "From: {date}",
+    "export":  "ৰপ্তানি",
+    "contactUsLabel":  "আমাৰ সৈতে যোগাযোগ কৰক",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "শ্ৰেষ্ঠ দিন:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "টিপ ডিলিট কৰা হৈছে (Undo)",
+    "greetingAfternoon":  "শুভ আবেলি!",
+    "roundUp":  "ৰাউণ্ড আপ",
+    "onboardingWelcomeTitle":  "স্বাগতম",
+    "reportPdfTooltip":  "ৰিপৰ্ট পিডিএফ",
+    "settingsSection":  "ছেটিংছ",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "এই প্লেটফৰ্মত ৰপ্তানি উপলব্ধ নহয়।",
+    "quickButtonsUpdated":  "দ্ৰুত বুটামসমূহ আপডেট কৰা হৈছে",
+    "pdfReports":  "পিডিএফ ৰিপৰ্ট",
+    "supportSection":  "সমৰ্থন",
+    "filterWeek":  "সপ্তাহ",
+    "onboardingMockCafeTitle":  "কেফে শ্বিফ্ট",
+    "onboardingWelcomeBody":  "প্ৰতিটো টিপ ট্ৰেক কৰক আৰু আপোনাৰ উপাৰ্জনৰ নিয়ন্ত্ৰণত থাকক।",
+    "dailySummary":  "দৈনিক সাৰাংশ",
+    "rateTheApp":  "এপটোক ৰেটিং দিয়ক",
+    "noIncomeRecorded":  "এই দিনটোৰ বাবে কোনো ধৰণৰ আয়ৰ ৰেকৰ্ড কৰা হোৱা নাই। এটা যোগ কৰিবলৈ + বুটামটো টেপ কৰক!",
+    "noTipsYet":  "এতিয়াও কোনো টিপছ নাই। ওপৰৰ বুটামবোৰৰ সৈতে এটা যোগ কৰক।",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "মুঠ টিপচ্:",
+    "addTip":  "+ টিপ যোগ কৰক",
+    "totalEarningsLabel":  "মুঠ উপাৰ্জন:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ ২৪৫.০০ আজি",
+    "noTipsToExport":  "ৰপ্তানি কৰিবলৈ এতিয়াও কোনো টিপছ নাই।",
+    "noTipsForPeriod":  "নিৰ্বাচিত সময়ৰ বাবে কোনো টিপছ পোৱা নগ\u0027ল।",
+    "backupTips":  "আপোনাৰ ডাটা সংৰক্ষণ কৰক / আপোনাৰ টিপছ বেকআপ লওক",
+    "jobs":  "চাকৰি",
+    "greetingEvening":  "শুভ সন্ধিয়া!",
+    "languageSystemDefault":  "ব্যৱস্থাপ্ৰণালীৰ অবিকল্পিত",
+    "deleteThisTip":  "এই টিপচ্ মচি পেলাওক?",
+    "deleteAllDataTitle":  "সকলো তথ্য মচি পেলাওক?"
+}

@@ -1,0 +1,159 @@
+{
+    "exportCsvTitle":  "Export CSV",
+    "pdfExportUnavailable":  "Li ser vê platformê hinartina PDF-ê tune.",
+    "delete":  "Jêbirin",
+    "thanksFeedback":  "Spas ji bo nêrîna we!",
+    "languageEnglish":  "Îngilîzî",
+    "allDataDeleted":  "Hemû dane jêbirin",
+    "language":  "Ziman",
+    "appTitle":  "MyTip Tracker",
+    "csvExported":  "CSV bi serkeftî hat hinartin",
+    "onboardingJobsTitle":  "Gelek Kar û Raporên Pîşeyî",
+    "totalEarnings":  "Tevahiya qezencê",
+    "roundUpSubtitle":  "Dema ku şîretan hildibijêre, dor bi tevahî jimaran e",
+    "exportTo":  "To: {date}",
+    "deleteAllDataBody":  "Ev ê hemî serişteyên tomarkirî bi domdarî rabike.",
+    "filters":  "Parzûnên",
+    "comingSoon":  "{feature} coming soon",
+    "@weekOf":  {
+                    "placeholders":  {
+                                         "date":  {
+                                                      "type":  "String"
+                                                  }
+                                     }
+                },
+    "languageTitle":  "Ziman",
+    "darkMode":  "Moda tarî",
+    "customQuickSubtitle":  "Biguherîne $10 · $20 · $50",
+    "versionLabel":  "Version {version}",
+    "weekOf":  "Week of {date}",
+    "historyTitle":  "Dîrok",
+    "exportRangeMonth":  "Vê mehê",
+    "@versionLabel":  {
+                          "placeholders":  {
+                                               "version":  {
+                                                               "type":  "String"
+                                                           }
+                                           }
+                      },
+    "statsSection":  "STATS",
+    "shareExperience":  "Tecrûbeya xwe parve bikin",
+    "filterToday":  "Îro",
+    "customQuickLabel":  "Hûnbunî",
+    "exportRangeWeek":  "Vê Hefteyê",
+    "tipSaved":  "Tip xilas bû",
+    "onboardingContinue":  "Berdewamkirin",
+    "onboardingMockCafeSub":  "Duşem - În",
+    "entries":  "Entries",
+    "@exportTo":  {
+                      "placeholders":  {
+                                           "date":  {
+                                                        "type":  "String"
+                                                    }
+                                       }
+                  },
+    "avgHourlyRateLabel":  "Rêjeya navîn a saetê:",
+    "onboardingJobsBody":  "Her karekî bi qertên paqij birêve bibin û kurteyên PDF-amade derxînin.",
+    "onboardingPreviewPdf":  "Pêşdîtin PDF",
+    "noDataFound":  "Dane nehat dîtin",
+    "deleteAllData":  "Hemî daneyan jêbirin",
+    "filterYear":  "Sal",
+    "navHistory":  "Dîrok",
+    "greetingMorning":  "Beyanî baş!",
+    "onboardingProfessionalReports":  "Raporên Pîşeyî",
+    "averageDayLabel":  "Navîn/roj:",
+    "@currencySet":  {
+                         "placeholders":  {
+                                              "code":  {
+                                                           "type":  "String"
+                                                       }
+                                          }
+                     },
+    "contactUs":  "Paqij bûn",
+    "exportCsv":  "Export CSV",
+    "navProfile":  "Tengal",
+    "navHome":  "Xane",
+    "quickButtons":  "Bişkojkên bilez",
+    "onboardingMockRestaurantTitle":  "Restaurant Night",
+    "currency":  "Diravcins",
+    "onboardingMockRestaurantSub":  "În - Yekşem",
+    "labelToday":  "Îro",
+    "exportRangeToday":  "Îro",
+    "recentEntries":  "Têketinên dawî",
+    "pdfReportReady":  "Rapora PDF ji bo parvekirinê amade ye",
+    "undo":  "Undo",
+    "onboardingSkip":  "Hilperkîn",
+    "@hourlyRateFormat":  {
+                              "placeholders":  {
+                                                   "rate":  {
+                                                                "type":  "String"
+                                                            }
+                                               }
+                          },
+    "filterMonth":  "Meh",
+    "deleteAll":  "Hemî jêbirin",
+    "rateApp":  "App rate",
+    "currencySet":  "Currency set to {code}",
+    "jobSaved":  "Kar xilas kirin",
+    "cancel":  "Bişûndekirin",
+    "@@locale":  "ku",
+    "exportRangeCustom":  "Range Custom",
+    "exportFrom":  "From: {date}",
+    "export":  "Eksport",
+    "contactUsLabel":  "Paqij bûn",
+    "@comingSoon":  {
+                        "placeholders":  {
+                                             "feature":  {
+                                                             "type":  "String"
+                                                         }
+                                         }
+                    },
+    "@tipsCount":  {
+                       "placeholders":  {
+                                            "count":  {
+                                                          "type":  "int"
+                                                      }
+                                        }
+                   },
+    "bestDayLabel":  "Roja herî baş:",
+    "tipsCount":  "{count, plural, =0{0 tips} =1{1 tip} other{{count} tips}}",
+    "tipDeletedUndo":  "Serişte hat jêbirin (Rêveke)",
+    "greetingAfternoon":  "Paş nîvro!",
+    "roundUp":  "Round Up",
+    "onboardingWelcomeTitle":  "Bi xêr hatî",
+    "reportPdfTooltip":  "PDF-ê rapor bikin",
+    "settingsSection":  "SETTINGS",
+    "languageArabic":  "العربية",
+    "@exportFrom":  {
+                        "placeholders":  {
+                                             "date":  {
+                                                          "type":  "String"
+                                                      }
+                                         }
+                    },
+    "exportUnavailable":  "Hinardekirin li ser vê platformê tune.",
+    "quickButtonsUpdated":  "Bişkokên bilez nûve kirin",
+    "pdfReports":  "Raporên PDF",
+    "supportSection":  "ALÎKARÎ",
+    "filterWeek":  "Hefte",
+    "onboardingMockCafeTitle":  "Cafe Shift",
+    "onboardingWelcomeBody":  "Her serişteyê bişopînin û di kontrola dahata xwe de bimînin.",
+    "dailySummary":  "Kurteya rojane",
+    "rateTheApp":  "Serlêdanê binirxînin",
+    "noIncomeRecorded":  "Ji bo vê rojê tu hatinek nehatiye tomarkirin. Bişkojka + bikirtînin da ku yek lê zêde bikin!",
+    "noTipsYet":  "Hê şîret nînin. Bi bişkokên li jor yek zêde bikin.",
+    "languageFrench":  "Français",
+    "totalTipsLabel":  "Serişteyên tevahî:",
+    "addTip":  "+ Serişteyê zêde bikin",
+    "totalEarningsLabel":  "Tevahiya hatinê:",
+    "hourlyRateFormat":  "{rate}/hr",
+    "onboardingDemoToday":  "$ 245,00 Îro",
+    "noTipsToExport":  "Hê şîretên hinardekirinê nînin.",
+    "noTipsForPeriod":  "Ti serişte ji bo heyama hilbijartî nehat dîtin.",
+    "backupTips":  "Daneyên xwe hilînin / Serişteyên xwe hilînin",
+    "jobs":  "Jobs",
+    "greetingEvening":  "Êvar baş!",
+    "languageSystemDefault":  "System default",
+    "deleteThisTip":  "Vê serişteyê jê bibe?",
+    "deleteAllDataTitle":  "Hemî daneyan jê bibe?"
+}
