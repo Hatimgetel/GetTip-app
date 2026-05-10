@@ -29,6 +29,11 @@ class StorageService {
     tips.sort((TipEntry a, TipEntry b) {
       final int byDate = b.date.compareTo(a.date);
       if (byDate != 0) return byDate;
+      final int? ai = int.tryParse(a.id);
+      final int? bi = int.tryParse(b.id);
+      if (ai != null && bi != null) {
+        return bi.compareTo(ai);
+      }
       return b.id.compareTo(a.id);
     });
     return tips;

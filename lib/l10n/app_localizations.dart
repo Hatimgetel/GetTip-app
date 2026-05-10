@@ -1123,6 +1123,24 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Open apps to share this {fileType}'**
   String openAppsToShareFile(String fileType);
+
+  /// No description provided for @noJobDialogTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'No job found'**
+  String get noJobDialogTitle;
+
+  /// No description provided for @noJobDialogMessage.
+  ///
+  /// In en, this message translates to:
+  /// **'Please create a job first.'**
+  String get noJobDialogMessage;
+
+  /// No description provided for @noJobDialogCreateJob.
+  ///
+  /// In en, this message translates to:
+  /// **'Create job'**
+  String get noJobDialogCreateJob;
 }
 
 class _AppLocalizationsDelegate

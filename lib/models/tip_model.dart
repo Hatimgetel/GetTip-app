@@ -128,3 +128,10 @@ class TipModelAdapter extends TypeAdapter<TipModel> {
     return value.contains('T') && value.contains('-');
   }
 }
+
+/// Legacy adapter kept to read old persisted Hive records that were written
+/// with typeId 24 in previous builds.
+class LegacyTipModelAdapter extends TipModelAdapter {
+  @override
+  final int typeId = 24;
+}

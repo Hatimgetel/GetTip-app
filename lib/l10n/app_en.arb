@@ -217,5 +217,8 @@
         "type": "String"
       }
     }
-  }
+  },
+  "noJobDialogTitle": "No job found",
+  "noJobDialogMessage": "Please create a job first.",
+  "noJobDialogCreateJob": "Create job"
 }

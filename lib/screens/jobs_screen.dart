@@ -44,6 +44,9 @@ class _JobsScreenState extends State<JobsScreen> {
           !_jobs.any((JobEntry j) => j.id == _activeJobId)) {
         _activeJobId = null;
       }
+      if (_jobs.isNotEmpty && _activeJobId == null) {
+        _activeJobId = _jobs.first.id;
+      }
     });
   }
 
@@ -84,7 +87,7 @@ class _JobsScreenState extends State<JobsScreen> {
         return AlertDialog(
           title: Text(l10n.deleteJobTitle),
           content: Text(
-            l10n.deleteJobBody(job.title),
+            l10n.deleteJobBody(_jobDisplayName(job)),
           ),
           actions: <Widget>[
             TextButton(
@@ -102,6 +105,12 @@ class _JobsScreenState extends State<JobsScreen> {
     if (confirmed != true) return;
     await widget.storage.deleteJob(job.id);
     await _loadJobs();
+  }
+
+  String _jobDisplayName(JobEntry job) {
+    final String employer = (job.employer ?? '').trim();
+    if (employer.isEmpty) return job.title;
+    return '${job.title} — $employer';
   }
 
   void _confirmSelection() {
@@ -140,6 +149,7 @@ class _JobsScreenState extends State<JobsScreen> {
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 'fab_jobs',
         onPressed: _addJob,
         backgroundColor: AppTheme.brandOrange,
         foregroundColor: Colors.white,

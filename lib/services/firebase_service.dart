@@ -30,6 +30,20 @@ class FirebaseService {
       return auth.currentUser;
     }
 
+    // Cold start: Firebase may restore the persisted anonymous session a few
+    // ticks after startup. Brief waits avoid replacing the uid unnecessarily.
+    for (final Duration pause in <Duration>[
+      Duration.zero,
+      const Duration(milliseconds: 50),
+      const Duration(milliseconds: 150),
+      const Duration(milliseconds: 400),
+    ]) {
+      await Future<void>.delayed(pause);
+      if (auth.currentUser != null) {
+        return auth.currentUser;
+      }
+    }
+
     const int maxAttempts = 3;
     for (int attempt = 0; attempt < maxAttempts; attempt++) {
       try {

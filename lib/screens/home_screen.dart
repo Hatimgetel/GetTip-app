@@ -1,11 +1,10 @@
 ﻿import 'dart:async';
 
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:intl/intl.dart';
 import 'package:package_info_plus/package_info_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../l10n/app_localizations.dart';
 import '../l10n/world_languages.dart';
@@ -14,6 +13,7 @@ import '../models/tip_entry.dart';
 import '../services/app_settings_service.dart';
 import '../services/quick_add_settings_service.dart';
 import '../services/storage_service.dart';
+import '../services/sync_service.dart';
 import '../services/tip_export.dart';
 import '../services/tip_pdf_export.dart';
 import '../theme/app_theme.dart';
@@ -25,6 +25,25 @@ import '../widgets/tip_list_item.dart';
 import 'add_entry_screen.dart';
 import 'history_tab.dart';
 import 'jobs_screen.dart';
+
+/// When there is at least one job, always pick a concrete active job (never
+/// `null`, which previously meant "all jobs" on the dashboard).
+String? _preferredActiveJobId({
+  required List<JobEntry> jobs,
+  required String? currentActiveId,
+  required String? persistedActiveJobId,
+}) {
+  if (jobs.isEmpty) return null;
+  if (currentActiveId != null &&
+      jobs.any((JobEntry j) => j.id == currentActiveId)) {
+    return currentActiveId;
+  }
+  if (persistedActiveJobId != null &&
+      jobs.any((JobEntry j) => j.id == persistedActiveJobId)) {
+    return persistedActiveJobId;
+  }
+  return jobs.first.id;
+}
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({
@@ -45,14 +64,13 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  static const String _bannerAdUnitId =
-      'ca-app-pub-3940256099942544/6300978111';
-
   final QuickAddSettingsService _quickAddSettingsService =
       QuickAddSettingsService();
   final AppSettingsService _appSettingsService = AppSettingsService();
 
   List<TipEntry> _tips = <TipEntry>[];
+  /// Sum of [TipEntry.amount] for [_tips]; kept in lockstep whenever [_tips] changes.
+  double _totalTips = 0;
   List<JobEntry> _jobs = <JobEntry>[];
   List<double> _quickAddValues = kDefaultQuickAddValues;
   List<String> _quickAddNotes = kDefaultQuickAddNotes;
@@ -62,8 +80,6 @@ class _HomeScreenState extends State<HomeScreen> {
   int _selectedIndex = 0;
   late DateTime _selectedDay;
   String? _activeJobId;
-  BannerAd? _bannerAd;
-  bool _isBannerAdReady = false;
   String _appVersion = '';
   String? _dataLoadError;
 
@@ -74,42 +90,39 @@ class _HomeScreenState extends State<HomeScreen> {
     _selectedDay = DateTime(n.year, n.month, n.day);
     unawaited(_loadPackageVersion());
     unawaited(_initializeHomeData());
+  }
 
-    if (!kIsWeb) {
-      _bannerAd = BannerAd(
-        adUnitId: _bannerAdUnitId,
-        size: AdSize.banner,
-        request: const AdRequest(),
-        listener: BannerAdListener(
-          onAdLoaded: (_) {
-            if (mounted) {
-              setState(() => _isBannerAdReady = true);
-            }
-          },
-          onAdFailedToLoad: (Ad ad, LoadAdError error) {
-            _bannerAd = null;
-            _isBannerAdReady = false;
-            ad.dispose();
-            if (mounted) {
-              setState(() {});
-            }
-          },
-        ),
-      );
-      _bannerAd!.load();
-    }
+  /// Recomputes [_totalTips] from [_tips].
+  void _updateTotal() {
+    _totalTips = _tips.fold<double>(
+      0,
+      (double sum, TipEntry tip) => sum + tip.amount,
+    );
+    debugPrint('_updateTotal: total=$_totalTips, tips=${_tips.length}');
   }
 
   Future<void> _initializeHomeData() async {
+    final DateTime? persistedDay =
+        await _appSettingsService.loadDashboardSelectedDay();
+    if (!mounted) return;
+    if (persistedDay != null) {
+      setState(() => _selectedDay = persistedDay);
+    }
     // Keep the dashboard behind a loader until persisted data is available.
     await _loadPersistedData();
     await Future.wait(<Future<void>>[_loadQuickAddValues(), _loadAppSettings()]);
+    unawaited(_syncThenReloadTips());
   }
 
-  @override
-  void dispose() {
-    _bannerAd?.dispose();
-    super.dispose();
+  Future<void> _syncThenReloadTips() async {
+    try {
+      await SyncService.instance.syncTips();
+      if (!mounted) return;
+      await _loadTips();
+      if (mounted) setState(() {});
+    } catch (e, st) {
+      debugPrint('syncThenReloadTips failed: $e\n$st');
+    }
   }
 
   Future<void> _loadPackageVersion() async {
@@ -132,7 +145,11 @@ class _HomeScreenState extends State<HomeScreen> {
     List<TipEntry> tips = <TipEntry>[];
     try {
       tips = await widget.storage.loadTips();
-      tips.sort(_tipNewestFirstCompare);
+      tips.sort((TipEntry a, TipEntry b) => b.date.compareTo(a.date));
+      debugPrint(
+        'loadPersistedData: tips loaded=${tips.length}, '
+        'first=${tips.isEmpty ? 'none' : tips.first.date.toIso8601String()}',
+      );
     } catch (e, st) {
       debugPrint('loadPersistedData tips failed: $e\n$st');
       if (!mounted) return;
@@ -162,50 +179,62 @@ class _HomeScreenState extends State<HomeScreen> {
     }
 
     if (!mounted) return;
+    final String? nextActive = _preferredActiveJobId(
+      jobs: jobs,
+      currentActiveId: _activeJobId,
+      persistedActiveJobId: persistedActiveJobId,
+    );
+    final double calculatedSum = tips.fold<double>(0, (sum, t) => sum + t.amount);
+    debugPrint(
+      'DEBUG before setState: tips count = ${tips.length}, calculated sum = $calculatedSum',
+    );
     setState(() {
       _tips = tips;
+      _totalTips = _tips.fold<double>(0, (double sum, TipEntry t) => sum + t.amount);
       _jobs = jobs;
-      if (jobs.isEmpty) {
-        _activeJobId = null;
-      } else if (_activeJobId != null &&
-          jobs.any((JobEntry j) => j.id == _activeJobId)) {
-        // keep current selection
-      } else if (persistedActiveJobId != null &&
-          jobs.any((JobEntry j) => j.id == persistedActiveJobId)) {
-        _activeJobId = persistedActiveJobId;
-      } else {
-        _activeJobId = null;
-      }
+      _activeJobId = nextActive;
       _loading = false;
     });
+    debugPrint('DEBUG: tips count = ${_tips.length}, totalTips = $_totalTips');
+    await _appSettingsService.saveActiveJobId(nextActive);
   }
 
+  /// Reloads tips from storage without toggling [_loading]. That flag is only
+  /// for the initial [_loadPersistedData] gate; setting it here blanked the
+  /// whole dashboard (spinner / empty totals) whenever History pull-to-refresh
+  /// or similar called this method.
   Future<void> _loadTips() async {
-    if (mounted) {
-      setState(() => _loading = true);
-    }
     try {
       final List<TipEntry> tips = await widget.storage.loadTips();
-      tips.sort(_tipNewestFirstCompare);
+      tips.sort((TipEntry a, TipEntry b) => b.date.compareTo(a.date));
+      debugPrint(
+        '_loadTips: tips loaded=${tips.length}, '
+        'first=${tips.isEmpty ? 'none' : tips.first.date.toIso8601String()}',
+      );
       if (!mounted) return;
       setState(() {
         _tips = tips;
-        _loading = false;
         _dataLoadError = null;
+        _totalTips = _tips.fold<double>(0, (double sum, TipEntry t) => sum + t.amount);
       });
     } catch (e, st) {
       debugPrint('loadTips failed: $e\n$st');
       if (!mounted) return;
       setState(() {
-        _loading = false;
         _dataLoadError ??= e.toString();
       });
     }
   }
 
   Future<void> _loadQuickAddValues() async {
-    final List<double> values = await _quickAddSettingsService.loadValues();
-    final List<String> notes = await _quickAddSettingsService.loadNotes();
+    final String? jobIdForQuickSettings =
+        _jobs.isEmpty ? null : (_activeJobId ?? _jobs.first.id);
+    final List<double> values = await _quickAddSettingsService.loadValues(
+      jobId: jobIdForQuickSettings,
+    );
+    final List<String> notes = await _quickAddSettingsService.loadNotes(
+      jobId: jobIdForQuickSettings,
+    );
     if (!mounted) return;
     setState(() {
       _quickAddValues = values;
@@ -229,20 +258,16 @@ class _HomeScreenState extends State<HomeScreen> {
       final String? persistedActiveJobId = await _appSettingsService
           .loadActiveJobId();
       if (!mounted) return;
+      final String? nextActive = _preferredActiveJobId(
+        jobs: jobs,
+        currentActiveId: _activeJobId,
+        persistedActiveJobId: persistedActiveJobId,
+      );
       setState(() {
         _jobs = jobs;
-        if (jobs.isEmpty) {
-          _activeJobId = null;
-        } else if (_activeJobId != null &&
-            jobs.any((JobEntry j) => j.id == _activeJobId)) {
-          // keep current selection
-        } else if (persistedActiveJobId != null &&
-            jobs.any((JobEntry j) => j.id == persistedActiveJobId)) {
-          _activeJobId = persistedActiveJobId;
-        } else {
-          _activeJobId = null;
-        }
+        _activeJobId = nextActive;
       });
+      await _appSettingsService.saveActiveJobId(nextActive);
     } catch (e, st) {
       debugPrint('loadJobs failed: $e\n$st');
       if (!mounted) return;
@@ -305,15 +330,101 @@ class _HomeScreenState extends State<HomeScreen> {
     showTopMessage(context, message: AppLocalizations.of(context)!.tipSaved);
   }
 
+  Future<void> _showNoJobDialog() async {
+    if (!mounted) return;
+    final AppLocalizations l10n = AppLocalizations.of(context)!;
+    await showDialog<void>(
+      context: context,
+      builder: (BuildContext dialogContext) {
+        final ThemeData theme = Theme.of(dialogContext);
+        return AlertDialog(
+          backgroundColor: AppTheme.card,
+          surfaceTintColor: Colors.transparent,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+            side: const BorderSide(color: AppTheme.divider),
+          ),
+          titlePadding: const EdgeInsets.fromLTRB(24, 22, 24, 10),
+          contentPadding: const EdgeInsets.fromLTRB(24, 0, 24, 8),
+          actionsPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+          title: Row(
+            children: <Widget>[
+              const Icon(Icons.work_outline, color: AppTheme.brandOrangeDeep),
+              const SizedBox(width: 10),
+              Expanded(
+                child: Text(
+                  l10n.noJobDialogTitle,
+                  style: TextStyle(
+                    color: theme.colorScheme.onSurface,
+                    fontWeight: FontWeight.w700,
+                    fontSize: 28,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          content: Text(
+            l10n.noJobDialogMessage,
+            style: TextStyle(
+              color: AppTheme.textSecondary,
+              fontSize: 16,
+              height: 1.35,
+            ),
+          ),
+          actions: <Widget>[
+            SizedBox(
+              width: double.infinity,
+              child: FilledButton.icon(
+                icon: const Icon(Icons.add_business_outlined),
+                onPressed: () async {
+                  Navigator.of(dialogContext).pop();
+                  await _openJobsManager();
+                },
+                style: FilledButton.styleFrom(
+                  backgroundColor: AppTheme.brandOrange,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(vertical: 12),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(12),
+                  ),
+                ),
+                label: Text(
+                  l10n.noJobDialogCreateJob,
+                  style: const TextStyle(fontWeight: FontWeight.w700),
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  Future<void> _openQuickCustomizeFromDashboard() async {
+    if (_jobs.isEmpty) {
+      await _showNoJobDialog();
+      return;
+    }
+    await _openQuickCustomizeFromHome();
+  }
+
   Future<void> _saveInstantQuickTip(double amount, String? notes) async {
+    if (_jobs.isEmpty) {
+      await _showNoJobDialog();
+      return;
+    }
     HapticFeedback.lightImpact();
     final DateTime now = DateTime.now();
+    // Same semantics as AddEntryScreen / date picker: local wall time on the
+    // selected day. Using DateTime.utc here made quick tips sort above normal
+    // tips added at the same clock time (wrong instant for compareTo).
     final DateTime when = DateTime(
       _selectedDay.year,
       _selectedDay.month,
       _selectedDay.day,
       now.hour,
       now.minute,
+      now.second,
     );
     await widget.storage.addTip(
       TipEntry(
@@ -335,6 +446,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final bool? saved = await showQuickAddCustomizeDialog(
       context: context,
       service: _quickAddSettingsService,
+      jobId: _jobs.isEmpty ? null : (_activeJobId ?? _jobs.first.id),
     );
     if (!mounted) return;
     if (saved == true) {
@@ -349,6 +461,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _openAddTipScreen() async {
+    if (_jobs.isEmpty) {
+      await _showNoJobDialog();
+      return;
+    }
     final bool? saved = await Navigator.of(context).push<bool>(
       MaterialPageRoute<bool>(
         builder: (BuildContext context) => AddEntryScreen(
@@ -361,15 +477,18 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
     );
     if (!mounted) return;
-    await _loadTips();
-    if (!mounted || saved != true) return;
-    _showTopTipSavedMessage();
+    if (saved == true) {
+      await _loadTips();
+      if (!mounted) return;
+      _showTopTipSavedMessage();
+    }
   }
 
   Future<void> _deleteWithUndo(TipEntry entry) async {
     HapticFeedback.heavyImpact();
     setState(() {
       _tips = _tips.where((TipEntry t) => t.id != entry.id).toList();
+      _updateTotal();
     });
     await widget.storage.deleteTip(entry.id);
 
@@ -393,16 +512,52 @@ class _HomeScreenState extends State<HomeScreen> {
       context: context,
       builder: (BuildContext context) {
         final AppLocalizations d = AppLocalizations.of(context)!;
+        final ThemeData theme = Theme.of(context);
         return AlertDialog(
-          title: Text(d.deleteAllDataTitle),
-          content: Text(d.deleteAllDataBody),
+          backgroundColor: AppTheme.card,
+          surfaceTintColor: Colors.transparent,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(24),
+            side: const BorderSide(color: AppTheme.divider),
+          ),
+          titlePadding: const EdgeInsets.fromLTRB(24, 24, 24, 8),
+          contentPadding: const EdgeInsets.fromLTRB(24, 0, 24, 8),
+          actionsPadding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+          title: Text(
+            d.deleteAllDataTitle,
+            style: TextStyle(
+              color: theme.colorScheme.onSurface,
+              fontSize: 44,
+              fontWeight: FontWeight.w700,
+            ),
+          ),
+          content: Text(
+            d.deleteAllDataBody,
+            style: TextStyle(
+              color: AppTheme.textSecondary,
+              fontSize: 17,
+              height: 1.35,
+            ),
+          ),
           actions: <Widget>[
             TextButton(
               onPressed: () => Navigator.of(context).pop(false),
+              style: TextButton.styleFrom(
+                foregroundColor: AppTheme.brandOrangeDeep,
+                textStyle: const TextStyle(fontWeight: FontWeight.w600),
+              ),
               child: Text(d.cancel),
             ),
             FilledButton(
               onPressed: () => Navigator.of(context).pop(true),
+              style: FilledButton.styleFrom(
+                backgroundColor: AppTheme.brandOrange,
+                foregroundColor: Colors.white,
+                padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 12),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(999),
+                ),
+              ),
               child: Text(d.deleteAll),
             ),
           ],
@@ -454,7 +609,7 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<void> _exportProfilePdfReport() async {
     final _FileExportAction? action = await _chooseFileExportAction('PDF');
     if (!mounted || action == null) return;
-    final PdfExportResult result = await shareTipFlowIncomeReport(
+    final PdfExportResult result = await shareGetTipIncomeReport(
       _tips,
       _jobs,
       rangeStart: null,
@@ -478,6 +633,11 @@ class _HomeScreenState extends State<HomeScreen> {
   Future<_FileExportAction?> _chooseFileExportAction(String fileType) async {
     return showModalBottomSheet<_FileExportAction>(
       context: context,
+      showDragHandle: true,
+      backgroundColor: AppTheme.card,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
       builder: (BuildContext context) {
         final AppLocalizations l10n = AppLocalizations.of(context)!;
         return SafeArea(
@@ -485,16 +645,40 @@ class _HomeScreenState extends State<HomeScreen> {
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               ListTile(
-                leading: const Icon(Icons.save_alt_outlined),
-                title: Text(l10n.saveToPhone),
-                subtitle: Text(l10n.saveFileInDownloads(fileType)),
+                leading: const Icon(
+                  Icons.save_alt_outlined,
+                  color: AppTheme.brandOrangeDeep,
+                ),
+                title: Text(
+                  l10n.saveToPhone,
+                  style: const TextStyle(
+                    color: AppTheme.textPrimary,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                subtitle: Text(
+                  l10n.saveFileInDownloads(fileType),
+                  style: const TextStyle(color: AppTheme.textSecondary),
+                ),
                 onTap: () =>
                     Navigator.of(context).pop(_FileExportAction.saveToPhone),
               ),
               ListTile(
-                leading: const Icon(Icons.share_outlined),
-                title: Text(l10n.share),
-                subtitle: Text(l10n.openAppsToShareFile(fileType)),
+                leading: const Icon(
+                  Icons.share_outlined,
+                  color: AppTheme.brandOrangeDeep,
+                ),
+                title: Text(
+                  l10n.share,
+                  style: const TextStyle(
+                    color: AppTheme.textPrimary,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                subtitle: Text(
+                  l10n.openAppsToShareFile(fileType),
+                  style: const TextStyle(color: AppTheme.textSecondary),
+                ),
                 onTap: () => Navigator.of(context).pop(_FileExportAction.share),
               ),
             ],
@@ -509,6 +693,19 @@ class _HomeScreenState extends State<HomeScreen> {
     final AppLocalizations l10n = AppLocalizations.of(context)!;
     final String feature = labelKey == 'rate' ? l10n.rateApp : l10n.contactUs;
     showTopMessage(context, message: l10n.comingSoon(feature));
+  }
+
+  Future<void> _openContactEmail() async {
+    final Uri emailUri = Uri(
+      scheme: 'mailto',
+      path: 'hellogittip@gmail.com',
+      queryParameters: <String, String>{
+        'subject': 'Get Tip support',
+      },
+    );
+    final bool opened = await launchUrl(emailUri);
+    if (!mounted || opened) return;
+    showTopMessage(context, message: 'Could not open email app');
   }
 
   Future<void> _shareExperience() async {
@@ -533,6 +730,7 @@ class _HomeScreenState extends State<HomeScreen> {
     await _appSettingsService.saveActiveJobId(jobId);
     if (!mounted) return;
     setState(() => _activeJobId = jobId);
+    await _loadQuickAddValues();
   }
 
   Future<void> _openJobsManager() async {
@@ -608,11 +806,11 @@ class _HomeScreenState extends State<HomeScreen> {
                     }
 
                     return AlertDialog(
-                      backgroundColor: Theme.of(innerContext).cardColor,
+                      backgroundColor: AppTheme.card,
                       surfaceTintColor: Colors.transparent,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(24),
-                        side: BorderSide(color: Theme.of(innerContext).dividerColor),
+                        side: const BorderSide(color: AppTheme.divider),
                       ),
                       title: Text(l10n.exportCsvTitle),
                       content: Column(
@@ -630,7 +828,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   alpha: 0.14,
                                 ),
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
                                 onSelected: (_) {
                                   setDialogState(
@@ -645,7 +843,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   alpha: 0.14,
                                 ),
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
                                 onSelected: (_) {
                                   setDialogState(
@@ -660,7 +858,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   alpha: 0.14,
                                 ),
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
                                 onSelected: (_) {
                                   setDialogState(
@@ -676,7 +874,7 @@ class _HomeScreenState extends State<HomeScreen> {
                                   alpha: 0.14,
                                 ),
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
                                 onSelected: (_) {
                                   setDialogState(
@@ -696,9 +894,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: OutlinedButton.styleFrom(
                                 foregroundColor: AppTheme.brandOrangeDeep,
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
-                                backgroundColor: Theme.of(innerContext).cardColor,
+                                backgroundColor: AppTheme.card,
                               ),
                               label: Text(
                                 l10n.exportFrom(labelFormat.format(rangeStart)),
@@ -711,9 +909,9 @@ class _HomeScreenState extends State<HomeScreen> {
                               style: OutlinedButton.styleFrom(
                                 foregroundColor: AppTheme.brandOrangeDeep,
                                 side: BorderSide(
-                                  color: Theme.of(innerContext).dividerColor,
+                                  color: AppTheme.divider,
                                 ),
-                                backgroundColor: Theme.of(innerContext).cardColor,
+                                backgroundColor: AppTheme.card,
                               ),
                               label: Text(
                                 l10n.exportTo(labelFormat.format(rangeEnd)),
@@ -785,30 +983,13 @@ class _HomeScreenState extends State<HomeScreen> {
                   !tip.date.isBefore(start) && !tip.date.isAfter(end),
             )
             .toList()
-          ..sort(_tipNewestFirstCompare);
+          ..sort((TipEntry a, TipEntry b) => b.date.compareTo(a.date));
     return filtered;
-  }
-
-  Widget? _buildBannerAd() {
-    if (kIsWeb || _bannerAd == null || !_isBannerAdReady) {
-      return null;
-    }
-    return SafeArea(
-      top: false,
-      child: Center(
-        child: SizedBox(
-          width: _bannerAd!.size.width.toDouble(),
-          height: _bannerAd!.size.height.toDouble(),
-          child: AdWidget(ad: _bannerAd!),
-        ),
-      ),
-    );
   }
 
   @override
   Widget build(BuildContext context) {
     final AppLocalizations l10n = AppLocalizations.of(context)!;
-    final Widget? bannerAd = _buildBannerAd();
     final ThemeData theme = Theme.of(context);
     final TextStyle navLabelStyle = TextStyle(
       fontSize: 11,
@@ -820,10 +1001,11 @@ class _HomeScreenState extends State<HomeScreen> {
       _DashboardTab(
         loading: _loading,
         tips: _tips,
+        totalTipsAmount: _totalTips,
         jobs: _jobs,
         activeJobId: _activeJobId,
-        onJobChanged: (String? nextJobId) {
-          _setActiveJobId(nextJobId);
+        onJobChanged: (String nextJobId) {
+          unawaited(_setActiveJobId(nextJobId));
         },
         currencyCode: _currencyCode,
         quickAddValues: _quickAddValues,
@@ -831,19 +1013,22 @@ class _HomeScreenState extends State<HomeScreen> {
         selectedDay: _selectedDay,
         onSelectDay: (DateTime day) {
           setState(() => _selectedDay = day);
+          unawaited(_appSettingsService.saveDashboardSelectedDay(day));
         },
         onPresetQuickAdd: (int index) {
           final String raw = _quickAddNotes[index].trim();
-          _saveInstantQuickTip(
-            _quickAddValues[index],
-            raw.isEmpty ? null : raw,
+          unawaited(
+            _saveInstantQuickTip(
+              _quickAddValues[index],
+              raw.isEmpty ? null : raw,
+            ),
           );
         },
         onCustomQuickAdd: () {
-          _openQuickCustomizeFromHome();
+          unawaited(_openQuickCustomizeFromDashboard());
         },
         onQuickCustomize: () {
-          _openQuickCustomizeFromHome();
+          unawaited(_openQuickCustomizeFromDashboard());
         },
         onAddTip: _openAddTipScreen,
         onDeleteTip: _deleteWithUndo,
@@ -889,54 +1074,48 @@ class _HomeScreenState extends State<HomeScreen> {
         onExportPdf: _exportProfilePdfReport,
         onShareExperience: _shareExperience,
         onRateApp: () => _showPlaceholderMessage('rate'),
-        onContactUs: () => _showPlaceholderMessage('contact'),
+        onContactUs: _openContactEmail,
         onLocaleChanged: widget.onLocaleChanged,
       ),
     ];
 
     return Scaffold(
       body: IndexedStack(index: _selectedIndex, children: pages),
-      bottomNavigationBar: Column(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          ?bannerAd,
-          NavigationBarTheme(
-            data: NavigationBarThemeData(
-              labelTextStyle: WidgetStatePropertyAll<TextStyle>(navLabelStyle),
-              iconTheme: WidgetStatePropertyAll<IconThemeData>(
-                IconThemeData(
-                  size: 20,
-                  color:
-                      theme.textTheme.bodyMedium?.color ?? AppTheme.textSecondary,
-                ),
-              ),
-            ),
-            child: NavigationBar(
-              height: 60,
-              selectedIndex: _selectedIndex,
-              onDestinationSelected: (int index) {
-                setState(() => _selectedIndex = index);
-              },
-              destinations: <NavigationDestination>[
-                NavigationDestination(
-                  icon: const Icon(Icons.home_outlined),
-                  selectedIcon: const Icon(Icons.home),
-                  label: l10n.navHome,
-                ),
-                NavigationDestination(
-                  icon: const Icon(Icons.history_outlined),
-                  selectedIcon: const Icon(Icons.history),
-                  label: l10n.navHistory,
-                ),
-                NavigationDestination(
-                  icon: const Icon(Icons.person_outline),
-                  selectedIcon: const Icon(Icons.person),
-                  label: l10n.navProfile,
-                ),
-              ],
+      bottomNavigationBar: NavigationBarTheme(
+        data: NavigationBarThemeData(
+          labelTextStyle: WidgetStatePropertyAll<TextStyle>(navLabelStyle),
+          iconTheme: WidgetStatePropertyAll<IconThemeData>(
+            IconThemeData(
+              size: 20,
+              color:
+                  theme.textTheme.bodyMedium?.color ?? AppTheme.textSecondary,
             ),
           ),
-        ],
+        ),
+        child: NavigationBar(
+          height: 60,
+          selectedIndex: _selectedIndex,
+          onDestinationSelected: (int index) {
+            setState(() => _selectedIndex = index);
+          },
+          destinations: <NavigationDestination>[
+            NavigationDestination(
+              icon: const Icon(Icons.home_outlined),
+              selectedIcon: const Icon(Icons.home),
+              label: l10n.navHome,
+            ),
+            NavigationDestination(
+              icon: const Icon(Icons.history_outlined),
+              selectedIcon: const Icon(Icons.history),
+              label: l10n.navHistory,
+            ),
+            NavigationDestination(
+              icon: const Icon(Icons.person_outline),
+              selectedIcon: const Icon(Icons.person),
+              label: l10n.navProfile,
+            ),
+          ],
+        ),
       ),
     );
   }
@@ -946,6 +1125,7 @@ class _DashboardTab extends StatelessWidget {
   const _DashboardTab({
     required this.loading,
     required this.tips,
+    required this.totalTipsAmount,
     required this.jobs,
     required this.activeJobId,
     required this.onJobChanged,
@@ -964,9 +1144,11 @@ class _DashboardTab extends StatelessWidget {
 
   final bool loading;
   final List<TipEntry> tips;
+  /// Sum of all tips from parent; do not re-fold [tips] here for this display.
+  final double totalTipsAmount;
   final List<JobEntry> jobs;
   final String? activeJobId;
-  final ValueChanged<String?> onJobChanged;
+  final ValueChanged<String> onJobChanged;
   final String currencyCode;
   final List<double> quickAddValues;
   final List<String> quickAddNotes;
@@ -983,36 +1165,35 @@ class _DashboardTab extends StatelessWidget {
     return a.year == b.year && a.month == b.month && a.day == b.day;
   }
 
+  /// Uses the tip's instant in local time vs [day]'s calendar date so UTC
+  /// stored timestamps (e.g. from sync) match the same day as the UI chips.
+  static bool _isTipOnLocalCalendarDay(TipEntry t, DateTime day) {
+    final DateTime localTipDate = t.date.toLocal();
+    return localTipDate.year == day.year &&
+        localTipDate.month == day.month &&
+        localTipDate.day == day.day;
+  }
+
+  /// Legacy tips may have null [TipEntry.jobId]; treat them like the first job.
+  static bool _tipBelongsToJob(
+    TipEntry tip,
+    String jobId,
+    List<JobEntry> jobs,
+  ) {
+    if (tip.jobId == jobId) return true;
+    return tip.jobId == null &&
+        jobs.isNotEmpty &&
+        jobId == jobs.first.id;
+  }
+
   double _dayTotal(List<TipEntry> list, DateTime day) {
-    final DateTime start = DateTime(day.year, day.month, day.day);
-    final DateTime end = DateTime(
-      day.year,
-      day.month,
-      day.day,
-      23,
-      59,
-      59,
-      999,
-    );
     return list
-        .where((TipEntry t) => !t.date.isBefore(start) && !t.date.isAfter(end))
+        .where((TipEntry t) => _isTipOnLocalCalendarDay(t, day))
         .fold<double>(0, (double s, TipEntry t) => s + t.amount);
   }
 
   int _dayTipCount(List<TipEntry> list, DateTime day) {
-    final DateTime start = DateTime(day.year, day.month, day.day);
-    final DateTime end = DateTime(
-      day.year,
-      day.month,
-      day.day,
-      23,
-      59,
-      59,
-      999,
-    );
-    return list
-        .where((TipEntry t) => !t.date.isBefore(start) && !t.date.isAfter(end))
-        .length;
+    return list.where((TipEntry t) => _isTipOnLocalCalendarDay(t, day)).length;
   }
 
   String _greeting(DateTime now, AppLocalizations l10n) {
@@ -1031,23 +1212,21 @@ class _DashboardTab extends StatelessWidget {
         theme.textTheme.bodyMedium?.color ?? AppTheme.textSecondary;
     final DateTime now = DateTime.now();
     final DateTime today = DateTime(now.year, now.month, now.day);
-    final List<TipEntry> sortedTips = List<TipEntry>.from(tips)
-      ..sort(_tipNewestFirstCompare);
-    final List<TipEntry> scopedTips = activeJobId == null
-        ? sortedTips
-        : sortedTips
-              .where((TipEntry tip) => tip.jobId == activeJobId)
-              .toList(growable: false);
+    final List<TipEntry> scopedTips;
+    if (jobs.isEmpty) {
+      scopedTips = tips;
+    } else {
+      final String jobId = activeJobId ?? jobs.first.id;
+      scopedTips = tips
+          .where((TipEntry tip) => _tipBelongsToJob(tip, jobId, jobs))
+          .toList(growable: false);
+    }
 
     final double dayTotal = _dayTotal(scopedTips, selectedDay);
-    final double overallTotal = scopedTips.fold<double>(
-      0,
-      (double sum, TipEntry tip) => sum + tip.amount,
-    );
     final int count = _dayTipCount(scopedTips, selectedDay);
     final double hourly = count == 0 ? 0 : dayTotal / 8;
 
-    final String totalStr = formatMoney(overallTotal, currencyCode: currencyCode);
+    final String totalStr = formatMoney(dayTotal, currencyCode: currencyCode);
     final String hourlyStr = formatMoney(
       hourly,
       currencyCode: currencyCode,
@@ -1055,32 +1234,12 @@ class _DashboardTab extends StatelessWidget {
     );
 
     const int kRecentEntriesLimit = 50;
-    final DateTime selectedStart = DateTime(
-      selectedDay.year,
-      selectedDay.month,
-      selectedDay.day,
-    );
-    final DateTime selectedEnd = DateTime(
-      selectedDay.year,
-      selectedDay.month,
-      selectedDay.day,
-      23,
-      59,
-      59,
-      999,
-    );
     final List<TipEntry> recentTips = scopedTips
-        .where(
-          (TipEntry t) =>
-              !t.date.isBefore(selectedStart) && !t.date.isAfter(selectedEnd),
-        )
+        .where((TipEntry t) => _isTipOnLocalCalendarDay(t, selectedDay))
         .take(kRecentEntriesLimit)
         .toList();
-    final List<TipEntry> dayTipsAllJobs = sortedTips
-        .where(
-          (TipEntry t) =>
-              !t.date.isBefore(selectedStart) && !t.date.isAfter(selectedEnd),
-        )
+    final List<TipEntry> dayTipsAllJobs = tips
+        .where((TipEntry t) => _isTipOnLocalCalendarDay(t, selectedDay))
         .toList(growable: false);
 
     final String daySubtitle = _isSameCalendarDay(selectedDay, today)
@@ -1092,7 +1251,10 @@ class _DashboardTab extends StatelessWidget {
     return Scaffold(
       backgroundColor: theme.scaffoldBackgroundColor,
       floatingActionButton: FloatingActionButton(
-        onPressed: () => onAddTip(),
+        heroTag: 'fab_dashboard',
+        onPressed: () {
+          unawaited(onAddTip());
+        },
         backgroundColor: AppTheme.brandOrange,
         foregroundColor: Colors.white,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
@@ -1252,31 +1414,21 @@ class _JobSwitcherRow extends StatelessWidget {
   final String? activeJobId;
   final String currencyCode;
   final List<TipEntry> dayTips;
-  final ValueChanged<String?> onChanged;
+  final ValueChanged<String> onChanged;
 
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = Theme.of(context);
     final Color onSurface = theme.colorScheme.onSurface;
+    final String effectiveActiveId = activeJobId ?? jobs.first.id;
     final List<Widget> chips = <Widget>[
-      _JobChip(
-        label: 'All jobs',
-        selected: activeJobId == null,
-        amount: dayTips.fold<double>(
-          0,
-          (double sum, TipEntry t) => sum + t.amount,
-        ),
-        chipColor: AppTheme.brandOrange,
-        currencyCode: currencyCode,
-        onTap: () => onChanged(null),
-      ),
       ...jobs.map((JobEntry job) {
         final double total = dayTips
             .where((TipEntry tip) => tip.jobId == job.id)
             .fold<double>(0, (double sum, TipEntry t) => sum + t.amount);
         return _JobChip(
-          label: job.title,
-          selected: activeJobId == job.id,
+          label: _jobDisplayName(job),
+          selected: effectiveActiveId == job.id,
           amount: total,
           chipColor: _jobColorFromKey(job.colorKey),
           currencyCode: currencyCode,
@@ -1324,8 +1476,7 @@ class _JobChip extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final ThemeData theme = Theme.of(context);
-    final Color onSurface = theme.colorScheme.onSurface;
+    final Color chipTextColor = chipColor;
     return Padding(
       padding: const EdgeInsets.only(right: 8),
       child: ChoiceChip(
@@ -1333,15 +1484,15 @@ class _JobChip extends StatelessWidget {
           '$label • ${formatMoney(amount, currencyCode: currencyCode, decimalDigits: 0)}',
         ),
         selected: selected,
-        selectedColor: chipColor.withValues(alpha: 0.28),
-        backgroundColor: theme.cardColor,
+        selectedColor: chipColor.withValues(alpha: 0.30),
+        backgroundColor: chipColor.withValues(alpha: 0.12),
         side: BorderSide(
-          color: selected ? chipColor : theme.dividerColor,
+          color: chipColor.withValues(alpha: selected ? 0.75 : 0.45),
         ),
         checkmarkColor: chipColor,
         labelStyle: TextStyle(
-          color: selected ? chipColor : onSurface,
-          fontWeight: selected ? FontWeight.w700 : FontWeight.w500,
+          color: chipTextColor,
+          fontWeight: selected ? FontWeight.w700 : FontWeight.w600,
         ),
         onSelected: (_) => onTap(),
       ),
@@ -1780,11 +1931,13 @@ class _ProfileTab extends StatelessWidget {
                 icon: Icons.outbox_outlined,
                 title: l10n.exportCsv,
                 onTap: onExportCsv,
+                accent: true,
               ),
               _ProfileActionRow(
                 icon: Icons.backup_outlined,
                 title: l10n.backupTips,
                 onTap: onExportCsv,
+                accent: true,
               ),
               _ProfileActionRow(
                 icon: Icons.picture_as_pdf_outlined,
@@ -1883,22 +2036,32 @@ class _ProfileActionRow extends StatelessWidget {
     required this.title,
     required this.onTap,
     this.danger = false,
+    this.accent = false,
   });
 
   final IconData icon;
   final String title;
   final Future<void> Function() onTap;
   final bool danger;
+  final bool accent;
 
   @override
   Widget build(BuildContext context) {
     final Color onSurface = Theme.of(context).colorScheme.onSurface;
-    final Color c = danger ? Colors.red.shade700 : onSurface;
+    final Color c = danger
+        ? Colors.red.shade700
+        : accent
+        ? AppTheme.brandOrangeDeep
+        : onSurface;
     return ListTile(
       contentPadding: EdgeInsets.zero,
       leading: Icon(
         icon,
-        color: danger ? Colors.red.shade700 : AppTheme.brandOrange,
+        color: danger
+            ? Colors.red.shade700
+            : accent
+            ? AppTheme.brandOrangeDeep
+            : AppTheme.brandOrange,
       ),
       title: Text(
         title,
@@ -2136,10 +2299,10 @@ String _quickLabel(double amount, String currencyCode) {
   return '$symbol$value';
 }
 
-int _tipNewestFirstCompare(TipEntry a, TipEntry b) {
-  final int byDate = b.date.compareTo(a.date);
-  if (byDate != 0) return byDate;
-  return b.id.compareTo(a.id);
+String _jobDisplayName(JobEntry job) {
+  final String employer = (job.employer ?? '').trim();
+  if (employer.isEmpty) return job.title;
+  return '${job.title} — $employer';
 }
 
 Color _jobColorFromKey(String colorKey) {

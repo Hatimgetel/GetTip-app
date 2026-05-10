@@ -59,23 +59,31 @@ class _HistoryTabState extends State<HistoryTab>
   late DateTime _visibleMonth;
   late DateTime _selectedDay;
   _HistoryRangeFilter _activeFilter = _HistoryRangeFilter.today;
-  /// `null` = all jobs (matches on-screen list).
   String? _scopedJobId;
 
   @override
   void initState() {
     super.initState();
     final DateTime n = DateTime.now();
-    _selectedDay = DateTime(n.year, n.month, n.day);
+    _selectedDay = _normalizeDate(n);
     _visibleMonth = DateTime(n.year, n.month, 1);
+    if (widget.jobs.isNotEmpty) {
+      _scopedJobId = widget.jobs.first.id;
+    }
   }
 
   @override
   void didUpdateWidget(HistoryTab oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (_scopedJobId != null &&
+    if (widget.jobs.isEmpty) {
+      if (_scopedJobId != null) {
+        setState(() => _scopedJobId = null);
+      }
+      return;
+    }
+    if (_scopedJobId == null ||
         !widget.jobs.any((JobEntry j) => j.id == _scopedJobId)) {
-      setState(() => _scopedJobId = null);
+      setState(() => _scopedJobId = widget.jobs.first.id);
     }
   }
 
@@ -94,17 +102,20 @@ class _HistoryTabState extends State<HistoryTab>
 
   void _selectCalendarDay(DateTime day) {
     setState(() {
-      _selectedDay = DateTime(day.year, day.month, day.day);
+      _selectedDay = _normalizeDate(day);
       if (day.year != _visibleMonth.year || day.month != _visibleMonth.month) {
         _visibleMonth = DateTime(day.year, day.month, 1);
       }
     });
   }
 
-  DateTime _startOfDay(DateTime day) => DateTime(day.year, day.month, day.day);
+  DateTime _normalizeDate(DateTime day) =>
+      DateTime.utc(day.year, day.month, day.day);
+
+  DateTime _startOfDay(DateTime day) => _normalizeDate(day);
 
   DateTime _endOfDay(DateTime day) =>
-      DateTime(day.year, day.month, day.day, 23, 59, 59, 999);
+      DateTime.utc(day.year, day.month, day.day, 23, 59, 59, 999);
 
   ({DateTime start, DateTime end}) _activeRangeForSelectedDay() {
     final DateTime selectedStart = _startOfDay(_selectedDay);
@@ -142,21 +153,31 @@ class _HistoryTabState extends State<HistoryTab>
         widget.tips
             .where(
               (TipEntry t) =>
-                  !t.date.isBefore(range.start) && !t.date.isAfter(range.end),
+                  !t.date.toUtc().isBefore(range.start) &&
+                  !t.date.toUtc().isAfter(range.end),
             )
             .toList()
           ..sort((TipEntry a, TipEntry b) => b.date.compareTo(a.date));
+    debugPrint(
+      'History filter: range=${range.start.toIso8601String()}..'
+      '${range.end.toIso8601String()}, count=${list.length}',
+    );
     return list;
   }
 
   /// Tips currently shown in the summary, breakdown, and list (range + job scope).
   List<TipEntry> _tipsVisibleOnScreen() {
     final List<TipEntry> rangeTips = _tipsForActiveRange();
-    if (_scopedJobId == null) {
+    if (widget.jobs.isEmpty) {
       return rangeTips;
     }
+    final String jobId = _scopedJobId ?? widget.jobs.first.id;
     return rangeTips
-        .where((TipEntry t) => t.jobId == _scopedJobId)
+        .where(
+          (TipEntry t) =>
+              t.jobId == jobId ||
+              (t.jobId == null && jobId == widget.jobs.first.id),
+        )
         .toList(growable: false);
   }
 
@@ -188,10 +209,11 @@ class _HistoryTabState extends State<HistoryTab>
       _HistoryRangeFilter.year => 'Year ${sel.year}',
     };
 
-    if (_scopedJobId != null) {
+    if (widget.jobs.isNotEmpty) {
+      final String jobId = _scopedJobId ?? widget.jobs.first.id;
       for (final JobEntry j in widget.jobs) {
-        if (j.id == _scopedJobId) {
-          return '${j.title} - $timePart';
+        if (j.id == jobId) {
+          return '${_jobDisplayName(j)} - $timePart';
         }
       }
     }
@@ -212,11 +234,11 @@ class _HistoryTabState extends State<HistoryTab>
     if (!mounted || action == null) return;
 
     final String filterDesc = _historyExportFilterDescription();
-    final String reportTitle = 'TipFlow Report — $filterDesc';
+    final String reportTitle = 'Get Tip Report — $filterDesc';
     final String fileStem =
-        'tipflow_report_${DateFormat('yyyyMMdd_HHmmss').format(DateTime.now())}';
+        'gettip_report_${DateFormat('yyyyMMdd_HHmmss').format(DateTime.now())}';
 
-    final PdfExportResult result = await shareTipFlowIncomeReport(
+    final PdfExportResult result = await shareGetTipIncomeReport(
       widget.tips,
       widget.jobs,
       rangeStart: null,
@@ -244,6 +266,11 @@ class _HistoryTabState extends State<HistoryTab>
   Future<_FileExportAction?> _chooseFileExportAction() async {
     return showModalBottomSheet<_FileExportAction>(
       context: context,
+      showDragHandle: true,
+      backgroundColor: AppTheme.card,
+      shape: const RoundedRectangleBorder(
+        borderRadius: BorderRadius.vertical(top: Radius.circular(24)),
+      ),
       builder: (BuildContext context) {
         final AppLocalizations l10n = AppLocalizations.of(context)!;
         return SafeArea(
@@ -251,16 +278,40 @@ class _HistoryTabState extends State<HistoryTab>
             mainAxisSize: MainAxisSize.min,
             children: <Widget>[
               ListTile(
-                leading: const Icon(Icons.save_alt_outlined),
-                title: Text(l10n.saveToPhone),
-                subtitle: Text(l10n.saveFileInDownloads('PDF')),
+                leading: const Icon(
+                  Icons.save_alt_outlined,
+                  color: AppTheme.brandOrangeDeep,
+                ),
+                title: Text(
+                  l10n.saveToPhone,
+                  style: const TextStyle(
+                    color: AppTheme.textPrimary,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                subtitle: Text(
+                  l10n.saveFileInDownloads('PDF'),
+                  style: const TextStyle(color: AppTheme.textSecondary),
+                ),
                 onTap: () =>
                     Navigator.of(context).pop(_FileExportAction.saveToPhone),
               ),
               ListTile(
-                leading: const Icon(Icons.share_outlined),
-                title: Text(l10n.share),
-                subtitle: Text(l10n.openAppsToShareFile('PDF')),
+                leading: const Icon(
+                  Icons.share_outlined,
+                  color: AppTheme.brandOrangeDeep,
+                ),
+                title: Text(
+                  l10n.share,
+                  style: const TextStyle(
+                    color: AppTheme.textPrimary,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                subtitle: Text(
+                  l10n.openAppsToShareFile('PDF'),
+                  style: const TextStyle(color: AppTheme.textSecondary),
+                ),
                 onTap: () => Navigator.of(context).pop(_FileExportAction.share),
               ),
             ],
@@ -325,6 +376,7 @@ class _HistoryTabState extends State<HistoryTab>
         ],
       ),
       floatingActionButton: FloatingActionButton(
+        heroTag: 'fab_history',
         onPressed: () => widget.onAddTip(),
         backgroundColor: _HistoryPalette.accent,
         foregroundColor: Colors.white,
@@ -388,7 +440,7 @@ class _HistoryTabState extends State<HistoryTab>
                     _HistoryJobScopeChips(
                       jobs: widget.jobs,
                       scopedJobId: _scopedJobId,
-                      onChanged: (String? jobId) {
+                      onChanged: (String jobId) {
                         setState(() => _scopedJobId = jobId);
                       },
                     ),
@@ -945,6 +997,12 @@ class _HistoryEmptyState extends StatelessWidget {
   }
 }
 
+String _jobDisplayName(JobEntry job) {
+  final String employer = (job.employer ?? '').trim();
+  if (employer.isEmpty) return job.title;
+  return '${job.title} — $employer';
+}
+
 class _HistoryJobScopeChips extends StatelessWidget {
   const _HistoryJobScopeChips({
     required this.jobs,
@@ -954,36 +1012,22 @@ class _HistoryJobScopeChips extends StatelessWidget {
 
   final List<JobEntry> jobs;
   final String? scopedJobId;
-  final ValueChanged<String?> onChanged;
+  final ValueChanged<String> onChanged;
 
   @override
   Widget build(BuildContext context) {
     final ThemeData theme = Theme.of(context);
+    final String effectiveId = scopedJobId ?? jobs.first.id;
     return SingleChildScrollView(
       scrollDirection: Axis.horizontal,
       child: Row(
         children: <Widget>[
-          Padding(
-            padding: const EdgeInsets.only(right: 8),
-            child: ChoiceChip(
-              label: const Text('All jobs'),
-              selected: scopedJobId == null,
-              selectedColor: _HistoryPalette.accent.withValues(alpha: 0.2),
-              side: BorderSide(
-                color:
-                    scopedJobId == null
-                        ? _HistoryPalette.accent
-                        : theme.dividerColor,
-              ),
-              onSelected: (_) => onChanged(null),
-            ),
-          ),
           ...jobs.map((JobEntry job) {
-            final bool selected = scopedJobId == job.id;
+            final bool selected = effectiveId == job.id;
             return Padding(
               padding: const EdgeInsets.only(right: 8),
               child: ChoiceChip(
-                label: Text(job.title),
+                label: Text(_jobDisplayName(job)),
                 selected: selected,
                 selectedColor: _HistoryPalette.accent.withValues(alpha: 0.2),
                 side: BorderSide(
@@ -1031,7 +1075,7 @@ class _HistoryJobBreakdownSection extends StatelessWidget {
                 (double sum, TipEntry tip) => sum + tip.amount,
               );
               return _JobBreakdownData(
-                label: job.title,
+                label: _jobDisplayName(job),
                 tipCount: jobTips.length,
                 total: total,
               );

@@ -193,6 +193,7 @@ const String _roundUpEnabledKey = 'round_up_enabled';
 const String _darkModeEnabledKey = 'dark_mode_enabled';
 const String _localeCodeKey = 'app_locale_code';
 const String _activeJobIdKey = 'active_job_id';
+const String _dashboardSelectedDayKey = 'dashboard_selected_calendar_day';
 
 class AppSettingsService {
   Future<String> loadCurrencyCode() async {
@@ -271,5 +272,35 @@ class AppSettingsService {
       return;
     }
     await prefs.setString(_activeJobIdKey, jobId);
+  }
+
+  /// Last calendar day shown on the home dashboard (local Y-M-D). Null if unset.
+  Future<DateTime?> loadDashboardSelectedDay() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    final String? raw = prefs.getString(_dashboardSelectedDayKey);
+    if (raw == null || raw.isEmpty) {
+      return null;
+    }
+    final List<String> parts = raw.split('-');
+    if (parts.length != 3) {
+      return null;
+    }
+    final int? y = int.tryParse(parts[0]);
+    final int? m = int.tryParse(parts[1]);
+    final int? d = int.tryParse(parts[2]);
+    if (y == null || m == null || d == null) {
+      return null;
+    }
+    return DateTime(y, m, d);
+  }
+
+  Future<void> saveDashboardSelectedDay(DateTime day) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    final DateTime local = DateTime(day.year, day.month, day.day);
+    final String value =
+        '${local.year.toString().padLeft(4, '0')}-'
+        '${local.month.toString().padLeft(2, '0')}-'
+        '${local.day.toString().padLeft(2, '0')}';
+    await prefs.setString(_dashboardSelectedDayKey, value);
   }
 }

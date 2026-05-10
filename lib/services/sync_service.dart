@@ -56,25 +56,37 @@ class SyncService {
         final List<TipModel> remoteTips = await _firebaseService
             .fetchTipsNewestFirst()
             .timeout(const Duration(seconds: 8));
-        final Map<String, TipModel> localById = <String, TipModel>{
-          for (final TipModel tip in _hiveService.loadTips()) tip.id: tip,
-        };
-        for (final TipModel remote in remoteTips) {
-          final TipModel? local = localById[remote.id];
-          if (local == null) {
+        // When Firestore has no tips, skip merge entirely. Uploads already use
+        // [saveTip]; calling [saveTips] runs a delete pass that can wipe local
+        // rows if keys ever disagree (e.g. web IndexedDB key typing).
+        if (remoteTips.isNotEmpty) {
+          final Map<String, TipModel> localById = <String, TipModel>{
+            for (final TipModel tip in _hiveService.loadTips()) tip.id: tip,
+          };
+          for (final TipModel remote in remoteTips) {
+            final TipModel? local = localById[remote.id];
+            if (local == null) {
+              localById[remote.id] = remote.copyWith(synced: true);
+              continue;
+            }
+            // Never overwrite local unsynced edits with remote.
+            if (!local.synced) continue;
             localById[remote.id] = remote.copyWith(synced: true);
-            continue;
           }
-          // Never overwrite local unsynced edits with remote.
-          if (!local.synced) continue;
-          localById[remote.id] = remote.copyWith(synced: true);
+          await _hiveService.saveTips(localById.values.toList(growable: false));
+        } else {
+          debugPrint(
+            'syncTips: remote empty — skip merge save (local Hive unchanged)',
+          );
         }
-        await _hiveService.saveTips(localById.values.toList(growable: false));
       } catch (e) {
         debugPrint('Remote pull deferred: $e');
       }
-    } catch (e) {
-      debugPrint('syncTips failed: $e');
+    } catch (e, st) {
+      // Avoid stringifying errors on web (JS interop can throw TypeError).
+      debugPrint('syncTips failed (${e.runtimeType})');
+      debugPrint('$e');
+      debugPrint('$st');
     } finally {
       _syncing = false;
     }

@@ -15,8 +15,9 @@ class PdfExportResult {
   final bool shareOpened;
 }
 
-/// TipFlow table-only income report (A4). [rangeStart]/[rangeEnd] null = all time.
-Future<PdfExportResult> shareTipFlowIncomeReport(
+/// Get Tip table-only income report (A4). [rangeStart]/[rangeEnd] null = all time.
+/// Default PDF document title / branding: **Get Tip Report** (see [reportTitleLine]).
+Future<PdfExportResult> shareGetTipIncomeReport(
   List<TipEntry> tips,
   List<JobEntry> jobs, {
   DateTime? rangeStart,
@@ -27,7 +28,7 @@ Future<PdfExportResult> shareTipFlowIncomeReport(
   String? reportTitleLine,
   bool includeBestDaySummary = true,
   String? fileNameStem,
-}) => tip_pdf_impl.shareTipFlowIncomeReport(
+}) => tip_pdf_impl.shareGetTipIncomeReport(
   tips,
   jobs,
   rangeStart: rangeStart,

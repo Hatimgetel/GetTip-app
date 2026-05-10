@@ -211,11 +211,15 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
                       DropdownButtonFormField<String>(
                         value: _selectedJobId,
                         decoration: const InputDecoration(labelText: 'Job'),
+                        isExpanded: true,
                         items: widget.jobs
                             .map(
                               (JobEntry job) => DropdownMenuItem<String>(
                                 value: job.id,
-                                child: Text(job.title),
+                                child: Text(
+                                  _jobDisplayName(job),
+                                  overflow: TextOverflow.ellipsis,
+                                ),
                               ),
                             )
                             .toList(growable: false),
@@ -357,4 +361,10 @@ class _AddEntryScreenState extends State<AddEntryScreen> {
       ),
     );
   }
+}
+
+String _jobDisplayName(JobEntry job) {
+  final String employer = (job.employer ?? '').trim();
+  if (employer.isEmpty) return job.title;
+  return '${job.title} — $employer';
 }

@@ -11,8 +11,7 @@ Future<CsvExportResult> exportTipsCsv(
   bool openShareSheet = true,
 }) async {
   final Directory tempDir = await getApplicationDocumentsDirectory();
-  final String name =
-      'get_tip_tips_${DateTime.now().millisecondsSinceEpoch}.csv';
+  final String name = 'gettip_export.csv';
   final File tempFile = File('${tempDir.path}/$name');
   await tempFile.writeAsString(csv, flush: true);
 

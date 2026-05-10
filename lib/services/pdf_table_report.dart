@@ -7,7 +7,7 @@ import 'package:pdf/widgets.dart' as pw;
 import '../models/job_entry.dart';
 import '../models/tip_entry.dart';
 
-/// TipFlow income report — single professional table, A4, Helvetica.
+/// Get Tip income report — single professional table, A4, Helvetica.
 ///
 /// [rangeStart] / [rangeEnd]: inclusive filter on tip dates (local calendar).
 /// Pass both `null` for **all time**.
@@ -15,12 +15,12 @@ import '../models/tip_entry.dart';
 /// When [exportRows] is set, those rows are used as-is (sorted newest first);
 /// [rangeStart]/[rangeEnd] and the main [tips] list are ignored for table data.
 ///
-/// [reportTitleLine]: full first-line title (e.g. `TipFlow Report — Today`).
-/// When set, the default “TipFlow / Income Report / Period” header is replaced.
+/// [reportTitleLine]: full first-line title (e.g. `Get Tip Report — Today`).
+/// When set, the default “Get Tip / Income Report / Period” header is replaced.
 ///
 /// [includeBestDaySummary]: when false, omits the post-table stats block (table
 /// still includes the TOTAL row).
-Future<List<int>> generateTipFlowIncomeReportPdf({
+Future<List<int>> generateGetTipIncomeReportPdf({
   required List<TipEntry> tips,
   required List<JobEntry> jobs,
   DateTime? rangeStart,
@@ -36,7 +36,7 @@ Future<List<int>> generateTipFlowIncomeReportPdf({
   final PdfColor totalRowBg = PdfColor(1.0, 0.92, 0.80);
 
   final Map<String, String> jobTitleById = <String, String>{
-    for (final JobEntry j in jobs) j.id: j.title,
+    for (final JobEntry j in jobs) j.id: _jobDisplayName(j),
   };
 
   final List<TipEntry> filtered =
@@ -66,7 +66,10 @@ Future<List<int>> generateTipFlowIncomeReportPdf({
   final int entryCount = filtered.length;
   final ({String label, double amount}) best = _bestDay(filtered, dateCol);
 
-  final pw.Document doc = pw.Document();
+  final pw.Document doc = pw.Document(
+    title: 'Get Tip Report',
+    creator: 'Get Tip',
+  );
   final pw.Font helvetica = pw.Font.helvetica();
   final pw.Font helveticaBold = pw.Font.helveticaBold();
 
@@ -178,7 +181,7 @@ Future<List<int>> generateTipFlowIncomeReportPdf({
       crossAxisAlignment: pw.CrossAxisAlignment.start,
       children: <pw.Widget>[
         pw.Text(
-          'TipFlow',
+          'Get Tip',
           style: pw.TextStyle(
             font: helveticaBold,
             fontSize: 12,
@@ -254,7 +257,7 @@ Future<List<int>> generateTipFlowIncomeReportPdf({
           ),
           pw.SizedBox(height: 2),
           pw.Text(
-            'TipFlow',
+            'Get Tip',
             style: pw.TextStyle(
               font: helvetica,
               fontSize: 9,
@@ -419,6 +422,12 @@ String _periodLabel(
 String _shortenNote(String s, {required int maxChars}) {
   if (s.length <= maxChars) return s;
   return '${s.substring(0, math.max(0, maxChars - 1))}…';
+}
+
+String _jobDisplayName(JobEntry job) {
+  final String employer = (job.employer ?? '').trim();
+  if (employer.isEmpty) return job.title;
+  return '${job.title} — $employer';
 }
 
 /// Split rows so header + chunk fits comfortably on A4 with top matter on page 1.

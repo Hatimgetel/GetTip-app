@@ -9,9 +9,10 @@ import 'top_message.dart';
 Future<bool?> showQuickAddCustomizeDialog({
   required BuildContext context,
   required QuickAddSettingsService service,
+  String? jobId,
 }) async {
-  final List<double> values = await service.loadValues();
-  final List<String> notes = await service.loadNotes();
+  final List<double> values = await service.loadValues(jobId: jobId);
+  final List<String> notes = await service.loadNotes(jobId: jobId);
   if (!context.mounted) return null;
 
   final TextEditingController value1 = TextEditingController(
@@ -179,11 +180,11 @@ Future<bool?> showQuickAddCustomizeDialog({
     parsed1,
     parsed2,
     parsed3,
-  ]);
+  ], jobId: jobId);
   await service.saveNotes(<String>[
     note1.text,
     note2.text,
     note3.text,
-  ]);
+  ], jobId: jobId);
   return true;
 }

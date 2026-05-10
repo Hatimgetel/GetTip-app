@@ -1,10 +1,12 @@
 import 'dart:async';
 
+import 'delete_old_hive_data_io.dart'
+    if (dart.library.html) 'delete_old_hive_data_stub.dart' as delete_old_hive;
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:google_mobile_ads/google_mobile_ads.dart';
 import 'package:package_info_plus/package_info_plus.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -21,15 +23,43 @@ import 'theme/app_theme.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
+
+  // Optional legacy Hive folder cleanup (mobile/desktop); no-op on web.
+  await delete_old_hive.deleteOldHiveDataBeforeInit();
+
   try {
     final PackageInfo packageInfo = await PackageInfo.fromPlatform();
-    await HiveService.resetIfVersionChanged(packageInfo.version);
+    if (!kIsWeb) {
+      await HiveService.resetIfVersionChanged(packageInfo.version);
+    }
     await HiveService.initialize();
     await HiveService.instance.load();
   } catch (e, st) {
-    debugPrint('Primary Hive bootstrap failed. Trying hard reset: $e\n$st');
-    await HiveService.hardResetAndInitialize();
-    await HiveService.instance.load();
+    debugPrint('Primary Hive bootstrap failed: $e\n$st');
+    // Never wipe IndexedDB on web from here: any thrown error would delete all
+    // local tips on every unlucky reload (user sees $0 after reopen).
+    if (!kIsWeb) {
+      await HiveService.hardResetAndInitialize();
+      await HiveService.instance.load();
+    } else {
+      debugPrint('Web: retrying Hive bootstrap without wiping IndexedDB...');
+      try {
+        await HiveService.initialize();
+        await HiveService.instance.load();
+      } catch (e2, st2) {
+        debugPrint(
+          'Web Hive still failing after retry — clearing tips box so the app '
+          'can start (storage was unreadable): $e2\n$st2',
+        );
+        try {
+          await HiveService.hardResetAndInitialize();
+          await HiveService.instance.load();
+        } catch (e3, st3) {
+          debugPrint('Fatal Hive on web after reset: $e3\n$st3');
+          rethrow;
+        }
+      }
+    }
   }
 
   final SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -38,9 +68,6 @@ Future<void> main() async {
   final AppSettingsService appSettingsService = AppSettingsService();
   final bool darkModeEnabled = await appSettingsService.loadDarkModeEnabled();
   final Locale? savedLocale = await appSettingsService.loadSavedLocale();
-  if (!kIsWeb) {
-    await MobileAds.instance.initialize();
-  }
   runApp(
     TipTrackerApp(
       onboardingComplete: onboardingComplete,
@@ -49,7 +76,6 @@ Future<void> main() async {
     ),
   );
 
-  // Cloud bootstrap is non-blocking so offline users can open immediately.
   unawaited(_initializeCloudServices());
 }
 
@@ -77,6 +103,10 @@ Future<void> _initializeFirebase() async {
     FirebaseFirestore.instance.settings = const Settings(
       persistenceEnabled: true,
     );
+
+    if (kIsWeb) {
+      await FirebaseAuth.instance.setPersistence(Persistence.LOCAL);
+    }
   } on FirebaseException catch (e) {
     debugPrint('Firebase connection failed (${e.code}): ${e.message}');
     return;

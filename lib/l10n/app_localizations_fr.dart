@@ -452,4 +452,13 @@ class AppLocalizationsFr extends AppLocalizations {
   String openAppsToShareFile(String fileType) {
     return 'Ouvrir des apps pour partager ce $fileType';
   }
+
+  @override
+  String get noJobDialogTitle => 'No job found';
+
+  @override
+  String get noJobDialogMessage => 'Please create a job first.';
+
+  @override
+  String get noJobDialogCreateJob => 'Create job';
 }

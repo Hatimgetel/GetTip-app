@@ -2,7 +2,7 @@ import '../models/job_entry.dart';
 import '../models/tip_entry.dart';
 import 'tip_pdf_export.dart';
 
-Future<PdfExportResult> shareTipFlowIncomeReport(
+Future<PdfExportResult> shareGetTipIncomeReport(
   List<TipEntry> tips,
   List<JobEntry> jobs, {
   DateTime? rangeStart,

@@ -9,7 +9,7 @@ import '../models/tip_entry.dart';
 import 'pdf_table_report.dart';
 import 'tip_pdf_export.dart';
 
-Future<PdfExportResult> shareTipFlowIncomeReport(
+Future<PdfExportResult> shareGetTipIncomeReport(
   List<TipEntry> tips,
   List<JobEntry> jobs, {
   DateTime? rangeStart,
@@ -21,7 +21,7 @@ Future<PdfExportResult> shareTipFlowIncomeReport(
   bool includeBestDaySummary = true,
   String? fileNameStem,
 }) async {
-  final List<int> bytes = await generateTipFlowIncomeReportPdf(
+  final List<int> bytes = await generateGetTipIncomeReportPdf(
     tips: tips,
     jobs: jobs,
     rangeStart: rangeStart,
@@ -99,7 +99,7 @@ Future<PdfExportResult> shareTipFlowIncomeReport(
     try {
       await Share.shareXFiles(<XFile>[
         XFile(tempFile.path),
-      ], subject: 'TipFlow — $safeName');
+      ], subject: 'Get Tip — $safeName');
       shareOpened = true;
     } catch (_) {
       shareOpened = false;
@@ -117,7 +117,7 @@ String _reportFileStem({
   DateTime? rangeEnd,
 }) {
   if (rangeStart == null && rangeEnd == null) {
-    return 'tipflow_income_report_all_time';
+    return 'gettip_income_report_all_time';
   }
   String p(DateTime? d) {
     if (d == null) {
@@ -126,7 +126,7 @@ String _reportFileStem({
     return '${d.year}-${d.month.toString().padLeft(2, '0')}-${d.day.toString().padLeft(2, '0')}';
   }
 
-  return 'tipflow_income_report_${p(rangeStart)}_to_${p(rangeEnd)}';
+  return 'gettip_income_report_${p(rangeStart)}_to_${p(rangeEnd)}';
 }
 
 Future<Directory?> _resolveDownloadsDirectory() async {
