@@ -24,6 +24,15 @@ import 'theme/app_theme.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  await delete_old_hive.forceDeleteDocumentsDotHiveOnEveryStart();
+
+  // Android: remove a corrupt/stale `Documents/.hive` tree before opening
+  // boxes (web skipped; iOS/desktop unchanged). Main `tips.hive` uses the
+  // documents root from [Hive.initFlutter], not this folder.
+  if (!kIsWeb && defaultTargetPlatform == TargetPlatform.android) {
+    await delete_old_hive.purgeAndroidDotHiveSubfolderBeforeHiveInit();
+  }
+
   // Optional legacy Hive folder cleanup (mobile/desktop); no-op on web.
   await delete_old_hive.deleteOldHiveDataBeforeInit();
 

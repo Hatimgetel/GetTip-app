@@ -9,7 +9,7 @@ class AppLocalizationsEo extends AppLocalizations {
   AppLocalizationsEo([String locale = 'eo']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'Saltu';

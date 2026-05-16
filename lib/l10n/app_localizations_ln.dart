@@ -9,7 +9,7 @@ class AppLocalizationsLn extends AppLocalizations {
   AppLocalizationsLn([String locale = 'ln']) : super(locale);
 
   @override
-  String get appTitle => 'Molandi ya MyTip';
+  String get appTitle => 'Molandi ya Get Tip';
 
   @override
   String get onboardingSkip => 'Kokipe te';

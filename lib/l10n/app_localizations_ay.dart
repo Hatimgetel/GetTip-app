@@ -9,7 +9,7 @@ class AppLocalizationsAy extends AppLocalizations {
   AppLocalizationsAy([String locale = 'ay']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip ukax mä juk’a pachanakanwa';
+  String get appTitle => 'Get Tip ukax mä juk’a pachanakanwa';
 
   @override
   String get onboardingSkip => 'Willikipaña';

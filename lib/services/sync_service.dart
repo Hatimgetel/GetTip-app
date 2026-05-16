@@ -16,7 +16,10 @@ class SyncService {
   final FirebaseService _firebaseService = FirebaseService.instance;
 
   StreamSubscription<dynamic>? _connectivitySubscription;
-  bool _syncing = false;
+
+  /// Serializes overlapping [syncTips] calls so startup sync from [main] and
+  /// dashboard reload both wait for the same merge instead of no-oping.
+  Future<void> _syncChain = Future<void>.value();
 
   Future<void> initialize() async {
     _connectivitySubscription ??= Connectivity().onConnectivityChanged.listen((
@@ -28,9 +31,14 @@ class SyncService {
     });
   }
 
-  Future<void> syncTips() async {
-    if (_syncing) return;
-    _syncing = true;
+  Future<void> syncTips() {
+    final Future<void> run = _syncChain = _syncChain
+        .catchError((Object _, StackTrace __) {})
+        .then((_) => _syncTipsOnce());
+    return run;
+  }
+
+  Future<void> _syncTipsOnce() async {
     try {
       final user = await _firebaseService.ensureAnonymousSignedIn();
       if (user == null) {
@@ -87,8 +95,6 @@ class SyncService {
       debugPrint('syncTips failed (${e.runtimeType})');
       debugPrint('$e');
       debugPrint('$st');
-    } finally {
-      _syncing = false;
     }
   }
 

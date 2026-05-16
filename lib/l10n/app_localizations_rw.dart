@@ -9,7 +9,7 @@ class AppLocalizationsRw extends AppLocalizations {
   AppLocalizationsRw([String locale = 'rw']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'Simbuka';

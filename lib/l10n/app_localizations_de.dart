@@ -9,7 +9,7 @@ class AppLocalizationsDe extends AppLocalizations {
   AppLocalizationsDe([String locale = 'de']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip-Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'Überspringen';

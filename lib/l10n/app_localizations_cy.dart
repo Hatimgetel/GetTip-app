@@ -9,7 +9,7 @@ class AppLocalizationsCy extends AppLocalizations {
   AppLocalizationsCy([String locale = 'cy']) : super(locale);
 
   @override
-  String get appTitle => 'Traciwr MyTip';
+  String get appTitle => 'Traciwr Get Tip';
 
   @override
   String get onboardingSkip => 'Sgipio';

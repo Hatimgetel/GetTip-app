@@ -9,7 +9,7 @@ class AppLocalizationsGn extends AppLocalizations {
   AppLocalizationsGn([String locale = 'gn']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Rastreador rehegua';
+  String get appTitle => 'Get Tip Rastreador rehegua';
 
   @override
   String get onboardingSkip => 'Jepopo';

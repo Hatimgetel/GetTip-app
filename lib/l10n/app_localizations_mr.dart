@@ -9,7 +9,7 @@ class AppLocalizationsMr extends AppLocalizations {
   AppLocalizationsMr([String locale = 'mr']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip ट्रॅकर';
+  String get appTitle => 'Get Tip ट्रॅकर';
 
   @override
   String get onboardingSkip => 'वगळा';

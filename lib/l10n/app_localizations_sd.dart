@@ -9,7 +9,7 @@ class AppLocalizationsSd extends AppLocalizations {
   AppLocalizationsSd([String locale = 'sd']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip ٽريڪٽر';
+  String get appTitle => 'Get Tip ٽريڪٽر';
 
   @override
   String get onboardingSkip => 'ڇڏڻ';

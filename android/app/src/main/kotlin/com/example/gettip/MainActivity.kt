@@ -1,4 +1,4 @@
-package com.example.mytip_tracker
+package com.example.gettip
 
 import io.flutter.embedding.android.FlutterActivity
 

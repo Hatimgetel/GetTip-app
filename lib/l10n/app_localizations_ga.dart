@@ -9,7 +9,7 @@ class AppLocalizationsGa extends AppLocalizations {
   AppLocalizationsGa([String locale = 'ga']) : super(locale);
 
   @override
-  String get appTitle => 'Lorgaire MyTip';
+  String get appTitle => 'Lorgaire Get Tip';
 
   @override
   String get onboardingSkip => 'Scipeáil';

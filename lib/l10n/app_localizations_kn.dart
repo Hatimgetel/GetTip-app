@@ -9,7 +9,7 @@ class AppLocalizationsKn extends AppLocalizations {
   AppLocalizationsKn([String locale = 'kn']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip ಟ್ರ್ಯಾಕರ್';
+  String get appTitle => 'Get Tip ಟ್ರ್ಯಾಕರ್';
 
   @override
   String get onboardingSkip => 'ಬಿಟ್ಟುಬಿಡಿ';

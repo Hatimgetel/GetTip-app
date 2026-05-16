@@ -9,7 +9,7 @@ class AppLocalizationsBm extends AppLocalizations {
   AppLocalizationsBm([String locale = 'bm']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker (Tip) min bɛ tugu ɲɔgɔn kɔ';
+  String get appTitle => 'Get Tip (Tip) min bɛ tugu ɲɔgɔn kɔ';
 
   @override
   String get onboardingSkip => 'Ka lasogo';

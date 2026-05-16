@@ -1,5 +1,5 @@
 ================================================================================
-GOOGLE PLAY CONSOLE — LISTING COPY (Get Tip / mytip_tracker)
+GOOGLE PLAY CONSOLE — LISTING COPY (Get Tip / gettip)
 ================================================================================
 
 --- SHORT DESCRIPTION (max 80 characters) ---

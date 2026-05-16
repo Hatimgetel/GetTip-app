@@ -9,7 +9,7 @@ class AppLocalizationsYo extends AppLocalizations {
   AppLocalizationsYo([String locale = 'yo']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'Rekọja';

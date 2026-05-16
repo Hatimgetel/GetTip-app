@@ -9,7 +9,7 @@ class AppLocalizationsGd extends AppLocalizations {
   AppLocalizationsGd([String locale = 'gd']) : super(locale);
 
   @override
-  String get appTitle => 'Lorgaire MyTip';
+  String get appTitle => 'Lorgaire Get Tip';
 
   @override
   String get onboardingSkip => 'Leum';

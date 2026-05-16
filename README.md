@@ -1,4 +1,4 @@
-# mytip_tracker
+# gettip
 
 A new Flutter project.
 

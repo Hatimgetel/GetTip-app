@@ -9,7 +9,7 @@ class AppLocalizationsMi extends AppLocalizations {
   AppLocalizationsMi([String locale = 'mi']) : super(locale);
 
   @override
-  String get appTitle => 'Aroturuki MyTip';
+  String get appTitle => 'Aroturuki Get Tip';
 
   @override
   String get onboardingSkip => 'Tīpoka';

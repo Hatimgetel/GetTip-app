@@ -9,7 +9,7 @@ class AppLocalizationsMt extends AppLocalizations {
   AppLocalizationsMt([String locale = 'mt']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'Aqbeż';

@@ -9,7 +9,7 @@ class AppLocalizationsNe extends AppLocalizations {
   AppLocalizationsNe([String locale = 'ne']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip ट्रयाकर';
+  String get appTitle => 'Get Tip ट्रयाकर';
 
   @override
   String get onboardingSkip => 'छोड्नुहोस्';

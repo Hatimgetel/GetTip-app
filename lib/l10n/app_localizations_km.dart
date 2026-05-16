@@ -9,7 +9,7 @@ class AppLocalizationsKm extends AppLocalizations {
   AppLocalizationsKm([String locale = 'km']) : super(locale);
 
   @override
-  String get appTitle => 'កម្មវិធីតាមដាន MyTip';
+  String get appTitle => 'កម្មវិធីតាមដាន Get Tip';
 
   @override
   String get onboardingSkip => 'រំលង';

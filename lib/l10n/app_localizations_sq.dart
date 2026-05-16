@@ -9,7 +9,7 @@ class AppLocalizationsSq extends AppLocalizations {
   AppLocalizationsSq([String locale = 'sq']) : super(locale);
 
   @override
-  String get appTitle => 'Gjurmuesi MyTip';
+  String get appTitle => 'Gjurmuesi Get Tip';
 
   @override
   String get onboardingSkip => 'Kapërce';

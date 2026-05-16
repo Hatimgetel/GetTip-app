@@ -9,7 +9,7 @@ class AppLocalizationsPs extends AppLocalizations {
   AppLocalizationsPs([String locale = 'ps']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Tracker';
+  String get appTitle => 'Get Tip';
 
   @override
   String get onboardingSkip => 'پریږده';

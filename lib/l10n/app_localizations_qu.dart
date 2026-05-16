@@ -9,7 +9,7 @@ class AppLocalizationsQu extends AppLocalizations {
   AppLocalizationsQu([String locale = 'qu']) : super(locale);
 
   @override
-  String get appTitle => 'MyTip Rastreador nisqa';
+  String get appTitle => 'Get Tip Rastreador nisqa';
 
   @override
   String get onboardingSkip => 'Paway';

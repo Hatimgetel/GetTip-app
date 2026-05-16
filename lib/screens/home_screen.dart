@@ -102,16 +102,10 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   Future<void> _initializeHomeData() async {
-    final DateTime? persistedDay =
-        await _appSettingsService.loadDashboardSelectedDay();
-    if (!mounted) return;
-    if (persistedDay != null) {
-      setState(() => _selectedDay = persistedDay);
-    }
-    // Keep the dashboard behind a loader until persisted data is available.
+    // Always open on today's calendar day; do not restore a past session day.
     await _loadPersistedData();
     await Future.wait(<Future<void>>[_loadQuickAddValues(), _loadAppSettings()]);
-    unawaited(_syncThenReloadTips());
+    await _syncThenReloadTips();
   }
 
   Future<void> _syncThenReloadTips() async {
@@ -1001,7 +995,6 @@ class _HomeScreenState extends State<HomeScreen> {
       _DashboardTab(
         loading: _loading,
         tips: _tips,
-        totalTipsAmount: _totalTips,
         jobs: _jobs,
         activeJobId: _activeJobId,
         onJobChanged: (String nextJobId) {
@@ -1013,7 +1006,6 @@ class _HomeScreenState extends State<HomeScreen> {
         selectedDay: _selectedDay,
         onSelectDay: (DateTime day) {
           setState(() => _selectedDay = day);
-          unawaited(_appSettingsService.saveDashboardSelectedDay(day));
         },
         onPresetQuickAdd: (int index) {
           final String raw = _quickAddNotes[index].trim();
@@ -1125,7 +1117,6 @@ class _DashboardTab extends StatelessWidget {
   const _DashboardTab({
     required this.loading,
     required this.tips,
-    required this.totalTipsAmount,
     required this.jobs,
     required this.activeJobId,
     required this.onJobChanged,
@@ -1144,8 +1135,6 @@ class _DashboardTab extends StatelessWidget {
 
   final bool loading;
   final List<TipEntry> tips;
-  /// Sum of all tips from parent; do not re-fold [tips] here for this display.
-  final double totalTipsAmount;
   final List<JobEntry> jobs;
   final String? activeJobId;
   final ValueChanged<String> onJobChanged;
